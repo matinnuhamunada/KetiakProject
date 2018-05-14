@@ -1,5 +1,5 @@
 # Getting Started for the Lab Members
-This folder contains the script to mine data from EBI-Metagenomics portal and gather the analysis result to do comparative analysis of human skin microbiome. We will use `Jupyter Lab` on `Python 3` with `Windows 10` and `Github` to collaborate. Please contact me at [matin_nuhamunada@ugm.ac.id][mailto:matin_nuhamunada@ugm.ac.id] to be added to the repository.
+This folder contains the script to mine data from EBI-Metagenomics portal and gather the analysis result to do comparative analysis of human skin microbiome. We will use `Jupyter Lab` on `Python 3` with `Windows 10` and `Github` to collaborate. Please contact me at [matin_nuhamunada@ugm.ac.id](mailto:matin_nuhamunada@ugm.ac.id) to be added to the repository.
 
 ## Install Anaconda
 Install the latest `Anaconda` with `Python 3` from https://www.anaconda.com/download/
