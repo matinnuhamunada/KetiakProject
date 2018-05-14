@@ -13,5 +13,8 @@ Gregorius Altius Pratama, Setianing Wikanthi, Mohamad Khoirul Anam
 ## Research Period
 March 2018 – January 2019
 
+## Sub-Projects
+Go to src folder
+
 ## Sponsor
 This project is sponsored by Indonesia Toray Science Foundation – Science & Technology Research Grant 2017.
