@@ -27,5 +27,7 @@ jupyter notebook --generate-config
 Go to the default directory, and find the `.Jupyter directory`. Inside, you'll find the `jupyter_notebook_config.py` and using any text editor, uncomment the directory configuration line to this
 ```python
 ## The directory to use for notebooks and kernels.
-c.NotebookApp.notebook_dir = 'D:\Jupyter_Lab'
+c.NotebookApp.notebook_dir = 'D:\Jupyter'
 ```
+## Clone the repository to your Jupyter Folder
+After getting the invitation to collaborate, you can clone and contribute to our project. Open `Github Desktop` and create new repository by cloning this project to the `Jupyter` directory
