@@ -20,3 +20,12 @@ Findout where is your default working directory. You can check it using python w
 import os
 os.getcwd()
 ```
+You can change your Jupyter Lab directory by using Jupyter config. First create the directory you wanted to move in (we usually use "D:\Jupyter" as our working directory). Then, using Anaconda Prompt
+```bash
+jupyter notebook --generate-config
+```
+Go to the default directory, and find .Jupyter directory. Inside, you'll find the `jupyter_notebook_config.py` and using any text editor, uncomment the directory configuration line to this
+```python
+## The directory to use for notebooks and kernels.
+c.NotebookApp.notebook_dir = 'E:\Jupyter_Lab'
+```
