@@ -16,3 +16,7 @@ Create an account and install the latest Github Desktop from https://desktop.git
 
 ## Setting Your Jupyter Lab directory
 Findout where is your default working directory. You can check it using python with this command
+```python
+import os
+os.getcwd()
+```
