@@ -5,11 +5,11 @@ This folder contains the script to mine data from EBI-Metagenomics portal and ga
 Install the latest Anaconda with Python 3 from https://www.anaconda.com/download/
 
 ## Install Jupyter Lab
-Open Anaconda Navigator and install Jupyter Lab or use ''conda''
+Open Anaconda Navigator and install Jupyter Lab or use `conda`
 ```bash
-conda install -c conda-forge jupyterlab>. You can also follow the instruction from 
+conda install -c conda-forge jupyterlab
 ```
-http://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
+You can also follow the instruction from http://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
 
 ## Install Github Desktop
 Create an account and install the latest Github Desktop from https://desktop.github.com/
