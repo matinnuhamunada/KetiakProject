@@ -1,0 +1,545 @@
+No,Sex,Body site
+0,male ,antecubital crease 
+1,male ,antecubital crease 
+2,male ,back 
+3,male ,back 
+4,male ,external auditory canal 
+5,male ,external auditory canal 
+6,male ,hypothenar palm 
+7,male ,hypothenar palm 
+8,male ,retroauricular crease 
+9,male ,retroauricular crease 
+10,male ,toeweb 
+11,male ,toeweb 
+12,male ,retroauricular crease 
+13,male ,retroauricular crease 
+14,male ,toeweb 
+15,male ,toeweb 
+16,male ,antecubital crease 
+17,male ,antecubital crease 
+18,male ,glabella 
+19,male ,glabella 
+20,male ,back 
+21,male ,back 
+22,male ,hypothenar palm 
+23,male ,hypothenar palm 
+24,male ,inguinal crease 
+25,male ,inguinal crease 
+26,male ,manubrium 
+27,male ,manubrium 
+28,male ,occiput 
+29,male ,occiput 
+30,male ,plantar heel 
+31,male ,plantar heel 
+32,male ,retroauricular crease 
+33,male ,retroauricular crease 
+34,male ,toeweb 
+35,male ,toeweb 
+36,male ,volar forearm 
+37,male ,volar forearm 
+38,male ,antecubital crease 
+39,male ,antecubital crease 
+40,male ,antecubital crease 
+41,male ,antecubital crease 
+42,male ,back 
+43,male ,back 
+44,male ,external auditory canal 
+45,male ,external auditory canal 
+46,male ,glabella 
+47,male ,glabella 
+48,male ,hypothenar palm 
+49,male ,hypothenar palm 
+50,male ,hypothenar palm 
+51,male ,hypothenar palm 
+52,male ,inguinal crease 
+53,male ,inguinal crease 
+54,male ,inguinal crease 
+55,male ,inguinal crease 
+56,male ,manubrium 
+57,male ,manubrium 
+58,male ,nare 
+59,male ,nare 
+60,male ,occiput 
+61,male ,occiput 
+62,male ,plantar heel 
+63,male ,plantar heel 
+64,male ,plantar heel 
+65,male ,plantar heel 
+66,male ,retroauricular crease 
+67,male ,retroauricular crease 
+68,male ,retroauricular crease 
+69,male ,retroauricular crease 
+70,male ,toenail 
+71,male ,toenail 
+72,male ,toeweb 
+73,male ,toeweb 
+74,male ,toeweb 
+75,male ,toeweb 
+76,male ,volar forearm 
+77,male ,volar forearm 
+78,male ,volar forearm 
+79,male ,volar forearm 
+80,female ,antecubital crease 
+81,female ,antecubital crease 
+82,female ,antecubital crease 
+83,female ,antecubital crease 
+84,female ,back 
+85,female ,back 
+86,female ,external auditory canal 
+87,female ,external auditory canal 
+88,female ,glabella 
+89,female ,glabella 
+90,female ,hypothenar palm 
+91,female ,hypothenar palm 
+92,female ,hypothenar palm 
+93,female ,hypothenar palm 
+94,female ,inguinal crease 
+95,female ,inguinal crease 
+96,female ,inguinal crease 
+97,female ,inguinal crease 
+98,female ,manubrium 
+99,female ,manubrium 
+100,female ,nare 
+101,female ,nare 
+102,female ,occiput 
+103,female ,occiput 
+104,female ,plantar heel 
+105,female ,plantar heel 
+106,female ,plantar heel 
+107,female ,plantar heel 
+108,female ,retroauricular crease 
+109,female ,retroauricular crease 
+110,female ,retroauricular crease 
+111,female ,retroauricular crease 
+112,female ,toeweb 
+113,female ,toeweb 
+114,female ,toeweb 
+115,female ,toeweb 
+116,female ,volar forearm 
+117,female ,volar forearm 
+118,female ,volar forearm 
+119,female ,volar forearm 
+120,female ,antecubital crease 
+121,female ,antecubital crease 
+122,female ,antecubital crease 
+123,female ,antecubital crease 
+124,female ,volar forearm 
+125,female ,volar forearm 
+126,female ,volar forearm 
+127,female ,volar forearm 
+128,female ,inguinal crease 
+129,female ,inguinal crease 
+130,female ,inguinal crease 
+131,female ,inguinal crease 
+132,female ,nare 
+133,female ,nare 
+134,female ,nare 
+135,female ,nare 
+136,female ,plantar heel 
+137,female ,plantar heel 
+138,female ,glabella 
+139,female ,glabella 
+140,female ,plantar heel 
+141,female ,plantar heel 
+142,female ,back 
+143,female ,back 
+144,female ,retroauricular crease 
+145,female ,retroauricular crease 
+146,female ,retroauricular crease 
+147,female ,retroauricular crease 
+148,female ,manubrium 
+149,female ,manubrium 
+150,female ,occiput 
+151,female ,occiput 
+152,female ,toeweb 
+153,female ,toeweb 
+154,female ,toeweb 
+155,female ,toeweb 
+156,female ,external auditory canal 
+157,female ,external auditory canal 
+158,female ,external auditory canal 
+159,female ,external auditory canal 
+160,female ,hypothenar palm 
+161,female ,hypothenar palm 
+162,female ,hypothenar palm 
+163,female ,hypothenar palm 
+164,female ,toenail 
+165,female ,toenail 
+166,female ,toenail 
+167,female ,toenail 
+168,male ,antecubital crease 
+169,male ,antecubital crease 
+170,male ,antecubital crease 
+171,male ,antecubital crease 
+172,male ,volar forearm 
+173,male ,volar forearm 
+174,male ,volar forearm 
+175,male ,volar forearm 
+176,male ,inguinal crease 
+177,male ,inguinal crease 
+178,male ,nare 
+179,male ,nare 
+180,male ,inguinal crease 
+181,male ,inguinal crease 
+182,male ,nare 
+183,male ,nare 
+184,male ,plantar heel 
+185,male ,plantar heel 
+186,male ,plantar heel 
+187,male ,plantar heel 
+188,male ,glabella 
+189,male ,glabella 
+190,male ,back 
+191,male ,back 
+192,male ,retroauricular crease 
+193,male ,retroauricular crease 
+194,male ,retroauricular crease 
+195,male ,retroauricular crease 
+196,male ,manubrium 
+197,male ,manubrium 
+198,male ,occiput 
+199,male ,occiput 
+200,male ,toeweb 
+201,male ,toeweb 
+202,male ,toeweb 
+203,male ,toeweb 
+204,male ,external auditory canal 
+205,male ,external auditory canal 
+206,male ,external auditory canal 
+207,male ,external auditory canal 
+208,male ,hypothenar palm 
+209,male ,hypothenar palm 
+210,male ,hypothenar palm 
+211,male ,hypothenar palm 
+212,male ,toenail 
+213,male ,toenail 
+214,male ,toenail 
+215,male ,toenail 
+216,male ,volar forearm 
+217,male ,volar forearm 
+218,male ,plantar heel 
+219,male ,plantar heel 
+220,female ,retroauricular crease 
+221,female ,retroauricular crease 
+222,male ,antecubital crease 
+223,male ,antecubital crease 
+224,male ,antecubital crease 
+225,male ,antecubital crease 
+226,male ,back 
+227,male ,back 
+228,male ,external auditory canal 
+229,male ,external auditory canal 
+230,male ,external auditory canal 
+231,male ,external auditory canal 
+232,male ,glabella 
+233,male ,glabella 
+234,male ,hypothenar palm 
+235,male ,hypothenar palm 
+236,male ,hypothenar palm 
+237,male ,hypothenar palm 
+238,male ,inguinal crease 
+239,male ,inguinal crease 
+240,male ,inguinal crease 
+241,male ,inguinal crease 
+242,male ,manubrium 
+243,male ,manubrium 
+244,male ,nare 
+245,male ,nare 
+246,male ,nare 
+247,male ,nare 
+248,male ,occiput 
+249,male ,occiput 
+250,male ,plantar heel 
+251,male ,plantar heel 
+252,male ,plantar heel 
+253,male ,plantar heel 
+254,male ,retroauricular crease 
+255,male ,retroauricular crease 
+256,male ,toeweb 
+257,male ,toeweb 
+258,male ,retroauricular crease 
+259,male ,retroauricular crease 
+260,male ,toeweb 
+261,male ,toeweb 
+262,male ,volar forearm 
+263,male ,volar forearm 
+264,male ,volar forearm 
+265,male ,volar forearm 
+266,male ,toenail 
+267,male ,toenail 
+268,female ,toenail 
+269,female ,toenail 
+270,female ,antecubital crease 
+271,female ,antecubital crease 
+272,female ,antecubital crease 
+273,female ,antecubital crease 
+274,female ,back 
+275,female ,back 
+276,female ,external auditory canal 
+277,female ,external auditory canal 
+278,female ,external auditory canal 
+279,female ,external auditory canal 
+280,female ,glabella 
+281,female ,glabella 
+282,female ,hypothenar palm 
+283,female ,hypothenar palm 
+284,female ,hypothenar palm 
+285,female ,hypothenar palm 
+286,female ,inguinal crease 
+287,female ,inguinal crease 
+288,female ,inguinal crease 
+289,female ,inguinal crease 
+290,female ,manubrium 
+291,female ,manubrium 
+292,female ,nare 
+293,female ,nare 
+294,female ,nare 
+295,female ,nare 
+296,female ,occiput 
+297,female ,occiput 
+298,female ,plantar heel 
+299,female ,plantar heel 
+300,female ,retroauricular crease 
+301,female ,retroauricular crease 
+302,female ,retroauricular crease 
+303,female ,retroauricular crease 
+304,female ,toeweb 
+305,female ,toeweb 
+306,female ,volar forearm 
+307,female ,volar forearm 
+308,female ,volar forearm 
+309,female ,volar forearm 
+310,female ,toenail 
+311,female ,toenail 
+312,female ,toenail 
+313,female ,toenail 
+314,male ,toenail 
+315,male ,toenail 
+316,female ,hypothenar palm 
+317,female ,hypothenar palm 
+318,female ,manubrium 
+319,female ,manubrium 
+320,female ,plantar heel 
+321,female ,plantar heel 
+322,female ,plantar heel 
+323,female ,plantar heel 
+324,female ,toeweb 
+325,female ,toeweb 
+326,female ,toenail 
+327,female ,toenail 
+328,female ,antecubital crease 
+329,female ,antecubital crease 
+330,female ,antecubital crease 
+331,female ,antecubital crease 
+332,female ,back 
+333,female ,back 
+334,female ,external auditory canal 
+335,female ,external auditory canal 
+336,female ,external auditory canal 
+337,female ,external auditory canal 
+338,female ,glabella 
+339,female ,glabella 
+340,female ,hypothenar palm 
+341,female ,hypothenar palm 
+342,female ,hypothenar palm 
+343,female ,hypothenar palm 
+344,female ,inguinal crease 
+345,female ,inguinal crease 
+346,female ,inguinal crease 
+347,female ,inguinal crease 
+348,female ,manubrium 
+349,female ,manubrium 
+350,female ,nare 
+351,female ,nare 
+352,female ,nare 
+353,female ,nare 
+354,female ,plantar heel 
+355,female ,plantar heel 
+356,female ,occiput 
+357,female ,occiput 
+358,female ,plantar heel 
+359,female ,plantar heel 
+360,female ,retroauricular crease 
+361,female ,retroauricular crease 
+362,female ,retroauricular crease 
+363,female ,retroauricular crease 
+364,female ,toeweb 
+365,female ,toeweb 
+366,female ,toeweb 
+367,female ,toeweb 
+368,female ,volar forearm 
+369,female ,volar forearm 
+370,female ,toenail 
+371,female ,toenail 
+372,female ,volar forearm 
+373,female ,volar forearm 
+374,female ,toenail 
+375,female ,toenail 
+376,female ,retroauricular crease 
+377,female ,retroauricular crease 
+378,female ,retroauricular crease 
+379,female ,retroauricular crease 
+380,female ,volar forearm 
+381,female ,volar forearm 
+382,male ,antecubital crease 
+383,male ,antecubital crease 
+384,male ,antecubital crease 
+385,male ,antecubital crease 
+386,male ,external auditory canal 
+387,male ,external auditory canal 
+388,male ,external auditory canal 
+389,male ,external auditory canal 
+390,male ,glabella 
+391,male ,glabella 
+392,male ,hypothenar palm 
+393,male ,hypothenar palm 
+394,male ,hypothenar palm 
+395,male ,hypothenar palm 
+396,male ,inguinal crease 
+397,male ,inguinal crease 
+398,male ,inguinal crease 
+399,male ,inguinal crease 
+400,male ,back 
+401,male ,back 
+402,male ,manubrium 
+403,male ,manubrium 
+404,male ,nare 
+405,male ,nare 
+406,male ,nare 
+407,male ,nare 
+408,male ,occiput 
+409,male ,occiput 
+410,male ,plantar heel 
+411,male ,plantar heel 
+412,male ,plantar heel 
+413,male ,plantar heel 
+414,male ,retroauricular crease 
+415,male ,retroauricular crease 
+416,male ,retroauricular crease 
+417,male ,retroauricular crease 
+418,male ,toeweb 
+419,male ,toeweb 
+420,male ,toeweb 
+421,male ,toeweb 
+422,male ,volar forearm 
+423,male ,volar forearm 
+424,male ,volar forearm 
+425,male ,volar forearm 
+426,male ,toenail 
+427,male ,toenail 
+428,female ,antecubital crease 
+429,female ,antecubital crease 
+430,male ,toenail 
+431,male ,toenail 
+432,female ,antecubital crease 
+433,female ,antecubital crease 
+434,female ,external auditory canal 
+435,female ,external auditory canal 
+436,female ,external auditory canal 
+437,female ,external auditory canal 
+438,female ,glabella 
+439,female ,glabella 
+440,female ,hypothenar palm 
+441,female ,hypothenar palm 
+442,female ,hypothenar palm 
+443,female ,hypothenar palm 
+444,female ,inguinal crease 
+445,female ,inguinal crease 
+446,female ,inguinal crease 
+447,female ,inguinal crease 
+448,female ,back 
+449,female ,back 
+450,female ,manubrium 
+451,female ,manubrium 
+452,female ,nare 
+453,female ,nare 
+454,female ,nare 
+455,female ,nare 
+456,female ,occiput 
+457,female ,occiput 
+458,female ,plantar heel 
+459,female ,plantar heel 
+460,female ,retroauricular crease 
+461,female ,retroauricular crease 
+462,female ,plantar heel 
+463,female ,plantar heel 
+464,female ,retroauricular crease 
+465,female ,retroauricular crease 
+466,female ,toeweb 
+467,female ,toeweb 
+468,female ,toeweb 
+469,female ,toeweb 
+470,female ,volar forearm 
+471,female ,volar forearm 
+472,female ,volar forearm 
+473,female ,volar forearm 
+474,female ,toenail 
+475,female ,toenail 
+476,male ,antecubital crease 
+477,male ,antecubital crease 
+478,female ,toenail 
+479,female ,toenail 
+480,male ,antecubital crease 
+481,male ,antecubital crease 
+482,male ,external auditory canal 
+483,male ,external auditory canal 
+484,male ,external auditory canal 
+485,male ,external auditory canal 
+486,male ,hypothenar palm 
+487,male ,hypothenar palm 
+488,male ,glabella 
+489,male ,glabella 
+490,male ,hypothenar palm 
+491,male ,hypothenar palm 
+492,male ,inguinal crease 
+493,male ,inguinal crease 
+494,male ,inguinal crease 
+495,male ,inguinal crease 
+496,male ,back 
+497,male ,back 
+498,male ,nare 
+499,male ,nare 
+500,male ,manubrium 
+501,male ,manubrium 
+502,male ,nare 
+503,male ,nare 
+504,male ,plantar heel 
+505,male ,plantar heel 
+506,male ,plantar heel 
+507,male ,plantar heel 
+508,male ,occiput 
+509,male ,occiput 
+510,male ,retroauricular crease 
+511,male ,retroauricular crease 
+512,male ,retroauricular crease 
+513,male ,retroauricular crease 
+514,male ,toeweb 
+515,male ,toeweb 
+516,male ,volar forearm 
+517,male ,volar forearm 
+518,male ,toeweb 
+519,male ,toeweb 
+520,male ,volar forearm 
+521,male ,volar forearm 
+522,male ,toenail 
+523,male ,toenail 
+524,male ,toenail 
+525,male ,toenail 
+526,male ,antecubital crease 
+527,male ,antecubital crease 
+528,male ,antecubital crease 
+529,male ,antecubital crease 
+530,male ,external auditory canal 
+531,male ,external auditory canal 
+532,male ,external auditory canal 
+533,male ,external auditory canal 
+534,male ,glabella 
+535,male ,glabella 
+536,male ,hypothenar palm 
+537,male ,hypothenar palm 
+538,male ,hypothenar palm 
+539,male ,hypothenar palm 
+540,male ,inguinal crease 
+541,male ,inguinal crease 
+542,male ,inguinal crease 
+543,male ,inguinal crease 
