@@ -1,0 +1,6 @@
+#SampleID,BarcodeSequence,LinkerPrimerSequence,RunID,Sex,BodySite,Description
+SRS452130,_,_,SRR921066,male ,back ,_
+SRS451948,_,_,SRR920746,male ,back ,_
+SRS451924,_,_,SRR920722,male ,back ,_
+SRS451876,_,_,SRR920674,male ,back ,_
+SRS451427,_,_,SRR919596,male ,back ,_
