@@ -1,6 +1,6 @@
 No,Sample_ID,Run_ID,Release_version,Sex,Body_site
-758,SRS452130,SRR921066,2.0,male ,back 
-545,SRS451948,SRR920746,2.0,male ,back 
-497,SRS451924,SRR920722,2.0,male ,back 
-401,SRS451876,SRR920674,2.0,male ,back 
-21,SRS451427,SRR919596,2.0,male ,back 
+409,SRS451880,SRR920678,2.0,male ,occiput 
+779,SRS452140,SRR921140,2.0,male ,occiput 
+607,SRS452054,SRR920990,2.0,male ,occiput 
+654,SRS452078,SRR920951,2.0,male ,occiput 
+60,SRS451447,SRR919557,2.0,male ,occiput 
