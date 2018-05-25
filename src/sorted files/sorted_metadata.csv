@@ -1,0 +1,161 @@
+Sample_ID,Run_ID,Release_version,Sex,Body_site
+SRS451892,SRR920690,2.0,female ,antecubital crease 
+SRS451578,SRR919899,2.0,female ,antecubital crease 
+SRS451763,SRR920212,2.0,female ,antecubital crease 
+SRS451764,SRR920213,2.0,female ,antecubital crease 
+SRS451458,SRR919628,2.0,female ,antecubital crease 
+SRS482360,SRR994431,2.0,female ,antecubital fossa 
+SRS483530,SRR996919,2.0,female ,antecubital fossa 
+SRS483527,SRR996916,2.0,female ,antecubital fossa 
+SRS483528,SRR996917,2.0,female ,antecubital fossa 
+SRS483620,SRR997009,2.0,female ,antecubital fossa 
+SRS451765,SRR920245,2.0,female ,back 
+SRS451589,SRR919910,2.0,female ,back 
+SRS451900,SRR920611,2.0,female ,back 
+SRS451459,SRR919569,2.0,female ,back 
+SRS451736,SRR920185,2.0,female ,back 
+SRS451893,SRR920691,2.0,female ,external auditory canal 
+SRS451737,SRR920186,2.0,female ,external auditory canal 
+SRS451597,SRR919868,2.0,female ,external auditory canal 
+SRS451460,SRR919630,2.0,female ,external auditory canal 
+SRS451894,SRR920605,2.0,female ,external auditory canal 
+SRS451739,SRR920188,2.0,female ,glabella 
+SRS451587,SRR919859,2.0,female ,glabella 
+SRS451895,SRR920693,2.0,female ,glabella 
+SRS451768,SRR920248,2.0,female ,glabella 
+SRS451461,SRR919571,2.0,female ,glabella 
+SRS451599,SRR919870,2.0,female ,hypothenar palm 
+SRS451770,SRR920250,2.0,female ,hypothenar palm 
+SRS451897,SRR920694,2.0,female ,hypothenar palm 
+SRS451740,SRR920142,2.0,female ,hypothenar palm 
+SRS451598,SRR919919,2.0,female ,hypothenar palm 
+SRS451742,SRR920191,2.0,female ,inguinal crease 
+SRS451583,SRR919854,2.0,female ,inguinal crease 
+SRS451899,SRR920610,2.0,female ,inguinal crease 
+SRS451464,SRR919574,2.0,female ,inguinal crease 
+SRS451771,SRR920220,2.0,female ,inguinal crease 
+SRS451592,SRR919913,2.0,female ,manubrium 
+SRS451744,SRR920146,2.0,female ,manubrium 
+SRS451773,SRR920222,2.0,female ,manubrium 
+SRS451758,SRR920207,2.0,female ,manubrium 
+SRS451466,SRR919576,2.0,female ,manubrium 
+SRS482922,SRR995636,2.0,female ,nare 
+SRS482359,SRR994429,2.0,female ,nare 
+SRS451584,SRR919855,2.0,female ,nare 
+SRS483213,SRR996106,2.0,female ,nare 
+SRS482861,SRR995470,2.0,female ,nare 
+SRS451747,SRR920149,2.0,female ,occiput 
+SRS452030,SRR920966,2.0,female ,occiput 
+SRS451593,SRR919914,2.0,female ,occiput 
+SRS451468,SRR919638,2.0,female ,occiput 
+SRS451904,SRR920702,2.0,female ,occiput 
+SRS451760,SRR920209,2.0,female ,plantar heel 
+SRS451778,SRR920227,2.0,female ,plantar heel 
+SRS451588,SRR919858,2.0,female ,plantar heel 
+SRS451469,SRR919639,2.0,female ,plantar heel 
+SRS451776,SRR920257,2.0,female ,plantar heel 
+SRS482429,SRR994570,2.0,female ,popliteal fossa 
+SRS482443,SRR994667,2.0,female ,popliteal fossa 
+SRS482437,SRR994577,2.0,female ,popliteal fossa 
+SRS482364,SRR994504,2.0,female ,popliteal fossa 
+SRS483598,SRR996987,2.0,female ,popliteal fossa 
+SRS482623,SRR995010,2.0,female ,retroauricular crease 
+SRS482700,SRR995158,2.0,female ,retroauricular crease 
+SRS451472,SRR919582,2.0,female ,retroauricular crease 
+SRS482531,SRR994843,2.0,female ,retroauricular crease 
+SRS483090,SRR995983,2.0,female ,retroauricular crease 
+SRS451786,SRR920235,2.0,female ,toenail 
+SRS452126,SRR921062,2.0,female ,toenail 
+SRS451600,SRR919871,2.0,female ,toenail 
+SRS452127,SRR921126,2.0,female ,toenail 
+SRS451913,SRR920711,2.0,female ,toenail 
+SRS451474,SRR919584,2.0,female ,toeweb 
+SRS451782,SRR920231,2.0,female ,toeweb 
+SRS451595,SRR919916,2.0,female ,toeweb 
+SRS451761,SRR920241,2.0,female ,toeweb 
+SRS452123,SRR921059,2.0,female ,toeweb 
+SRS483545,SRR996874,2.0,female ,volar forearm 
+SRS483529,SRR996918,2.0,female ,volar forearm 
+SRS483089,SRR995982,2.0,female ,volar forearm 
+SRS482961,SRR995675,2.0,female ,volar forearm 
+SRS451783,SRR920232,2.0,female ,volar forearm 
+SRS452042,SRR920915,2.0,male ,antecubital crease 
+SRS452041,SRR920914,2.0,male ,antecubital crease 
+SRS451603,SRR919924,2.0,male ,antecubital crease 
+SRS452065,SRR921002,2.0,male ,antecubital crease 
+SRS451939,SRR920738,2.0,male ,antecubital crease 
+SRS482775,SRR995354,2.0,male ,antecubital fossa 
+SRS483416,SRR996657,2.0,male ,antecubital fossa 
+SRS482782,SRR995361,2.0,male ,antecubital fossa 
+SRS483552,SRR996941,2.0,male ,antecubital fossa 
+SRS482404,SRR994627,2.0,male ,antecubital fossa 
+SRS452130,SRR921066,2.0,male ,back 
+SRS451712,SRR920161,2.0,male ,back 
+SRS451438,SRR919548,2.0,male ,back 
+SRS451418,SRR919588,2.0,male ,back 
+SRS451924,SRR920635,2.0,male ,back 
+SRS452043,SRR920916,2.0,male ,external auditory canal 
+SRS452115,SRR921051,2.0,male ,external auditory canal 
+SRS452106,SRR921042,2.0,male ,external auditory canal 
+SRS451419,SRR919589,2.0,male ,external auditory canal 
+SRS452131,SRR921130,2.0,male ,external auditory canal 
+SRS451943,SRR920741,2.0,male ,glabella 
+SRS483454,SRR996783,2.0,male ,glabella 
+SRS451871,SRR920582,2.0,male ,glabella 
+SRS483432,SRR996761,2.0,male ,glabella 
+SRS452090,SRR921025,2.0,male ,glabella 
+SRS451944,SRR920742,2.0,male ,hypothenar palm 
+SRS452070,SRR921007,2.0,male ,hypothenar palm 
+SRS451945,SRR920743,2.0,male ,hypothenar palm 
+SRS451873,SRR920671,2.0,male ,hypothenar palm 
+SRS451919,SRR920631,2.0,male ,hypothenar palm 
+SRS452089,SRR921089,2.0,male ,inguinal crease 
+SRS452048,SRR920984,2.0,male ,inguinal crease 
+SRS452136,SRR921072,2.0,male ,inguinal crease 
+SRS452049,SRR920922,2.0,male ,inguinal crease 
+SRS451718,SRR920167,2.0,male ,inguinal crease 
+SRS452075,SRR921011,2.0,male ,manubrium 
+SRS451445,SRR919555,2.0,male ,manubrium 
+SRS451926,SRR920723,2.0,male ,manubrium 
+SRS451720,SRR920169,2.0,male ,manubrium 
+SRS451430,SRR919540,2.0,male ,manubrium 
+SRS452139,SRR921138,2.0,male ,nare 
+SRS482917,SRR995539,2.0,male ,nare 
+SRS482906,SRR995560,2.0,male ,nare 
+SRS452109,SRR921045,2.0,male ,nare 
+SRS482841,SRR995352,2.0,male ,nare 
+SRS451617,SRR919888,2.0,male ,occiput 
+SRS451447,SRR919557,2.0,male ,occiput 
+SRS452054,SRR920927,2.0,male ,occiput 
+SRS451723,SRR920125,2.0,male ,occiput 
+SRS452140,SRR921140,2.0,male ,occiput 
+SRS451929,SRR920728,2.0,male ,plantar heel 
+SRS451882,SRR920680,2.0,male ,plantar heel 
+SRS452102,SRR921101,2.0,male ,plantar heel 
+SRS452110,SRR921109,2.0,male ,plantar heel 
+SRS452143,SRR921079,2.0,male ,plantar heel 
+SRS483216,SRR996177,2.0,male ,popliteal fossa 
+SRS482830,SRR995340,2.0,male ,popliteal fossa 
+SRS482383,SRR994523,2.0,male ,popliteal fossa 
+SRS482377,SRR994447,2.0,male ,popliteal fossa 
+SRS483610,SRR997084,2.0,male ,popliteal fossa 
+SRS483535,SRR996864,2.0,male ,retroauricular crease 
+SRS482681,SRR995095,2.0,male ,retroauricular crease 
+SRS482482,SRR994622,2.0,male ,retroauricular crease 
+SRS482798,SRR995309,2.0,male ,retroauricular crease 
+SRS483207,SRR996100,2.0,male ,retroauricular crease 
+SRS451624,SRR919945,2.0,male ,toenail 
+SRS452088,SRR921024,2.0,male ,toenail 
+SRS452087,SRR921023,2.0,male ,toenail 
+SRS451891,SRR920688,2.0,male ,toenail 
+SRS452064,SRR920937,2.0,male ,toenail 
+SRS452085,SRR920957,2.0,male ,toeweb 
+SRS452060,SRR920932,2.0,male ,toeweb 
+SRS451933,SRR920644,2.0,male ,toeweb 
+SRS451434,SRR919604,2.0,male ,toeweb 
+SRS451885,SRR920597,2.0,male ,toeweb 
+SRS483601,SRR996990,2.0,male ,volar forearm 
+SRS483506,SRR996895,2.0,male ,volar forearm 
+SRS482380,SRR994520,2.0,male ,volar forearm 
+SRS483429,SRR996670,2.0,male ,volar forearm 
+SRS483386,SRR996495,2.0,male ,volar forearm 
