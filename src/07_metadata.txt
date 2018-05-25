@@ -1,0 +1,6 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	RunID	Sex	BodySite	Description
+SRS451723	_	_	SRR920172	male 	occiput 	_
+SRS451930	_	_	SRR920726	male 	occiput 	_
+SRS452078	_	_	SRR920951	male 	occiput 	_
+SRS451617	_	_	SRR919888	male 	occiput 	_
+SRS451431	_	_	SRR919541	male 	occiput 	_
