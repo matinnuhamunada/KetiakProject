@@ -20,7 +20,7 @@ When you have a github-account, you may install Github. Before installing Github
 Open the terminal in Ubuntu.
 Type: 
 
-$cd ~/.ssh 
+`$cd ~/.ssh` 
 
 When the terminal displays: ""bash: cd: ./.ssh:No such file or directory" you should generate a public/private rsa ket pair, continue with step 3. 
 If the terminal changes to ~/.ssh directory, continue with step 5.
