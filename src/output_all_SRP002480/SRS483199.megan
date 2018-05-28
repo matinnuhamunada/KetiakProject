@@ -1,0 +1,57 @@
+@Creator	MEGAN
+@CreationDate	Mon May 28 14:34:45 ICT 2018
+@ContentType	Summary4
+@Names	SRS483199
+@BlastMode	Classifier
+@Sizes	1963.0
+@TotalReads	1963
+@Collapse	Taxonomy	-1
+@Parameters	minScore=50.0 maxExpected='0.01' minPercentIdentity='0.0' topPercent=10.0 minSupportPercent=0.05 minSupport=0 lcaAlgorithm=naive minPercentReadToCover=0.0 minPercentReferenceToCover=0.0 minComplexity=0.0 longReads=false pairedReads=false identityFilter=false readAssignmentMode=readCount fNames= { Taxonomy }
+@NodeStyle	Taxonomy	Circle
+@ColorTable	Fews8	White-Green
+@ColorEdits	
+TAX	1280	1232.0
+TAX	32257	3.0
+TAX	1282	26.0
+TAX	2	3.0
+TAX	32067	18.0
+TAX	836	12.0
+TAX	838	47.0
+TAX	200644	6.0
+TAX	848	11.0
+TAX	416916	1.0
+TAX	724	4.0
+TAX	468	12.0
+TAX	1301	69.0
+TAX	727	62.0
+TAX	643217	1.0
+TAX	729	64.0
+TAX	538	3.0
+TAX	68892	2.0
+TAX	171549	4.0
+TAX	481	2.0
+TAX	1378	1.0
+TAX	482	25.0
+TAX	483	1.0
+TAX	28132	2.0
+TAX	1578	24.0
+TAX	1386	1.0
+TAX	46123	22.0
+TAX	53419	1.0
+TAX	119852	1.0
+TAX	186802	60.0
+TAX	1584	1.0
+TAX	186803	2.0
+TAX	2353	3.0
+TAX	91061	4.0
+TAX	2037	118.0
+TAX	1654	37.0
+TAX	47670	5.0
+TAX	502	10.0
+TAX	1016	15.0
+TAX	117563	5.0
+TAX	1018	1.0
+TAX	766	1.0
+TAX	1279	41.0
+END_OF_DATA_TABLE
+#SampleID
