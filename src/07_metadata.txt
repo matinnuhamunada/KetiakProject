@@ -1,6 +1,161 @@
 #SampleID	BarcodeSequence	LinkerPrimerSequence	RunID	Sex	BodySite	Description
-SRS451723	_	_	SRR920172	male 	occiput 	_
-SRS451930	_	_	SRR920726	male 	occiput 	_
-SRS452078	_	_	SRR920951	male 	occiput 	_
-SRS451617	_	_	SRR919888	male 	occiput 	_
-SRS451431	_	_	SRR919541	male 	occiput 	_
+SRS452123	_	_	SRR921059	female 	toeweb 	_
+SRS451751	_	_	SRR920153	female 	toeweb 	_
+SRS451761	_	_	SRR920241	female 	toeweb 	_
+SRS451782	_	_	SRR920231	female 	toeweb 	_
+SRS451473	_	_	SRR919583	female 	toeweb 	_
+SRS452059	_	_	SRR920933	male 	toeweb 	_
+SRS451727	_	_	SRR920129	male 	toeweb 	_
+SRS451935	_	_	SRR920645	male 	toeweb 	_
+SRS451454	_	_	SRR919564	male 	toeweb 	_
+SRS451618	_	_	SRR919889	male 	toeweb 	_
+SRS451586	_	_	SRR919907	female 	plantar heel 	_
+SRS451907	_	_	SRR920617	female 	plantar heel 	_
+SRS451588	_	_	SRR919908	female 	plantar heel 	_
+SRS451759	_	_	SRR920239	female 	plantar heel 	_
+SRS451469	_	_	SRR919639	female 	plantar heel 	_
+SRS451627	_	_	SRR919948	male 	plantar heel 	_
+SRS451929	_	_	SRR920641	male 	plantar heel 	_
+SRS451610	_	_	SRR919881	male 	plantar heel 	_
+SRS451724	_	_	SRR920126	male 	plantar heel 	_
+SRS452102	_	_	SRR921101	male 	plantar heel 	_
+SRS482701	_	_	SRR995115	female 	nare 	_
+SRS483623	_	_	SRR997097	female 	nare 	_
+SRS483199	_	_	SRR996091	female 	nare 	_
+SRS482359	_	_	SRR994499	female 	nare 	_
+SRS482622	_	_	SRR995009	female 	nare 	_
+SRS451879	_	_	SRR920677	male 	nare 	_
+SRS483644	_	_	SRR997032	male 	nare 	_
+SRS483393	_	_	SRR996607	male 	nare 	_
+SRS483001	_	_	SRR995750	male 	nare 	_
+SRS482655	_	_	SRR995042	male 	nare 	_
+SRS483089	_	_	SRR995982	female 	volar forearm 	_
+SRS483541	_	_	SRR996870	female 	volar forearm 	_
+SRS482441	_	_	SRR994581	female 	volar forearm 	_
+SRS482709	_	_	SRR995123	female 	volar forearm 	_
+SRS483545	_	_	SRR996934	female 	volar forearm 	_
+SRS483396	_	_	SRR996540	male 	volar forearm 	_
+SRS482489	_	_	SRR994712	male 	volar forearm 	_
+SRS483506	_	_	SRR996895	male 	volar forearm 	_
+SRS483419	_	_	SRR996660	male 	volar forearm 	_
+SRS483525	_	_	SRR996914	male 	volar forearm 	_
+SRS482358	_	_	SRR994428	female 	popliteal fossa 	_
+SRS482352	_	_	SRR994492	female 	popliteal fossa 	_
+SRS482658	_	_	SRR995072	female 	popliteal fossa 	_
+SRS482429	_	_	SRR994653	female 	popliteal fossa 	_
+SRS482391	_	_	SRR994531	female 	popliteal fossa 	_
+SRS483602	_	_	SRR997076	male 	popliteal fossa 	_
+SRS482793	_	_	SRR995372	male 	popliteal fossa 	_
+SRS482902	_	_	SRR995524	male 	popliteal fossa 	_
+SRS483583	_	_	SRR997056	male 	popliteal fossa 	_
+SRS482451	_	_	SRR994591	male 	popliteal fossa 	_
+SRS451466	_	_	SRR919576	female 	manubrium 	_
+SRS451901	_	_	SRR920612	female 	manubrium 	_
+SRS451773	_	_	SRR920253	female 	manubrium 	_
+SRS451758	_	_	SRR920207	female 	manubrium 	_
+SRS451744	_	_	SRR920193	female 	manubrium 	_
+SRS451877	_	_	SRR920588	male 	manubrium 	_
+SRS451430	_	_	SRR919540	male 	manubrium 	_
+SRS451949	_	_	SRR920747	male 	manubrium 	_
+SRS451720	_	_	SRR920122	male 	manubrium 	_
+SRS452091	_	_	SRR921090	male 	manubrium 	_
+SRS482439	_	_	SRR994662	female 	antecubital fossa 	_
+SRS483082	_	_	SRR995975	female 	antecubital fossa 	_
+SRS483269	_	_	SRR996282	female 	antecubital fossa 	_
+SRS482341	_	_	SRR994411	female 	antecubital fossa 	_
+SRS483243	_	_	SRR996204	female 	antecubital fossa 	_
+SRS482454	_	_	SRR994677	male 	antecubital fossa 	_
+SRS483343	_	_	SRR996437	male 	antecubital fossa 	_
+SRS482493	_	_	SRR994716	male 	antecubital fossa 	_
+SRS483628	_	_	SRR997017	male 	antecubital fossa 	_
+SRS483190	_	_	SRR996151	male 	antecubital fossa 	_
+SRS451738	_	_	SRR920140	female 	external auditory canal 	_
+SRS451597	_	_	SRR919868	female 	external auditory canal 	_
+SRS451460	_	_	SRR919570	female 	external auditory canal 	_
+SRS451766	_	_	SRR920215	female 	external auditory canal 	_
+SRS452124	_	_	SRR921060	female 	external auditory canal 	_
+SRS451942	_	_	SRR920740	male 	external auditory canal 	_
+SRS451439	_	_	SRR919609	male 	external auditory canal 	_
+SRS452106	_	_	SRR921105	male 	external auditory canal 	_
+SRS452068	_	_	SRR921004	male 	external auditory canal 	_
+SRS452118	_	_	SRR921054	male 	external auditory canal 	_
+SRS451583	_	_	SRR919854	female 	inguinal crease 	_
+SRS451772	_	_	SRR920252	female 	inguinal crease 	_
+SRS451771	_	_	SRR920251	female 	inguinal crease 	_
+SRS451899	_	_	SRR920697	female 	inguinal crease 	_
+SRS451465	_	_	SRR919635	female 	inguinal crease 	_
+SRS451875	_	_	SRR920586	male 	inguinal crease 	_
+SRS452089	_	_	SRR921089	male 	inguinal crease 	_
+SRS451874	_	_	SRR920672	male 	inguinal crease 	_
+SRS452072	_	_	SRR920945	male 	inguinal crease 	_
+SRS452049	_	_	SRR920985	male 	inguinal crease 	_
+SRS451768	_	_	SRR920248	female 	glabella 	_
+SRS451587	_	_	SRR919909	female 	glabella 	_
+SRS451895	_	_	SRR920606	female 	glabella 	_
+SRS451739	_	_	SRR920188	female 	glabella 	_
+SRS451461	_	_	SRR919571	female 	glabella 	_
+SRS483492	_	_	SRR996733	male 	glabella 	_
+SRS483480	_	_	SRR996809	male 	glabella 	_
+SRS451943	_	_	SRR920654	male 	glabella 	_
+SRS483489	_	_	SRR996818	male 	glabella 	_
+SRS451871	_	_	SRR920669	male 	glabella 	_
+SRS452122	_	_	SRR921121	female 	occiput 	_
+SRS451904	_	_	SRR920702	female 	occiput 	_
+SRS452030	_	_	SRR920966	female 	occiput 	_
+SRS451468	_	_	SRR919578	female 	occiput 	_
+SRS451593	_	_	SRR919914	female 	occiput 	_
+SRS452092	_	_	SRR921029	male 	occiput 	_
+SRS452140	_	_	SRR921140	male 	occiput 	_
+SRS451930	_	_	SRR920639	male 	occiput 	_
+SRS452054	_	_	SRR920990	male 	occiput 	_
+SRS451447	_	_	SRR919557	male 	occiput 	_
+SRS451913	_	_	SRR920624	female 	toenail 	_
+SRS452127	_	_	SRR921126	female 	toenail 	_
+SRS451754	_	_	SRR920156	female 	toenail 	_
+SRS451755	_	_	SRR920157	female 	toenail 	_
+SRS452039	_	_	SRR920975	female 	toenail 	_
+SRS451624	_	_	SRR919895	male 	toenail 	_
+SRS451732	_	_	SRR920134	male 	toenail 	_
+SRS452062	_	_	SRR920999	male 	toenail 	_
+SRS452103	_	_	SRR921102	male 	toenail 	_
+SRS452117	_	_	SRR921116	male 	toenail 	_
+SRS482690	_	_	SRR995104	female 	retroauricular crease 	_
+SRS482561	_	_	SRR994783	female 	retroauricular crease 	_
+SRS451709	_	_	SRR920111	female 	retroauricular crease 	_
+SRS482710	_	_	SRR995168	female 	retroauricular crease 	_
+SRS482617	_	_	SRR995004	female 	retroauricular crease 	_
+SRS452082	_	_	SRR921017	male 	retroauricular crease 	_
+SRS483401	_	_	SRR996616	male 	retroauricular crease 	_
+SRS452145	_	_	SRR921081	male 	retroauricular crease 	_
+SRS483377	_	_	SRR996522	male 	retroauricular crease 	_
+SRS482803	_	_	SRR995314	male 	retroauricular crease 	_
+SRS451462	_	_	SRR919572	female 	hypothenar palm 	_
+SRS451897	_	_	SRR920607	female 	hypothenar palm 	_
+SRS451770	_	_	SRR920250	female 	hypothenar palm 	_
+SRS451896	_	_	SRR920608	female 	hypothenar palm 	_
+SRS451463	_	_	SRR919573	female 	hypothenar palm 	_
+SRS451622	_	_	SRR919943	male 	hypothenar palm 	_
+SRS451717	_	_	SRR920166	male 	hypothenar palm 	_
+SRS451919	_	_	SRR920631	male 	hypothenar palm 	_
+SRS452134	_	_	SRR921133	male 	hypothenar palm 	_
+SRS451441	_	_	SRR919611	male 	hypothenar palm 	_
+SRS451589	_	_	SRR919860	female 	back 	_
+SRS451459	_	_	SRR919629	female 	back 	_
+SRS451765	_	_	SRR920245	female 	back 	_
+SRS451900	_	_	SRR920611	female 	back 	_
+SRS451736	_	_	SRR920185	female 	back 	_
+SRS451613	_	_	SRR919884	male 	back 	_
+SRS452073	_	_	SRR920947	male 	back 	_
+SRS451876	_	_	SRR920674	male 	back 	_
+SRS451438	_	_	SRR919548	male 	back 	_
+SRS451427	_	_	SRR919596	male 	back 	_
+SRS451892	_	_	SRR920690	female 	antecubital crease 	_
+SRS451735	_	_	SRR920137	female 	antecubital crease 	_
+SRS451578	_	_	SRR919899	female 	antecubital crease 	_
+SRS451457	_	_	SRR919567	female 	antecubital crease 	_
+SRS451458	_	_	SRR919628	female 	antecubital crease 	_
+SRS451603	_	_	SRR919924	male 	antecubital crease 	_
+SRS452042	_	_	SRR920978	male 	antecubital crease 	_
+SRS451940	_	_	SRR920737	male 	antecubital crease 	_
+SRS452065	_	_	SRR920939	male 	antecubital crease 	_
+SRS452098	_	_	SRR921033	male 	antecubital crease 	_
