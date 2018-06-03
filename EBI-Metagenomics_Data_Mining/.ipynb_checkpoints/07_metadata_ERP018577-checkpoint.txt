@@ -1,0 +1,6 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	RunID	Sex	BodySite
+ERS1421377	_	_	ERR1701280		Scalp
+ERS1421389	_	_	ERR1701292		Scalp
+ERS1421383	_	_	ERR1701286		Scalp
+ERS1421335	_	_	ERR1701238		Scalp
+ERS1421381	_	_	ERR1701284		Scalp

@@ -1,0 +1,6 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	RunID	Sex	BodySite	Description
+ERS1421377	_	_	ERR1701280		Scalp	Health
+ERS1421389	_	_	ERR1701292		Scalp	Health
+ERS1421383	_	_	ERR1701286		Scalp	Health
+ERS1421335	_	_	ERR1701238		Scalp	Health
+ERS1421381	_	_	ERR1701284		Scalp	Health

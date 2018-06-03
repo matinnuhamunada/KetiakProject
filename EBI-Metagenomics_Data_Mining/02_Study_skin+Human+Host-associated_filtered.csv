@@ -1,0 +1,7 @@
+,Study ID,Study Name,Number Of Samples,Submitted Date,Biome,Lineage,Latitude,Longitude,Publication
+1,SRP002480,Gene-Environment Interactions at the Skin Surface,2560,2016-02-03,Skin,root:Host-associated:Human:Skin,,,10.1101/gr.131029.111
+2,ERP018577,Human skin bacterial and fungal microbiotas analyses,96,2016-11-03,Skin,root:Host-associated:Human:Skin,-9.9667,-55.2502,
+3,ERP022958,Impact of the Mk VI SkinSuit on skin microbiota of terrestrial volunteers and an International Space Station-bound astronaut,204,2017-06-16,Skin,root:Host-associated:Human:Skin,,,
+4,ERP019566,Longitudinal study of the diabetic skin and wound microbiome,258,2017-11-27,Skin,root:Host-associated:Human:Skin,33.8832,151.2005,10.7717/peerj.3543
+5,ERP016629,Microbiome samples derived from Buruli ulcer wounds and non-Buruli ulcer skin ulcerations,14,2016-07-29,Skin,root:Host-associated:Human:Skin,6.6645,2.1598,10.1371/journal.pone.0181994
+7,SRP056364,Skin microbiome in human volunteers inoculated with H. ducreyi Raw sequence reads,191,2016-02-04,Skin,root:Host-associated:Human:Skin,,,

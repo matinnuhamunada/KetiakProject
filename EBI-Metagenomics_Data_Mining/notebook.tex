@@ -1,0 +1,1529 @@
+
+% Default to the notebook output style
+
+    
+
+
+% Inherit from the specified cell style.
+
+
+
+
+    
+\documentclass[11pt]{article}
+
+    
+    
+    \usepackage[T1]{fontenc}
+    % Nicer default font (+ math font) than Computer Modern for most use cases
+    \usepackage{mathpazo}
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % We will generate all images so they have a width \maxwidth. This means
+    % that they will get their normal width if they fit onto the page, but
+    % are scaled down if they would overflow the margins.
+    \makeatletter
+    \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+    \else\Gin@nat@width\fi}
+    \makeatother
+    \let\Oldincludegraphics\includegraphics
+    % Set max figure width to be 80% of text width, for now hardcoded.
+    \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=.8\maxwidth]{#1}}
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionLabelFormat{nolabel}{}
+    \captionsetup{labelformat=nolabel}
+
+    \usepackage{adjustbox} % Used to constrain images to a maximum size 
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage[utf8x]{inputenc} % Allow utf-8 characters in the tex document
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range 
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    
+
+    
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatability definitions
+    \def\gt{>}
+    \def\lt{<}
+    % Document parameters
+    \title{Data Mining Script EBI}
+    
+    
+    
+
+    % Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@fm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@vm\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sa\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@dl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@mb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@ch\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cpf\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % Exact colors from NB
+    \definecolor{incolor}{rgb}{0.0, 0.0, 0.5}
+    \definecolor{outcolor}{rgb}{0.545, 0.0, 0.0}
+
+
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+    \begin{document}
+    
+    
+    \maketitle
+    
+    
+
+    
+    \hypertarget{data-mining-of-human-skin-microbiome-from-ebi-metagenomics-portal}{%
+\section{Data Mining of Human Skin Microbiome from EBI-Metagenomics
+Portal}\label{data-mining-of-human-skin-microbiome-from-ebi-metagenomics-portal}}
+
+\emph{Matin Nuhamunada}1*, \emph{Gregorius Altius Pratama}1,
+\emph{Setianing Wikanthi}2, and \emph{Mohamad Khoirul Anam}1
+
+1Department of Tropical Biology, Universitas Gadjah Mada;\\
+Jl. Teknika Selatan, Sekip Utara, Bulaksumur, Yogyakarta, Indonesia,
+55281;
+
+2Department of Agricultural Microbiology, Universitas Gadjah Mada;\\
+Jl. Flora No.~1 Bulaksumur Yogyakarta, Indonesia, 55281
+
+*Correspondence:
+\href{mailto:matin_nuhamunada@mail.ugm.ac.id}{matin\_nuhamunada@ugm.ac.id}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{abstract}{%
+\subsection{Abstract}\label{abstract}}
+
+Human skin microbiome is unique to individuals in regards to many
+aspects, including behaviour, environment, and perhaps maybe genes. To
+understand more about the distribution of human skin microbiome across
+the globe, we compare several skin microbiome study available in the
+EBI-Metagenomic Portal. Study data was acquired using EBI-Metagenome
+API, and sample data was selected based on sex, location, and bodysite.
+The biological observation matrix from the analysis result of the
+selected samples were compared using MEGAN.
+
+\hypertarget{keywords}{%
+\subsubsection{Keywords}\label{keywords}}
+
+Human Skin, Microbiome, EBI-Metagenome
+
+    \hypertarget{import-python-modules}{%
+\subsection{Import Python Modules}\label{import-python-modules}}
+
+We use python 3 script using Jupyter Notebook by utilising
+\texttt{pandas}, \texttt{jsonapi\_client}, \texttt{pycurl}, to mine the
+data from EBI-metagenomic portal using it's API Section \ref{ref1}.
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}2}]:} \PY{k+kn}{import} \PY{n+nn}{os}
+        \PY{n}{os}\PY{o}{.}\PY{n}{environ}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{PATH}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}2}]:} 'C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Scripts;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}mingw-w64\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}usr\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Scripts;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}mingw-w64\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}usr\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Scripts;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Anaconda3\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}Program Files\textbackslash{}\textbackslash{}Microsoft MPI\textbackslash{}\textbackslash{}Bin\textbackslash{}\textbackslash{};C:\textbackslash{}\textbackslash{}Program Files (x86)\textbackslash{}\textbackslash{}IntelSWTools\textbackslash{}\textbackslash{}compilers\_and\_libraries\_2018.0.124\textbackslash{}\textbackslash{}windows\textbackslash{}\textbackslash{}mpi\textbackslash{}\textbackslash{}intel64\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}ProgramData\textbackslash{}\textbackslash{}Oracle\textbackslash{}\textbackslash{}Java\textbackslash{}\textbackslash{}javapath;C:\textbackslash{}\textbackslash{}Program Files (x86)\textbackslash{}\textbackslash{}Common Files\textbackslash{}\textbackslash{}Intel\textbackslash{}\textbackslash{}Shared Files\textbackslash{}\textbackslash{}cpp\textbackslash{}\textbackslash{}bin\textbackslash{}\textbackslash{}Intel64;C:\textbackslash{}\textbackslash{}WINDOWS\textbackslash{}\textbackslash{}system32;C:\textbackslash{}\textbackslash{}WINDOWS;C:\textbackslash{}\textbackslash{}WINDOWS\textbackslash{}\textbackslash{}System32\textbackslash{}\textbackslash{}Wbem;C:\textbackslash{}\textbackslash{}WINDOWS\textbackslash{}\textbackslash{}System32\textbackslash{}\textbackslash{}WindowsPowerShell\textbackslash{}\textbackslash{}v1.0\textbackslash{}\textbackslash{};C:\textbackslash{}\textbackslash{}Users\textbackslash{}\textbackslash{}Suhardiyono\textbackslash{}\textbackslash{}Anaconda\textbackslash{}\textbackslash{}Library\textbackslash{}\textbackslash{}bin;();C:\textbackslash{}\textbackslash{}Program Files (x86)\textbackslash{}\textbackslash{}Skype\textbackslash{}\textbackslash{}Phone\textbackslash{}\textbackslash{};C:\textbackslash{}\textbackslash{}Program Files (x86)\textbackslash{}\textbackslash{}Windows Live\textbackslash{}\textbackslash{}Shared;C:\textbackslash{}\textbackslash{}Android;C:\textbackslash{}\textbackslash{}Windows\textbackslash{}\textbackslash{}System32;C:\textbackslash{}\textbackslash{}Python27;C:\textbackslash{}\textbackslash{}Python27\textbackslash{}\textbackslash{}Scripts;D:\textbackslash{}\textbackslash{}PyRosetta\textbackslash{}\textbackslash{};C:\textbackslash{}\textbackslash{}WINDOWS\textbackslash{}\textbackslash{}system32;C:\textbackslash{}\textbackslash{}WINDOWS;C:\textbackslash{}\textbackslash{}WINDOWS\textbackslash{}\textbackslash{}System32\textbackslash{}\textbackslash{}Wbem;C:\textbackslash{}\textbackslash{}WINDOWS\textbackslash{}\textbackslash{}System32\textbackslash{}\textbackslash{}WindowsPowerShell\textbackslash{}\textbackslash{}v1.0\textbackslash{}\textbackslash{};C:\textbackslash{}\textbackslash{}Program Files\textbackslash{}\textbackslash{}Java\textbackslash{}\textbackslash{}jdk8\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}Program Files\textbackslash{}\textbackslash{}Java\textbackslash{}\textbackslash{}jre8\textbackslash{}\textbackslash{}bin;D:\textbackslash{}\textbackslash{}MatLab\_iGEM2016\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}Program Files\textbackslash{}\textbackslash{}PyRosetta\textbackslash{}\textbackslash{};C:\textbackslash{}\textbackslash{}Program Files (x86)\textbackslash{}\textbackslash{}Brackets\textbackslash{}\textbackslash{}command;C:\textbackslash{}\textbackslash{}HashiCorp\textbackslash{}\textbackslash{}Vagrant\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}Program Files\textbackslash{}\textbackslash{}nodejs\textbackslash{}\textbackslash{};C:\textbackslash{}\textbackslash{}WINDOWS\textbackslash{}\textbackslash{}System32\textbackslash{}\textbackslash{}OpenSSH\textbackslash{}\textbackslash{};C:\textbackslash{}\textbackslash{}Users\textbackslash{}\textbackslash{}Suhardiyono\textbackslash{}\textbackslash{}AppData\textbackslash{}\textbackslash{}Local\textbackslash{}\textbackslash{}Microsoft\textbackslash{}\textbackslash{}WindowsApps;C:\textbackslash{}\textbackslash{}Users\textbackslash{}\textbackslash{}Suhardiyono\textbackslash{}\textbackslash{}AppData\textbackslash{}\textbackslash{}Roaming\textbackslash{}\textbackslash{}npm;C:\textbackslash{}\textbackslash{}Users\textbackslash{}\textbackslash{}Suhardiyono\textbackslash{}\textbackslash{}AppData\textbackslash{}\textbackslash{}Local\textbackslash{}\textbackslash{}GitHubDesktop\textbackslash{}\textbackslash{}bin;C:\textbackslash{}\textbackslash{}Users\textbackslash{}\textbackslash{}Suhardiyono\textbackslash{}\textbackslash{}AppData\textbackslash{}\textbackslash{}Local\textbackslash{}\textbackslash{}Microsoft\textbackslash{}\textbackslash{}WindowsApps'
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}1}]:} \PY{k+kn}{from} \PY{n+nn}{pandas} \PY{k}{import} \PY{n}{DataFrame}
+        \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
+        \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}2}]:} \PY{k+kn}{from} \PY{n+nn}{jsonapi\PYZus{}client} \PY{k}{import} \PY{n}{Session}\PY{p}{,} \PY{n}{Filter}
+        \PY{k+kn}{import} \PY{n+nn}{pycurl}
+        \PY{k+kn}{import} \PY{n+nn}{html}
+        
+        \PY{n}{API\PYZus{}BASE} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.ebi.ac.uk/metagenomics/api/latest/}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}3}]:} \PY{k+kn}{import} \PY{n+nn}{os}\PY{o}{,} \PY{n+nn}{sys}
+        \PY{k+kn}{from} \PY{n+nn}{tqdm} \PY{k}{import} \PY{n}{tqdm\PYZus{}notebook}
+        \PY{k+kn}{import} \PY{n+nn}{ipywidgets}
+        \PY{k+kn}{from} \PY{n+nn}{time} \PY{k}{import} \PY{n}{sleep}
+        \PY{k+kn}{import} \PY{n+nn}{glob}
+\end{Verbatim}
+
+
+    \hypertarget{load-functions}{%
+\subsection{Load Functions}\label{load-functions}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}4}]:} \PY{k}{def} \PY{n+nf}{get\PYZus{}metadata}\PY{p}{(}\PY{n}{metadata}\PY{p}{,} \PY{n}{key}\PY{p}{)}\PY{p}{:}
+            \PY{k}{for} \PY{n}{m} \PY{o+ow}{in} \PY{n}{metadata}\PY{p}{:}
+                \PY{k}{if} \PY{n}{m}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{key}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{lower}\PY{p}{(}\PY{p}{)} \PY{o}{==} \PY{n}{key}\PY{o}{.}\PY{n}{lower}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+                    \PY{n}{value} \PY{o}{=} \PY{n}{m}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{value}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+                    \PY{n}{unit} \PY{o}{=} \PY{n}{html}\PY{o}{.}\PY{n}{unescape}\PY{p}{(}\PY{n}{m}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{unit}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)} \PY{k}{if} \PY{n}{m}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{unit}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{k}{else} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}
+                    \PY{k}{return} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+si}{\PYZob{}value\PYZcb{}}\PY{l+s+s2}{ }\PY{l+s+si}{\PYZob{}unit\PYZcb{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{value}\PY{o}{=}\PY{n}{value}\PY{p}{,} \PY{n}{unit}\PY{o}{=}\PY{n}{unit}\PY{p}{)}
+            \PY{k}{return} \PY{k+kc}{None}
+        
+        \PY{k}{def} \PY{n+nf}{get\PYZus{}study}\PY{p}{(}\PY{n}{term}\PY{p}{,} \PY{n}{lineage}\PY{p}{,} \PY{n}{biome}\PY{p}{,} \PY{n}{filename}\PY{p}{)}\PY{p}{:}
+            \PY{k}{if} \PY{o+ow}{not} \PY{n}{os}\PY{o}{.}\PY{n}{path}\PY{o}{.}\PY{n}{isfile}\PY{p}{(}\PY{n}{filename}\PY{p}{)}\PY{p}{:}
+                \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{filename}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{wb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+                    \PY{n}{c} \PY{o}{=} \PY{n}{pycurl}\PY{o}{.}\PY{n}{Curl}\PY{p}{(}\PY{p}{)}
+                    \PY{n}{c}\PY{o}{.}\PY{n}{setopt}\PY{p}{(}\PY{n}{c}\PY{o}{.}\PY{n}{URL}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.ebi.ac.uk/metagenomics/projects/doExportDetails?searchTerm=}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{term}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZam{}includingChildren=true\PYZam{}biomeLineage=root}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{3A}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{lineage}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{3A}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{biome}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZam{}search=Search}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+                    \PY{n}{c}\PY{o}{.}\PY{n}{setopt}\PY{p}{(}\PY{n}{c}\PY{o}{.}\PY{n}{WRITEDATA}\PY{p}{,} \PY{n}{f}\PY{p}{)}
+                    \PY{n}{c}\PY{o}{.}\PY{n}{perform}\PY{p}{(}\PY{p}{)}
+                    \PY{n}{c}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+            \PY{k}{return} \PY{n}{filename}
+        
+        \PY{k}{def} \PY{n+nf}{get\PYZus{}analysis\PYZus{}result}\PY{p}{(}\PY{n}{run}\PY{p}{,} \PY{n}{extension}\PY{p}{)}\PY{p}{:}
+            \PY{n}{API\PYZus{}BASE\PYZus{}RUN} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.ebi.ac.uk/metagenomics/api/latest/runs}\PY{l+s+s1}{\PYZsq{}}
+            \PY{k}{with} \PY{n}{Session}\PY{p}{(}\PY{n}{API\PYZus{}BASE\PYZus{}RUN}\PY{p}{)} \PY{k}{as} \PY{n}{s}\PY{p}{:}
+                \PY{n}{study} \PY{o}{=} \PY{n}{s}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{n}{run}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{analysis}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{resource}
+                \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n}{study}\PY{o}{.}\PY{n}{downloads}\PY{p}{:}
+                    \PY{k}{if} \PY{n}{extension} \PY{o+ow}{in} \PY{n}{i}\PY{o}{.}\PY{n}{file\PYZus{}format}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{name}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{:}
+                        \PY{n}{link} \PY{o}{=} \PY{n}{i}\PY{o}{.}\PY{n}{url}
+            \PY{k}{return} \PY{n}{link}
+        
+        \PY{k}{def} \PY{n+nf}{random\PYZus{}sampling}\PY{p}{(}\PY{n}{dataframe}\PY{p}{,} \PY{n}{amount}\PY{p}{)}\PY{p}{:}
+            \PY{n}{df\PYZus{}random} \PY{o}{=} \PY{n}{DataFrame}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sample\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Run\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Release\PYZus{}version}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Description}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+            \PY{n}{df\PYZus{}random}\PY{o}{.}\PY{n}{index}\PY{o}{.}\PY{n}{name} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{No}\PY{l+s+s1}{\PYZsq{}}
+            \PY{n}{a} \PY{o}{=} \PY{l+m+mi}{0}
+            \PY{k}{while} \PY{n}{a} \PY{o}{\PYZlt{}} \PY{n}{amount}\PY{p}{:}
+                \PY{n}{i} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{choice}\PY{p}{(}\PY{n}{dataframe}\PY{o}{.}\PY{n}{index}\PY{o}{.}\PY{n}{values}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}
+                \PY{n}{container} \PY{o}{=} \PY{n}{df\PYZus{}random}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{p}{:}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sample\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+                \PY{k}{if} \PY{o+ow}{not} \PY{n}{container}\PY{o}{.}\PY{n}{isin}\PY{p}{(}\PY{p}{[}\PY{n}{dataframe}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sample\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{any}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+                    \PY{n}{df\PYZus{}random}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{dataframe}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sample\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PYZbs{}
+                                           \PY{n}{dataframe}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Run\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PYZbs{}
+                                           \PY{n}{dataframe}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Release\PYZus{}version}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PYZbs{}
+                                           \PY{n}{dataframe}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PYZbs{}
+                                           \PY{n}{dataframe}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PYZbs{}
+                                           \PY{n}{dataframe}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Description}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PYZbs{}
+                                          \PY{p}{]}
+                    \PY{n}{a} \PY{o}{=} \PY{n}{a} \PY{o}{+} \PY{l+m+mi}{1}
+            \PY{k}{return} \PY{n}{df\PYZus{}random}
+\end{Verbatim}
+
+
+    \hypertarget{get-list-of-studies}{%
+\subsection{1. Get List of Studies}\label{get-list-of-studies}}
+
+We search the EBI Metagenomic database on human skin microbiome study in
+the host-associated biome with `skin' as search term. The study list can
+be found on this link:
+https://www.ebi.ac.uk/metagenomics/projects/doExportDetails?searchTerm=skin\&includingChildren=true\&biomeLineage=root\%3AHost-associated\%3AHuman\&search=Search
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}46}]:} \PY{c+c1}{\PYZsh{}Search Study}
+         \PY{n}{term} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{skin}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{lineage} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Host\PYZhy{}associated}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{biome} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Human}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{file\PYZus{}study} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{01\PYZus{}Study\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{term}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{+}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{biome}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{+}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{lineage}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}raw.csv}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}47}]:} \PY{c+c1}{\PYZsh{}Download study information}
+         \PY{n}{get\PYZus{}study}\PY{p}{(}\PY{n}{term}\PY{p}{,} \PY{n}{biome}\PY{p}{,} \PY{n}{lineage}\PY{p}{,} \PY{n}{file\PYZus{}study}\PY{p}{)}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}47}]:} '01\_Study\_skin+Human+Host-associated\_raw.csv'
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}53}]:} \PY{c+c1}{\PYZsh{}Load Study information}
+         \PY{n}{df1} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{file\PYZus{}study}\PY{p}{)}
+         \PY{c+c1}{\PYZsh{}df1}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}49}]:} \PY{c+c1}{\PYZsh{}Select relevant information}
+         \PY{n}{df\PYZus{}study} \PY{o}{=} \PY{n}{df1}\PY{p}{[}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Study ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Study Name}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Number Of Samples}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Submitted Date}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{]}
+         \PY{c+c1}{\PYZsh{}df\PYZus{}study}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}50}]:} \PY{c+c1}{\PYZsh{}Add information on biome}
+         \PY{n}{df2} \PY{o}{=} \PY{n}{DataFrame}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Biome}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Lineage}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Latitude}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Longitude}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Publication}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
+         \PY{c+c1}{\PYZsh{}df2.index.name = \PYZsq{}No\PYZsq{}}
+         
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n}{tqdm\PYZus{}notebook}\PY{p}{(}\PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{df\PYZus{}study}\PY{p}{)}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+             \PY{k}{with} \PY{n}{Session}\PY{p}{(}\PY{n}{API\PYZus{}BASE}\PY{p}{)} \PY{k}{as} \PY{n}{s}\PY{p}{:}
+                 \PY{n}{std} \PY{o}{=} \PY{n}{s}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{studies}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{df\PYZus{}study}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Study ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{resource}
+                 \PY{k}{for} \PY{n}{a} \PY{o+ow}{in} \PY{n}{std}\PY{o}{.}\PY{n}{biomes}\PY{p}{:}
+                     \PY{n}{df2}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Biome}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{n}{a}\PY{o}{.}\PY{n}{biome\PYZus{}name}
+                     \PY{n}{df2}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Lineage}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{n}{a}\PY{o}{.}\PY{n}{lineage}
+                 \PY{k}{for} \PY{n}{g} \PY{o+ow}{in} \PY{n}{std}\PY{o}{.}\PY{n}{geocoordinates}\PY{p}{:}
+                     \PY{n}{df2}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Latitude}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{n}{g}\PY{o}{.}\PY{n}{latitude}
+                     \PY{n}{df2}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Longitude}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{n}{g}\PY{o}{.}\PY{n}{longitude}
+                 \PY{k}{for} \PY{n}{p} \PY{o+ow}{in} \PY{n}{std}\PY{o}{.}\PY{n}{publications}\PY{p}{:}
+                     \PY{n}{df2}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Publication}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{n}{p}\PY{o}{.}\PY{n}{doi}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+HBox(children=(IntProgress(value=0, max=11), HTML(value='')))
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}51}]:} \PY{c+c1}{\PYZsh{}Merge \PYZam{} Filter Table}
+         \PY{n}{df3} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{df\PYZus{}study}\PY{p}{,} \PY{n}{df2}\PY{p}{]}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{df3}\PY{o}{.}\PY{n}{set\PYZus{}index}\PY{p}{(}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Study ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
+         \PY{n}{df\PYZus{}study\PYZus{}biome} \PY{o}{=} \PY{n}{df3}\PY{o}{.}\PY{n}{query}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Biome == [}\PY{l+s+s1}{\PYZdq{}}\PY{l+s+s1}{Human}\PY{l+s+s1}{\PYZdq{}}\PY{l+s+s1}{, }\PY{l+s+s1}{\PYZdq{}}\PY{l+s+s1}{Skin}\PY{l+s+s1}{\PYZdq{}}\PY{l+s+s1}{] and Lineage == [}\PY{l+s+s1}{\PYZdq{}}\PY{l+s+s1}{root:Host\PYZhy{}associated:Human:Skin}\PY{l+s+s1}{\PYZdq{}}\PY{l+s+s1}{]}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{df\PYZus{}study\PYZus{}biome}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}51}]:}     Study ID                                         Study Name  \textbackslash{}
+         1  SRP002480  Gene-Environment Interactions at the Skin Surface   
+         2  ERP018577  Human skin bacterial and fungal microbiotas an{\ldots}   
+         3  ERP022958  Impact of the Mk VI SkinSuit on skin microbiot{\ldots}   
+         4  ERP019566  Longitudinal study of the diabetic skin and wo{\ldots}   
+         5  ERP016629  Microbiome samples derived from Buruli ulcer w{\ldots}   
+         7  SRP056364  Skin microbiome in human volunteers inoculated{\ldots}   
+         
+            Number Of Samples Submitted Date Biome                          Lineage  \textbackslash{}
+         1               2560     2016-02-03  Skin  root:Host-associated:Human:Skin   
+         2                 96     2016-11-03  Skin  root:Host-associated:Human:Skin   
+         3                204     2017-06-16  Skin  root:Host-associated:Human:Skin   
+         4                258     2017-11-27  Skin  root:Host-associated:Human:Skin   
+         5                 14     2016-07-29  Skin  root:Host-associated:Human:Skin   
+         7                191     2016-02-04  Skin  root:Host-associated:Human:Skin   
+         
+           Latitude Longitude                   Publication  
+         1     None      None         10.1101/gr.131029.111  
+         2  -9.9667  -55.2502                           NaN  
+         3     None      None                           NaN  
+         4  33.8832   151.201            10.7717/peerj.3543  
+         5   6.6645    2.1598  10.1371/journal.pone.0181994  
+         7     None      None                           NaN  
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}52}]:} \PY{c+c1}{\PYZsh{}Export study data}
+         \PY{n}{df\PYZus{}study\PYZus{}biome}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{02\PYZus{}Study\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{term}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{+}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{biome}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{+}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{lineage}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}filtered.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{choose-relevant-studies}{%
+\subsection{2. Choose relevant studies}\label{choose-relevant-studies}}
+
+Our search using the keyterm ``skin'' on Human host-associated biome
+found 7 hits of studies. Of this studies, we tried to select comparable
+sample of human skin microbiome to get more understanding of human
+microbiome profile from different studies.
+
+    \hypertarget{srp002480-gene-environment-interactions-at-the-skin-surface}{%
+\subsubsection{2.1. SRP002480: Gene-Environment Interactions at the Skin
+Surface}\label{srp002480-gene-environment-interactions-at-the-skin-surface}}
+
+\hypertarget{get-list-of-sample-for-the-given-study-and-its-metadata}{%
+\paragraph{2.1.1 Get list of sample for the given study and its
+metadata}\label{get-list-of-sample-for-the-given-study-and-its-metadata}}
+
+Get study:
+https://www.ebi.ac.uk/metagenomics/api/latest/studies/SRP002480\\
+List samples:
+https://www.ebi.ac.uk/metagenomics/api/latest/studies/SRP002480/samples\\
+Fetch samples for the given study accession:
+https://www.ebi.ac.uk/metagenomics/api/latest/samples?study\_accession=SRP002480
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}33}]:} \PY{c+c1}{\PYZsh{}Selected study}
+         \PY{n}{study} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{SRP002480}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}34}]:} \PY{c+c1}{\PYZsh{}Fetch a list of sample data from a given study}
+         \PY{n}{filename\PYZus{}sample} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{03\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}raw.csv}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{)}
+         \PY{k}{if} \PY{o+ow}{not} \PY{n}{os}\PY{o}{.}\PY{n}{path}\PY{o}{.}\PY{n}{isfile}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{)}\PY{p}{:}
+             \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{wb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+                 \PY{n}{c} \PY{o}{=} \PY{n}{pycurl}\PY{o}{.}\PY{n}{Curl}\PY{p}{(}\PY{p}{)}
+                 \PY{n}{c}\PY{o}{.}\PY{n}{setopt}\PY{p}{(}\PY{n}{c}\PY{o}{.}\PY{n}{URL}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.ebi.ac.uk/metagenomics/projects/}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{/overview/doExport}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+                 \PY{n}{c}\PY{o}{.}\PY{n}{setopt}\PY{p}{(}\PY{n}{c}\PY{o}{.}\PY{n}{WRITEDATA}\PY{p}{,} \PY{n}{f}\PY{p}{)}
+                 \PY{n}{c}\PY{o}{.}\PY{n}{perform}\PY{p}{(}\PY{p}{)}
+                 \PY{n}{c}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+03\_sample\_SRP002480\_raw.csv
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}35}]:} \PY{c+c1}{\PYZsh{}Filter relevant information from the list}
+         \PY{n}{df\PYZus{}sample} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{)}
+         \PY{n}{df\PYZus{}sample\PYZus{}refine} \PY{o}{=} \PY{n}{df\PYZus{}sample}\PY{p}{[}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Run ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Release version}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}45}]:} \PY{c+c1}{\PYZsh{}check available metadata key}
+         \PY{k}{with} \PY{n}{Session}\PY{p}{(}\PY{n}{API\PYZus{}BASE}\PY{p}{)} \PY{k}{as} \PY{n}{s}\PY{p}{:}
+             \PY{n}{s\PYZus{}meta} \PY{o}{=} \PY{n}{s}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{samples}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{resource}
+         \PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}metadata}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}45}]:} [\{'key': 'sex', 'unit': None, 'value': 'male'\},
+          \{'key': 'body site', 'unit': None, 'value': 'antecubital crease'\},
+          \{'key': 'NCBI sample classification', 'unit': None, 'value': '646099'\},
+          \{'key': 'instrument model', 'unit': None, 'value': '454 GS FLX Titanium'\}]
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}36}]:} \PY{c+c1}{\PYZsh{}Create Container}
+         \PY{k}{if} \PY{o+ow}{not} \PY{n}{os}\PY{o}{.}\PY{n}{path}\PY{o}{.}\PY{n}{isfile}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{04\PYZus{}raw\PYZus{}meta\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{:}
+             \PY{n}{df\PYZus{}meta} \PY{o}{=} \PY{n}{DataFrame}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Body site}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Description}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
+             \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{index}\PY{o}{.}\PY{n}{name} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{No}\PY{l+s+s1}{\PYZsq{}}
+         \PY{k}{else}\PY{p}{:}
+             \PY{n}{df\PYZus{}meta} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{04\PYZus{}raw\PYZus{}meta\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{index\PYZus{}col}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{}Fetch metadata for given sample}
+         \PY{n}{pbar} \PY{o}{=} \PY{n}{tqdm\PYZus{}notebook}\PY{p}{(}\PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{p}{)}\PY{p}{)}\PY{p}{)} \PY{c+c1}{\PYZsh{}to make progressbar}
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n}{pbar}\PY{p}{:}
+             \PY{k}{if} \PY{o+ow}{not} \PY{n}{i} \PY{o+ow}{in} \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{index}\PY{p}{:}
+                 \PY{k}{with} \PY{n}{Session}\PY{p}{(}\PY{n}{API\PYZus{}BASE}\PY{p}{)} \PY{k}{as} \PY{n}{s}\PY{p}{:}
+                     \PY{n}{s\PYZus{}meta} \PY{o}{=} \PY{n}{s}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{samples}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{resource}
+                     \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{p}{[}
+                         \PY{n}{get\PYZus{}metadata}\PY{p}{(}\PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}metadata}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,}
+                         \PY{n}{get\PYZus{}metadata}\PY{p}{(}\PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}metadata}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{body site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,}
+                         \PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}desc}
+                     \PY{p}{]}
+                 \PY{n}{pbar}\PY{o}{.}\PY{n}{set\PYZus{}description}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{processed: }\PY{l+s+si}{\PYZpc{}d}\PY{l+s+s1}{\PYZsq{}} \PY{o}{\PYZpc{}} \PY{p}{(}\PY{n}{i}\PY{p}{)}\PY{p}{)}
+                 \PY{n}{pbar}\PY{o}{.}\PY{n}{update}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)}
+                 \PY{n}{sleep}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+HBox(children=(IntProgress(value=0, max=4398), HTML(value='')))
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}37}]:} \PY{c+c1}{\PYZsh{}Write to container}
+         \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{04\PYZus{}raw\PYZus{}meta\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}38}]:} \PY{c+c1}{\PYZsh{}Merge metadata with the raw sample list}
+         \PY{n}{result} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{p}{,} \PY{n}{df\PYZus{}meta}\PY{p}{]}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{result}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{query-samples-based-on-its-metadata}{%
+\paragraph{2.1.2. Query samples based on its
+metadata}\label{query-samples-based-on-its-metadata}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}128}]:} \PY{c+c1}{\PYZsh{}Load sample list}
+          \PY{n}{df\PYZus{}result\PYZus{}raw} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{index\PYZus{}col} \PY{o}{=} \PY{l+m+mi}{0}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}129}]:} \PY{c+c1}{\PYZsh{}Refine the column name to make it easier for filtering }
+          \PY{n}{df\PYZus{}result\PYZus{}raw}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}raw}\PY{o}{.}\PY{n}{columns}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} 
+          \PY{c+c1}{\PYZsh{}df\PYZus{}result\PYZus{}raw}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}132}]:} \PY{c+c1}{\PYZsh{}Delete empty datas}
+          \PY{n}{df} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}raw}
+          \PY{n}{df\PYZus{}result\PYZus{}refine} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df\PYZus{}result\PYZus{}raw} \PY{o}{!=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsh{}N/A }\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+          \PY{n}{df\PYZus{}result\PYZus{}refine} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{o}{.}\PY{n}{dropna}\PY{p}{(}\PY{p}{)}
+          \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+          \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+          \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta\PYZus{}refine.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          \PY{n}{df\PYZus{}result\PYZus{}refine}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}132}]:}       Sample\_ID     Run\_ID  Release\_version     Sex                Body\_site
+          0     SRS451417  SRR919527              2.0    male       antecubital crease
+          1     SRS451417  SRR919587              2.0    male       antecubital crease
+          2     SRS451418  SRR919528              2.0    male                     back
+          3     SRS451418  SRR919588              2.0    male                     back
+          4     SRS451419  SRR919529              2.0    male  external auditory canal
+          5     SRS451419  SRR919589              2.0    male  external auditory canal
+          6     SRS451420  SRR919530              2.0    male          hypothenar palm
+          7     SRS451420  SRR919590              2.0    male          hypothenar palm
+          8     SRS451421  SRR919531              2.0    male    retroauricular crease
+          9     SRS451421  SRR919591              2.0    male    retroauricular crease
+          10    SRS451422  SRR919532              2.0    male                   toeweb
+          11    SRS451422  SRR919592              2.0    male                   toeweb
+          12    SRS451423  SRR919533              2.0    male    retroauricular crease
+          13    SRS451423  SRR919593              2.0    male    retroauricular crease
+          14    SRS451424  SRR919534              2.0    male                   toeweb
+          15    SRS451424  SRR919594              2.0    male                   toeweb
+          16    SRS451425  SRR919535              2.0    male       antecubital crease
+          17    SRS451425  SRR919595              2.0    male       antecubital crease
+          18    SRS451426  SRR919537              2.0    male                 glabella
+          19    SRS451426  SRR919597              2.0    male                 glabella
+          20    SRS451427  SRR919536              2.0    male                     back
+          21    SRS451427  SRR919596              2.0    male                     back
+          22    SRS451428  SRR919538              2.0    male          hypothenar palm
+          23    SRS451428  SRR919598              2.0    male          hypothenar palm
+          24    SRS451429  SRR919539              2.0    male          inguinal crease
+          25    SRS451429  SRR919599              2.0    male          inguinal crease
+          26    SRS451430  SRR919540              2.0    male                manubrium
+          27    SRS451430  SRR919600              2.0    male                manubrium
+          28    SRS451431  SRR919541              2.0    male                  occiput
+          29    SRS451431  SRR919601              2.0    male                  occiput
+          {\ldots}         {\ldots}        {\ldots}              {\ldots}     {\ldots}                      {\ldots}
+          3122  SRS483634  SRR997023              2.0    male          popliteal fossa
+          3123  SRS483634  SRR997108              2.0    male          popliteal fossa
+          3124  SRS483635  SRR997025              2.0    male        antecubital fossa
+          3125  SRS483635  SRR997110              2.0    male        antecubital fossa
+          3126  SRS483636  SRR997024              2.0    male                     nare
+          3127  SRS483636  SRR997109              2.0    male                     nare
+          3128  SRS483637  SRR997026              2.0    male            volar forearm
+          3129  SRS483637  SRR997111              2.0    male            volar forearm
+          3130  SRS483638  SRR997027              2.0    male          popliteal fossa
+          3131  SRS483638  SRR997112              2.0    male          popliteal fossa
+          3132  SRS483639  SRR997028              2.0    male                     nare
+          3133  SRS483639  SRR997113              2.0    male                     nare
+          3134  SRS483640  SRR997029              2.0    male        antecubital fossa
+          3135  SRS483640  SRR997114              2.0    male        antecubital fossa
+          3136  SRS483641  SRR997030              2.0    male            volar forearm
+          3137  SRS483641  SRR997115              2.0    male            volar forearm
+          3138  SRS483642  SRR997031              2.0    male          popliteal fossa
+          3139  SRS483642  SRR997116              2.0    male          popliteal fossa
+          3140  SRS483643  SRR997033              2.0    male        antecubital fossa
+          3141  SRS483643  SRR997118              2.0    male        antecubital fossa
+          3142  SRS483644  SRR997032              2.0    male                     nare
+          3143  SRS483644  SRR997117              2.0    male                     nare
+          3144  SRS483645  SRR997035              2.0    male          popliteal fossa
+          3145  SRS483645  SRR997120              2.0    male          popliteal fossa
+          3146  SRS483646  SRR997034              2.0    male            volar forearm
+          3147  SRS483646  SRR997119              2.0    male            volar forearm
+          3148  SRS483647  SRR997037              2.0  female                   vagina
+          3149  SRS483647  SRR997122              2.0  female                   vagina
+          3150  SRS483648  SRR997036              2.0    male                     nare
+          3151  SRS483648  SRR997121              2.0    male                     nare
+          
+          [3134 rows x 5 columns]
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}43}]:} \PY{c+c1}{\PYZsh{}Create a list of values in body site metadata}
+         \PY{n}{meta\PYZus{}list} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Body\PYZus{}site}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)}
+         \PY{n}{meta\PYZus{}list\PYZus{}refine} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{set}\PY{p}{(}\PY{n}{meta\PYZus{}list}\PY{p}{)}\PY{p}{)}
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+             \PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+         
+             \PY{n}{meta\PYZus{}list2} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sex}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)}
+         \PY{n}{meta\PYZus{}list2\PYZus{}refine} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{set}\PY{p}{(}\PY{n}{meta\PYZus{}list2}\PY{p}{)}\PY{p}{)}
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+             \PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+         
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+['back', 'hypothenar palm', 'volar forearm', 'vagina', 'manubrium', 'toenail', 'antecubital crease', 'popliteal fossa', 'glabella', 'external auditory canal', 'toeweb', 'inguinal crease', 'occiput', 'antecubital fossa', 'nare', 'plantar heel', 'retroauricular crease']
+['female', 'male']
+
+    \end{Verbatim}
+
+    \hypertarget{erp018577-human-skin-bacterial-and-fungal-microbiotas-an}{%
+\subsubsection{2.2. ERP018577: Human skin bacterial and fungal
+microbiotas
+an\ldots{}}\label{erp018577-human-skin-bacterial-and-fungal-microbiotas-an}}
+
+\hypertarget{get-list-of-sample-for-the-given-study-and-its-metadata}{%
+\paragraph{2.2.1 Get list of sample for the given study and its
+metadata}\label{get-list-of-sample-for-the-given-study-and-its-metadata}}
+
+Get study:
+https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP018577\\
+List samples:
+https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP018577/samples\\
+Fetch samples for the given study accession:
+https://www.ebi.ac.uk/metagenomics/api/latest/samples?study\_accession=ERP018577
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}5}]:} \PY{c+c1}{\PYZsh{}Selected study}
+        \PY{n}{study2} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ERP018577}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}6}]:} \PY{c+c1}{\PYZsh{}Fetch a list of sample data from a given study}
+        \PY{n}{filename\PYZus{}sample} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{03\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study2}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}raw.csv}\PY{l+s+s1}{\PYZsq{}}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{)}
+        \PY{k}{if} \PY{o+ow}{not} \PY{n}{os}\PY{o}{.}\PY{n}{path}\PY{o}{.}\PY{n}{isfile}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{)}\PY{p}{:}
+            \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{wb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+                \PY{n}{c} \PY{o}{=} \PY{n}{pycurl}\PY{o}{.}\PY{n}{Curl}\PY{p}{(}\PY{p}{)}
+                \PY{n}{c}\PY{o}{.}\PY{n}{setopt}\PY{p}{(}\PY{n}{c}\PY{o}{.}\PY{n}{URL}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.ebi.ac.uk/metagenomics/projects/}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study2}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{/overview/doExport}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+                \PY{n}{c}\PY{o}{.}\PY{n}{setopt}\PY{p}{(}\PY{n}{c}\PY{o}{.}\PY{n}{WRITEDATA}\PY{p}{,} \PY{n}{f}\PY{p}{)}
+                \PY{n}{c}\PY{o}{.}\PY{n}{perform}\PY{p}{(}\PY{p}{)}
+                \PY{n}{c}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+03\_sample\_ERP018577\_raw.csv
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}7}]:} \PY{c+c1}{\PYZsh{}Filter relevant information from the list}
+        \PY{n}{df\PYZus{}sample} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{)}
+        \PY{n}{df\PYZus{}sample\PYZus{}refine} \PY{o}{=} \PY{n}{df\PYZus{}sample}\PY{p}{[}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Run ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Release version}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}13}]:} \PY{c+c1}{\PYZsh{}check available metadata key}
+         \PY{k}{with} \PY{n}{Session}\PY{p}{(}\PY{n}{API\PYZus{}BASE}\PY{p}{)} \PY{k}{as} \PY{n}{s}\PY{p}{:}
+             \PY{n}{s\PYZus{}meta} \PY{o}{=} \PY{n}{s}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{samples}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{resource}
+         \PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}metadata}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}13}]:} [\{'key': 'investigation type', 'unit': None, 'value': 'metagenome'\},
+          \{'key': 'project name', 'unit': None, 'value': 'Dandruff'\},
+          \{'key': 'collection date', 'unit': None, 'value': '2014'\},
+          \{'key': 'sequencing method',
+           'unit': None,
+           'value': 'Illumina Miseq Sequencing'\},
+          \{'key': 'NCBI sample classification', 'unit': None, 'value': '646099'\},
+          \{'key': 'instrument model', 'unit': None, 'value': 'Illumina MiSeq'\},
+          \{'key': 'ENA checklist',
+           'unit': None,
+           'value': 'GSC MIxS human associated (ERC000014)'\},
+          \{'key': 'host body site', 'unit': None, 'value': 'Scalp'\},
+          \{'key': 'host disease status', 'unit': None, 'value': 'Dandruff'\}]
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}18}]:} \PY{c+c1}{\PYZsh{}Create Container}
+         \PY{k}{if} \PY{o+ow}{not} \PY{n}{os}\PY{o}{.}\PY{n}{path}\PY{o}{.}\PY{n}{isfile}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{04\PYZus{}raw\PYZus{}meta\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study2}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{:}
+             \PY{n}{df\PYZus{}meta} \PY{o}{=} \PY{n}{DataFrame}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Body site}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Description}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
+             \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{index}\PY{o}{.}\PY{n}{name} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{No}\PY{l+s+s1}{\PYZsq{}}
+         \PY{k}{else}\PY{p}{:}
+             \PY{n}{df\PYZus{}meta} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{04\PYZus{}raw\PYZus{}meta\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study2}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{index\PYZus{}col}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{}Fetch metadata for given sample}
+         \PY{n}{pbar} \PY{o}{=} \PY{n}{tqdm\PYZus{}notebook}\PY{p}{(}\PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{p}{)}\PY{p}{)}\PY{p}{)} \PY{c+c1}{\PYZsh{}to make progressbar}
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n}{pbar}\PY{p}{:}
+             \PY{k}{if} \PY{o+ow}{not} \PY{n}{i} \PY{o+ow}{in} \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{index}\PY{p}{:}
+                 \PY{k}{with} \PY{n}{Session}\PY{p}{(}\PY{n}{API\PYZus{}BASE}\PY{p}{)} \PY{k}{as} \PY{n}{s}\PY{p}{:}
+                     \PY{n}{s\PYZus{}meta} \PY{o}{=} \PY{n}{s}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{samples}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{resource}
+                     \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{p}{[}
+                         \PY{n}{get\PYZus{}metadata}\PY{p}{(}\PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}metadata}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,}
+                         \PY{n}{get\PYZus{}metadata}\PY{p}{(}\PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}metadata}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{host body site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,}
+                         \PY{n}{get\PYZus{}metadata}\PY{p}{(}\PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}metadata}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{host disease status}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+                     \PY{p}{]}
+                 \PY{n}{pbar}\PY{o}{.}\PY{n}{set\PYZus{}description}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{processed: }\PY{l+s+si}{\PYZpc{}d}\PY{l+s+s1}{\PYZsq{}} \PY{o}{\PYZpc{}} \PY{p}{(}\PY{n}{i}\PY{p}{)}\PY{p}{)}
+                 \PY{n}{pbar}\PY{o}{.}\PY{n}{update}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)}
+                 \PY{n}{sleep}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+HBox(children=(IntProgress(value=0, max=96), HTML(value='')))
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}19}]:} \PY{c+c1}{\PYZsh{}Write to container}
+         \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{04\PYZus{}raw\PYZus{}meta\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study2}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}20}]:} \PY{c+c1}{\PYZsh{}Merge metadata with the raw sample list}
+         \PY{n}{result} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{p}{,} \PY{n}{df\PYZus{}meta}\PY{p}{]}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{result}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study2}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{query-samples-based-on-its-metadata}{%
+\paragraph{2.2.2. Query samples based on its
+metadata}\label{query-samples-based-on-its-metadata}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}176}]:} \PY{c+c1}{\PYZsh{}Load sample list}
+          \PY{n}{df\PYZus{}result\PYZus{}raw} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study2}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{index\PYZus{}col} \PY{o}{=} \PY{l+m+mi}{0}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}177}]:} \PY{c+c1}{\PYZsh{}Refine the column name to make it easier for filtering }
+          \PY{n}{df\PYZus{}result\PYZus{}raw}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}raw}\PY{o}{.}\PY{n}{columns}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} 
+          \PY{c+c1}{\PYZsh{}df\PYZus{}result\PYZus{}raw}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}178}]:} \PY{c+c1}{\PYZsh{}Delete empty datas}
+          \PY{n}{df} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}raw}
+          \PY{n}{df\PYZus{}result\PYZus{}refine} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df\PYZus{}result\PYZus{}raw} \PY{o}{!=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsh{}N/A }\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+          \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+          \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Disease}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Disease}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+          \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study2}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta\PYZus{}refine.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          \PY{n}{df\PYZus{}result\PYZus{}refine}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}178}]:}      Sample\_ID      Run\_ID  Release\_version  Sex Body\_site   Disease
+          0   ERS1421303  ERR1701206              3.0  NaN     Scalp  Dandruff
+          1   ERS1421304  ERR1701207              3.0  NaN  Forehead  Dandruff
+          2   ERS1421305  ERR1701208              3.0  NaN     Scalp  Dandruff
+          3   ERS1421306  ERR1701209              3.0  NaN  Forehead  Dandruff
+          4   ERS1421307  ERR1701210              3.0  NaN     Scalp  Dandruff
+          5   ERS1421308  ERR1701211              3.0  NaN  Forehead  Dandruff
+          6   ERS1421309  ERR1701212              3.0  NaN     Scalp  Dandruff
+          7   ERS1421310  ERR1701213              3.0  NaN  Forehead  Dandruff
+          8   ERS1421311  ERR1701214              3.0  NaN     Scalp  Dandruff
+          9   ERS1421312  ERR1701215              3.0  NaN  Forehead  Dandruff
+          10  ERS1421313  ERR1701216              3.0  NaN     Scalp  Dandruff
+          11  ERS1421314  ERR1701217              3.0  NaN  Forehead  Dandruff
+          12  ERS1421315  ERR1701218              3.0  NaN     Scalp  Dandruff
+          13  ERS1421316  ERR1701219              3.0  NaN  Forehead  Dandruff
+          14  ERS1421317  ERR1701220              3.0  NaN     Scalp  Dandruff
+          15  ERS1421318  ERR1701221              3.0  NaN  Forehead  Dandruff
+          16  ERS1421319  ERR1701222              3.0  NaN     Scalp  Dandruff
+          17  ERS1421320  ERR1701223              3.0  NaN  Forehead  Dandruff
+          18  ERS1421321  ERR1701224              3.0  NaN     Scalp  Dandruff
+          19  ERS1421322  ERR1701225              3.0  NaN  Forehead  Dandruff
+          20  ERS1421323  ERR1701226              3.0  NaN     Scalp  Dandruff
+          21  ERS1421324  ERR1701227              3.0  NaN  Forehead  Dandruff
+          22  ERS1421325  ERR1701228              3.0  NaN     Scalp  Dandruff
+          23  ERS1421326  ERR1701229              3.0  NaN  Forehead  Dandruff
+          24  ERS1421327  ERR1701230              3.0  NaN     Scalp  Dandruff
+          25  ERS1421328  ERR1701231              3.0  NaN  Forehead  Dandruff
+          26  ERS1421329  ERR1701232              3.0  NaN     Scalp    Health
+          27  ERS1421330  ERR1701233              3.0  NaN  Forehead    Health
+          28  ERS1421331  ERR1701234              3.0  NaN     Scalp    Health
+          29  ERS1421332  ERR1701235              3.0  NaN  Forehead    Health
+          ..         {\ldots}         {\ldots}              {\ldots}  {\ldots}       {\ldots}       {\ldots}
+          66  ERS1421369  ERR1701272              3.0  NaN     Scalp  Dandruff
+          67  ERS1421370  ERR1701273              3.0  NaN  Forehead  Dandruff
+          68  ERS1421371  ERR1701274              3.0  NaN     Scalp  Dandruff
+          69  ERS1421372  ERR1701275              3.0  NaN  Forehead  Dandruff
+          70  ERS1421373  ERR1701276              3.0  NaN     Scalp  Dandruff
+          71  ERS1421374  ERR1701277              3.0  NaN  Forehead  Dandruff
+          72  ERS1421375  ERR1701278              3.0  NaN     Scalp  Dandruff
+          73  ERS1421376  ERR1701279              3.0  NaN  Forehead  Dandruff
+          74  ERS1421377  ERR1701280              3.0  NaN     Scalp    Health
+          75  ERS1421378  ERR1701281              3.0  NaN  Forehead    Health
+          76  ERS1421379  ERR1701282              3.0  NaN     Scalp    Health
+          77  ERS1421380  ERR1701283              3.0  NaN  Forehead    Health
+          78  ERS1421381  ERR1701284              3.0  NaN     Scalp    Health
+          79  ERS1421382  ERR1701285              3.0  NaN  Forehead    Health
+          80  ERS1421383  ERR1701286              3.0  NaN     Scalp    Health
+          81  ERS1421384  ERR1701287              3.0  NaN  Forehead    Health
+          82  ERS1421385  ERR1701288              3.0  NaN     Scalp    Health
+          83  ERS1421386  ERR1701289              3.0  NaN  Forehead    Health
+          84  ERS1421387  ERR1701290              3.0  NaN     Scalp    Health
+          85  ERS1421388  ERR1701291              3.0  NaN  Forehead    Health
+          86  ERS1421389  ERR1701292              3.0  NaN     Scalp    Health
+          87  ERS1421390  ERR1701293              3.0  NaN  Forehead    Health
+          88  ERS1421391  ERR1701294              3.0  NaN     Scalp    Health
+          89  ERS1421392  ERR1701295              3.0  NaN  Forehead    Health
+          90  ERS1421393  ERR1701296              3.0  NaN     Scalp    Health
+          91  ERS1421394  ERR1701297              3.0  NaN  Forehead    Health
+          92  ERS1421395  ERR1701298              3.0  NaN     Scalp    Health
+          93  ERS1421396  ERR1701299              3.0  NaN  Forehead    Health
+          94  ERS1421397  ERR1701300              3.0  NaN     Scalp    Health
+          95  ERS1421398  ERR1701301              3.0  NaN  Forehead    Health
+          
+          [96 rows x 6 columns]
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}30}]:} \PY{c+c1}{\PYZsh{}Create a list of values in body site metadata}
+         \PY{n}{meta\PYZus{}list} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Body\PYZus{}site}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)}
+         \PY{n}{meta\PYZus{}list\PYZus{}refine} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{set}\PY{p}{(}\PY{n}{meta\PYZus{}list}\PY{p}{)}\PY{p}{)}
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+             \PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+         
+         \PY{n}{meta\PYZus{}list2} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Disease}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)}
+         \PY{n}{meta\PYZus{}list2\PYZus{}refine} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{set}\PY{p}{(}\PY{n}{meta\PYZus{}list2}\PY{p}{)}\PY{p}{)}
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+             \PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+         
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+['Scalp', 'Forehead']
+['Health', 'Dandruff']
+
+    \end{Verbatim}
+
+    \hypertarget{erp019566-longitudinal-study-of-the-diabetic-skin-and-wo}{%
+\subsubsection{2.3. ERP019566: Longitudinal study of the diabetic skin
+and
+wo\ldots{}}\label{erp019566-longitudinal-study-of-the-diabetic-skin-and-wo}}
+
+\hypertarget{get-list-of-sample-for-the-given-study-and-its-metadata}{%
+\paragraph{2.3.1 Get list of sample for the given study and its
+metadata}\label{get-list-of-sample-for-the-given-study-and-its-metadata}}
+
+Get study:
+https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP019566\\
+List samples:
+https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP019566/samples\\
+Fetch samples for the given study accession:
+https://www.ebi.ac.uk/metagenomics/api/latest/samples?study\_accession=ERP019566
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}58}]:} \PY{c+c1}{\PYZsh{}Selected study}
+         \PY{n}{study3} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ERP019566}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}59}]:} \PY{c+c1}{\PYZsh{}Fetch a list of sample data from a given study}
+         \PY{n}{filename\PYZus{}sample} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{03\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study3}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}raw.csv}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{)}
+         \PY{k}{if} \PY{o+ow}{not} \PY{n}{os}\PY{o}{.}\PY{n}{path}\PY{o}{.}\PY{n}{isfile}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{)}\PY{p}{:}
+             \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{wb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+                 \PY{n}{c} \PY{o}{=} \PY{n}{pycurl}\PY{o}{.}\PY{n}{Curl}\PY{p}{(}\PY{p}{)}
+                 \PY{n}{c}\PY{o}{.}\PY{n}{setopt}\PY{p}{(}\PY{n}{c}\PY{o}{.}\PY{n}{URL}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.ebi.ac.uk/metagenomics/projects/}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study3}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{/overview/doExport}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+                 \PY{n}{c}\PY{o}{.}\PY{n}{setopt}\PY{p}{(}\PY{n}{c}\PY{o}{.}\PY{n}{WRITEDATA}\PY{p}{,} \PY{n}{f}\PY{p}{)}
+                 \PY{n}{c}\PY{o}{.}\PY{n}{perform}\PY{p}{(}\PY{p}{)}
+                 \PY{n}{c}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+03\_sample\_ERP019566\_raw.csv
+
+    \end{Verbatim}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}60}]:} \PY{c+c1}{\PYZsh{}Filter relevant information from the list}
+         \PY{n}{df\PYZus{}sample} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{n}{filename\PYZus{}sample}\PY{p}{)}
+         \PY{n}{df\PYZus{}sample\PYZus{}refine} \PY{o}{=} \PY{n}{df\PYZus{}sample}\PY{p}{[}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Run ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Release version}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}75}]:} \PY{c+c1}{\PYZsh{}check available metadata key}
+         \PY{k}{with} \PY{n}{Session}\PY{p}{(}\PY{n}{API\PYZus{}BASE}\PY{p}{)} \PY{k}{as} \PY{n}{s}\PY{p}{:}
+             \PY{n}{s\PYZus{}meta} \PY{o}{=} \PY{n}{s}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{samples}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{l+m+mi}{6}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{resource}
+         \PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}metadata}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}75}]:} [\{'key': 'investigation type', 'unit': None, 'value': 'metagenome'\},
+          \{'key': 'geographic location (longitude)', 'unit': None, 'value': '151.2005'\},
+          \{'key': 'geographic location (country and/or sea,region)',
+           'unit': None,
+           'value': 'Australia'\},
+          \{'key': 'collection date', 'unit': None, 'value': '2014-01-01/2014-12-31'\},
+          \{'key': 'environment (biome)',
+           'unit': None,
+           'value': 'human-associated habitat'\},
+          \{'key': 'environment (feature)',
+           'unit': None,
+           'value': 'foot plantar aspect'\},
+          \{'key': 'environment (material)', 'unit': None, 'value': 'skin'\},
+          \{'key': 'environmental package', 'unit': None, 'value': 'human-skin'\},
+          \{'key': 'sequencing method',
+           'unit': None,
+           'value': '16S amplicon sequencing Illumina MiSeq'\},
+          \{'key': 'geographic location (latitude)', 'unit': None, 'value': '33.8832'\},
+          \{'key': 'instrument model', 'unit': None, 'value': 'Illumina MiSeq'\}]
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}74}]:} \PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}name}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}74}]:} 'Control patient 1 left foot time 3'
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}79}]:} \PY{c+c1}{\PYZsh{}Create Container}
+         \PY{k}{if} \PY{o+ow}{not} \PY{n}{os}\PY{o}{.}\PY{n}{path}\PY{o}{.}\PY{n}{isfile}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{04\PYZus{}raw\PYZus{}meta\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study3}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{:}
+             \PY{n}{df\PYZus{}meta} \PY{o}{=} \PY{n}{DataFrame}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Body site}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Description}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}\PY{p}{)}
+             \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{index}\PY{o}{.}\PY{n}{name} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{No}\PY{l+s+s1}{\PYZsq{}}
+         \PY{k}{else}\PY{p}{:}
+             \PY{n}{df\PYZus{}meta} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{04\PYZus{}raw\PYZus{}meta\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study3}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{index\PYZus{}col}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}
+         
+         \PY{c+c1}{\PYZsh{}Fetch metadata for given sample}
+         \PY{n}{pbar} \PY{o}{=} \PY{n}{tqdm\PYZus{}notebook}\PY{p}{(}\PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{p}{)}\PY{p}{)}\PY{p}{)} \PY{c+c1}{\PYZsh{}to make progressbar}
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n}{pbar}\PY{p}{:}
+             \PY{k}{if} \PY{o+ow}{not} \PY{n}{i} \PY{o+ow}{in} \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{index}\PY{p}{:}
+                 \PY{k}{with} \PY{n}{Session}\PY{p}{(}\PY{n}{API\PYZus{}BASE}\PY{p}{)} \PY{k}{as} \PY{n}{s}\PY{p}{:}
+                     \PY{n}{s\PYZus{}meta} \PY{o}{=} \PY{n}{s}\PY{o}{.}\PY{n}{get}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{samples}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{resource}
+                     \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{p}{[}
+                         \PY{n}{get\PYZus{}metadata}\PY{p}{(}\PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}metadata}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,}
+                         \PY{n}{get\PYZus{}metadata}\PY{p}{(}\PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}metadata}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{environment (feature)}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{,}
+                         \PY{n}{s\PYZus{}meta}\PY{o}{.}\PY{n}{sample\PYZus{}desc}
+                     \PY{p}{]}
+                 \PY{n}{pbar}\PY{o}{.}\PY{n}{set\PYZus{}description}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{processed: }\PY{l+s+si}{\PYZpc{}d}\PY{l+s+s1}{\PYZsq{}} \PY{o}{\PYZpc{}} \PY{p}{(}\PY{n}{i}\PY{p}{)}\PY{p}{)}
+                 \PY{n}{pbar}\PY{o}{.}\PY{n}{update}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)}
+                 \PY{n}{sleep}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+HBox(children=(IntProgress(value=0, max=258), HTML(value='')))
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}83}]:} \PY{c+c1}{\PYZsh{}Write to container}
+         \PY{n}{df\PYZus{}meta}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{04\PYZus{}raw\PYZus{}meta\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study3}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}84}]:} \PY{c+c1}{\PYZsh{}Merge metadata with the raw sample list}
+         \PY{n}{result} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{df\PYZus{}sample\PYZus{}refine}\PY{p}{,} \PY{n}{df\PYZus{}meta}\PY{p}{]}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+         \PY{n}{result}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study3}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{query-samples-based-on-its-metadata}{%
+\paragraph{2.3.2. Query samples based on its
+metadata}\label{query-samples-based-on-its-metadata}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}210}]:} \PY{c+c1}{\PYZsh{}Load sample list}
+          \PY{n}{df\PYZus{}result\PYZus{}raw} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study3}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{index\PYZus{}col} \PY{o}{=} \PY{l+m+mi}{0}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}211}]:} \PY{c+c1}{\PYZsh{}Refine the column name to make it easier for filtering }
+          \PY{n}{df\PYZus{}result\PYZus{}raw}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}raw}\PY{o}{.}\PY{n}{columns}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} 
+          \PY{c+c1}{\PYZsh{}df\PYZus{}result\PYZus{}raw}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}212}]:} \PY{c+c1}{\PYZsh{}Delete empty datas}
+          \PY{n}{df} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}raw}
+          \PY{n}{df\PYZus{}result\PYZus{}refine} \PY{o}{=} \PY{n}{df}\PY{p}{[}\PY{n}{df\PYZus{}result\PYZus{}raw} \PY{o}{!=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsh{}N/A }\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+          \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+          \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Description}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Description}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{str}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+          \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study3}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta\PYZus{}refine.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          \PY{c+c1}{\PYZsh{}df\PYZus{}result\PYZus{}refine}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}89}]:} \PY{c+c1}{\PYZsh{}Create a list of values in body site metadata}
+         \PY{n}{meta\PYZus{}list} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Body\PYZus{}site}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)}
+         \PY{n}{meta\PYZus{}list\PYZus{}refine} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{set}\PY{p}{(}\PY{n}{meta\PYZus{}list}\PY{p}{)}\PY{p}{)}
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+             \PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+         
+         \PY{n}{meta\PYZus{}list2} \PY{o}{=} \PY{n}{df\PYZus{}result\PYZus{}refine}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Description}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)}
+         \PY{n}{meta\PYZus{}list2\PYZus{}refine} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{set}\PY{p}{(}\PY{n}{meta\PYZus{}list2}\PY{p}{)}\PY{p}{)}
+         \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+             \PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{[}\PY{n}{i}\PY{p}{]}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}
+         
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{meta\PYZus{}list\PYZus{}refine}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{meta\PYZus{}list2\PYZus{}refine}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+['foot plantar aspect']
+['control\_skin\_right', 'Positive\_3', 'Positive\_4', 'diabetic\_skin\_contra', 'No\_DNA\_4', 'diabetic\_skin\_adj', 'control\_skin\_left', 'Blank\_3', 'wound\_deb', 'wound\_swab', 'Blank\_4', 'No\_DNA3']
+
+    \end{Verbatim}
+
+    \hypertarget{random-sampling-from-each-study-to-do-comparison}{%
+\subsection{3. Random sampling from each study to do
+comparison}\label{random-sampling-from-each-study-to-do-comparison}}
+
+From the data above, we can compare some samples according to the body
+sites: 1. Foot plantar aspect from control samples of study ERP019566
+(Australia) vs plantar heel samples from study SRP002480 (USA) 2.
+Healthy Scalp samples from study vs ERP018577 (Brazil) vs occiput
+samples from study SRP002480 (USA)
+
+    \hypertarget{random-sampling-of-occiput-and-plantar-heel-samples-from-study-srp002480-male-femalae}{%
+\subsubsection{3.1 Random sampling of occiput and plantar heel samples
+from study SRP002480 (male \&
+femalae)}\label{random-sampling-of-occiput-and-plantar-heel-samples-from-study-srp002480-male-femalae}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}147}]:} \PY{n}{df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta\PYZus{}refine.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{index\PYZus{}col} \PY{o}{=} \PY{l+m+mi}{0}\PY{p}{)}       
+          \PY{n}{sex\PYZus{}cat} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{female}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{male}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+          \PY{n}{bs} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{plantar heel}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{occiput}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}170}]:} \PY{n}{df\PYZus{}merge} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sample\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Run\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Release\PYZus{}version}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+          
+          \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{sex\PYZus{}cat}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+              \PY{n}{sex\PYZus{}cat\PYZus{}} \PY{o}{=} \PY{n}{sex\PYZus{}cat}\PY{p}{[}\PY{n}{i}\PY{p}{]}
+              \PY{k}{for} \PY{n}{a} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{bs}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+                  \PY{n}{bs\PYZus{}} \PY{o}{=} \PY{n}{bs}\PY{p}{[}\PY{n}{a}\PY{p}{]}
+                  \PY{n}{df\PYZus{}sort} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{query}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex==@sex\PYZus{}cat\PYZus{} and Body\PYZus{}site==@bs\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+                  \PY{n}{dataframe} \PY{o}{=} \PY{n}{df\PYZus{}sort}
+                  \PY{n}{amount} \PY{o}{=} \PY{l+m+mi}{5}
+                  \PY{n}{df\PYZus{}random\PYZus{}sample} \PY{o}{=} \PY{n}{random\PYZus{}sampling}\PY{p}{(}\PY{n}{dataframe}\PY{p}{,} \PY{n}{amount}\PY{p}{)}
+                  \PY{n}{df\PYZus{}merge} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{df\PYZus{}merge}\PY{p}{,} \PY{n}{df\PYZus{}random\PYZus{}sample}\PY{p}{]}\PY{p}{,} \PY{n}{ignore\PYZus{}index}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}      
+          
+          \PY{n}{df\PYZus{}study\PYZus{}id} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+          
+          \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{df\PYZus{}merge}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+              \PY{n}{df\PYZus{}study\PYZus{}id}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{study}\PY{p}{)}
+          \PY{n}{df\PYZus{}study\PYZus{}id} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{df\PYZus{}study\PYZus{}id}\PY{p}{,} \PY{n}{columns}\PY{o}{=}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Study\PYZus{}ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
+          
+          \PY{n}{df\PYZus{}merge} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{df\PYZus{}study\PYZus{}id}\PY{p}{,} \PY{n}{df\PYZus{}merge}\PY{p}{]}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+          \PY{n}{df\PYZus{}merge}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}170}]:}      Study\_ID  Sample\_ID     Run\_ID  Release\_version     Sex     Body\_site
+          0   SRP002480  SRS451776  SRR920257              2.0  female  plantar heel
+          1   SRP002480  SRS451759  SRR920208              2.0  female  plantar heel
+          2   SRP002480  SRS451470  SRR919640              2.0  female  plantar heel
+          3   SRP002480  SRS451469  SRR919639              2.0  female  plantar heel
+          4   SRP002480  SRS451588  SRR919858              2.0  female  plantar heel
+          5   SRP002480  SRS451593  SRR919914              2.0  female       occiput
+          6   SRP002480  SRS451777  SRR920225              2.0  female       occiput
+          7   SRP002480  SRS452030  SRR920903              2.0  female       occiput
+          8   SRP002480  SRS452122  SRR921121              2.0  female       occiput
+          9   SRP002480  SRS451904  SRR920702              2.0  female       occiput
+          10  SRP002480  SRS451882  SRR920680              2.0    male  plantar heel
+          11  SRP002480  SRS452119  SRR921055              2.0    male  plantar heel
+          12  SRP002480  SRS452142  SRR921141              2.0    male  plantar heel
+          13  SRP002480  SRS452102  SRR921038              2.0    male  plantar heel
+          14  SRP002480  SRS452110  SRR921046              2.0    male  plantar heel
+          15  SRP002480  SRS451617  SRR919938              2.0    male       occiput
+          16  SRP002480  SRS451447  SRR919617              2.0    male       occiput
+          17  SRP002480  SRS451880  SRR920678              2.0    male       occiput
+          18  SRP002480  SRS452092  SRR921029              2.0    male       occiput
+          19  SRP002480  SRS451431  SRR919601              2.0    male       occiput
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}171}]:} \PY{n}{df\PYZus{}merge}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{06\PYZus{}sampled\PYZus{}biom\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{random-sampling-of-healthy-scalp-samples-from-study-erp018577-brazil}{%
+\subsubsection{3.2 Random sampling of Healthy Scalp samples from study
+ERP018577
+(Brazil)}\label{random-sampling-of-healthy-scalp-samples-from-study-erp018577-brazil}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}197}]:} \PY{n}{df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study2}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta\PYZus{}refine.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{index\PYZus{}col} \PY{o}{=} \PY{l+m+mi}{0}\PY{p}{)}       
+          \PY{n}{bs} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Scalp}\PY{l+s+s1}{\PYZsq{}}
+          \PY{n}{des} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Health}\PY{l+s+s1}{\PYZsq{}}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}200}]:} \PY{n}{df\PYZus{}merge} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sample\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Run\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Release\PYZus{}version}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Disease}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+          
+          \PY{n}{df\PYZus{}sort} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{query}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site==@bs and Disease==@des}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+          \PY{n}{dataframe} \PY{o}{=} \PY{n}{df\PYZus{}sort}
+          \PY{n}{amount} \PY{o}{=} \PY{l+m+mi}{5}
+          \PY{n}{df\PYZus{}random\PYZus{}sample} \PY{o}{=} \PY{n}{random\PYZus{}sampling}\PY{p}{(}\PY{n}{dataframe}\PY{p}{,} \PY{n}{amount}\PY{p}{)}
+          \PY{n}{df\PYZus{}merge} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{df\PYZus{}merge}\PY{p}{,} \PY{n}{df\PYZus{}random\PYZus{}sample}\PY{p}{]}\PY{p}{,} \PY{n}{ignore\PYZus{}index}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}      
+          
+          \PY{n}{df\PYZus{}study\PYZus{}id} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+          
+          \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{df\PYZus{}merge}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+              \PY{n}{df\PYZus{}study\PYZus{}id}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{study2}\PY{p}{)}
+          \PY{n}{df\PYZus{}study\PYZus{}id} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{df\PYZus{}study\PYZus{}id}\PY{p}{,} \PY{n}{columns}\PY{o}{=}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Study\PYZus{}ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
+          
+          \PY{n}{df\PYZus{}merge} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{df\PYZus{}study\PYZus{}id}\PY{p}{,} \PY{n}{df\PYZus{}merge}\PY{p}{]}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+          \PY{n}{df\PYZus{}merge}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}200}]:}     Study\_ID   Sample\_ID      Run\_ID  Release\_version  Sex Body\_site Disease
+          0  ERP018577  ERS1421377  ERR1701280              3.0  NaN     Scalp  Health
+          1  ERP018577  ERS1421389  ERR1701292              3.0  NaN     Scalp  Health
+          2  ERP018577  ERS1421383  ERR1701286              3.0  NaN     Scalp  Health
+          3  ERP018577  ERS1421335  ERR1701238              3.0  NaN     Scalp  Health
+          4  ERP018577  ERS1421381  ERR1701284              3.0  NaN     Scalp  Health
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}201}]:} \PY{n}{df\PYZus{}merge}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{06\PYZus{}sampled\PYZus{}biom\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study2}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{random-sampling-of-foot-plantar-aspect-from-control-samples-of-study-erp019566-australia}{%
+\subsubsection{3.3 Random sampling of Foot plantar aspect from control
+samples of study ERP019566
+(Australia)}\label{random-sampling-of-foot-plantar-aspect-from-control-samples-of-study-erp019566-australia}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}213}]:} \PY{n}{df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{05\PYZus{}sample\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study3}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}meta\PYZus{}refine.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{index\PYZus{}col} \PY{o}{=} \PY{l+m+mi}{0}\PY{p}{)}       
+          \PY{n}{bs} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{foot plantar aspect}\PY{l+s+s1}{\PYZsq{}}
+          \PY{n}{des} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{control\PYZus{}skin\PYZus{}right}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{control\PYZus{}skin\PYZus{}left}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+          \PY{n}{df}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Body\PYZus{}site}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}213}]:} 'foot plantar aspect'
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}220}]:} \PY{n}{df\PYZus{}merge} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sample\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Run\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Release\PYZus{}version}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Description}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+          
+          \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{des}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+              \PY{n}{des\PYZus{}} \PY{o}{=} \PY{n}{des}\PY{p}{[}\PY{n}{i}\PY{p}{]}
+              \PY{n}{df\PYZus{}sort} \PY{o}{=} \PY{n}{df}\PY{o}{.}\PY{n}{query}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site==@bs and Description==@des\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+              \PY{n}{dataframe} \PY{o}{=} \PY{n}{df\PYZus{}sort}
+              \PY{n}{amount} \PY{o}{=} \PY{l+m+mi}{5}
+              \PY{n}{df\PYZus{}random\PYZus{}sample} \PY{o}{=} \PY{n}{random\PYZus{}sampling}\PY{p}{(}\PY{n}{dataframe}\PY{p}{,} \PY{n}{amount}\PY{p}{)}
+              \PY{n}{df\PYZus{}merge} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{df\PYZus{}merge}\PY{p}{,} \PY{n}{df\PYZus{}random\PYZus{}sample}\PY{p}{]}\PY{p}{,} \PY{n}{ignore\PYZus{}index}\PY{o}{=}\PY{k+kc}{True}\PY{p}{)}      
+          
+          \PY{n}{df\PYZus{}study\PYZus{}id} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+          
+          \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{df\PYZus{}merge}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+              \PY{n}{df\PYZus{}study\PYZus{}id}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{study3}\PY{p}{)}
+          \PY{n}{df\PYZus{}study\PYZus{}id} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DataFrame}\PY{p}{(}\PY{n}{df\PYZus{}study\PYZus{}id}\PY{p}{,} \PY{n}{columns}\PY{o}{=}\PY{p}{[}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Study\PYZus{}ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{)}
+          
+          \PY{n}{df\PYZus{}merge} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{concat}\PY{p}{(}\PY{p}{[}\PY{n}{df\PYZus{}study\PYZus{}id}\PY{p}{,} \PY{n}{df\PYZus{}merge}\PY{p}{]}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
+          \PY{n}{df\PYZus{}merge}
+\end{Verbatim}
+
+
+\begin{Verbatim}[commandchars=\\\{\}]
+{\color{outcolor}Out[{\color{outcolor}220}]:}     Study\_ID   Sample\_ID      Run\_ID  Release\_version  Sex  \textbackslash{}
+          0  ERP019566  ERS1474791  ERR1760038              4.0  NaN   
+          1  ERP019566  ERS1474780  ERR1760027              4.0  NaN   
+          2  ERP019566  ERS1474511  ERR1759893              4.0  NaN   
+          3  ERP019566  ERS1474797  ERR1760044              4.0  NaN   
+          4  ERP019566  ERS1474793  ERR1760040              4.0  NaN   
+          5  ERP019566  ERS1474566  ERR1759918              4.0  NaN   
+          6  ERP019566  ERS1474502  ERR1759884              4.0  NaN   
+          7  ERP019566  ERS1474571  ERR1759923              4.0  NaN   
+          8  ERP019566  ERS1474573  ERR1759925              4.0  NaN   
+          9  ERP019566  ERS1474796  ERR1760043              4.0  NaN   
+          
+                       Body\_site         Description  
+          0  foot plantar aspect  control\_skin\_right  
+          1  foot plantar aspect  control\_skin\_right  
+          2  foot plantar aspect  control\_skin\_right  
+          3  foot plantar aspect  control\_skin\_right  
+          4  foot plantar aspect  control\_skin\_right  
+          5  foot plantar aspect   control\_skin\_left  
+          6  foot plantar aspect   control\_skin\_left  
+          7  foot plantar aspect   control\_skin\_left  
+          8  foot plantar aspect   control\_skin\_left  
+          9  foot plantar aspect   control\_skin\_left  
+\end{Verbatim}
+            
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}221}]:} \PY{n}{df\PYZus{}merge}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{06\PYZus{}sampled\PYZus{}biom\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study3}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+\end{Verbatim}
+
+
+    \hypertarget{get-analysis-result-of-the-given-sample-in-the-studies}{%
+\subsection{4. Get analysis result of the given sample in the
+studies}\label{get-analysis-result-of-the-given-sample-in-the-studies}}
+
+https://www.ebi.ac.uk/metagenomics//projects/SRP002480/samples/SRS451457/runs/SRR919567/results/versions/2.0/taxonomy/OTU-table-HDF5-BIOM
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}5}]:} \PY{k}{def} \PY{n+nf}{download\PYZus{}biom}\PY{p}{(}\PY{n}{df\PYZus{}BIOM}\PY{p}{,} \PY{n}{extension}\PY{p}{,} \PY{n}{study}\PY{p}{)}\PY{p}{:}
+            \PY{c+c1}{\PYZsh{}Create ouput folder}
+            \PY{n}{cwd} \PY{o}{=} \PY{n}{os}\PY{o}{.}\PY{n}{getcwd}\PY{p}{(}\PY{p}{)} \PY{c+c1}{\PYZsh{}get current working directory}
+            \PY{n}{output\PYZus{}folder} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZbs{}}\PY{l+s+s2}{output\PYZus{}}\PY{l+s+s2}{\PYZdq{}}\PY{o}{+}\PY{n}{study} \PY{c+c1}{\PYZsh{}name of the output folder for a given study, use \PYZbs{} for directory in windows}
+            \PY{k}{if} \PY{o+ow}{not} \PY{n}{os}\PY{o}{.}\PY{n}{path}\PY{o}{.}\PY{n}{isdir}\PY{p}{(}\PY{n}{cwd} \PY{o}{+} \PY{n}{output\PYZus{}folder}\PY{p}{)}\PY{p}{:}
+                \PY{n}{os}\PY{o}{.}\PY{n}{mkdir}\PY{p}{(}\PY{n}{cwd} \PY{o}{+} \PY{n}{output\PYZus{}folder}\PY{p}{)}
+            \PY{n}{new\PYZus{}dir} \PY{o}{=} \PY{n}{cwd} \PY{o}{+} \PY{n}{output\PYZus{}folder} 
+            \PY{n}{new\PYZus{}dir}
+            
+            \PY{c+c1}{\PYZsh{}Ambil data dari EBI}
+            \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n}{tqdm\PYZus{}notebook}\PY{p}{(}\PY{n}{df\PYZus{}BIOM}\PY{o}{.}\PY{n}{index}\PY{p}{)}\PY{p}{:}
+                \PY{n}{os}\PY{o}{.}\PY{n}{chdir}\PY{p}{(}\PY{n}{new\PYZus{}dir}\PY{p}{)} \PY{c+c1}{\PYZsh{}pindah ke folder output}
+                \PY{n}{filename} \PY{o}{=} \PY{n}{df\PYZus{}BIOM}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Sample\PYZus{}ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.biom}\PY{l+s+s1}{\PYZsq{}}
+                \PY{k}{if} \PY{o+ow}{not} \PY{n}{os}\PY{o}{.}\PY{n}{path}\PY{o}{.}\PY{n}{isfile}\PY{p}{(}\PY{n}{filename}\PY{p}{)}\PY{p}{:}
+                    \PY{n}{link} \PY{o}{=} \PY{n}{get\PYZus{}analysis\PYZus{}result}\PY{p}{(}\PY{n}{df\PYZus{}BIOM}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Run\PYZus{}ID}\PY{l+s+s2}{\PYZdq{}}\PY{p}{]}\PY{p}{,} \PY{n}{extension}\PY{p}{)}
+                    \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{filename}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{wb}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{f}\PY{p}{:}
+                        \PY{n}{c} \PY{o}{=} \PY{n}{pycurl}\PY{o}{.}\PY{n}{Curl}\PY{p}{(}\PY{p}{)}
+                        \PY{n}{c}\PY{o}{.}\PY{n}{setopt}\PY{p}{(}\PY{n}{c}\PY{o}{.}\PY{n}{URL}\PY{p}{,} \PY{n}{link}\PY{p}{)}
+                        \PY{n}{c}\PY{o}{.}\PY{n}{setopt}\PY{p}{(}\PY{n}{c}\PY{o}{.}\PY{n}{WRITEDATA}\PY{p}{,} \PY{n}{f}\PY{p}{)}
+                        \PY{n}{c}\PY{o}{.}\PY{n}{perform}\PY{p}{(}\PY{p}{)}
+                        \PY{n}{c}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+                \PY{n}{os}\PY{o}{.}\PY{n}{chdir}\PY{p}{(}\PY{n}{cwd}\PY{p}{)} \PY{c+c1}{\PYZsh{}balik ke folder semula}
+            \PY{k}{return}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}14}]:} \PY{n}{study} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{SRP002480}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{extension} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{JSON Biom}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{df\PYZus{}BIOM} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{06\PYZus{}sampled\PYZus{}biom\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{download\PYZus{}biom}\PY{p}{(}\PY{n}{df\PYZus{}BIOM}\PY{p}{,} \PY{n}{extension}\PY{p}{,} \PY{n}{study}\PY{p}{)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+HBox(children=(IntProgress(value=0, max=20), HTML(value='')))
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}15}]:} \PY{n}{study} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ERP018577}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{extension} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{JSON Biom}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{df\PYZus{}BIOM} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{06\PYZus{}sampled\PYZus{}biom\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{download\PYZus{}biom}\PY{p}{(}\PY{n}{df\PYZus{}BIOM}\PY{p}{,} \PY{n}{extension}\PY{p}{,} \PY{n}{study}\PY{p}{)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+HBox(children=(IntProgress(value=0, max=5), HTML(value='')))
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}16}]:} \PY{n}{study} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ERP019566}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{extension} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{JSON Biom}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{df\PYZus{}BIOM} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{06\PYZus{}sampled\PYZus{}biom\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{download\PYZus{}biom}\PY{p}{(}\PY{n}{df\PYZus{}BIOM}\PY{p}{,} \PY{n}{extension}\PY{p}{,} \PY{n}{study}\PY{p}{)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+HBox(children=(IntProgress(value=0, max=10), HTML(value='')))
+    \end{verbatim}
+
+    
+    \hypertarget{create-accompanying-metadata-for-downloaded-analysis}{%
+\subsection{5. Create accompanying metadata for downloaded
+analysis}\label{create-accompanying-metadata-for-downloaded-analysis}}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}32}]:} \PY{k}{def} \PY{n+nf}{download\PYZus{}metadata}\PY{p}{(}\PY{n}{df}\PY{p}{)}\PY{p}{:}
+             \PY{n}{df\PYZus{}meta\PYZus{}random} \PY{o}{=} \PY{n}{DataFrame}\PY{p}{(}\PY{n}{columns}\PY{o}{=}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsh{}SampleID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{BarcodeSequence}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{LinkerPrimerSequence}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{RunID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{BodySite}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Description}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+             \PY{n}{pbar} \PY{o}{=} \PY{n}{tqdm\PYZus{}notebook}\PY{p}{(}\PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{df}\PY{p}{)}\PY{p}{)}\PY{p}{)} \PY{c+c1}{\PYZsh{}to make progressbar}
+             \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n}{pbar}\PY{p}{:}
+                 \PY{n}{df\PYZus{}meta\PYZus{}random}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{df}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sample\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PYZbs{}
+                                          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PYZbs{}
+                                          \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PYZbs{}
+                                          \PY{n}{df}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Run\PYZus{}ID}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PYZbs{}
+                                          \PY{n}{df}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Sex}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PYZbs{}
+                                          \PY{n}{df}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Body\PYZus{}site}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,} \PYZbs{}
+                                          \PY{n}{df}\PY{o}{.}\PY{n}{loc}\PY{p}{[}\PY{n}{i}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Description}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+                                         \PY{p}{]}
+             \PY{k}{return} \PY{n}{df\PYZus{}meta\PYZus{}random}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}24}]:} \PY{n}{study} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{SRP002480}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{df\PYZus{}biom} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{06\PYZus{}sampled\PYZus{}biom\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{df\PYZus{}meta\PYZus{}random} \PY{o}{=} \PY{n}{download\PYZus{}metadata}\PY{p}{(}\PY{n}{df\PYZus{}biom}\PY{p}{)}
+         \PY{n}{df\PYZus{}meta\PYZus{}random}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{07\PYZus{}metadata\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.txt}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{sep}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{index} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+HBox(children=(IntProgress(value=0, max=20), HTML(value='')))
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}33}]:} \PY{n}{study} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ERP018577}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{df\PYZus{}biom} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{06\PYZus{}sampled\PYZus{}biom\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{df\PYZus{}meta\PYZus{}random} \PY{o}{=} \PY{n}{download\PYZus{}metadata}\PY{p}{(}\PY{n}{df\PYZus{}biom}\PY{p}{)}
+         \PY{n}{df\PYZus{}meta\PYZus{}random}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{07\PYZus{}metadata\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.txt}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{sep}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{index} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+HBox(children=(IntProgress(value=0, max=5), HTML(value='')))
+    \end{verbatim}
+
+    
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}29}]:} \PY{n}{study} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ERP019566}\PY{l+s+s1}{\PYZsq{}}
+         \PY{n}{df\PYZus{}biom} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{06\PYZus{}sampled\PYZus{}biom\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+         \PY{n}{df\PYZus{}meta\PYZus{}random} \PY{o}{=} \PY{n}{download\PYZus{}metadata}\PY{p}{(}\PY{n}{df\PYZus{}biom}\PY{p}{)}
+         \PY{n}{df\PYZus{}meta\PYZus{}random}\PY{o}{.}\PY{n}{to\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{07\PYZus{}metadata\PYZus{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{+}\PY{n}{study}\PY{o}{+}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.txt}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{sep}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,} \PY{n}{index} \PY{o}{=} \PY{k+kc}{False}\PY{p}{)}
+\end{Verbatim}
+
+
+    
+    \begin{verbatim}
+HBox(children=(IntProgress(value=0, max=10), HTML(value='')))
+    \end{verbatim}
+
+    
+    \hypertarget{references}{%
+\subsection{\#\#\# References}\label{references}}
+
+ 1. Alex L Mitchell, Maxim Scheremetjew, Hubert Denise, Simon Potter,
+Aleksandra Tarkowska, Matloob Qureshi, Gustavo A Salazar, Sebastien
+Pesseat, Miguel A Boland, Fiona M I Hunter, Petra ten Hoopen, Blaise
+Alako, Clara Amid, Darren J Wilkinson, Thomas P Curtis, Guy Cochrane,
+Robert D Finn; EBI Metagenomics in 2017: enriching the analysis of
+microbial communities, from sequence reads to assemblies, Nucleic Acids
+Research, Volume 46, Issue D1, 4 January 2018, Pages D726--D735,
+https://doi.org/10.1093/nar/gkx967
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+    \end{document}

@@ -1,0 +1,3135 @@
+,Sample_ID,Run_ID,Release_version,Sex,Body_site
+0,SRS451417,SRR919527,2.0,male,antecubital crease
+1,SRS451417,SRR919587,2.0,male,antecubital crease
+2,SRS451418,SRR919528,2.0,male,back
+3,SRS451418,SRR919588,2.0,male,back
+4,SRS451419,SRR919529,2.0,male,external auditory canal
+5,SRS451419,SRR919589,2.0,male,external auditory canal
+6,SRS451420,SRR919530,2.0,male,hypothenar palm
+7,SRS451420,SRR919590,2.0,male,hypothenar palm
+8,SRS451421,SRR919531,2.0,male,retroauricular crease
+9,SRS451421,SRR919591,2.0,male,retroauricular crease
+10,SRS451422,SRR919532,2.0,male,toeweb
+11,SRS451422,SRR919592,2.0,male,toeweb
+12,SRS451423,SRR919533,2.0,male,retroauricular crease
+13,SRS451423,SRR919593,2.0,male,retroauricular crease
+14,SRS451424,SRR919534,2.0,male,toeweb
+15,SRS451424,SRR919594,2.0,male,toeweb
+16,SRS451425,SRR919535,2.0,male,antecubital crease
+17,SRS451425,SRR919595,2.0,male,antecubital crease
+18,SRS451426,SRR919537,2.0,male,glabella
+19,SRS451426,SRR919597,2.0,male,glabella
+20,SRS451427,SRR919536,2.0,male,back
+21,SRS451427,SRR919596,2.0,male,back
+22,SRS451428,SRR919538,2.0,male,hypothenar palm
+23,SRS451428,SRR919598,2.0,male,hypothenar palm
+24,SRS451429,SRR919539,2.0,male,inguinal crease
+25,SRS451429,SRR919599,2.0,male,inguinal crease
+26,SRS451430,SRR919540,2.0,male,manubrium
+27,SRS451430,SRR919600,2.0,male,manubrium
+28,SRS451431,SRR919541,2.0,male,occiput
+29,SRS451431,SRR919601,2.0,male,occiput
+30,SRS451432,SRR919542,2.0,male,plantar heel
+31,SRS451432,SRR919602,2.0,male,plantar heel
+32,SRS451433,SRR919543,2.0,male,retroauricular crease
+33,SRS451433,SRR919603,2.0,male,retroauricular crease
+34,SRS451434,SRR919544,2.0,male,toeweb
+35,SRS451434,SRR919604,2.0,male,toeweb
+36,SRS451435,SRR919545,2.0,male,volar forearm
+37,SRS451435,SRR919605,2.0,male,volar forearm
+38,SRS451436,SRR919546,2.0,male,antecubital crease
+39,SRS451436,SRR919606,2.0,male,antecubital crease
+40,SRS451437,SRR919547,2.0,male,antecubital crease
+41,SRS451437,SRR919607,2.0,male,antecubital crease
+42,SRS451438,SRR919548,2.0,male,back
+43,SRS451438,SRR919608,2.0,male,back
+44,SRS451439,SRR919549,2.0,male,external auditory canal
+45,SRS451439,SRR919609,2.0,male,external auditory canal
+46,SRS451440,SRR919550,2.0,male,glabella
+47,SRS451440,SRR919610,2.0,male,glabella
+48,SRS451441,SRR919551,2.0,male,hypothenar palm
+49,SRS451441,SRR919611,2.0,male,hypothenar palm
+50,SRS451442,SRR919552,2.0,male,hypothenar palm
+51,SRS451442,SRR919612,2.0,male,hypothenar palm
+52,SRS451443,SRR919553,2.0,male,inguinal crease
+53,SRS451443,SRR919613,2.0,male,inguinal crease
+54,SRS451444,SRR919554,2.0,male,inguinal crease
+55,SRS451444,SRR919614,2.0,male,inguinal crease
+56,SRS451445,SRR919555,2.0,male,manubrium
+57,SRS451445,SRR919615,2.0,male,manubrium
+58,SRS451446,SRR919556,2.0,male,nare
+59,SRS451446,SRR919616,2.0,male,nare
+60,SRS451447,SRR919557,2.0,male,occiput
+61,SRS451447,SRR919617,2.0,male,occiput
+62,SRS451448,SRR919558,2.0,male,plantar heel
+63,SRS451448,SRR919618,2.0,male,plantar heel
+64,SRS451449,SRR919559,2.0,male,plantar heel
+65,SRS451449,SRR919619,2.0,male,plantar heel
+66,SRS451450,SRR919560,2.0,male,retroauricular crease
+67,SRS451450,SRR919620,2.0,male,retroauricular crease
+68,SRS451451,SRR919561,2.0,male,retroauricular crease
+69,SRS451451,SRR919621,2.0,male,retroauricular crease
+70,SRS451452,SRR919562,2.0,male,toenail
+71,SRS451452,SRR919622,2.0,male,toenail
+72,SRS451453,SRR919563,2.0,male,toeweb
+73,SRS451453,SRR919623,2.0,male,toeweb
+74,SRS451454,SRR919564,2.0,male,toeweb
+75,SRS451454,SRR919624,2.0,male,toeweb
+76,SRS451455,SRR919565,2.0,male,volar forearm
+77,SRS451455,SRR919625,2.0,male,volar forearm
+78,SRS451456,SRR919566,2.0,male,volar forearm
+79,SRS451456,SRR919626,2.0,male,volar forearm
+80,SRS451457,SRR919567,2.0,female,antecubital crease
+81,SRS451457,SRR919627,2.0,female,antecubital crease
+82,SRS451458,SRR919568,2.0,female,antecubital crease
+83,SRS451458,SRR919628,2.0,female,antecubital crease
+84,SRS451459,SRR919569,2.0,female,back
+85,SRS451459,SRR919629,2.0,female,back
+86,SRS451460,SRR919570,2.0,female,external auditory canal
+87,SRS451460,SRR919630,2.0,female,external auditory canal
+88,SRS451461,SRR919571,2.0,female,glabella
+89,SRS451461,SRR919631,2.0,female,glabella
+90,SRS451462,SRR919572,2.0,female,hypothenar palm
+91,SRS451462,SRR919632,2.0,female,hypothenar palm
+92,SRS451463,SRR919573,2.0,female,hypothenar palm
+93,SRS451463,SRR919633,2.0,female,hypothenar palm
+94,SRS451464,SRR919574,2.0,female,inguinal crease
+95,SRS451464,SRR919634,2.0,female,inguinal crease
+96,SRS451465,SRR919575,2.0,female,inguinal crease
+97,SRS451465,SRR919635,2.0,female,inguinal crease
+98,SRS451466,SRR919576,2.0,female,manubrium
+99,SRS451466,SRR919636,2.0,female,manubrium
+100,SRS451467,SRR919577,2.0,female,nare
+101,SRS451467,SRR919637,2.0,female,nare
+102,SRS451468,SRR919578,2.0,female,occiput
+103,SRS451468,SRR919638,2.0,female,occiput
+104,SRS451469,SRR919579,2.0,female,plantar heel
+105,SRS451469,SRR919639,2.0,female,plantar heel
+106,SRS451470,SRR919580,2.0,female,plantar heel
+107,SRS451470,SRR919640,2.0,female,plantar heel
+108,SRS451471,SRR919581,2.0,female,retroauricular crease
+109,SRS451471,SRR919641,2.0,female,retroauricular crease
+110,SRS451472,SRR919582,2.0,female,retroauricular crease
+111,SRS451472,SRR919642,2.0,female,retroauricular crease
+112,SRS451473,SRR919583,2.0,female,toeweb
+113,SRS451473,SRR919643,2.0,female,toeweb
+114,SRS451474,SRR919584,2.0,female,toeweb
+115,SRS451474,SRR919644,2.0,female,toeweb
+116,SRS451475,SRR919585,2.0,female,volar forearm
+117,SRS451475,SRR919645,2.0,female,volar forearm
+118,SRS451476,SRR919586,2.0,female,volar forearm
+119,SRS451476,SRR919646,2.0,female,volar forearm
+120,SRS451578,SRR919849,2.0,female,antecubital crease
+121,SRS451578,SRR919899,2.0,female,antecubital crease
+122,SRS451579,SRR919850,2.0,female,antecubital crease
+123,SRS451579,SRR919900,2.0,female,antecubital crease
+124,SRS451580,SRR919851,2.0,female,volar forearm
+125,SRS451580,SRR919901,2.0,female,volar forearm
+126,SRS451581,SRR919852,2.0,female,volar forearm
+127,SRS451581,SRR919902,2.0,female,volar forearm
+128,SRS451582,SRR919853,2.0,female,inguinal crease
+129,SRS451582,SRR919903,2.0,female,inguinal crease
+130,SRS451583,SRR919854,2.0,female,inguinal crease
+131,SRS451583,SRR919904,2.0,female,inguinal crease
+132,SRS451584,SRR919855,2.0,female,nare
+133,SRS451584,SRR919905,2.0,female,nare
+134,SRS451585,SRR919856,2.0,female,nare
+135,SRS451585,SRR919906,2.0,female,nare
+136,SRS451586,SRR919857,2.0,female,plantar heel
+137,SRS451586,SRR919907,2.0,female,plantar heel
+138,SRS451587,SRR919859,2.0,female,glabella
+139,SRS451587,SRR919909,2.0,female,glabella
+140,SRS451588,SRR919858,2.0,female,plantar heel
+141,SRS451588,SRR919908,2.0,female,plantar heel
+142,SRS451589,SRR919860,2.0,female,back
+143,SRS451589,SRR919910,2.0,female,back
+144,SRS451590,SRR919861,2.0,female,retroauricular crease
+145,SRS451590,SRR919911,2.0,female,retroauricular crease
+146,SRS451591,SRR919862,2.0,female,retroauricular crease
+147,SRS451591,SRR919912,2.0,female,retroauricular crease
+148,SRS451592,SRR919863,2.0,female,manubrium
+149,SRS451592,SRR919913,2.0,female,manubrium
+150,SRS451593,SRR919864,2.0,female,occiput
+151,SRS451593,SRR919914,2.0,female,occiput
+152,SRS451594,SRR919865,2.0,female,toeweb
+153,SRS451594,SRR919915,2.0,female,toeweb
+154,SRS451595,SRR919866,2.0,female,toeweb
+155,SRS451595,SRR919916,2.0,female,toeweb
+156,SRS451596,SRR919867,2.0,female,external auditory canal
+157,SRS451596,SRR919917,2.0,female,external auditory canal
+158,SRS451597,SRR919868,2.0,female,external auditory canal
+159,SRS451597,SRR919918,2.0,female,external auditory canal
+160,SRS451598,SRR919869,2.0,female,hypothenar palm
+161,SRS451598,SRR919919,2.0,female,hypothenar palm
+162,SRS451599,SRR919870,2.0,female,hypothenar palm
+163,SRS451599,SRR919920,2.0,female,hypothenar palm
+164,SRS451600,SRR919871,2.0,female,toenail
+165,SRS451600,SRR919921,2.0,female,toenail
+166,SRS451601,SRR919872,2.0,female,toenail
+167,SRS451601,SRR919922,2.0,female,toenail
+168,SRS451602,SRR919873,2.0,male,antecubital crease
+169,SRS451602,SRR919923,2.0,male,antecubital crease
+170,SRS451603,SRR919874,2.0,male,antecubital crease
+171,SRS451603,SRR919924,2.0,male,antecubital crease
+172,SRS451604,SRR919875,2.0,male,volar forearm
+173,SRS451604,SRR919925,2.0,male,volar forearm
+174,SRS451605,SRR919876,2.0,male,volar forearm
+175,SRS451605,SRR919926,2.0,male,volar forearm
+176,SRS451606,SRR919877,2.0,male,inguinal crease
+177,SRS451606,SRR919927,2.0,male,inguinal crease
+178,SRS451607,SRR919879,2.0,male,nare
+179,SRS451607,SRR919929,2.0,male,nare
+180,SRS451608,SRR919878,2.0,male,inguinal crease
+181,SRS451608,SRR919928,2.0,male,inguinal crease
+182,SRS451609,SRR919880,2.0,male,nare
+183,SRS451609,SRR919930,2.0,male,nare
+184,SRS451610,SRR919881,2.0,male,plantar heel
+185,SRS451610,SRR919931,2.0,male,plantar heel
+186,SRS451611,SRR919882,2.0,male,plantar heel
+187,SRS451611,SRR919932,2.0,male,plantar heel
+188,SRS451612,SRR919883,2.0,male,glabella
+189,SRS451612,SRR919933,2.0,male,glabella
+190,SRS451613,SRR919884,2.0,male,back
+191,SRS451613,SRR919934,2.0,male,back
+192,SRS451614,SRR919885,2.0,male,retroauricular crease
+193,SRS451614,SRR919935,2.0,male,retroauricular crease
+194,SRS451615,SRR919886,2.0,male,retroauricular crease
+195,SRS451615,SRR919936,2.0,male,retroauricular crease
+196,SRS451616,SRR919887,2.0,male,manubrium
+197,SRS451616,SRR919937,2.0,male,manubrium
+198,SRS451617,SRR919888,2.0,male,occiput
+199,SRS451617,SRR919938,2.0,male,occiput
+200,SRS451618,SRR919889,2.0,male,toeweb
+201,SRS451618,SRR919939,2.0,male,toeweb
+202,SRS451619,SRR919890,2.0,male,toeweb
+203,SRS451619,SRR919940,2.0,male,toeweb
+204,SRS451620,SRR919891,2.0,male,external auditory canal
+205,SRS451620,SRR919941,2.0,male,external auditory canal
+206,SRS451621,SRR919892,2.0,male,external auditory canal
+207,SRS451621,SRR919942,2.0,male,external auditory canal
+208,SRS451622,SRR919893,2.0,male,hypothenar palm
+209,SRS451622,SRR919943,2.0,male,hypothenar palm
+210,SRS451623,SRR919894,2.0,male,hypothenar palm
+211,SRS451623,SRR919944,2.0,male,hypothenar palm
+212,SRS451624,SRR919895,2.0,male,toenail
+213,SRS451624,SRR919945,2.0,male,toenail
+214,SRS451625,SRR919896,2.0,male,toenail
+215,SRS451625,SRR919946,2.0,male,toenail
+216,SRS451626,SRR919897,2.0,male,volar forearm
+217,SRS451626,SRR919947,2.0,male,volar forearm
+218,SRS451627,SRR919898,2.0,male,plantar heel
+219,SRS451627,SRR919948,2.0,male,plantar heel
+220,SRS451709,SRR920111,2.0,female,retroauricular crease
+221,SRS451709,SRR920158,2.0,female,retroauricular crease
+222,SRS451710,SRR920112,2.0,male,antecubital crease
+223,SRS451710,SRR920159,2.0,male,antecubital crease
+224,SRS451711,SRR920113,2.0,male,antecubital crease
+225,SRS451711,SRR920160,2.0,male,antecubital crease
+226,SRS451712,SRR920114,2.0,male,back
+227,SRS451712,SRR920161,2.0,male,back
+228,SRS451713,SRR920115,2.0,male,external auditory canal
+229,SRS451713,SRR920162,2.0,male,external auditory canal
+230,SRS451714,SRR920116,2.0,male,external auditory canal
+231,SRS451714,SRR920163,2.0,male,external auditory canal
+232,SRS451715,SRR920117,2.0,male,glabella
+233,SRS451715,SRR920164,2.0,male,glabella
+234,SRS451716,SRR920118,2.0,male,hypothenar palm
+235,SRS451716,SRR920165,2.0,male,hypothenar palm
+236,SRS451717,SRR920119,2.0,male,hypothenar palm
+237,SRS451717,SRR920166,2.0,male,hypothenar palm
+238,SRS451718,SRR920120,2.0,male,inguinal crease
+239,SRS451718,SRR920167,2.0,male,inguinal crease
+240,SRS451719,SRR920121,2.0,male,inguinal crease
+241,SRS451719,SRR920168,2.0,male,inguinal crease
+242,SRS451720,SRR920122,2.0,male,manubrium
+243,SRS451720,SRR920169,2.0,male,manubrium
+244,SRS451721,SRR920123,2.0,male,nare
+245,SRS451721,SRR920170,2.0,male,nare
+246,SRS451722,SRR920124,2.0,male,nare
+247,SRS451722,SRR920171,2.0,male,nare
+248,SRS451723,SRR920125,2.0,male,occiput
+249,SRS451723,SRR920172,2.0,male,occiput
+250,SRS451724,SRR920126,2.0,male,plantar heel
+251,SRS451724,SRR920173,2.0,male,plantar heel
+252,SRS451725,SRR920127,2.0,male,plantar heel
+253,SRS451725,SRR920174,2.0,male,plantar heel
+254,SRS451726,SRR920128,2.0,male,retroauricular crease
+255,SRS451726,SRR920175,2.0,male,retroauricular crease
+256,SRS451727,SRR920129,2.0,male,toeweb
+257,SRS451727,SRR920176,2.0,male,toeweb
+258,SRS451728,SRR920130,2.0,male,retroauricular crease
+259,SRS451728,SRR920177,2.0,male,retroauricular crease
+260,SRS451729,SRR920131,2.0,male,toeweb
+261,SRS451729,SRR920178,2.0,male,toeweb
+262,SRS451730,SRR920132,2.0,male,volar forearm
+263,SRS451730,SRR920179,2.0,male,volar forearm
+264,SRS451731,SRR920133,2.0,male,volar forearm
+265,SRS451731,SRR920180,2.0,male,volar forearm
+266,SRS451732,SRR920134,2.0,male,toenail
+267,SRS451732,SRR920181,2.0,male,toenail
+268,SRS451733,SRR920135,2.0,female,toenail
+269,SRS451733,SRR920182,2.0,female,toenail
+270,SRS451734,SRR920136,2.0,female,antecubital crease
+271,SRS451734,SRR920183,2.0,female,antecubital crease
+272,SRS451735,SRR920137,2.0,female,antecubital crease
+273,SRS451735,SRR920184,2.0,female,antecubital crease
+274,SRS451736,SRR920138,2.0,female,back
+275,SRS451736,SRR920185,2.0,female,back
+276,SRS451737,SRR920139,2.0,female,external auditory canal
+277,SRS451737,SRR920186,2.0,female,external auditory canal
+278,SRS451738,SRR920140,2.0,female,external auditory canal
+279,SRS451738,SRR920187,2.0,female,external auditory canal
+280,SRS451739,SRR920141,2.0,female,glabella
+281,SRS451739,SRR920188,2.0,female,glabella
+282,SRS451740,SRR920142,2.0,female,hypothenar palm
+283,SRS451740,SRR920189,2.0,female,hypothenar palm
+284,SRS451741,SRR920143,2.0,female,hypothenar palm
+285,SRS451741,SRR920190,2.0,female,hypothenar palm
+286,SRS451742,SRR920144,2.0,female,inguinal crease
+287,SRS451742,SRR920191,2.0,female,inguinal crease
+288,SRS451743,SRR920145,2.0,female,inguinal crease
+289,SRS451743,SRR920192,2.0,female,inguinal crease
+290,SRS451744,SRR920146,2.0,female,manubrium
+291,SRS451744,SRR920193,2.0,female,manubrium
+292,SRS451745,SRR920147,2.0,female,nare
+293,SRS451745,SRR920194,2.0,female,nare
+294,SRS451746,SRR920148,2.0,female,nare
+295,SRS451746,SRR920195,2.0,female,nare
+296,SRS451747,SRR920149,2.0,female,occiput
+297,SRS451747,SRR920196,2.0,female,occiput
+298,SRS451748,SRR920150,2.0,female,plantar heel
+299,SRS451748,SRR920197,2.0,female,plantar heel
+300,SRS451749,SRR920151,2.0,female,retroauricular crease
+301,SRS451749,SRR920198,2.0,female,retroauricular crease
+302,SRS451750,SRR920152,2.0,female,retroauricular crease
+303,SRS451750,SRR920199,2.0,female,retroauricular crease
+304,SRS451751,SRR920153,2.0,female,toeweb
+305,SRS451751,SRR920200,2.0,female,toeweb
+306,SRS451752,SRR920154,2.0,female,volar forearm
+307,SRS451752,SRR920201,2.0,female,volar forearm
+308,SRS451753,SRR920155,2.0,female,volar forearm
+309,SRS451753,SRR920202,2.0,female,volar forearm
+310,SRS451754,SRR920156,2.0,female,toenail
+311,SRS451754,SRR920203,2.0,female,toenail
+312,SRS451755,SRR920157,2.0,female,toenail
+313,SRS451755,SRR920204,2.0,female,toenail
+314,SRS451756,SRR920205,2.0,male,toenail
+315,SRS451756,SRR920236,2.0,male,toenail
+316,SRS451757,SRR920206,2.0,female,hypothenar palm
+317,SRS451757,SRR920237,2.0,female,hypothenar palm
+318,SRS451758,SRR920207,2.0,female,manubrium
+319,SRS451758,SRR920238,2.0,female,manubrium
+320,SRS451759,SRR920208,2.0,female,plantar heel
+321,SRS451759,SRR920239,2.0,female,plantar heel
+322,SRS451760,SRR920209,2.0,female,plantar heel
+323,SRS451760,SRR920240,2.0,female,plantar heel
+324,SRS451761,SRR920210,2.0,female,toeweb
+325,SRS451761,SRR920241,2.0,female,toeweb
+326,SRS451762,SRR920211,2.0,female,toenail
+327,SRS451762,SRR920242,2.0,female,toenail
+328,SRS451763,SRR920212,2.0,female,antecubital crease
+329,SRS451763,SRR920243,2.0,female,antecubital crease
+330,SRS451764,SRR920213,2.0,female,antecubital crease
+331,SRS451764,SRR920244,2.0,female,antecubital crease
+332,SRS451765,SRR920214,2.0,female,back
+333,SRS451765,SRR920245,2.0,female,back
+334,SRS451766,SRR920215,2.0,female,external auditory canal
+335,SRS451766,SRR920246,2.0,female,external auditory canal
+336,SRS451767,SRR920216,2.0,female,external auditory canal
+337,SRS451767,SRR920247,2.0,female,external auditory canal
+338,SRS451768,SRR920217,2.0,female,glabella
+339,SRS451768,SRR920248,2.0,female,glabella
+340,SRS451769,SRR920218,2.0,female,hypothenar palm
+341,SRS451769,SRR920249,2.0,female,hypothenar palm
+342,SRS451770,SRR920219,2.0,female,hypothenar palm
+343,SRS451770,SRR920250,2.0,female,hypothenar palm
+344,SRS451771,SRR920220,2.0,female,inguinal crease
+345,SRS451771,SRR920251,2.0,female,inguinal crease
+346,SRS451772,SRR920221,2.0,female,inguinal crease
+347,SRS451772,SRR920252,2.0,female,inguinal crease
+348,SRS451773,SRR920222,2.0,female,manubrium
+349,SRS451773,SRR920253,2.0,female,manubrium
+350,SRS451774,SRR920223,2.0,female,nare
+351,SRS451774,SRR920254,2.0,female,nare
+352,SRS451775,SRR920224,2.0,female,nare
+353,SRS451775,SRR920255,2.0,female,nare
+354,SRS451776,SRR920226,2.0,female,plantar heel
+355,SRS451776,SRR920257,2.0,female,plantar heel
+356,SRS451777,SRR920225,2.0,female,occiput
+357,SRS451777,SRR920256,2.0,female,occiput
+358,SRS451778,SRR920227,2.0,female,plantar heel
+359,SRS451778,SRR920258,2.0,female,plantar heel
+360,SRS451779,SRR920229,2.0,female,retroauricular crease
+361,SRS451779,SRR920260,2.0,female,retroauricular crease
+362,SRS451780,SRR920228,2.0,female,retroauricular crease
+363,SRS451780,SRR920259,2.0,female,retroauricular crease
+364,SRS451781,SRR920230,2.0,female,toeweb
+365,SRS451781,SRR920261,2.0,female,toeweb
+366,SRS451782,SRR920231,2.0,female,toeweb
+367,SRS451782,SRR920262,2.0,female,toeweb
+368,SRS451783,SRR920232,2.0,female,volar forearm
+369,SRS451783,SRR920263,2.0,female,volar forearm
+370,SRS451784,SRR920234,2.0,female,toenail
+371,SRS451784,SRR920265,2.0,female,toenail
+372,SRS451785,SRR920233,2.0,female,volar forearm
+373,SRS451785,SRR920264,2.0,female,volar forearm
+374,SRS451786,SRR920235,2.0,female,toenail
+375,SRS451786,SRR920266,2.0,female,toenail
+376,SRS451864,SRR920575,2.0,female,retroauricular crease
+377,SRS451864,SRR920662,2.0,female,retroauricular crease
+378,SRS451865,SRR920576,2.0,female,retroauricular crease
+379,SRS451865,SRR920663,2.0,female,retroauricular crease
+380,SRS451866,SRR920577,2.0,female,volar forearm
+381,SRS451866,SRR920664,2.0,female,volar forearm
+382,SRS451867,SRR920578,2.0,male,antecubital crease
+383,SRS451867,SRR920665,2.0,male,antecubital crease
+384,SRS451868,SRR920579,2.0,male,antecubital crease
+385,SRS451868,SRR920666,2.0,male,antecubital crease
+386,SRS451869,SRR920580,2.0,male,external auditory canal
+387,SRS451869,SRR920667,2.0,male,external auditory canal
+388,SRS451870,SRR920581,2.0,male,external auditory canal
+389,SRS451870,SRR920668,2.0,male,external auditory canal
+390,SRS451871,SRR920582,2.0,male,glabella
+391,SRS451871,SRR920669,2.0,male,glabella
+392,SRS451872,SRR920583,2.0,male,hypothenar palm
+393,SRS451872,SRR920670,2.0,male,hypothenar palm
+394,SRS451873,SRR920584,2.0,male,hypothenar palm
+395,SRS451873,SRR920671,2.0,male,hypothenar palm
+396,SRS451874,SRR920585,2.0,male,inguinal crease
+397,SRS451874,SRR920672,2.0,male,inguinal crease
+398,SRS451875,SRR920586,2.0,male,inguinal crease
+399,SRS451875,SRR920673,2.0,male,inguinal crease
+400,SRS451876,SRR920587,2.0,male,back
+401,SRS451876,SRR920674,2.0,male,back
+402,SRS451877,SRR920588,2.0,male,manubrium
+403,SRS451877,SRR920675,2.0,male,manubrium
+404,SRS451878,SRR920589,2.0,male,nare
+405,SRS451878,SRR920676,2.0,male,nare
+406,SRS451879,SRR920590,2.0,male,nare
+407,SRS451879,SRR920677,2.0,male,nare
+408,SRS451880,SRR920591,2.0,male,occiput
+409,SRS451880,SRR920678,2.0,male,occiput
+410,SRS451881,SRR920592,2.0,male,plantar heel
+411,SRS451881,SRR920679,2.0,male,plantar heel
+412,SRS451882,SRR920593,2.0,male,plantar heel
+413,SRS451882,SRR920680,2.0,male,plantar heel
+414,SRS451883,SRR920594,2.0,male,retroauricular crease
+415,SRS451883,SRR920681,2.0,male,retroauricular crease
+416,SRS451884,SRR920595,2.0,male,retroauricular crease
+417,SRS451884,SRR920682,2.0,male,retroauricular crease
+418,SRS451885,SRR920597,2.0,male,toeweb
+419,SRS451885,SRR920684,2.0,male,toeweb
+420,SRS451886,SRR920596,2.0,male,toeweb
+421,SRS451886,SRR920683,2.0,male,toeweb
+422,SRS451887,SRR920598,2.0,male,volar forearm
+423,SRS451887,SRR920685,2.0,male,volar forearm
+424,SRS451888,SRR920599,2.0,male,volar forearm
+425,SRS451888,SRR920686,2.0,male,volar forearm
+426,SRS451889,SRR920600,2.0,male,toenail
+427,SRS451889,SRR920687,2.0,male,toenail
+428,SRS451890,SRR920602,2.0,female,antecubital crease
+429,SRS451890,SRR920689,2.0,female,antecubital crease
+430,SRS451891,SRR920601,2.0,male,toenail
+431,SRS451891,SRR920688,2.0,male,toenail
+432,SRS451892,SRR920603,2.0,female,antecubital crease
+433,SRS451892,SRR920690,2.0,female,antecubital crease
+434,SRS451893,SRR920604,2.0,female,external auditory canal
+435,SRS451893,SRR920691,2.0,female,external auditory canal
+436,SRS451894,SRR920605,2.0,female,external auditory canal
+437,SRS451894,SRR920692,2.0,female,external auditory canal
+438,SRS451895,SRR920606,2.0,female,glabella
+439,SRS451895,SRR920693,2.0,female,glabella
+440,SRS451896,SRR920608,2.0,female,hypothenar palm
+441,SRS451896,SRR920695,2.0,female,hypothenar palm
+442,SRS451897,SRR920607,2.0,female,hypothenar palm
+443,SRS451897,SRR920694,2.0,female,hypothenar palm
+444,SRS451898,SRR920609,2.0,female,inguinal crease
+445,SRS451898,SRR920696,2.0,female,inguinal crease
+446,SRS451899,SRR920610,2.0,female,inguinal crease
+447,SRS451899,SRR920697,2.0,female,inguinal crease
+448,SRS451900,SRR920611,2.0,female,back
+449,SRS451900,SRR920698,2.0,female,back
+450,SRS451901,SRR920612,2.0,female,manubrium
+451,SRS451901,SRR920699,2.0,female,manubrium
+452,SRS451902,SRR920613,2.0,female,nare
+453,SRS451902,SRR920700,2.0,female,nare
+454,SRS451903,SRR920614,2.0,female,nare
+455,SRS451903,SRR920701,2.0,female,nare
+456,SRS451904,SRR920615,2.0,female,occiput
+457,SRS451904,SRR920702,2.0,female,occiput
+458,SRS451905,SRR920616,2.0,female,plantar heel
+459,SRS451905,SRR920703,2.0,female,plantar heel
+460,SRS451906,SRR920618,2.0,female,retroauricular crease
+461,SRS451906,SRR920705,2.0,female,retroauricular crease
+462,SRS451907,SRR920617,2.0,female,plantar heel
+463,SRS451907,SRR920704,2.0,female,plantar heel
+464,SRS451908,SRR920619,2.0,female,retroauricular crease
+465,SRS451908,SRR920706,2.0,female,retroauricular crease
+466,SRS451909,SRR920621,2.0,female,toeweb
+467,SRS451909,SRR920708,2.0,female,toeweb
+468,SRS451910,SRR920620,2.0,female,toeweb
+469,SRS451910,SRR920707,2.0,female,toeweb
+470,SRS451911,SRR920622,2.0,female,volar forearm
+471,SRS451911,SRR920709,2.0,female,volar forearm
+472,SRS451912,SRR920623,2.0,female,volar forearm
+473,SRS451912,SRR920710,2.0,female,volar forearm
+474,SRS451913,SRR920624,2.0,female,toenail
+475,SRS451913,SRR920711,2.0,female,toenail
+476,SRS451914,SRR920626,2.0,male,antecubital crease
+477,SRS451914,SRR920713,2.0,male,antecubital crease
+478,SRS451915,SRR920625,2.0,female,toenail
+479,SRS451915,SRR920712,2.0,female,toenail
+480,SRS451916,SRR920627,2.0,male,antecubital crease
+481,SRS451916,SRR920714,2.0,male,antecubital crease
+482,SRS451917,SRR920628,2.0,male,external auditory canal
+483,SRS451917,SRR920715,2.0,male,external auditory canal
+484,SRS451918,SRR920629,2.0,male,external auditory canal
+485,SRS451918,SRR920716,2.0,male,external auditory canal
+486,SRS451919,SRR920631,2.0,male,hypothenar palm
+487,SRS451919,SRR920718,2.0,male,hypothenar palm
+488,SRS451920,SRR920630,2.0,male,glabella
+489,SRS451920,SRR920717,2.0,male,glabella
+490,SRS451921,SRR920632,2.0,male,hypothenar palm
+491,SRS451921,SRR920719,2.0,male,hypothenar palm
+492,SRS451922,SRR920634,2.0,male,inguinal crease
+493,SRS451922,SRR920721,2.0,male,inguinal crease
+494,SRS451923,SRR920633,2.0,male,inguinal crease
+495,SRS451923,SRR920720,2.0,male,inguinal crease
+496,SRS451924,SRR920635,2.0,male,back
+497,SRS451924,SRR920722,2.0,male,back
+498,SRS451925,SRR920637,2.0,male,nare
+499,SRS451925,SRR920724,2.0,male,nare
+500,SRS451926,SRR920636,2.0,male,manubrium
+501,SRS451926,SRR920723,2.0,male,manubrium
+502,SRS451927,SRR920638,2.0,male,nare
+503,SRS451927,SRR920725,2.0,male,nare
+504,SRS451928,SRR920640,2.0,male,plantar heel
+505,SRS451928,SRR920727,2.0,male,plantar heel
+506,SRS451929,SRR920641,2.0,male,plantar heel
+507,SRS451929,SRR920728,2.0,male,plantar heel
+508,SRS451930,SRR920639,2.0,male,occiput
+509,SRS451930,SRR920726,2.0,male,occiput
+510,SRS451931,SRR920642,2.0,male,retroauricular crease
+511,SRS451931,SRR920729,2.0,male,retroauricular crease
+512,SRS451932,SRR920643,2.0,male,retroauricular crease
+513,SRS451932,SRR920730,2.0,male,retroauricular crease
+514,SRS451933,SRR920644,2.0,male,toeweb
+515,SRS451933,SRR920731,2.0,male,toeweb
+516,SRS451934,SRR920646,2.0,male,volar forearm
+517,SRS451934,SRR920733,2.0,male,volar forearm
+518,SRS451935,SRR920645,2.0,male,toeweb
+519,SRS451935,SRR920732,2.0,male,toeweb
+520,SRS451936,SRR920647,2.0,male,volar forearm
+521,SRS451936,SRR920734,2.0,male,volar forearm
+522,SRS451937,SRR920648,2.0,male,toenail
+523,SRS451937,SRR920735,2.0,male,toenail
+524,SRS451938,SRR920649,2.0,male,toenail
+525,SRS451938,SRR920736,2.0,male,toenail
+526,SRS451939,SRR920651,2.0,male,antecubital crease
+527,SRS451939,SRR920738,2.0,male,antecubital crease
+528,SRS451940,SRR920650,2.0,male,antecubital crease
+529,SRS451940,SRR920737,2.0,male,antecubital crease
+530,SRS451941,SRR920652,2.0,male,external auditory canal
+531,SRS451941,SRR920739,2.0,male,external auditory canal
+532,SRS451942,SRR920653,2.0,male,external auditory canal
+533,SRS451942,SRR920740,2.0,male,external auditory canal
+534,SRS451943,SRR920654,2.0,male,glabella
+535,SRS451943,SRR920741,2.0,male,glabella
+536,SRS451944,SRR920655,2.0,male,hypothenar palm
+537,SRS451944,SRR920742,2.0,male,hypothenar palm
+538,SRS451945,SRR920656,2.0,male,hypothenar palm
+539,SRS451945,SRR920743,2.0,male,hypothenar palm
+540,SRS451946,SRR920657,2.0,male,inguinal crease
+541,SRS451946,SRR920744,2.0,male,inguinal crease
+542,SRS451947,SRR920658,2.0,male,inguinal crease
+543,SRS451947,SRR920745,2.0,male,inguinal crease
+544,SRS451948,SRR920659,2.0,male,back
+545,SRS451948,SRR920746,2.0,male,back
+546,SRS451949,SRR920660,2.0,male,manubrium
+547,SRS451949,SRR920747,2.0,male,manubrium
+548,SRS451950,SRR920661,2.0,male,nare
+549,SRS451950,SRR920748,2.0,male,nare
+550,SRS452026,SRR920900,2.0,female,plantar heel
+551,SRS452026,SRR920963,2.0,female,plantar heel
+552,SRS452027,SRR920899,2.0,male,nare
+553,SRS452027,SRR920962,2.0,male,nare
+554,SRS452028,SRR920901,2.0,male,glabella
+555,SRS452028,SRR920964,2.0,male,glabella
+556,SRS452029,SRR920902,2.0,female,nare
+557,SRS452029,SRR920965,2.0,female,nare
+558,SRS452030,SRR920903,2.0,female,occiput
+559,SRS452030,SRR920966,2.0,female,occiput
+560,SRS452031,SRR920904,2.0,female,plantar heel
+561,SRS452031,SRR920967,2.0,female,plantar heel
+562,SRS452032,SRR920905,2.0,female,plantar heel
+563,SRS452032,SRR920968,2.0,female,plantar heel
+564,SRS452033,SRR920906,2.0,female,retroauricular crease
+565,SRS452033,SRR920969,2.0,female,retroauricular crease
+566,SRS452034,SRR920907,2.0,female,retroauricular crease
+567,SRS452034,SRR920970,2.0,female,retroauricular crease
+568,SRS452035,SRR920908,2.0,female,toeweb
+569,SRS452035,SRR920971,2.0,female,toeweb
+570,SRS452036,SRR920909,2.0,female,toeweb
+571,SRS452036,SRR920972,2.0,female,toeweb
+572,SRS452037,SRR920910,2.0,female,volar forearm
+573,SRS452037,SRR920973,2.0,female,volar forearm
+574,SRS452038,SRR920911,2.0,female,volar forearm
+575,SRS452038,SRR920974,2.0,female,volar forearm
+576,SRS452039,SRR920912,2.0,female,toenail
+577,SRS452039,SRR920975,2.0,female,toenail
+578,SRS452040,SRR920913,2.0,female,toenail
+579,SRS452040,SRR920976,2.0,female,toenail
+580,SRS452041,SRR920914,2.0,male,antecubital crease
+581,SRS452041,SRR920977,2.0,male,antecubital crease
+582,SRS452042,SRR920915,2.0,male,antecubital crease
+583,SRS452042,SRR920978,2.0,male,antecubital crease
+584,SRS452043,SRR920916,2.0,male,external auditory canal
+585,SRS452043,SRR920979,2.0,male,external auditory canal
+586,SRS452044,SRR920917,2.0,male,external auditory canal
+587,SRS452044,SRR920980,2.0,male,external auditory canal
+588,SRS452045,SRR920918,2.0,male,glabella
+589,SRS452045,SRR920981,2.0,male,glabella
+590,SRS452046,SRR920919,2.0,male,hypothenar palm
+591,SRS452046,SRR920982,2.0,male,hypothenar palm
+592,SRS452047,SRR920920,2.0,male,hypothenar palm
+593,SRS452047,SRR920983,2.0,male,hypothenar palm
+594,SRS452048,SRR920921,2.0,male,inguinal crease
+595,SRS452048,SRR920984,2.0,male,inguinal crease
+596,SRS452049,SRR920922,2.0,male,inguinal crease
+597,SRS452049,SRR920985,2.0,male,inguinal crease
+598,SRS452050,SRR920923,2.0,male,back
+599,SRS452050,SRR920986,2.0,male,back
+600,SRS452051,SRR920924,2.0,male,manubrium
+601,SRS452051,SRR920987,2.0,male,manubrium
+602,SRS452052,SRR920925,2.0,male,nare
+603,SRS452052,SRR920988,2.0,male,nare
+604,SRS452053,SRR920926,2.0,male,nare
+605,SRS452053,SRR920989,2.0,male,nare
+606,SRS452054,SRR920927,2.0,male,occiput
+607,SRS452054,SRR920990,2.0,male,occiput
+608,SRS452055,SRR920928,2.0,male,plantar heel
+609,SRS452055,SRR920991,2.0,male,plantar heel
+610,SRS452056,SRR920929,2.0,male,plantar heel
+611,SRS452056,SRR920992,2.0,male,plantar heel
+612,SRS452057,SRR920930,2.0,male,retroauricular crease
+613,SRS452057,SRR920993,2.0,male,retroauricular crease
+614,SRS452058,SRR920931,2.0,male,retroauricular crease
+615,SRS452058,SRR920994,2.0,male,retroauricular crease
+616,SRS452059,SRR920933,2.0,male,toeweb
+617,SRS452059,SRR920996,2.0,male,toeweb
+618,SRS452060,SRR920932,2.0,male,toeweb
+619,SRS452060,SRR920995,2.0,male,toeweb
+620,SRS452061,SRR920934,2.0,male,volar forearm
+621,SRS452061,SRR920997,2.0,male,volar forearm
+622,SRS452062,SRR920936,2.0,male,toenail
+623,SRS452062,SRR920999,2.0,male,toenail
+624,SRS452063,SRR920935,2.0,male,volar forearm
+625,SRS452063,SRR920998,2.0,male,volar forearm
+626,SRS452064,SRR920937,2.0,male,toenail
+627,SRS452064,SRR921000,2.0,male,toenail
+628,SRS452065,SRR920939,2.0,male,antecubital crease
+629,SRS452065,SRR921002,2.0,male,antecubital crease
+630,SRS452066,SRR920938,2.0,male,antecubital crease
+631,SRS452066,SRR921001,2.0,male,antecubital crease
+632,SRS452067,SRR920940,2.0,male,external auditory canal
+633,SRS452067,SRR921003,2.0,male,external auditory canal
+634,SRS452068,SRR920941,2.0,male,external auditory canal
+635,SRS452068,SRR921004,2.0,male,external auditory canal
+636,SRS452069,SRR920942,2.0,male,glabella
+637,SRS452069,SRR921005,2.0,male,glabella
+638,SRS452070,SRR920944,2.0,male,hypothenar palm
+639,SRS452070,SRR921007,2.0,male,hypothenar palm
+640,SRS452071,SRR920943,2.0,male,hypothenar palm
+641,SRS452071,SRR921006,2.0,male,hypothenar palm
+642,SRS452072,SRR920945,2.0,male,inguinal crease
+643,SRS452072,SRR921008,2.0,male,inguinal crease
+644,SRS452073,SRR920947,2.0,male,back
+645,SRS452073,SRR921010,2.0,male,back
+646,SRS452074,SRR920946,2.0,male,inguinal crease
+647,SRS452074,SRR921009,2.0,male,inguinal crease
+648,SRS452075,SRR920948,2.0,male,manubrium
+649,SRS452075,SRR921011,2.0,male,manubrium
+650,SRS452076,SRR920950,2.0,male,nare
+651,SRS452076,SRR921013,2.0,male,nare
+652,SRS452077,SRR920949,2.0,male,nare
+653,SRS452077,SRR921012,2.0,male,nare
+654,SRS452078,SRR920951,2.0,male,occiput
+655,SRS452078,SRR921014,2.0,male,occiput
+656,SRS452079,SRR920952,2.0,male,plantar heel
+657,SRS452079,SRR921015,2.0,male,plantar heel
+658,SRS452080,SRR920953,2.0,male,plantar heel
+659,SRS452080,SRR921016,2.0,male,plantar heel
+660,SRS452081,SRR920955,2.0,male,retroauricular crease
+661,SRS452081,SRR921018,2.0,male,retroauricular crease
+662,SRS452082,SRR920954,2.0,male,retroauricular crease
+663,SRS452082,SRR921017,2.0,male,retroauricular crease
+664,SRS452083,SRR920956,2.0,male,toeweb
+665,SRS452083,SRR921019,2.0,male,toeweb
+666,SRS452084,SRR920958,2.0,male,volar forearm
+667,SRS452084,SRR921021,2.0,male,volar forearm
+668,SRS452085,SRR920957,2.0,male,toeweb
+669,SRS452085,SRR921020,2.0,male,toeweb
+670,SRS452086,SRR920959,2.0,male,volar forearm
+671,SRS452086,SRR921022,2.0,male,volar forearm
+672,SRS452087,SRR920960,2.0,male,toenail
+673,SRS452087,SRR921023,2.0,male,toenail
+674,SRS452088,SRR920961,2.0,male,toenail
+675,SRS452088,SRR921024,2.0,male,toenail
+676,SRS452089,SRR921026,2.0,male,inguinal crease
+677,SRS452089,SRR921089,2.0,male,inguinal crease
+678,SRS452090,SRR921025,2.0,male,glabella
+679,SRS452090,SRR921088,2.0,male,glabella
+680,SRS452091,SRR921027,2.0,male,manubrium
+681,SRS452091,SRR921090,2.0,male,manubrium
+682,SRS452092,SRR921029,2.0,male,occiput
+683,SRS452092,SRR921092,2.0,male,occiput
+684,SRS452093,SRR921028,2.0,male,nare
+685,SRS452093,SRR921091,2.0,male,nare
+686,SRS452094,SRR921030,2.0,male,plantar heel
+687,SRS452094,SRR921093,2.0,male,plantar heel
+688,SRS452095,SRR921031,2.0,male,toenail
+689,SRS452095,SRR921094,2.0,male,toenail
+690,SRS452096,SRR921032,2.0,male,volar forearm
+691,SRS452096,SRR921095,2.0,male,volar forearm
+692,SRS452097,SRR921034,2.0,male,external auditory canal
+693,SRS452097,SRR921097,2.0,male,external auditory canal
+694,SRS452098,SRR921033,2.0,male,antecubital crease
+695,SRS452098,SRR921096,2.0,male,antecubital crease
+696,SRS452099,SRR921035,2.0,male,hypothenar palm
+697,SRS452099,SRR921098,2.0,male,hypothenar palm
+698,SRS452100,SRR921036,2.0,male,inguinal crease
+699,SRS452100,SRR921099,2.0,male,inguinal crease
+700,SRS452101,SRR921037,2.0,male,nare
+701,SRS452101,SRR921100,2.0,male,nare
+702,SRS452102,SRR921038,2.0,male,plantar heel
+703,SRS452102,SRR921101,2.0,male,plantar heel
+704,SRS452103,SRR921039,2.0,male,toenail
+705,SRS452103,SRR921102,2.0,male,toenail
+706,SRS452104,SRR921040,2.0,male,volar forearm
+707,SRS452104,SRR921103,2.0,male,volar forearm
+708,SRS452105,SRR921041,2.0,male,antecubital crease
+709,SRS452105,SRR921104,2.0,male,antecubital crease
+710,SRS452106,SRR921042,2.0,male,external auditory canal
+711,SRS452106,SRR921105,2.0,male,external auditory canal
+712,SRS452107,SRR921043,2.0,male,hypothenar palm
+713,SRS452107,SRR921106,2.0,male,hypothenar palm
+714,SRS452108,SRR921044,2.0,male,inguinal crease
+715,SRS452108,SRR921107,2.0,male,inguinal crease
+716,SRS452109,SRR921045,2.0,male,nare
+717,SRS452109,SRR921108,2.0,male,nare
+718,SRS452110,SRR921046,2.0,male,plantar heel
+719,SRS452110,SRR921109,2.0,male,plantar heel
+720,SRS452111,SRR921048,2.0,male,toenail
+721,SRS452111,SRR921111,2.0,male,toenail
+722,SRS452112,SRR921047,2.0,male,retroauricular crease
+723,SRS452112,SRR921110,2.0,male,retroauricular crease
+724,SRS452113,SRR921049,2.0,male,toeweb
+725,SRS452113,SRR921112,2.0,male,toeweb
+726,SRS452114,SRR921050,2.0,male,volar forearm
+727,SRS452114,SRR921113,2.0,male,volar forearm
+728,SRS452115,SRR921051,2.0,male,external auditory canal
+729,SRS452115,SRR921114,2.0,male,external auditory canal
+730,SRS452116,SRR921052,2.0,male,nare
+731,SRS452116,SRR921115,2.0,male,nare
+732,SRS452117,SRR921053,2.0,male,toenail
+733,SRS452117,SRR921116,2.0,male,toenail
+734,SRS452118,SRR921054,2.0,male,external auditory canal
+735,SRS452118,SRR921117,2.0,male,external auditory canal
+736,SRS452119,SRR921055,2.0,male,plantar heel
+737,SRS452119,SRR921118,2.0,male,plantar heel
+738,SRS452120,SRR921056,2.0,male,nare
+739,SRS452120,SRR921119,2.0,male,nare
+740,SRS452121,SRR921057,2.0,male,toenail
+741,SRS452121,SRR921120,2.0,male,toenail
+742,SRS452122,SRR921058,2.0,female,occiput
+743,SRS452122,SRR921121,2.0,female,occiput
+744,SRS452123,SRR921059,2.0,female,toeweb
+745,SRS452123,SRR921122,2.0,female,toeweb
+746,SRS452124,SRR921060,2.0,female,external auditory canal
+747,SRS452124,SRR921123,2.0,female,external auditory canal
+748,SRS452125,SRR921061,2.0,female,nare
+749,SRS452125,SRR921124,2.0,female,nare
+750,SRS452126,SRR921062,2.0,female,toenail
+751,SRS452126,SRR921125,2.0,female,toenail
+752,SRS452127,SRR921063,2.0,female,toenail
+753,SRS452127,SRR921126,2.0,female,toenail
+754,SRS452128,SRR921064,2.0,male,antecubital crease
+755,SRS452128,SRR921127,2.0,male,antecubital crease
+756,SRS452129,SRR921065,2.0,male,antecubital crease
+757,SRS452129,SRR921128,2.0,male,antecubital crease
+758,SRS452130,SRR921066,2.0,male,back
+759,SRS452130,SRR921129,2.0,male,back
+760,SRS452131,SRR921067,2.0,male,external auditory canal
+761,SRS452131,SRR921130,2.0,male,external auditory canal
+762,SRS452132,SRR921068,2.0,male,external auditory canal
+763,SRS452132,SRR921131,2.0,male,external auditory canal
+764,SRS452133,SRR921069,2.0,male,glabella
+765,SRS452133,SRR921132,2.0,male,glabella
+766,SRS452134,SRR921070,2.0,male,hypothenar palm
+767,SRS452134,SRR921133,2.0,male,hypothenar palm
+768,SRS452135,SRR921071,2.0,male,hypothenar palm
+769,SRS452135,SRR921134,2.0,male,hypothenar palm
+770,SRS452136,SRR921072,2.0,male,inguinal crease
+771,SRS452136,SRR921135,2.0,male,inguinal crease
+772,SRS452137,SRR921074,2.0,male,manubrium
+773,SRS452137,SRR921137,2.0,male,manubrium
+774,SRS452138,SRR921073,2.0,male,inguinal crease
+775,SRS452138,SRR921136,2.0,male,inguinal crease
+776,SRS452139,SRR921075,2.0,male,nare
+777,SRS452139,SRR921138,2.0,male,nare
+778,SRS452140,SRR921077,2.0,male,occiput
+779,SRS452140,SRR921140,2.0,male,occiput
+780,SRS452141,SRR921076,2.0,male,nare
+781,SRS452141,SRR921139,2.0,male,nare
+782,SRS452142,SRR921078,2.0,male,plantar heel
+783,SRS452142,SRR921141,2.0,male,plantar heel
+784,SRS452143,SRR921079,2.0,male,plantar heel
+785,SRS452143,SRR921142,2.0,male,plantar heel
+786,SRS452144,SRR921080,2.0,male,retroauricular crease
+787,SRS452144,SRR921143,2.0,male,retroauricular crease
+788,SRS452145,SRR921081,2.0,male,retroauricular crease
+789,SRS452145,SRR921144,2.0,male,retroauricular crease
+790,SRS452146,SRR921082,2.0,male,toenail
+791,SRS452146,SRR921145,2.0,male,toenail
+792,SRS452147,SRR921083,2.0,male,toenail
+793,SRS452147,SRR921146,2.0,male,toenail
+794,SRS452148,SRR921084,2.0,male,toeweb
+795,SRS452148,SRR921147,2.0,male,toeweb
+796,SRS452149,SRR921085,2.0,male,toeweb
+797,SRS452149,SRR921148,2.0,male,toeweb
+798,SRS452150,SRR921086,2.0,male,volar forearm
+799,SRS452150,SRR921149,2.0,male,volar forearm
+800,SRS452152,SRR921087,2.0,male,volar forearm
+801,SRS452152,SRR921150,2.0,male,volar forearm
+802,SRS482334,SRR994404,2.0,female,antecubital fossa
+803,SRS482334,SRR994474,2.0,female,antecubital fossa
+804,SRS482335,SRR994405,2.0,female,antecubital fossa
+805,SRS482335,SRR994475,2.0,female,antecubital fossa
+806,SRS482336,SRR994406,2.0,female,volar forearm
+807,SRS482336,SRR994476,2.0,female,volar forearm
+808,SRS482337,SRR994407,2.0,female,popliteal fossa
+809,SRS482337,SRR994477,2.0,female,popliteal fossa
+810,SRS482338,SRR994408,2.0,female,popliteal fossa
+811,SRS482338,SRR994478,2.0,female,popliteal fossa
+812,SRS482339,SRR994409,2.0,female,nare
+813,SRS482339,SRR994479,2.0,female,nare
+814,SRS482340,SRR994410,2.0,female,antecubital fossa
+815,SRS482340,SRR994480,2.0,female,antecubital fossa
+816,SRS482341,SRR994411,2.0,female,antecubital fossa
+817,SRS482341,SRR994481,2.0,female,antecubital fossa
+818,SRS482342,SRR994412,2.0,female,volar forearm
+819,SRS482342,SRR994482,2.0,female,volar forearm
+820,SRS482343,SRR994413,2.0,female,volar forearm
+821,SRS482343,SRR994483,2.0,female,volar forearm
+822,SRS482344,SRR994414,2.0,female,popliteal fossa
+823,SRS482344,SRR994484,2.0,female,popliteal fossa
+824,SRS482345,SRR994415,2.0,female,popliteal fossa
+825,SRS482345,SRR994485,2.0,female,popliteal fossa
+826,SRS482346,SRR994416,2.0,female,nare
+827,SRS482346,SRR994486,2.0,female,nare
+828,SRS482347,SRR994417,2.0,female,antecubital fossa
+829,SRS482347,SRR994487,2.0,female,antecubital fossa
+830,SRS482348,SRR994418,2.0,female,antecubital fossa
+831,SRS482348,SRR994488,2.0,female,antecubital fossa
+832,SRS482349,SRR994419,2.0,female,volar forearm
+833,SRS482349,SRR994489,2.0,female,volar forearm
+834,SRS482350,SRR994420,2.0,female,volar forearm
+835,SRS482350,SRR994490,2.0,female,volar forearm
+836,SRS482351,SRR994421,2.0,female,popliteal fossa
+837,SRS482351,SRR994491,2.0,female,popliteal fossa
+838,SRS482352,SRR994422,2.0,female,popliteal fossa
+839,SRS482352,SRR994492,2.0,female,popliteal fossa
+840,SRS482353,SRR994423,2.0,female,nare
+841,SRS482353,SRR994493,2.0,female,nare
+842,SRS482354,SRR994424,2.0,female,antecubital fossa
+843,SRS482354,SRR994494,2.0,female,antecubital fossa
+844,SRS482355,SRR994425,2.0,female,volar forearm
+845,SRS482355,SRR994495,2.0,female,volar forearm
+846,SRS482356,SRR994426,2.0,female,volar forearm
+847,SRS482356,SRR994496,2.0,female,volar forearm
+848,SRS482357,SRR994427,2.0,female,popliteal fossa
+849,SRS482357,SRR994497,2.0,female,popliteal fossa
+850,SRS482358,SRR994428,2.0,female,popliteal fossa
+851,SRS482358,SRR994498,2.0,female,popliteal fossa
+852,SRS482359,SRR994429,2.0,female,nare
+853,SRS482359,SRR994499,2.0,female,nare
+854,SRS482360,SRR994431,2.0,female,antecubital fossa
+855,SRS482360,SRR994501,2.0,female,antecubital fossa
+856,SRS482361,SRR994430,2.0,female,antecubital fossa
+857,SRS482361,SRR994500,2.0,female,antecubital fossa
+858,SRS482362,SRR994432,2.0,female,volar forearm
+859,SRS482362,SRR994502,2.0,female,volar forearm
+860,SRS482363,SRR994433,2.0,female,volar forearm
+861,SRS482363,SRR994503,2.0,female,volar forearm
+862,SRS482364,SRR994434,2.0,female,popliteal fossa
+863,SRS482364,SRR994504,2.0,female,popliteal fossa
+864,SRS482365,SRR994435,2.0,female,popliteal fossa
+865,SRS482365,SRR994505,2.0,female,popliteal fossa
+866,SRS482366,SRR994436,2.0,male,antecubital fossa
+867,SRS482366,SRR994506,2.0,male,antecubital fossa
+868,SRS482367,SRR994437,2.0,male,antecubital fossa
+869,SRS482367,SRR994507,2.0,male,antecubital fossa
+870,SRS482368,SRR994438,2.0,male,volar forearm
+871,SRS482368,SRR994508,2.0,male,volar forearm
+872,SRS482369,SRR994439,2.0,male,volar forearm
+873,SRS482369,SRR994509,2.0,male,volar forearm
+874,SRS482370,SRR994440,2.0,male,popliteal fossa
+875,SRS482370,SRR994510,2.0,male,popliteal fossa
+876,SRS482371,SRR994441,2.0,male,popliteal fossa
+877,SRS482371,SRR994511,2.0,male,popliteal fossa
+878,SRS482372,SRR994442,2.0,male,nare
+879,SRS482372,SRR994512,2.0,male,nare
+880,SRS482373,SRR994443,2.0,male,antecubital fossa
+881,SRS482373,SRR994513,2.0,male,antecubital fossa
+882,SRS482374,SRR994444,2.0,male,antecubital fossa
+883,SRS482374,SRR994514,2.0,male,antecubital fossa
+884,SRS482375,SRR994445,2.0,male,volar forearm
+885,SRS482375,SRR994515,2.0,male,volar forearm
+886,SRS482376,SRR994446,2.0,male,volar forearm
+887,SRS482376,SRR994516,2.0,male,volar forearm
+888,SRS482377,SRR994447,2.0,male,popliteal fossa
+889,SRS482377,SRR994517,2.0,male,popliteal fossa
+890,SRS482378,SRR994448,2.0,male,popliteal fossa
+891,SRS482378,SRR994518,2.0,male,popliteal fossa
+892,SRS482379,SRR994449,2.0,male,nare
+893,SRS482379,SRR994519,2.0,male,nare
+894,SRS482380,SRR994450,2.0,male,volar forearm
+895,SRS482380,SRR994520,2.0,male,volar forearm
+896,SRS482381,SRR994451,2.0,male,volar forearm
+897,SRS482381,SRR994521,2.0,male,volar forearm
+898,SRS482382,SRR994452,2.0,male,popliteal fossa
+899,SRS482382,SRR994522,2.0,male,popliteal fossa
+900,SRS482383,SRR994453,2.0,male,popliteal fossa
+901,SRS482383,SRR994523,2.0,male,popliteal fossa
+902,SRS482384,SRR994454,2.0,male,nare
+903,SRS482384,SRR994524,2.0,male,nare
+904,SRS482385,SRR994455,2.0,male,volar forearm
+905,SRS482385,SRR994525,2.0,male,volar forearm
+906,SRS482386,SRR994456,2.0,female,antecubital fossa
+907,SRS482386,SRR994526,2.0,female,antecubital fossa
+908,SRS482387,SRR994457,2.0,female,antecubital fossa
+909,SRS482387,SRR994527,2.0,female,antecubital fossa
+910,SRS482388,SRR994458,2.0,female,volar forearm
+911,SRS482388,SRR994528,2.0,female,volar forearm
+912,SRS482389,SRR994459,2.0,female,volar forearm
+913,SRS482389,SRR994529,2.0,female,volar forearm
+914,SRS482390,SRR994460,2.0,female,popliteal fossa
+915,SRS482390,SRR994530,2.0,female,popliteal fossa
+916,SRS482391,SRR994461,2.0,female,popliteal fossa
+917,SRS482391,SRR994531,2.0,female,popliteal fossa
+918,SRS482392,SRR994462,2.0,female,nare
+919,SRS482392,SRR994532,2.0,female,nare
+920,SRS482393,SRR994463,2.0,female,antecubital fossa
+921,SRS482393,SRR994533,2.0,female,antecubital fossa
+922,SRS482394,SRR994464,2.0,female,antecubital fossa
+923,SRS482394,SRR994534,2.0,female,antecubital fossa
+924,SRS482395,SRR994465,2.0,female,volar forearm
+925,SRS482395,SRR994535,2.0,female,volar forearm
+926,SRS482396,SRR994466,2.0,female,volar forearm
+927,SRS482396,SRR994536,2.0,female,volar forearm
+928,SRS482397,SRR994467,2.0,female,popliteal fossa
+929,SRS482397,SRR994537,2.0,female,popliteal fossa
+930,SRS482398,SRR994468,2.0,female,popliteal fossa
+931,SRS482398,SRR994538,2.0,female,popliteal fossa
+932,SRS482399,SRR994469,2.0,female,nare
+933,SRS482399,SRR994539,2.0,female,nare
+934,SRS482400,SRR994470,2.0,male,popliteal fossa
+935,SRS482400,SRR994540,2.0,male,popliteal fossa
+936,SRS482401,SRR994471,2.0,male,popliteal fossa
+937,SRS482401,SRR994541,2.0,male,popliteal fossa
+938,SRS482402,SRR994472,2.0,male,nare
+939,SRS482402,SRR994542,2.0,male,nare
+940,SRS482403,SRR994473,2.0,male,nare
+941,SRS482403,SRR994543,2.0,male,nare
+942,SRS482404,SRR994544,2.0,male,antecubital fossa
+943,SRS482404,SRR994627,2.0,male,antecubital fossa
+944,SRS482405,SRR994545,2.0,male,antecubital fossa
+945,SRS482405,SRR994628,2.0,male,antecubital fossa
+946,SRS482406,SRR994547,2.0,male,volar forearm
+947,SRS482406,SRR994630,2.0,male,volar forearm
+948,SRS482407,SRR994546,2.0,male,volar forearm
+949,SRS482407,SRR994629,2.0,male,volar forearm
+950,SRS482408,SRR994548,2.0,male,popliteal fossa
+951,SRS482408,SRR994631,2.0,male,popliteal fossa
+952,SRS482409,SRR994549,2.0,male,popliteal fossa
+953,SRS482409,SRR994632,2.0,male,popliteal fossa
+954,SRS482410,SRR994550,2.0,male,nare
+955,SRS482410,SRR994633,2.0,male,nare
+956,SRS482411,SRR994551,2.0,male,antecubital fossa
+957,SRS482411,SRR994634,2.0,male,antecubital fossa
+958,SRS482412,SRR994552,2.0,male,antecubital fossa
+959,SRS482412,SRR994635,2.0,male,antecubital fossa
+960,SRS482413,SRR994554,2.0,male,volar forearm
+961,SRS482413,SRR994637,2.0,male,volar forearm
+962,SRS482414,SRR994553,2.0,male,volar forearm
+963,SRS482414,SRR994636,2.0,male,volar forearm
+964,SRS482415,SRR994556,2.0,male,popliteal fossa
+965,SRS482415,SRR994639,2.0,male,popliteal fossa
+966,SRS482416,SRR994555,2.0,male,popliteal fossa
+967,SRS482416,SRR994638,2.0,male,popliteal fossa
+968,SRS482417,SRR994558,2.0,male,antecubital fossa
+969,SRS482417,SRR994641,2.0,male,antecubital fossa
+970,SRS482418,SRR994557,2.0,male,nare
+971,SRS482418,SRR994640,2.0,male,nare
+972,SRS482419,SRR994559,2.0,male,antecubital fossa
+973,SRS482419,SRR994642,2.0,male,antecubital fossa
+974,SRS482420,SRR994560,2.0,male,volar forearm
+975,SRS482420,SRR994643,2.0,male,volar forearm
+976,SRS482421,SRR994562,2.0,male,popliteal fossa
+977,SRS482421,SRR994645,2.0,male,popliteal fossa
+978,SRS482422,SRR994561,2.0,male,volar forearm
+979,SRS482422,SRR994644,2.0,male,volar forearm
+980,SRS482423,SRR994563,2.0,male,popliteal fossa
+981,SRS482423,SRR994646,2.0,male,popliteal fossa
+982,SRS482424,SRR994564,2.0,male,nare
+983,SRS482424,SRR994647,2.0,male,nare
+984,SRS482425,SRR994565,2.0,female,antecubital fossa
+985,SRS482425,SRR994648,2.0,female,antecubital fossa
+986,SRS482426,SRR994567,2.0,female,volar forearm
+987,SRS482426,SRR994650,2.0,female,volar forearm
+988,SRS482427,SRR994566,2.0,female,antecubital fossa
+989,SRS482427,SRR994649,2.0,female,antecubital fossa
+990,SRS482428,SRR994568,2.0,female,volar forearm
+991,SRS482428,SRR994651,2.0,female,volar forearm
+992,SRS482429,SRR994570,2.0,female,popliteal fossa
+993,SRS482429,SRR994653,2.0,female,popliteal fossa
+994,SRS482430,SRR994569,2.0,female,popliteal fossa
+995,SRS482430,SRR994652,2.0,female,popliteal fossa
+996,SRS482431,SRR994571,2.0,female,nare
+997,SRS482431,SRR994654,2.0,female,nare
+998,SRS482432,SRR994572,2.0,female,antecubital fossa
+999,SRS482432,SRR994655,2.0,female,antecubital fossa
+1000,SRS482433,SRR994573,2.0,female,antecubital fossa
+1001,SRS482433,SRR994656,2.0,female,antecubital fossa
+1002,SRS482434,SRR994574,2.0,female,volar forearm
+1003,SRS482434,SRR994657,2.0,female,volar forearm
+1004,SRS482435,SRR994575,2.0,female,volar forearm
+1005,SRS482435,SRR994658,2.0,female,volar forearm
+1006,SRS482436,SRR994576,2.0,female,popliteal fossa
+1007,SRS482436,SRR994659,2.0,female,popliteal fossa
+1008,SRS482437,SRR994577,2.0,female,popliteal fossa
+1009,SRS482437,SRR994660,2.0,female,popliteal fossa
+1010,SRS482438,SRR994578,2.0,female,nare
+1011,SRS482438,SRR994661,2.0,female,nare
+1012,SRS482439,SRR994579,2.0,female,antecubital fossa
+1013,SRS482439,SRR994662,2.0,female,antecubital fossa
+1014,SRS482440,SRR994580,2.0,female,antecubital fossa
+1015,SRS482440,SRR994663,2.0,female,antecubital fossa
+1016,SRS482441,SRR994581,2.0,female,volar forearm
+1017,SRS482441,SRR994664,2.0,female,volar forearm
+1018,SRS482442,SRR994582,2.0,female,volar forearm
+1019,SRS482442,SRR994665,2.0,female,volar forearm
+1020,SRS482443,SRR994584,2.0,female,popliteal fossa
+1021,SRS482443,SRR994667,2.0,female,popliteal fossa
+1022,SRS482444,SRR994583,2.0,female,popliteal fossa
+1023,SRS482444,SRR994666,2.0,female,popliteal fossa
+1024,SRS482445,SRR994585,2.0,female,nare
+1025,SRS482445,SRR994668,2.0,female,nare
+1026,SRS482446,SRR994586,2.0,male,antecubital fossa
+1027,SRS482446,SRR994669,2.0,male,antecubital fossa
+1028,SRS482447,SRR994587,2.0,male,antecubital fossa
+1029,SRS482447,SRR994670,2.0,male,antecubital fossa
+1030,SRS482448,SRR994588,2.0,male,volar forearm
+1031,SRS482448,SRR994671,2.0,male,volar forearm
+1032,SRS482449,SRR994589,2.0,male,volar forearm
+1033,SRS482449,SRR994672,2.0,male,volar forearm
+1034,SRS482450,SRR994590,2.0,male,popliteal fossa
+1035,SRS482450,SRR994673,2.0,male,popliteal fossa
+1036,SRS482451,SRR994591,2.0,male,popliteal fossa
+1037,SRS482451,SRR994674,2.0,male,popliteal fossa
+1038,SRS482452,SRR994592,2.0,male,nare
+1039,SRS482452,SRR994675,2.0,male,nare
+1040,SRS482453,SRR994593,2.0,male,antecubital fossa
+1041,SRS482453,SRR994676,2.0,male,antecubital fossa
+1042,SRS482454,SRR994594,2.0,male,antecubital fossa
+1043,SRS482454,SRR994677,2.0,male,antecubital fossa
+1044,SRS482455,SRR994595,2.0,male,volar forearm
+1045,SRS482455,SRR994678,2.0,male,volar forearm
+1046,SRS482456,SRR994596,2.0,male,volar forearm
+1047,SRS482456,SRR994679,2.0,male,volar forearm
+1048,SRS482457,SRR994597,2.0,male,popliteal fossa
+1049,SRS482457,SRR994680,2.0,male,popliteal fossa
+1050,SRS482458,SRR994598,2.0,male,popliteal fossa
+1051,SRS482458,SRR994681,2.0,male,popliteal fossa
+1052,SRS482459,SRR994599,2.0,male,nare
+1053,SRS482459,SRR994682,2.0,male,nare
+1054,SRS482460,SRR994600,2.0,male,antecubital fossa
+1055,SRS482460,SRR994683,2.0,male,antecubital fossa
+1056,SRS482461,SRR994601,2.0,male,antecubital fossa
+1057,SRS482461,SRR994684,2.0,male,antecubital fossa
+1058,SRS482462,SRR994602,2.0,male,volar forearm
+1059,SRS482462,SRR994685,2.0,male,volar forearm
+1060,SRS482463,SRR994603,2.0,male,volar forearm
+1061,SRS482463,SRR994686,2.0,male,volar forearm
+1062,SRS482464,SRR994604,2.0,male,popliteal fossa
+1063,SRS482464,SRR994687,2.0,male,popliteal fossa
+1064,SRS482465,SRR994606,2.0,male,nare
+1065,SRS482465,SRR994689,2.0,male,nare
+1066,SRS482466,SRR994605,2.0,male,popliteal fossa
+1067,SRS482466,SRR994688,2.0,male,popliteal fossa
+1068,SRS482467,SRR994607,2.0,male,antecubital fossa
+1069,SRS482467,SRR994690,2.0,male,antecubital fossa
+1070,SRS482468,SRR994608,2.0,male,volar forearm
+1071,SRS482468,SRR994691,2.0,male,volar forearm
+1072,SRS482469,SRR994609,2.0,male,nare
+1073,SRS482469,SRR994692,2.0,male,nare
+1074,SRS482470,SRR994610,2.0,male,retroauricular crease
+1075,SRS482470,SRR994693,2.0,male,retroauricular crease
+1076,SRS482471,SRR994611,2.0,male,antecubital fossa
+1077,SRS482471,SRR994694,2.0,male,antecubital fossa
+1078,SRS482472,SRR994612,2.0,male,volar forearm
+1079,SRS482472,SRR994695,2.0,male,volar forearm
+1080,SRS482473,SRR994613,2.0,male,nare
+1081,SRS482473,SRR994696,2.0,male,nare
+1082,SRS482474,SRR994614,2.0,male,retroauricular crease
+1083,SRS482474,SRR994697,2.0,male,retroauricular crease
+1084,SRS482475,SRR994615,2.0,male,antecubital fossa
+1085,SRS482475,SRR994698,2.0,male,antecubital fossa
+1086,SRS482476,SRR994616,2.0,male,volar forearm
+1087,SRS482476,SRR994699,2.0,male,volar forearm
+1088,SRS482477,SRR994618,2.0,male,retroauricular crease
+1089,SRS482477,SRR994701,2.0,male,retroauricular crease
+1090,SRS482478,SRR994617,2.0,male,nare
+1091,SRS482478,SRR994700,2.0,male,nare
+1092,SRS482479,SRR994619,2.0,male,antecubital fossa
+1093,SRS482479,SRR994702,2.0,male,antecubital fossa
+1094,SRS482480,SRR994620,2.0,male,volar forearm
+1095,SRS482480,SRR994703,2.0,male,volar forearm
+1096,SRS482481,SRR994621,2.0,male,nare
+1097,SRS482481,SRR994704,2.0,male,nare
+1098,SRS482482,SRR994622,2.0,male,retroauricular crease
+1099,SRS482482,SRR994705,2.0,male,retroauricular crease
+1100,SRS482483,SRR994623,2.0,male,antecubital fossa
+1101,SRS482483,SRR994706,2.0,male,antecubital fossa
+1102,SRS482484,SRR994624,2.0,male,volar forearm
+1103,SRS482484,SRR994707,2.0,male,volar forearm
+1104,SRS482485,SRR994625,2.0,male,nare
+1105,SRS482485,SRR994708,2.0,male,nare
+1106,SRS482486,SRR994626,2.0,male,retroauricular crease
+1107,SRS482486,SRR994709,2.0,male,retroauricular crease
+1108,SRS482487,SRR994710,2.0,male,antecubital fossa
+1109,SRS482487,SRR994799,2.0,male,antecubital fossa
+1110,SRS482488,SRR994711,2.0,male,antecubital fossa
+1111,SRS482488,SRR994800,2.0,male,antecubital fossa
+1112,SRS482489,SRR994712,2.0,male,volar forearm
+1113,SRS482489,SRR994801,2.0,male,volar forearm
+1114,SRS482490,SRR994713,2.0,male,nare
+1115,SRS482490,SRR994802,2.0,male,nare
+1116,SRS482491,SRR994714,2.0,male,retroauricular crease
+1117,SRS482491,SRR994803,2.0,male,retroauricular crease
+1118,SRS482492,SRR994715,2.0,male,antecubital fossa
+1119,SRS482492,SRR994804,2.0,male,antecubital fossa
+1120,SRS482493,SRR994716,2.0,male,antecubital fossa
+1121,SRS482493,SRR994805,2.0,male,antecubital fossa
+1122,SRS482494,SRR994717,2.0,male,volar forearm
+1123,SRS482494,SRR994806,2.0,male,volar forearm
+1124,SRS482495,SRR994719,2.0,male,retroauricular crease
+1125,SRS482495,SRR994808,2.0,male,retroauricular crease
+1126,SRS482496,SRR994718,2.0,male,nare
+1127,SRS482496,SRR994807,2.0,male,nare
+1128,SRS482497,SRR994720,2.0,female,antecubital fossa
+1129,SRS482497,SRR994809,2.0,female,antecubital fossa
+1130,SRS482498,SRR994721,2.0,female,antecubital fossa
+1131,SRS482498,SRR994810,2.0,female,antecubital fossa
+1132,SRS482499,SRR994722,2.0,female,volar forearm
+1133,SRS482499,SRR994811,2.0,female,volar forearm
+1134,SRS482500,SRR994723,2.0,female,nare
+1135,SRS482500,SRR994812,2.0,female,nare
+1136,SRS482501,SRR994724,2.0,female,retroauricular crease
+1137,SRS482501,SRR994813,2.0,female,retroauricular crease
+1138,SRS482502,SRR994725,2.0,male,antecubital fossa
+1139,SRS482502,SRR994814,2.0,male,antecubital fossa
+1140,SRS482503,SRR994726,2.0,male,antecubital fossa
+1141,SRS482503,SRR994815,2.0,male,antecubital fossa
+1142,SRS482504,SRR994727,2.0,male,volar forearm
+1143,SRS482504,SRR994816,2.0,male,volar forearm
+1144,SRS482505,SRR994728,2.0,male,nare
+1145,SRS482505,SRR994817,2.0,male,nare
+1146,SRS482506,SRR994729,2.0,male,retroauricular crease
+1147,SRS482506,SRR994818,2.0,male,retroauricular crease
+1148,SRS482507,SRR994730,2.0,male,antecubital fossa
+1149,SRS482507,SRR994819,2.0,male,antecubital fossa
+1150,SRS482508,SRR994732,2.0,male,volar forearm
+1151,SRS482508,SRR994821,2.0,male,volar forearm
+1152,SRS482509,SRR994731,2.0,male,antecubital fossa
+1153,SRS482509,SRR994820,2.0,male,antecubital fossa
+1154,SRS482510,SRR994733,2.0,male,nare
+1155,SRS482510,SRR994822,2.0,male,nare
+1156,SRS482511,SRR994734,2.0,male,retroauricular crease
+1157,SRS482511,SRR994823,2.0,male,retroauricular crease
+1158,SRS482512,SRR994735,2.0,male,antecubital fossa
+1159,SRS482512,SRR994824,2.0,male,antecubital fossa
+1160,SRS482513,SRR994736,2.0,male,antecubital fossa
+1161,SRS482513,SRR994825,2.0,male,antecubital fossa
+1162,SRS482514,SRR994737,2.0,male,volar forearm
+1163,SRS482514,SRR994826,2.0,male,volar forearm
+1164,SRS482515,SRR994738,2.0,male,nare
+1165,SRS482515,SRR994827,2.0,male,nare
+1166,SRS482516,SRR994740,2.0,male,antecubital fossa
+1167,SRS482516,SRR994829,2.0,male,antecubital fossa
+1168,SRS482517,SRR994739,2.0,male,retroauricular crease
+1169,SRS482517,SRR994828,2.0,male,retroauricular crease
+1170,SRS482518,SRR994741,2.0,male,antecubital fossa
+1171,SRS482518,SRR994830,2.0,male,antecubital fossa
+1172,SRS482519,SRR994742,2.0,male,volar forearm
+1173,SRS482519,SRR994831,2.0,male,volar forearm
+1174,SRS482520,SRR994743,2.0,male,nare
+1175,SRS482520,SRR994832,2.0,male,nare
+1176,SRS482521,SRR994744,2.0,male,retroauricular crease
+1177,SRS482521,SRR994833,2.0,male,retroauricular crease
+1178,SRS482522,SRR994746,2.0,female,antecubital fossa
+1179,SRS482522,SRR994835,2.0,female,antecubital fossa
+1180,SRS482523,SRR994745,2.0,female,antecubital fossa
+1181,SRS482523,SRR994834,2.0,female,antecubital fossa
+1182,SRS482524,SRR994747,2.0,female,volar forearm
+1183,SRS482524,SRR994836,2.0,female,volar forearm
+1184,SRS482525,SRR994748,2.0,female,nare
+1185,SRS482525,SRR994837,2.0,female,nare
+1186,SRS482526,SRR994750,2.0,female,antecubital fossa
+1187,SRS482526,SRR994839,2.0,female,antecubital fossa
+1188,SRS482527,SRR994749,2.0,female,retroauricular crease
+1189,SRS482527,SRR994838,2.0,female,retroauricular crease
+1190,SRS482528,SRR994752,2.0,female,volar forearm
+1191,SRS482528,SRR994841,2.0,female,volar forearm
+1192,SRS482529,SRR994751,2.0,female,antecubital fossa
+1193,SRS482529,SRR994840,2.0,female,antecubital fossa
+1194,SRS482530,SRR994753,2.0,female,nare
+1195,SRS482530,SRR994842,2.0,female,nare
+1196,SRS482531,SRR994754,2.0,female,retroauricular crease
+1197,SRS482531,SRR994843,2.0,female,retroauricular crease
+1198,SRS482532,SRR994755,2.0,male,antecubital fossa
+1199,SRS482532,SRR994844,2.0,male,antecubital fossa
+1200,SRS482533,SRR994756,2.0,male,antecubital fossa
+1201,SRS482533,SRR994845,2.0,male,antecubital fossa
+1202,SRS482534,SRR994758,2.0,male,nare
+1203,SRS482534,SRR994847,2.0,male,nare
+1204,SRS482535,SRR994757,2.0,male,volar forearm
+1205,SRS482535,SRR994846,2.0,male,volar forearm
+1206,SRS482536,SRR994759,2.0,male,retroauricular crease
+1207,SRS482536,SRR994848,2.0,male,retroauricular crease
+1208,SRS482537,SRR994760,2.0,male,antecubital fossa
+1209,SRS482537,SRR994849,2.0,male,antecubital fossa
+1210,SRS482538,SRR994761,2.0,male,antecubital fossa
+1211,SRS482538,SRR994850,2.0,male,antecubital fossa
+1212,SRS482539,SRR994762,2.0,male,volar forearm
+1213,SRS482539,SRR994851,2.0,male,volar forearm
+1214,SRS482540,SRR994763,2.0,male,nare
+1215,SRS482540,SRR994852,2.0,male,nare
+1216,SRS482541,SRR994764,2.0,male,retroauricular crease
+1217,SRS482541,SRR994853,2.0,male,retroauricular crease
+1218,SRS482542,SRR994766,2.0,male,volar forearm
+1219,SRS482542,SRR994855,2.0,male,volar forearm
+1220,SRS482543,SRR994765,2.0,male,antecubital fossa
+1221,SRS482543,SRR994854,2.0,male,antecubital fossa
+1222,SRS482544,SRR994767,2.0,male,nare
+1223,SRS482544,SRR994856,2.0,male,nare
+1224,SRS482545,SRR994768,2.0,male,retroauricular crease
+1225,SRS482545,SRR994857,2.0,male,retroauricular crease
+1226,SRS482546,SRR994769,2.0,male,antecubital fossa
+1227,SRS482546,SRR994858,2.0,male,antecubital fossa
+1228,SRS482547,SRR994770,2.0,male,antecubital fossa
+1229,SRS482547,SRR994859,2.0,male,antecubital fossa
+1230,SRS482548,SRR994771,2.0,male,volar forearm
+1231,SRS482548,SRR994860,2.0,male,volar forearm
+1232,SRS482549,SRR994772,2.0,male,nare
+1233,SRS482549,SRR994861,2.0,male,nare
+1234,SRS482550,SRR994773,2.0,male,retroauricular crease
+1235,SRS482550,SRR994862,2.0,male,retroauricular crease
+1236,SRS482551,SRR994774,2.0,male,antecubital fossa
+1237,SRS482551,SRR994863,2.0,male,antecubital fossa
+1238,SRS482552,SRR994776,2.0,male,volar forearm
+1239,SRS482552,SRR994865,2.0,male,volar forearm
+1240,SRS482553,SRR994775,2.0,male,antecubital fossa
+1241,SRS482553,SRR994864,2.0,male,antecubital fossa
+1242,SRS482554,SRR994777,2.0,male,nare
+1243,SRS482554,SRR994866,2.0,male,nare
+1244,SRS482555,SRR994778,2.0,male,retroauricular crease
+1245,SRS482555,SRR994867,2.0,male,retroauricular crease
+1246,SRS482556,SRR994779,2.0,female,antecubital fossa
+1247,SRS482556,SRR994868,2.0,female,antecubital fossa
+1248,SRS482557,SRR994780,2.0,female,antecubital fossa
+1249,SRS482557,SRR994869,2.0,female,antecubital fossa
+1250,SRS482558,SRR994781,2.0,female,volar forearm
+1251,SRS482558,SRR994870,2.0,female,volar forearm
+1252,SRS482559,SRR994782,2.0,female,nare
+1253,SRS482559,SRR994871,2.0,female,nare
+1254,SRS482560,SRR994784,2.0,female,antecubital fossa
+1255,SRS482560,SRR994873,2.0,female,antecubital fossa
+1256,SRS482561,SRR994783,2.0,female,retroauricular crease
+1257,SRS482561,SRR994872,2.0,female,retroauricular crease
+1258,SRS482562,SRR994785,2.0,female,antecubital fossa
+1259,SRS482562,SRR994874,2.0,female,antecubital fossa
+1260,SRS482563,SRR994786,2.0,female,volar forearm
+1261,SRS482563,SRR994875,2.0,female,volar forearm
+1262,SRS482564,SRR994787,2.0,female,nare
+1263,SRS482564,SRR994876,2.0,female,nare
+1264,SRS482565,SRR994788,2.0,female,retroauricular crease
+1265,SRS482565,SRR994877,2.0,female,retroauricular crease
+1266,SRS482566,SRR994789,2.0,female,antecubital fossa
+1267,SRS482566,SRR994878,2.0,female,antecubital fossa
+1268,SRS482567,SRR994790,2.0,female,antecubital fossa
+1269,SRS482567,SRR994879,2.0,female,antecubital fossa
+1270,SRS482568,SRR994791,2.0,female,volar forearm
+1271,SRS482568,SRR994880,2.0,female,volar forearm
+1272,SRS482569,SRR994793,2.0,female,retroauricular crease
+1273,SRS482569,SRR994882,2.0,female,retroauricular crease
+1274,SRS482570,SRR994792,2.0,female,nare
+1275,SRS482570,SRR994881,2.0,female,nare
+1276,SRS482571,SRR994794,2.0,female,antecubital fossa
+1277,SRS482571,SRR994883,2.0,female,antecubital fossa
+1278,SRS482572,SRR994795,2.0,female,antecubital fossa
+1279,SRS482572,SRR994884,2.0,female,antecubital fossa
+1280,SRS482573,SRR994796,2.0,female,volar forearm
+1281,SRS482573,SRR994885,2.0,female,volar forearm
+1282,SRS482574,SRR994797,2.0,female,nare
+1283,SRS482574,SRR994886,2.0,female,nare
+1284,SRS482575,SRR994798,2.0,female,retroauricular crease
+1285,SRS482575,SRR994887,2.0,female,retroauricular crease
+1286,SRS482588,SRR994912,2.0,female,antecubital fossa
+1287,SRS482588,SRR994926,2.0,female,antecubital fossa
+1288,SRS482589,SRR994913,2.0,female,nare
+1289,SRS482589,SRR994927,2.0,female,nare
+1290,SRS482590,SRR994914,2.0,female,retroauricular crease
+1291,SRS482590,SRR994928,2.0,female,retroauricular crease
+1292,SRS482591,SRR994915,2.0,male,antecubital fossa
+1293,SRS482591,SRR994929,2.0,male,antecubital fossa
+1294,SRS482592,SRR994916,2.0,male,nare
+1295,SRS482592,SRR994930,2.0,male,nare
+1296,SRS482593,SRR994917,2.0,male,retroauricular crease
+1297,SRS482593,SRR994931,2.0,male,retroauricular crease
+1298,SRS482594,SRR994918,2.0,female,antecubital fossa
+1299,SRS482594,SRR994932,2.0,female,antecubital fossa
+1300,SRS482595,SRR994919,2.0,female,nare
+1301,SRS482595,SRR994933,2.0,female,nare
+1302,SRS482596,SRR994920,2.0,male,antecubital fossa
+1303,SRS482596,SRR994934,2.0,male,antecubital fossa
+1304,SRS482597,SRR994921,2.0,male,antecubital fossa
+1305,SRS482597,SRR994935,2.0,male,antecubital fossa
+1306,SRS482598,SRR994922,2.0,male,nare
+1307,SRS482598,SRR994936,2.0,male,nare
+1308,SRS482599,SRR994923,2.0,male,nare
+1309,SRS482599,SRR994937,2.0,male,nare
+1310,SRS482600,SRR994924,2.0,male,retroauricular crease
+1311,SRS482600,SRR994938,2.0,male,retroauricular crease
+1312,SRS482601,SRR994925,2.0,male,retroauricular crease
+1313,SRS482601,SRR994939,2.0,male,retroauricular crease
+1314,SRS482602,SRR994941,2.0,female,retroauricular crease
+1315,SRS482602,SRR994990,2.0,female,retroauricular crease
+1316,SRS482603,SRR994940,2.0,female,nare
+1317,SRS482603,SRR994989,2.0,female,nare
+1318,SRS482604,SRR994942,2.0,female,antecubital fossa
+1319,SRS482604,SRR994991,2.0,female,antecubital fossa
+1320,SRS482605,SRR994943,2.0,female,volar forearm
+1321,SRS482605,SRR994992,2.0,female,volar forearm
+1322,SRS482606,SRR994945,2.0,male,nare
+1323,SRS482606,SRR994994,2.0,male,nare
+1324,SRS482607,SRR994944,2.0,female,popliteal fossa
+1325,SRS482607,SRR994993,2.0,female,popliteal fossa
+1326,SRS482608,SRR994946,2.0,male,retroauricular crease
+1327,SRS482608,SRR994995,2.0,male,retroauricular crease
+1328,SRS482609,SRR994947,2.0,male,antecubital fossa
+1329,SRS482609,SRR994996,2.0,male,antecubital fossa
+1330,SRS482610,SRR994948,2.0,male,nare
+1331,SRS482610,SRR994997,2.0,male,nare
+1332,SRS482611,SRR994949,2.0,male,retroauricular crease
+1333,SRS482611,SRR994998,2.0,male,retroauricular crease
+1334,SRS482612,SRR994950,2.0,male,antecubital fossa
+1335,SRS482612,SRR994999,2.0,male,antecubital fossa
+1336,SRS482613,SRR994951,2.0,male,antecubital fossa
+1337,SRS482613,SRR995000,2.0,male,antecubital fossa
+1338,SRS482614,SRR994953,2.0,male,nare
+1339,SRS482614,SRR995002,2.0,male,nare
+1340,SRS482615,SRR994952,2.0,male,popliteal fossa
+1341,SRS482615,SRR995001,2.0,male,popliteal fossa
+1342,SRS482616,SRR994954,2.0,female,nare
+1343,SRS482616,SRR995003,2.0,female,nare
+1344,SRS482617,SRR994955,2.0,female,retroauricular crease
+1345,SRS482617,SRR995004,2.0,female,retroauricular crease
+1346,SRS482618,SRR994956,2.0,female,antecubital fossa
+1347,SRS482618,SRR995005,2.0,female,antecubital fossa
+1348,SRS482619,SRR994957,2.0,male,nare
+1349,SRS482619,SRR995006,2.0,male,nare
+1350,SRS482620,SRR994958,2.0,male,retroauricular crease
+1351,SRS482620,SRR995007,2.0,male,retroauricular crease
+1352,SRS482621,SRR994959,2.0,male,antecubital fossa
+1353,SRS482621,SRR995008,2.0,male,antecubital fossa
+1354,SRS482622,SRR994960,2.0,female,nare
+1355,SRS482622,SRR995009,2.0,female,nare
+1356,SRS482623,SRR994961,2.0,female,retroauricular crease
+1357,SRS482623,SRR995010,2.0,female,retroauricular crease
+1358,SRS482624,SRR994962,2.0,female,antecubital fossa
+1359,SRS482624,SRR995011,2.0,female,antecubital fossa
+1360,SRS482625,SRR994963,2.0,female,antecubital fossa
+1361,SRS482625,SRR995012,2.0,female,antecubital fossa
+1362,SRS482626,SRR994964,2.0,female,antecubital fossa
+1363,SRS482626,SRR995013,2.0,female,antecubital fossa
+1364,SRS482627,SRR994966,2.0,female,volar forearm
+1365,SRS482627,SRR995015,2.0,female,volar forearm
+1366,SRS482628,SRR994965,2.0,female,volar forearm
+1367,SRS482628,SRR995014,2.0,female,volar forearm
+1368,SRS482629,SRR994967,2.0,female,popliteal fossa
+1369,SRS482629,SRR995016,2.0,female,popliteal fossa
+1370,SRS482630,SRR994968,2.0,male,nare
+1371,SRS482630,SRR995017,2.0,male,nare
+1372,SRS482631,SRR994969,2.0,male,retroauricular crease
+1373,SRS482631,SRR995018,2.0,male,retroauricular crease
+1374,SRS482632,SRR994970,2.0,male,volar forearm
+1375,SRS482632,SRR995019,2.0,male,volar forearm
+1376,SRS482633,SRR994971,2.0,male,volar forearm
+1377,SRS482633,SRR995020,2.0,male,volar forearm
+1378,SRS482634,SRR994972,2.0,male,popliteal fossa
+1379,SRS482634,SRR995021,2.0,male,popliteal fossa
+1380,SRS482635,SRR994973,2.0,female,nare
+1381,SRS482635,SRR995022,2.0,female,nare
+1382,SRS482636,SRR994974,2.0,female,retroauricular crease
+1383,SRS482636,SRR995023,2.0,female,retroauricular crease
+1384,SRS482637,SRR994975,2.0,female,antecubital fossa
+1385,SRS482637,SRR995024,2.0,female,antecubital fossa
+1386,SRS482638,SRR994976,2.0,female,antecubital fossa
+1387,SRS482638,SRR995025,2.0,female,antecubital fossa
+1388,SRS482639,SRR994977,2.0,female,antecubital fossa
+1389,SRS482639,SRR995026,2.0,female,antecubital fossa
+1390,SRS482640,SRR994978,2.0,female,volar forearm
+1391,SRS482640,SRR995027,2.0,female,volar forearm
+1392,SRS482641,SRR994979,2.0,female,volar forearm
+1393,SRS482641,SRR995028,2.0,female,volar forearm
+1394,SRS482642,SRR994980,2.0,female,popliteal fossa
+1395,SRS482642,SRR995029,2.0,female,popliteal fossa
+1396,SRS482643,SRR994981,2.0,male,nare
+1397,SRS482643,SRR995030,2.0,male,nare
+1398,SRS482644,SRR994982,2.0,male,retroauricular crease
+1399,SRS482644,SRR995031,2.0,male,retroauricular crease
+1400,SRS482645,SRR994983,2.0,male,antecubital fossa
+1401,SRS482645,SRR995032,2.0,male,antecubital fossa
+1402,SRS482646,SRR994984,2.0,male,antecubital fossa
+1403,SRS482646,SRR995033,2.0,male,antecubital fossa
+1404,SRS482647,SRR994985,2.0,male,antecubital fossa
+1405,SRS482647,SRR995034,2.0,male,antecubital fossa
+1406,SRS482648,SRR994986,2.0,male,volar forearm
+1407,SRS482648,SRR995035,2.0,male,volar forearm
+1408,SRS482649,SRR994987,2.0,male,volar forearm
+1409,SRS482649,SRR995036,2.0,male,volar forearm
+1410,SRS482650,SRR994988,2.0,male,popliteal fossa
+1411,SRS482650,SRR995037,2.0,male,popliteal fossa
+1412,SRS482651,SRR995038,2.0,female,retroauricular crease
+1413,SRS482651,SRR995065,2.0,female,retroauricular crease
+1414,SRS482652,SRR995039,2.0,female,nare
+1415,SRS482652,SRR995066,2.0,female,nare
+1416,SRS482653,SRR995040,2.0,female,volar forearm
+1417,SRS482653,SRR995067,2.0,female,volar forearm
+1418,SRS482654,SRR995041,2.0,male,retroauricular crease
+1419,SRS482654,SRR995068,2.0,male,retroauricular crease
+1420,SRS482655,SRR995042,2.0,male,nare
+1421,SRS482655,SRR995069,2.0,male,nare
+1422,SRS482656,SRR995043,2.0,male,nare
+1423,SRS482656,SRR995070,2.0,male,nare
+1424,SRS482657,SRR995044,2.0,female,retroauricular crease
+1425,SRS482657,SRR995071,2.0,female,retroauricular crease
+1426,SRS482658,SRR995045,2.0,female,popliteal fossa
+1427,SRS482658,SRR995072,2.0,female,popliteal fossa
+1428,SRS482659,SRR995046,2.0,female,nare
+1429,SRS482659,SRR995073,2.0,female,nare
+1430,SRS482660,SRR995047,2.0,female,retroauricular crease
+1431,SRS482660,SRR995074,2.0,female,retroauricular crease
+1432,SRS482661,SRR995048,2.0,male,retroauricular crease
+1433,SRS482661,SRR995075,2.0,male,retroauricular crease
+1434,SRS482662,SRR995050,2.0,female,volar forearm
+1435,SRS482662,SRR995077,2.0,female,volar forearm
+1436,SRS482663,SRR995049,2.0,male,nare
+1437,SRS482663,SRR995076,2.0,male,nare
+1438,SRS482664,SRR995051,2.0,female,antecubital fossa
+1439,SRS482664,SRR995078,2.0,female,antecubital fossa
+1440,SRS482665,SRR995052,2.0,female,nare
+1441,SRS482665,SRR995079,2.0,female,nare
+1442,SRS482666,SRR995053,2.0,female,retroauricular crease
+1443,SRS482666,SRR995080,2.0,female,retroauricular crease
+1444,SRS482667,SRR995054,2.0,male,retroauricular crease
+1445,SRS482667,SRR995081,2.0,male,retroauricular crease
+1446,SRS482668,SRR995055,2.0,male,retroauricular crease
+1447,SRS482668,SRR995082,2.0,male,retroauricular crease
+1448,SRS482669,SRR995056,2.0,male,retroauricular crease
+1449,SRS482669,SRR995083,2.0,male,retroauricular crease
+1450,SRS482670,SRR995057,2.0,male,nare
+1451,SRS482670,SRR995084,2.0,male,nare
+1452,SRS482671,SRR995058,2.0,male,retroauricular crease
+1453,SRS482671,SRR995085,2.0,male,retroauricular crease
+1454,SRS482672,SRR995059,2.0,male,retroauricular crease
+1455,SRS482672,SRR995086,2.0,male,retroauricular crease
+1456,SRS482673,SRR995060,2.0,male,volar forearm
+1457,SRS482673,SRR995087,2.0,male,volar forearm
+1458,SRS482674,SRR995062,2.0,male,antecubital fossa
+1459,SRS482674,SRR995089,2.0,male,antecubital fossa
+1460,SRS482675,SRR995061,2.0,male,nare
+1461,SRS482675,SRR995088,2.0,male,nare
+1462,SRS482676,SRR995063,2.0,female,popliteal fossa
+1463,SRS482676,SRR995090,2.0,female,popliteal fossa
+1464,SRS482677,SRR995064,2.0,female,nare
+1465,SRS482677,SRR995091,2.0,female,nare
+1466,SRS482678,SRR995092,2.0,male,antecubital fossa
+1467,SRS482678,SRR995136,2.0,male,antecubital fossa
+1468,SRS482679,SRR995093,2.0,male,antecubital fossa
+1469,SRS482679,SRR995137,2.0,male,antecubital fossa
+1470,SRS482680,SRR995094,2.0,male,volar forearm
+1471,SRS482680,SRR995138,2.0,male,volar forearm
+1472,SRS482681,SRR995095,2.0,male,retroauricular crease
+1473,SRS482681,SRR995139,2.0,male,retroauricular crease
+1474,SRS482682,SRR995097,2.0,male,antecubital fossa
+1475,SRS482682,SRR995141,2.0,male,antecubital fossa
+1476,SRS482683,SRR995096,2.0,male,nare
+1477,SRS482683,SRR995140,2.0,male,nare
+1478,SRS482684,SRR995099,2.0,male,volar forearm
+1479,SRS482684,SRR995143,2.0,male,volar forearm
+1480,SRS482685,SRR995098,2.0,male,antecubital fossa
+1481,SRS482685,SRR995142,2.0,male,antecubital fossa
+1482,SRS482686,SRR995100,2.0,male,retroauricular crease
+1483,SRS482686,SRR995144,2.0,male,retroauricular crease
+1484,SRS482687,SRR995101,2.0,male,nare
+1485,SRS482687,SRR995145,2.0,male,nare
+1486,SRS482688,SRR995102,2.0,female,antecubital fossa
+1487,SRS482688,SRR995146,2.0,female,antecubital fossa
+1488,SRS482689,SRR995103,2.0,female,volar forearm
+1489,SRS482689,SRR995147,2.0,female,volar forearm
+1490,SRS482690,SRR995104,2.0,female,retroauricular crease
+1491,SRS482690,SRR995148,2.0,female,retroauricular crease
+1492,SRS482691,SRR995105,2.0,female,nare
+1493,SRS482691,SRR995149,2.0,female,nare
+1494,SRS482692,SRR995107,2.0,female,antecubital fossa
+1495,SRS482692,SRR995151,2.0,female,antecubital fossa
+1496,SRS482693,SRR995106,2.0,female,antecubital fossa
+1497,SRS482693,SRR995150,2.0,female,antecubital fossa
+1498,SRS482694,SRR995108,2.0,female,volar forearm
+1499,SRS482694,SRR995152,2.0,female,volar forearm
+1500,SRS482695,SRR995109,2.0,female,retroauricular crease
+1501,SRS482695,SRR995153,2.0,female,retroauricular crease
+1502,SRS482696,SRR995110,2.0,female,nare
+1503,SRS482696,SRR995154,2.0,female,nare
+1504,SRS482697,SRR995111,2.0,female,antecubital fossa
+1505,SRS482697,SRR995155,2.0,female,antecubital fossa
+1506,SRS482698,SRR995112,2.0,female,antecubital fossa
+1507,SRS482698,SRR995156,2.0,female,antecubital fossa
+1508,SRS482699,SRR995113,2.0,female,volar forearm
+1509,SRS482699,SRR995157,2.0,female,volar forearm
+1510,SRS482700,SRR995114,2.0,female,retroauricular crease
+1511,SRS482700,SRR995158,2.0,female,retroauricular crease
+1512,SRS482701,SRR995115,2.0,female,nare
+1513,SRS482701,SRR995159,2.0,female,nare
+1514,SRS482702,SRR995116,2.0,male,antecubital fossa
+1515,SRS482702,SRR995160,2.0,male,antecubital fossa
+1516,SRS482703,SRR995117,2.0,male,antecubital fossa
+1517,SRS482703,SRR995161,2.0,male,antecubital fossa
+1518,SRS482704,SRR995118,2.0,male,volar forearm
+1519,SRS482704,SRR995162,2.0,male,volar forearm
+1520,SRS482705,SRR995119,2.0,male,retroauricular crease
+1521,SRS482705,SRR995163,2.0,male,retroauricular crease
+1522,SRS482706,SRR995120,2.0,male,nare
+1523,SRS482706,SRR995164,2.0,male,nare
+1524,SRS482707,SRR995121,2.0,female,antecubital fossa
+1525,SRS482707,SRR995165,2.0,female,antecubital fossa
+1526,SRS482708,SRR995122,2.0,female,antecubital fossa
+1527,SRS482708,SRR995166,2.0,female,antecubital fossa
+1528,SRS482709,SRR995123,2.0,female,volar forearm
+1529,SRS482709,SRR995167,2.0,female,volar forearm
+1530,SRS482710,SRR995124,2.0,female,retroauricular crease
+1531,SRS482710,SRR995168,2.0,female,retroauricular crease
+1532,SRS482711,SRR995125,2.0,female,nare
+1533,SRS482711,SRR995169,2.0,female,nare
+1534,SRS482712,SRR995126,2.0,female,antecubital fossa
+1535,SRS482712,SRR995170,2.0,female,antecubital fossa
+1536,SRS482713,SRR995127,2.0,female,antecubital fossa
+1537,SRS482713,SRR995171,2.0,female,antecubital fossa
+1538,SRS482714,SRR995128,2.0,female,volar forearm
+1539,SRS482714,SRR995172,2.0,female,volar forearm
+1540,SRS482715,SRR995129,2.0,female,retroauricular crease
+1541,SRS482715,SRR995173,2.0,female,retroauricular crease
+1542,SRS482716,SRR995130,2.0,female,nare
+1543,SRS482716,SRR995174,2.0,female,nare
+1544,SRS482717,SRR995131,2.0,female,antecubital fossa
+1545,SRS482717,SRR995175,2.0,female,antecubital fossa
+1546,SRS482718,SRR995132,2.0,female,volar forearm
+1547,SRS482718,SRR995176,2.0,female,volar forearm
+1548,SRS482719,SRR995133,2.0,female,popliteal fossa
+1549,SRS482719,SRR995177,2.0,female,popliteal fossa
+1550,SRS482720,SRR995134,2.0,female,retroauricular crease
+1551,SRS482720,SRR995178,2.0,female,retroauricular crease
+1552,SRS482721,SRR995135,2.0,female,nare
+1553,SRS482721,SRR995179,2.0,female,nare
+1554,SRS482767,SRR995270,2.0,male,antecubital fossa
+1555,SRS482767,SRR995278,2.0,male,antecubital fossa
+1556,SRS482768,SRR995271,2.0,male,nare
+1557,SRS482768,SRR995279,2.0,male,nare
+1558,SRS482769,SRR995272,2.0,male,retroauricular crease
+1559,SRS482769,SRR995280,2.0,male,retroauricular crease
+1560,SRS482770,SRR995273,2.0,male,antecubital fossa
+1561,SRS482770,SRR995281,2.0,male,antecubital fossa
+1562,SRS482771,SRR995274,2.0,male,nare
+1563,SRS482771,SRR995282,2.0,male,nare
+1564,SRS482772,SRR995275,2.0,male,retroauricular crease
+1565,SRS482772,SRR995283,2.0,male,retroauricular crease
+1566,SRS482773,SRR995276,2.0,male,volar forearm
+1567,SRS482773,SRR995284,2.0,male,volar forearm
+1568,SRS482774,SRR995277,2.0,male,antecubital fossa
+1569,SRS482774,SRR995285,2.0,male,antecubital fossa
+1570,SRS482775,SRR995286,2.0,male,antecubital fossa
+1571,SRS482775,SRR995354,2.0,male,antecubital fossa
+1572,SRS482776,SRR995288,2.0,male,antecubital fossa
+1573,SRS482776,SRR995356,2.0,male,antecubital fossa
+1574,SRS482777,SRR995287,2.0,male,antecubital fossa
+1575,SRS482777,SRR995355,2.0,male,antecubital fossa
+1576,SRS482778,SRR995289,2.0,male,antecubital fossa
+1577,SRS482778,SRR995357,2.0,male,antecubital fossa
+1578,SRS482779,SRR995290,2.0,male,antecubital fossa
+1579,SRS482779,SRR995358,2.0,male,antecubital fossa
+1580,SRS482780,SRR995291,2.0,male,antecubital fossa
+1581,SRS482780,SRR995359,2.0,male,antecubital fossa
+1582,SRS482781,SRR995292,2.0,male,antecubital fossa
+1583,SRS482781,SRR995360,2.0,male,antecubital fossa
+1584,SRS482782,SRR995293,2.0,male,antecubital fossa
+1585,SRS482782,SRR995361,2.0,male,antecubital fossa
+1586,SRS482783,SRR995294,2.0,male,volar forearm
+1587,SRS482783,SRR995362,2.0,male,volar forearm
+1588,SRS482784,SRR995295,2.0,male,volar forearm
+1589,SRS482784,SRR995363,2.0,male,volar forearm
+1590,SRS482785,SRR995296,2.0,male,volar forearm
+1591,SRS482785,SRR995364,2.0,male,volar forearm
+1592,SRS482786,SRR995297,2.0,male,volar forearm
+1593,SRS482786,SRR995365,2.0,male,volar forearm
+1594,SRS482787,SRR995298,2.0,male,volar forearm
+1595,SRS482787,SRR995366,2.0,male,volar forearm
+1596,SRS482788,SRR995299,2.0,male,volar forearm
+1597,SRS482788,SRR995367,2.0,male,volar forearm
+1598,SRS482789,SRR995300,2.0,male,volar forearm
+1599,SRS482789,SRR995368,2.0,male,volar forearm
+1600,SRS482790,SRR995301,2.0,male,volar forearm
+1601,SRS482790,SRR995369,2.0,male,volar forearm
+1602,SRS482791,SRR995302,2.0,male,popliteal fossa
+1603,SRS482791,SRR995370,2.0,male,popliteal fossa
+1604,SRS482792,SRR995303,2.0,male,popliteal fossa
+1605,SRS482792,SRR995371,2.0,male,popliteal fossa
+1606,SRS482793,SRR995304,2.0,male,popliteal fossa
+1607,SRS482793,SRR995372,2.0,male,popliteal fossa
+1608,SRS482794,SRR995305,2.0,male,popliteal fossa
+1609,SRS482794,SRR995373,2.0,male,popliteal fossa
+1610,SRS482795,SRR995306,2.0,male,nare
+1611,SRS482795,SRR995374,2.0,male,nare
+1612,SRS482796,SRR995307,2.0,male,nare
+1613,SRS482796,SRR995375,2.0,male,nare
+1614,SRS482797,SRR995308,2.0,male,retroauricular crease
+1615,SRS482797,SRR995376,2.0,male,retroauricular crease
+1616,SRS482798,SRR995309,2.0,male,retroauricular crease
+1617,SRS482798,SRR995377,2.0,male,retroauricular crease
+1618,SRS482799,SRR995310,2.0,male,retroauricular crease
+1619,SRS482799,SRR995378,2.0,male,retroauricular crease
+1620,SRS482800,SRR995311,2.0,male,retroauricular crease
+1621,SRS482800,SRR995379,2.0,male,retroauricular crease
+1622,SRS482801,SRR995312,2.0,male,retroauricular crease
+1623,SRS482801,SRR995380,2.0,male,retroauricular crease
+1624,SRS482802,SRR995313,2.0,male,retroauricular crease
+1625,SRS482802,SRR995381,2.0,male,retroauricular crease
+1626,SRS482803,SRR995314,2.0,male,retroauricular crease
+1627,SRS482803,SRR995382,2.0,male,retroauricular crease
+1628,SRS482804,SRR995315,2.0,male,retroauricular crease
+1629,SRS482804,SRR995383,2.0,male,retroauricular crease
+1630,SRS482805,SRR995316,2.0,male,nare
+1631,SRS482805,SRR995384,2.0,male,nare
+1632,SRS482806,SRR995317,2.0,male,nare
+1633,SRS482806,SRR995385,2.0,male,nare
+1634,SRS482807,SRR995318,2.0,female,antecubital fossa
+1635,SRS482807,SRR995386,2.0,female,antecubital fossa
+1636,SRS482808,SRR995319,2.0,female,nare
+1637,SRS482808,SRR995387,2.0,female,nare
+1638,SRS482809,SRR995320,2.0,female,antecubital fossa
+1639,SRS482809,SRR995388,2.0,female,antecubital fossa
+1640,SRS482810,SRR995321,2.0,female,nare
+1641,SRS482810,SRR995389,2.0,female,nare
+1642,SRS482811,SRR995322,2.0,male,antecubital fossa
+1643,SRS482811,SRR995390,2.0,male,antecubital fossa
+1644,SRS482812,SRR995323,2.0,male,antecubital fossa
+1645,SRS482812,SRR995391,2.0,male,antecubital fossa
+1646,SRS482813,SRR995324,2.0,male,antecubital fossa
+1647,SRS482813,SRR995392,2.0,male,antecubital fossa
+1648,SRS482814,SRR995325,2.0,male,antecubital fossa
+1649,SRS482814,SRR995393,2.0,male,antecubital fossa
+1650,SRS482815,SRR995326,2.0,male,antecubital fossa
+1651,SRS482815,SRR995394,2.0,male,antecubital fossa
+1652,SRS482816,SRR995327,2.0,male,antecubital fossa
+1653,SRS482816,SRR995395,2.0,male,antecubital fossa
+1654,SRS482817,SRR995328,2.0,male,antecubital fossa
+1655,SRS482817,SRR995396,2.0,male,antecubital fossa
+1656,SRS482818,SRR995329,2.0,male,antecubital fossa
+1657,SRS482818,SRR995397,2.0,male,antecubital fossa
+1658,SRS482819,SRR995330,2.0,male,volar forearm
+1659,SRS482819,SRR995398,2.0,male,volar forearm
+1660,SRS482820,SRR995331,2.0,male,volar forearm
+1661,SRS482820,SRR995399,2.0,male,volar forearm
+1662,SRS482821,SRR995333,2.0,male,volar forearm
+1663,SRS482821,SRR995401,2.0,male,volar forearm
+1664,SRS482822,SRR995332,2.0,male,volar forearm
+1665,SRS482822,SRR995400,2.0,male,volar forearm
+1666,SRS482823,SRR995334,2.0,male,volar forearm
+1667,SRS482823,SRR995402,2.0,male,volar forearm
+1668,SRS482824,SRR995335,2.0,male,volar forearm
+1669,SRS482824,SRR995403,2.0,male,volar forearm
+1670,SRS482825,SRR995336,2.0,male,volar forearm
+1671,SRS482825,SRR995404,2.0,male,volar forearm
+1672,SRS482826,SRR995337,2.0,male,volar forearm
+1673,SRS482826,SRR995405,2.0,male,volar forearm
+1674,SRS482827,SRR995338,2.0,male,popliteal fossa
+1675,SRS482827,SRR995406,2.0,male,popliteal fossa
+1676,SRS482828,SRR995339,2.0,male,popliteal fossa
+1677,SRS482828,SRR995407,2.0,male,popliteal fossa
+1678,SRS482829,SRR995341,2.0,male,popliteal fossa
+1679,SRS482829,SRR995409,2.0,male,popliteal fossa
+1680,SRS482830,SRR995340,2.0,male,popliteal fossa
+1681,SRS482830,SRR995408,2.0,male,popliteal fossa
+1682,SRS482831,SRR995342,2.0,male,nare
+1683,SRS482831,SRR995410,2.0,male,nare
+1684,SRS482832,SRR995343,2.0,male,nare
+1685,SRS482832,SRR995411,2.0,male,nare
+1686,SRS482833,SRR995344,2.0,male,retroauricular crease
+1687,SRS482833,SRR995412,2.0,male,retroauricular crease
+1688,SRS482834,SRR995345,2.0,male,retroauricular crease
+1689,SRS482834,SRR995413,2.0,male,retroauricular crease
+1690,SRS482835,SRR995346,2.0,male,retroauricular crease
+1691,SRS482835,SRR995414,2.0,male,retroauricular crease
+1692,SRS482836,SRR995347,2.0,male,retroauricular crease
+1693,SRS482836,SRR995415,2.0,male,retroauricular crease
+1694,SRS482837,SRR995348,2.0,male,retroauricular crease
+1695,SRS482837,SRR995416,2.0,male,retroauricular crease
+1696,SRS482838,SRR995349,2.0,male,retroauricular crease
+1697,SRS482838,SRR995417,2.0,male,retroauricular crease
+1698,SRS482839,SRR995350,2.0,male,retroauricular crease
+1699,SRS482839,SRR995418,2.0,male,retroauricular crease
+1700,SRS482840,SRR995351,2.0,male,retroauricular crease
+1701,SRS482840,SRR995419,2.0,male,retroauricular crease
+1702,SRS482841,SRR995352,2.0,male,nare
+1703,SRS482841,SRR995420,2.0,male,nare
+1704,SRS482842,SRR995353,2.0,male,nare
+1705,SRS482842,SRR995421,2.0,male,nare
+1706,SRS482859,SRR995454,2.0,female,antecubital fossa
+1707,SRS482859,SRR995468,2.0,female,antecubital fossa
+1708,SRS482860,SRR995455,2.0,female,antecubital fossa
+1709,SRS482860,SRR995469,2.0,female,antecubital fossa
+1710,SRS482861,SRR995456,2.0,female,nare
+1711,SRS482861,SRR995470,2.0,female,nare
+1712,SRS482862,SRR995457,2.0,female,nare
+1713,SRS482862,SRR995471,2.0,female,nare
+1714,SRS482863,SRR995458,2.0,female,retroauricular crease
+1715,SRS482863,SRR995472,2.0,female,retroauricular crease
+1716,SRS482864,SRR995459,2.0,female,retroauricular crease
+1717,SRS482864,SRR995473,2.0,female,retroauricular crease
+1718,SRS482865,SRR995460,2.0,female,volar forearm
+1719,SRS482865,SRR995474,2.0,female,volar forearm
+1720,SRS482866,SRR995461,2.0,female,volar forearm
+1721,SRS482866,SRR995475,2.0,female,volar forearm
+1722,SRS482867,SRR995462,2.0,male,antecubital fossa
+1723,SRS482867,SRR995476,2.0,male,antecubital fossa
+1724,SRS482868,SRR995463,2.0,male,antecubital fossa
+1725,SRS482868,SRR995477,2.0,male,antecubital fossa
+1726,SRS482869,SRR995464,2.0,male,nare
+1727,SRS482869,SRR995478,2.0,male,nare
+1728,SRS482870,SRR995465,2.0,male,nare
+1729,SRS482870,SRR995479,2.0,male,nare
+1730,SRS482871,SRR995466,2.0,male,retroauricular crease
+1731,SRS482871,SRR995480,2.0,male,retroauricular crease
+1732,SRS482872,SRR995467,2.0,male,retroauricular crease
+1733,SRS482872,SRR995481,2.0,male,retroauricular crease
+1734,SRS482873,SRR995482,2.0,male,retroauricular crease
+1735,SRS482873,SRR995485,2.0,male,retroauricular crease
+1736,SRS482874,SRR995483,2.0,male,volar forearm
+1737,SRS482874,SRR995486,2.0,male,volar forearm
+1738,SRS482875,SRR995484,2.0,male,volar forearm
+1739,SRS482875,SRR995487,2.0,male,volar forearm
+1740,SRS482876,SRR995488,2.0,male,antecubital fossa
+1741,SRS482876,SRR995498,2.0,male,antecubital fossa
+1742,SRS482877,SRR995489,2.0,male,antecubital fossa
+1743,SRS482877,SRR995499,2.0,male,antecubital fossa
+1744,SRS482878,SRR995490,2.0,male,volar forearm
+1745,SRS482878,SRR995500,2.0,male,volar forearm
+1746,SRS482879,SRR995491,2.0,male,volar forearm
+1747,SRS482879,SRR995501,2.0,male,volar forearm
+1748,SRS482880,SRR995492,2.0,male,nare
+1749,SRS482880,SRR995502,2.0,male,nare
+1750,SRS482881,SRR995493,2.0,male,nare
+1751,SRS482881,SRR995503,2.0,male,nare
+1752,SRS482882,SRR995494,2.0,male,popliteal fossa
+1753,SRS482882,SRR995504,2.0,male,popliteal fossa
+1754,SRS482883,SRR995495,2.0,male,popliteal fossa
+1755,SRS482883,SRR995505,2.0,male,popliteal fossa
+1756,SRS482884,SRR995496,2.0,male,retroauricular crease
+1757,SRS482884,SRR995506,2.0,male,retroauricular crease
+1758,SRS482885,SRR995497,2.0,male,retroauricular crease
+1759,SRS482885,SRR995507,2.0,male,retroauricular crease
+1760,SRS482886,SRR995508,2.0,male,antecubital fossa
+1761,SRS482886,SRR995540,2.0,male,antecubital fossa
+1762,SRS482887,SRR995509,2.0,male,antecubital fossa
+1763,SRS482887,SRR995541,2.0,male,antecubital fossa
+1764,SRS482888,SRR995510,2.0,male,antecubital fossa
+1765,SRS482888,SRR995542,2.0,male,antecubital fossa
+1766,SRS482889,SRR995511,2.0,male,antecubital fossa
+1767,SRS482889,SRR995543,2.0,male,antecubital fossa
+1768,SRS482890,SRR995512,2.0,male,antecubital fossa
+1769,SRS482890,SRR995544,2.0,male,antecubital fossa
+1770,SRS482891,SRR995513,2.0,male,antecubital fossa
+1771,SRS482891,SRR995545,2.0,male,antecubital fossa
+1772,SRS482892,SRR995515,2.0,male,antecubital fossa
+1773,SRS482892,SRR995547,2.0,male,antecubital fossa
+1774,SRS482893,SRR995514,2.0,male,antecubital fossa
+1775,SRS482893,SRR995546,2.0,male,antecubital fossa
+1776,SRS482894,SRR995516,2.0,male,volar forearm
+1777,SRS482894,SRR995548,2.0,male,volar forearm
+1778,SRS482895,SRR995517,2.0,male,volar forearm
+1779,SRS482895,SRR995549,2.0,male,volar forearm
+1780,SRS482896,SRR995518,2.0,male,volar forearm
+1781,SRS482896,SRR995550,2.0,male,volar forearm
+1782,SRS482897,SRR995519,2.0,male,volar forearm
+1783,SRS482897,SRR995551,2.0,male,volar forearm
+1784,SRS482898,SRR995521,2.0,male,volar forearm
+1785,SRS482898,SRR995553,2.0,male,volar forearm
+1786,SRS482899,SRR995520,2.0,male,volar forearm
+1787,SRS482899,SRR995552,2.0,male,volar forearm
+1788,SRS482900,SRR995522,2.0,male,volar forearm
+1789,SRS482900,SRR995554,2.0,male,volar forearm
+1790,SRS482901,SRR995523,2.0,male,volar forearm
+1791,SRS482901,SRR995555,2.0,male,volar forearm
+1792,SRS482902,SRR995524,2.0,male,popliteal fossa
+1793,SRS482902,SRR995556,2.0,male,popliteal fossa
+1794,SRS482903,SRR995525,2.0,male,popliteal fossa
+1795,SRS482903,SRR995557,2.0,male,popliteal fossa
+1796,SRS482904,SRR995526,2.0,male,popliteal fossa
+1797,SRS482904,SRR995558,2.0,male,popliteal fossa
+1798,SRS482905,SRR995527,2.0,male,popliteal fossa
+1799,SRS482905,SRR995559,2.0,male,popliteal fossa
+1800,SRS482906,SRR995528,2.0,male,nare
+1801,SRS482906,SRR995560,2.0,male,nare
+1802,SRS482907,SRR995529,2.0,male,nare
+1803,SRS482907,SRR995561,2.0,male,nare
+1804,SRS482908,SRR995530,2.0,male,retroauricular crease
+1805,SRS482908,SRR995562,2.0,male,retroauricular crease
+1806,SRS482909,SRR995531,2.0,male,retroauricular crease
+1807,SRS482909,SRR995563,2.0,male,retroauricular crease
+1808,SRS482910,SRR995532,2.0,male,retroauricular crease
+1809,SRS482910,SRR995564,2.0,male,retroauricular crease
+1810,SRS482911,SRR995533,2.0,male,retroauricular crease
+1811,SRS482911,SRR995565,2.0,male,retroauricular crease
+1812,SRS482912,SRR995534,2.0,male,retroauricular crease
+1813,SRS482912,SRR995566,2.0,male,retroauricular crease
+1814,SRS482913,SRR995535,2.0,male,retroauricular crease
+1815,SRS482913,SRR995567,2.0,male,retroauricular crease
+1816,SRS482914,SRR995536,2.0,male,retroauricular crease
+1817,SRS482914,SRR995568,2.0,male,retroauricular crease
+1818,SRS482915,SRR995537,2.0,male,retroauricular crease
+1819,SRS482915,SRR995569,2.0,male,retroauricular crease
+1820,SRS482916,SRR995538,2.0,male,nare
+1821,SRS482916,SRR995570,2.0,male,nare
+1822,SRS482917,SRR995539,2.0,male,nare
+1823,SRS482917,SRR995571,2.0,male,nare
+1824,SRS482921,SRR995584,2.0,female,volar forearm
+1825,SRS482921,SRR995585,2.0,female,volar forearm
+1826,SRS482922,SRR995586,2.0,female,nare
+1827,SRS482922,SRR995636,2.0,female,nare
+1828,SRS482923,SRR995587,2.0,female,nare
+1829,SRS482923,SRR995637,2.0,female,nare
+1830,SRS482924,SRR995589,2.0,female,nare
+1831,SRS482924,SRR995639,2.0,female,nare
+1832,SRS482925,SRR995588,2.0,female,nare
+1833,SRS482925,SRR995638,2.0,female,nare
+1834,SRS482926,SRR995590,2.0,female,nare
+1835,SRS482926,SRR995640,2.0,female,nare
+1836,SRS482927,SRR995591,2.0,male,nare
+1837,SRS482927,SRR995641,2.0,male,nare
+1838,SRS482928,SRR995592,2.0,male,nare
+1839,SRS482928,SRR995642,2.0,male,nare
+1840,SRS482929,SRR995593,2.0,male,nare
+1841,SRS482929,SRR995643,2.0,male,nare
+1842,SRS482930,SRR995594,2.0,male,nare
+1843,SRS482930,SRR995644,2.0,male,nare
+1844,SRS482931,SRR995595,2.0,female,nare
+1845,SRS482931,SRR995645,2.0,female,nare
+1846,SRS482932,SRR995596,2.0,female,nare
+1847,SRS482932,SRR995646,2.0,female,nare
+1848,SRS482933,SRR995597,2.0,female,nare
+1849,SRS482933,SRR995647,2.0,female,nare
+1850,SRS482934,SRR995598,2.0,male,nare
+1851,SRS482934,SRR995648,2.0,male,nare
+1852,SRS482935,SRR995599,2.0,male,nare
+1853,SRS482935,SRR995649,2.0,male,nare
+1854,SRS482936,SRR995600,2.0,male,nare
+1855,SRS482936,SRR995650,2.0,male,nare
+1856,SRS482937,SRR995601,2.0,male,nare
+1857,SRS482937,SRR995651,2.0,male,nare
+1858,SRS482938,SRR995602,2.0,male,retroauricular crease
+1859,SRS482938,SRR995652,2.0,male,retroauricular crease
+1860,SRS482939,SRR995603,2.0,male,volar forearm
+1861,SRS482939,SRR995653,2.0,male,volar forearm
+1862,SRS482940,SRR995604,2.0,male,antecubital fossa
+1863,SRS482940,SRR995654,2.0,male,antecubital fossa
+1864,SRS482941,SRR995605,2.0,male,popliteal fossa
+1865,SRS482941,SRR995655,2.0,male,popliteal fossa
+1866,SRS482942,SRR995607,2.0,female,volar forearm
+1867,SRS482942,SRR995657,2.0,female,volar forearm
+1868,SRS482943,SRR995606,2.0,female,antecubital fossa
+1869,SRS482943,SRR995656,2.0,female,antecubital fossa
+1870,SRS482944,SRR995608,2.0,female,antecubital fossa
+1871,SRS482944,SRR995658,2.0,female,antecubital fossa
+1872,SRS482945,SRR995609,2.0,female,volar forearm
+1873,SRS482945,SRR995659,2.0,female,volar forearm
+1874,SRS482946,SRR995610,2.0,female,antecubital fossa
+1875,SRS482946,SRR995660,2.0,female,antecubital fossa
+1876,SRS482947,SRR995611,2.0,female,volar forearm
+1877,SRS482947,SRR995661,2.0,female,volar forearm
+1878,SRS482948,SRR995612,2.0,female,antecubital fossa
+1879,SRS482948,SRR995662,2.0,female,antecubital fossa
+1880,SRS482949,SRR995613,2.0,female,volar forearm
+1881,SRS482949,SRR995663,2.0,female,volar forearm
+1882,SRS482950,SRR995614,2.0,female,antecubital fossa
+1883,SRS482950,SRR995664,2.0,female,antecubital fossa
+1884,SRS482951,SRR995615,2.0,female,volar forearm
+1885,SRS482951,SRR995665,2.0,female,volar forearm
+1886,SRS482952,SRR995616,2.0,male,antecubital fossa
+1887,SRS482952,SRR995666,2.0,male,antecubital fossa
+1888,SRS482953,SRR995617,2.0,male,volar forearm
+1889,SRS482953,SRR995667,2.0,male,volar forearm
+1890,SRS482954,SRR995618,2.0,male,antecubital fossa
+1891,SRS482954,SRR995668,2.0,male,antecubital fossa
+1892,SRS482955,SRR995619,2.0,male,volar forearm
+1893,SRS482955,SRR995669,2.0,male,volar forearm
+1894,SRS482956,SRR995620,2.0,male,antecubital fossa
+1895,SRS482956,SRR995670,2.0,male,antecubital fossa
+1896,SRS482957,SRR995621,2.0,male,volar forearm
+1897,SRS482957,SRR995671,2.0,male,volar forearm
+1898,SRS482958,SRR995623,2.0,male,volar forearm
+1899,SRS482958,SRR995673,2.0,male,volar forearm
+1900,SRS482959,SRR995622,2.0,male,antecubital fossa
+1901,SRS482959,SRR995672,2.0,male,antecubital fossa
+1902,SRS482960,SRR995624,2.0,female,antecubital fossa
+1903,SRS482960,SRR995674,2.0,female,antecubital fossa
+1904,SRS482961,SRR995625,2.0,female,volar forearm
+1905,SRS482961,SRR995675,2.0,female,volar forearm
+1906,SRS482962,SRR995626,2.0,female,antecubital fossa
+1907,SRS482962,SRR995676,2.0,female,antecubital fossa
+1908,SRS482963,SRR995627,2.0,female,volar forearm
+1909,SRS482963,SRR995677,2.0,female,volar forearm
+1910,SRS482964,SRR995628,2.0,female,antecubital fossa
+1911,SRS482964,SRR995678,2.0,female,antecubital fossa
+1912,SRS482965,SRR995629,2.0,female,volar forearm
+1913,SRS482965,SRR995679,2.0,female,volar forearm
+1914,SRS482966,SRR995630,2.0,male,antecubital fossa
+1915,SRS482966,SRR995680,2.0,male,antecubital fossa
+1916,SRS482967,SRR995631,2.0,male,volar forearm
+1917,SRS482967,SRR995681,2.0,male,volar forearm
+1918,SRS482968,SRR995632,2.0,male,antecubital fossa
+1919,SRS482968,SRR995682,2.0,male,antecubital fossa
+1920,SRS482969,SRR995633,2.0,male,volar forearm
+1921,SRS482969,SRR995683,2.0,male,volar forearm
+1922,SRS482970,SRR995634,2.0,male,antecubital fossa
+1923,SRS482970,SRR995684,2.0,male,antecubital fossa
+1924,SRS482971,SRR995635,2.0,male,volar forearm
+1925,SRS482971,SRR995685,2.0,male,volar forearm
+1926,SRS482972,SRR995686,2.0,male,antecubital fossa
+1927,SRS482972,SRR995721,2.0,male,antecubital fossa
+1928,SRS482973,SRR995687,2.0,male,antecubital fossa
+1929,SRS482973,SRR995722,2.0,male,antecubital fossa
+1930,SRS482974,SRR995688,2.0,male,volar forearm
+1931,SRS482974,SRR995723,2.0,male,volar forearm
+1932,SRS482975,SRR995689,2.0,male,retroauricular crease
+1933,SRS482975,SRR995724,2.0,male,retroauricular crease
+1934,SRS482976,SRR995690,2.0,male,nare
+1935,SRS482976,SRR995725,2.0,male,nare
+1936,SRS482977,SRR995691,2.0,female,antecubital fossa
+1937,SRS482977,SRR995726,2.0,female,antecubital fossa
+1938,SRS482978,SRR995692,2.0,female,antecubital fossa
+1939,SRS482978,SRR995727,2.0,female,antecubital fossa
+1940,SRS482979,SRR995693,2.0,female,volar forearm
+1941,SRS482979,SRR995728,2.0,female,volar forearm
+1942,SRS482980,SRR995694,2.0,female,retroauricular crease
+1943,SRS482980,SRR995729,2.0,female,retroauricular crease
+1944,SRS482981,SRR995695,2.0,female,nare
+1945,SRS482981,SRR995730,2.0,female,nare
+1946,SRS482982,SRR995696,2.0,male,antecubital fossa
+1947,SRS482982,SRR995731,2.0,male,antecubital fossa
+1948,SRS482983,SRR995697,2.0,male,antecubital fossa
+1949,SRS482983,SRR995732,2.0,male,antecubital fossa
+1950,SRS482984,SRR995698,2.0,male,volar forearm
+1951,SRS482984,SRR995733,2.0,male,volar forearm
+1952,SRS482985,SRR995699,2.0,male,retroauricular crease
+1953,SRS482985,SRR995734,2.0,male,retroauricular crease
+1954,SRS482986,SRR995700,2.0,male,nare
+1955,SRS482986,SRR995735,2.0,male,nare
+1956,SRS482987,SRR995701,2.0,male,antecubital fossa
+1957,SRS482987,SRR995736,2.0,male,antecubital fossa
+1958,SRS482988,SRR995702,2.0,male,antecubital fossa
+1959,SRS482988,SRR995737,2.0,male,antecubital fossa
+1960,SRS482989,SRR995703,2.0,male,volar forearm
+1961,SRS482989,SRR995738,2.0,male,volar forearm
+1962,SRS482990,SRR995704,2.0,male,retroauricular crease
+1963,SRS482990,SRR995739,2.0,male,retroauricular crease
+1964,SRS482991,SRR995705,2.0,male,nare
+1965,SRS482991,SRR995740,2.0,male,nare
+1966,SRS482992,SRR995706,2.0,female,antecubital fossa
+1967,SRS482992,SRR995741,2.0,female,antecubital fossa
+1968,SRS482993,SRR995707,2.0,female,antecubital fossa
+1969,SRS482993,SRR995742,2.0,female,antecubital fossa
+1970,SRS482994,SRR995708,2.0,female,volar forearm
+1971,SRS482994,SRR995743,2.0,female,volar forearm
+1972,SRS482995,SRR995709,2.0,female,retroauricular crease
+1973,SRS482995,SRR995744,2.0,female,retroauricular crease
+1974,SRS482996,SRR995710,2.0,female,nare
+1975,SRS482996,SRR995745,2.0,female,nare
+1976,SRS482997,SRR995711,2.0,male,antecubital fossa
+1977,SRS482997,SRR995746,2.0,male,antecubital fossa
+1978,SRS482998,SRR995712,2.0,male,antecubital fossa
+1979,SRS482998,SRR995747,2.0,male,antecubital fossa
+1980,SRS482999,SRR995713,2.0,male,volar forearm
+1981,SRS482999,SRR995748,2.0,male,volar forearm
+1982,SRS483000,SRR995714,2.0,male,retroauricular crease
+1983,SRS483000,SRR995749,2.0,male,retroauricular crease
+1984,SRS483001,SRR995715,2.0,male,nare
+1985,SRS483001,SRR995750,2.0,male,nare
+1986,SRS483002,SRR995716,2.0,male,antecubital fossa
+1987,SRS483002,SRR995751,2.0,male,antecubital fossa
+1988,SRS483003,SRR995717,2.0,male,antecubital fossa
+1989,SRS483003,SRR995752,2.0,male,antecubital fossa
+1990,SRS483004,SRR995718,2.0,male,volar forearm
+1991,SRS483004,SRR995753,2.0,male,volar forearm
+1992,SRS483005,SRR995719,2.0,male,retroauricular crease
+1993,SRS483005,SRR995754,2.0,male,retroauricular crease
+1994,SRS483006,SRR995720,2.0,male,nare
+1995,SRS483006,SRR995755,2.0,male,nare
+1996,SRS483077,SRR995896,2.0,female,antecubital fossa
+1997,SRS483077,SRR995970,2.0,female,antecubital fossa
+1998,SRS483078,SRR995897,2.0,female,antecubital fossa
+1999,SRS483078,SRR995971,2.0,female,antecubital fossa
+2000,SRS483079,SRR995898,2.0,female,volar forearm
+2001,SRS483079,SRR995972,2.0,female,volar forearm
+2002,SRS483080,SRR995899,2.0,female,retroauricular crease
+2003,SRS483080,SRR995973,2.0,female,retroauricular crease
+2004,SRS483081,SRR995900,2.0,female,nare
+2005,SRS483081,SRR995974,2.0,female,nare
+2006,SRS483082,SRR995901,2.0,female,antecubital fossa
+2007,SRS483082,SRR995975,2.0,female,antecubital fossa
+2008,SRS483083,SRR995902,2.0,female,antecubital fossa
+2009,SRS483083,SRR995976,2.0,female,antecubital fossa
+2010,SRS483084,SRR995903,2.0,female,volar forearm
+2011,SRS483084,SRR995977,2.0,female,volar forearm
+2012,SRS483085,SRR995905,2.0,female,nare
+2013,SRS483085,SRR995979,2.0,female,nare
+2014,SRS483086,SRR995904,2.0,female,retroauricular crease
+2015,SRS483086,SRR995978,2.0,female,retroauricular crease
+2016,SRS483087,SRR995907,2.0,female,antecubital fossa
+2017,SRS483087,SRR995981,2.0,female,antecubital fossa
+2018,SRS483088,SRR995906,2.0,female,antecubital fossa
+2019,SRS483088,SRR995980,2.0,female,antecubital fossa
+2020,SRS483089,SRR995908,2.0,female,volar forearm
+2021,SRS483089,SRR995982,2.0,female,volar forearm
+2022,SRS483090,SRR995909,2.0,female,retroauricular crease
+2023,SRS483090,SRR995983,2.0,female,retroauricular crease
+2024,SRS483091,SRR995910,2.0,female,nare
+2025,SRS483091,SRR995984,2.0,female,nare
+2026,SRS483092,SRR995911,2.0,female,antecubital fossa
+2027,SRS483092,SRR995985,2.0,female,antecubital fossa
+2028,SRS483093,SRR995912,2.0,female,antecubital fossa
+2029,SRS483093,SRR995986,2.0,female,antecubital fossa
+2030,SRS483094,SRR995913,2.0,female,volar forearm
+2031,SRS483094,SRR995987,2.0,female,volar forearm
+2032,SRS483095,SRR995914,2.0,female,retroauricular crease
+2033,SRS483095,SRR995988,2.0,female,retroauricular crease
+2034,SRS483096,SRR995915,2.0,female,nare
+2035,SRS483096,SRR995989,2.0,female,nare
+2036,SRS483097,SRR995916,2.0,female,antecubital fossa
+2037,SRS483097,SRR995990,2.0,female,antecubital fossa
+2038,SRS483098,SRR995917,2.0,female,antecubital fossa
+2039,SRS483098,SRR995991,2.0,female,antecubital fossa
+2040,SRS483099,SRR995918,2.0,female,volar forearm
+2041,SRS483099,SRR995992,2.0,female,volar forearm
+2042,SRS483100,SRR995919,2.0,female,nare
+2043,SRS483100,SRR995993,2.0,female,nare
+2044,SRS483101,SRR995920,2.0,female,antecubital fossa
+2045,SRS483101,SRR995994,2.0,female,antecubital fossa
+2046,SRS483102,SRR995921,2.0,female,antecubital fossa
+2047,SRS483102,SRR995995,2.0,female,antecubital fossa
+2048,SRS483103,SRR995922,2.0,female,volar forearm
+2049,SRS483103,SRR995996,2.0,female,volar forearm
+2050,SRS483104,SRR995923,2.0,female,retroauricular crease
+2051,SRS483104,SRR995997,2.0,female,retroauricular crease
+2052,SRS483105,SRR995924,2.0,female,nare
+2053,SRS483105,SRR995998,2.0,female,nare
+2054,SRS483106,SRR995925,2.0,female,antecubital fossa
+2055,SRS483106,SRR995999,2.0,female,antecubital fossa
+2056,SRS483107,SRR995926,2.0,female,antecubital fossa
+2057,SRS483107,SRR996000,2.0,female,antecubital fossa
+2058,SRS483108,SRR995927,2.0,female,volar forearm
+2059,SRS483108,SRR996001,2.0,female,volar forearm
+2060,SRS483109,SRR995928,2.0,female,retroauricular crease
+2061,SRS483109,SRR996002,2.0,female,retroauricular crease
+2062,SRS483110,SRR995930,2.0,male,antecubital fossa
+2063,SRS483110,SRR996004,2.0,male,antecubital fossa
+2064,SRS483111,SRR995929,2.0,female,nare
+2065,SRS483111,SRR996003,2.0,female,nare
+2066,SRS483112,SRR995931,2.0,male,antecubital fossa
+2067,SRS483112,SRR996005,2.0,male,antecubital fossa
+2068,SRS483113,SRR995932,2.0,male,volar forearm
+2069,SRS483113,SRR996006,2.0,male,volar forearm
+2070,SRS483114,SRR995933,2.0,male,retroauricular crease
+2071,SRS483114,SRR996007,2.0,male,retroauricular crease
+2072,SRS483115,SRR995934,2.0,male,nare
+2073,SRS483115,SRR996008,2.0,male,nare
+2074,SRS483116,SRR995935,2.0,male,antecubital fossa
+2075,SRS483116,SRR996009,2.0,male,antecubital fossa
+2076,SRS483117,SRR995936,2.0,male,antecubital fossa
+2077,SRS483117,SRR996010,2.0,male,antecubital fossa
+2078,SRS483118,SRR995937,2.0,male,volar forearm
+2079,SRS483118,SRR996011,2.0,male,volar forearm
+2080,SRS483119,SRR995938,2.0,male,retroauricular crease
+2081,SRS483119,SRR996012,2.0,male,retroauricular crease
+2082,SRS483120,SRR995940,2.0,male,antecubital fossa
+2083,SRS483120,SRR996014,2.0,male,antecubital fossa
+2084,SRS483121,SRR995939,2.0,male,nare
+2085,SRS483121,SRR996013,2.0,male,nare
+2086,SRS483122,SRR995942,2.0,male,volar forearm
+2087,SRS483122,SRR996016,2.0,male,volar forearm
+2088,SRS483123,SRR995941,2.0,male,antecubital fossa
+2089,SRS483123,SRR996015,2.0,male,antecubital fossa
+2090,SRS483124,SRR995943,2.0,male,retroauricular crease
+2091,SRS483124,SRR996017,2.0,male,retroauricular crease
+2092,SRS483125,SRR995944,2.0,male,nare
+2093,SRS483125,SRR996018,2.0,male,nare
+2094,SRS483126,SRR995945,2.0,male,antecubital fossa
+2095,SRS483126,SRR996019,2.0,male,antecubital fossa
+2096,SRS483127,SRR995946,2.0,male,antecubital fossa
+2097,SRS483127,SRR996020,2.0,male,antecubital fossa
+2098,SRS483128,SRR995947,2.0,male,volar forearm
+2099,SRS483128,SRR996021,2.0,male,volar forearm
+2100,SRS483129,SRR995948,2.0,male,retroauricular crease
+2101,SRS483129,SRR996022,2.0,male,retroauricular crease
+2102,SRS483130,SRR995949,2.0,male,nare
+2103,SRS483130,SRR996023,2.0,male,nare
+2104,SRS483131,SRR995950,2.0,male,antecubital fossa
+2105,SRS483131,SRR996024,2.0,male,antecubital fossa
+2106,SRS483132,SRR995951,2.0,male,volar forearm
+2107,SRS483132,SRR996025,2.0,male,volar forearm
+2108,SRS483133,SRR995952,2.0,male,retroauricular crease
+2109,SRS483133,SRR996026,2.0,male,retroauricular crease
+2110,SRS483134,SRR995953,2.0,male,nare
+2111,SRS483134,SRR996027,2.0,male,nare
+2112,SRS483135,SRR995954,2.0,male,retroauricular crease
+2113,SRS483135,SRR996028,2.0,male,retroauricular crease
+2114,SRS483136,SRR995956,2.0,male,antecubital fossa
+2115,SRS483136,SRR996030,2.0,male,antecubital fossa
+2116,SRS483137,SRR995955,2.0,male,nare
+2117,SRS483137,SRR996029,2.0,male,nare
+2118,SRS483138,SRR995957,2.0,male,volar forearm
+2119,SRS483138,SRR996031,2.0,male,volar forearm
+2120,SRS483139,SRR995958,2.0,male,retroauricular crease
+2121,SRS483139,SRR996032,2.0,male,retroauricular crease
+2122,SRS483140,SRR995959,2.0,male,nare
+2123,SRS483140,SRR996033,2.0,male,nare
+2124,SRS483141,SRR995960,2.0,male,antecubital fossa
+2125,SRS483141,SRR996034,2.0,male,antecubital fossa
+2126,SRS483142,SRR995961,2.0,male,volar forearm
+2127,SRS483142,SRR996035,2.0,male,volar forearm
+2128,SRS483143,SRR995962,2.0,male,retroauricular crease
+2129,SRS483143,SRR996036,2.0,male,retroauricular crease
+2130,SRS483144,SRR995963,2.0,male,nare
+2131,SRS483144,SRR996037,2.0,male,nare
+2132,SRS483145,SRR995964,2.0,male,antecubital fossa
+2133,SRS483145,SRR996038,2.0,male,antecubital fossa
+2134,SRS483146,SRR995965,2.0,male,volar forearm
+2135,SRS483146,SRR996039,2.0,male,volar forearm
+2136,SRS483147,SRR995966,2.0,male,retroauricular crease
+2137,SRS483147,SRR996040,2.0,male,retroauricular crease
+2138,SRS483148,SRR995967,2.0,male,nare
+2139,SRS483148,SRR996041,2.0,male,nare
+2140,SRS483149,SRR995968,2.0,male,antecubital fossa
+2141,SRS483149,SRR996042,2.0,male,antecubital fossa
+2142,SRS483150,SRR995969,2.0,male,antecubital fossa
+2143,SRS483150,SRR996043,2.0,male,antecubital fossa
+2144,SRS483151,SRR996044,2.0,male,antecubital fossa
+2145,SRS483151,SRR996112,2.0,male,antecubital fossa
+2146,SRS483152,SRR996045,2.0,male,antecubital fossa
+2147,SRS483152,SRR996113,2.0,male,antecubital fossa
+2148,SRS483153,SRR996046,2.0,male,volar forearm
+2149,SRS483153,SRR996114,2.0,male,volar forearm
+2150,SRS483154,SRR996047,2.0,female,antecubital fossa
+2151,SRS483154,SRR996115,2.0,female,antecubital fossa
+2152,SRS483155,SRR996048,2.0,male,antecubital fossa
+2153,SRS483155,SRR996116,2.0,male,antecubital fossa
+2154,SRS483156,SRR996049,2.0,male,antecubital fossa
+2155,SRS483156,SRR996117,2.0,male,antecubital fossa
+2156,SRS483157,SRR996050,2.0,female,antecubital fossa
+2157,SRS483157,SRR996118,2.0,female,antecubital fossa
+2158,SRS483158,SRR996051,2.0,female,antecubital fossa
+2159,SRS483158,SRR996119,2.0,female,antecubital fossa
+2160,SRS483159,SRR996052,2.0,female,antecubital fossa
+2161,SRS483159,SRR996120,2.0,female,antecubital fossa
+2162,SRS483160,SRR996053,2.0,female,antecubital fossa
+2163,SRS483160,SRR996121,2.0,female,antecubital fossa
+2164,SRS483161,SRR996054,2.0,female,volar forearm
+2165,SRS483161,SRR996122,2.0,female,volar forearm
+2166,SRS483162,SRR996055,2.0,female,antecubital fossa
+2167,SRS483162,SRR996123,2.0,female,antecubital fossa
+2168,SRS483163,SRR996056,2.0,female,antecubital fossa
+2169,SRS483163,SRR996124,2.0,female,antecubital fossa
+2170,SRS483164,SRR996057,2.0,female,antecubital fossa
+2171,SRS483164,SRR996125,2.0,female,antecubital fossa
+2172,SRS483165,SRR996058,2.0,female,volar forearm
+2173,SRS483165,SRR996126,2.0,female,volar forearm
+2174,SRS483166,SRR996059,2.0,female,retroauricular crease
+2175,SRS483166,SRR996127,2.0,female,retroauricular crease
+2176,SRS483167,SRR996060,2.0,female,antecubital fossa
+2177,SRS483167,SRR996128,2.0,female,antecubital fossa
+2178,SRS483168,SRR996061,2.0,female,volar forearm
+2179,SRS483168,SRR996129,2.0,female,volar forearm
+2180,SRS483169,SRR996062,2.0,male,antecubital fossa
+2181,SRS483169,SRR996130,2.0,male,antecubital fossa
+2182,SRS483170,SRR996063,2.0,male,volar forearm
+2183,SRS483170,SRR996131,2.0,male,volar forearm
+2184,SRS483171,SRR996064,2.0,male,retroauricular crease
+2185,SRS483171,SRR996132,2.0,male,retroauricular crease
+2186,SRS483172,SRR996065,2.0,male,antecubital fossa
+2187,SRS483172,SRR996133,2.0,male,antecubital fossa
+2188,SRS483173,SRR996066,2.0,male,antecubital fossa
+2189,SRS483173,SRR996134,2.0,male,antecubital fossa
+2190,SRS483174,SRR996067,2.0,male,volar forearm
+2191,SRS483174,SRR996135,2.0,male,volar forearm
+2192,SRS483175,SRR996068,2.0,male,retroauricular crease
+2193,SRS483175,SRR996136,2.0,male,retroauricular crease
+2194,SRS483176,SRR996069,2.0,male,antecubital fossa
+2195,SRS483176,SRR996137,2.0,male,antecubital fossa
+2196,SRS483177,SRR996070,2.0,male,antecubital fossa
+2197,SRS483177,SRR996138,2.0,male,antecubital fossa
+2198,SRS483178,SRR996071,2.0,male,volar forearm
+2199,SRS483178,SRR996139,2.0,male,volar forearm
+2200,SRS483179,SRR996072,2.0,male,retroauricular crease
+2201,SRS483179,SRR996140,2.0,male,retroauricular crease
+2202,SRS483180,SRR996073,2.0,male,antecubital fossa
+2203,SRS483180,SRR996141,2.0,male,antecubital fossa
+2204,SRS483181,SRR996074,2.0,male,retroauricular crease
+2205,SRS483181,SRR996142,2.0,male,retroauricular crease
+2206,SRS483182,SRR996075,2.0,male,antecubital fossa
+2207,SRS483182,SRR996143,2.0,male,antecubital fossa
+2208,SRS483183,SRR996076,2.0,male,volar forearm
+2209,SRS483183,SRR996144,2.0,male,volar forearm
+2210,SRS483184,SRR996077,2.0,male,retroauricular crease
+2211,SRS483184,SRR996145,2.0,male,retroauricular crease
+2212,SRS483185,SRR996078,2.0,male,nare
+2213,SRS483185,SRR996146,2.0,male,nare
+2214,SRS483186,SRR996079,2.0,male,antecubital fossa
+2215,SRS483186,SRR996147,2.0,male,antecubital fossa
+2216,SRS483187,SRR996080,2.0,male,volar forearm
+2217,SRS483187,SRR996148,2.0,male,volar forearm
+2218,SRS483188,SRR996081,2.0,male,retroauricular crease
+2219,SRS483188,SRR996149,2.0,male,retroauricular crease
+2220,SRS483189,SRR996082,2.0,male,nare
+2221,SRS483189,SRR996150,2.0,male,nare
+2222,SRS483190,SRR996083,2.0,male,antecubital fossa
+2223,SRS483190,SRR996151,2.0,male,antecubital fossa
+2224,SRS483191,SRR996084,2.0,male,volar forearm
+2225,SRS483191,SRR996152,2.0,male,volar forearm
+2226,SRS483192,SRR996085,2.0,male,retroauricular crease
+2227,SRS483192,SRR996153,2.0,male,retroauricular crease
+2228,SRS483193,SRR996086,2.0,male,nare
+2229,SRS483193,SRR996154,2.0,male,nare
+2230,SRS483194,SRR996087,2.0,female,popliteal fossa
+2231,SRS483194,SRR996155,2.0,female,popliteal fossa
+2232,SRS483195,SRR996088,2.0,female,volar forearm
+2233,SRS483195,SRR996156,2.0,female,volar forearm
+2234,SRS483196,SRR996089,2.0,female,antecubital fossa
+2235,SRS483196,SRR996157,2.0,female,antecubital fossa
+2236,SRS483197,SRR996090,2.0,female,retroauricular crease
+2237,SRS483197,SRR996158,2.0,female,retroauricular crease
+2238,SRS483198,SRR996092,2.0,male,antecubital fossa
+2239,SRS483198,SRR996160,2.0,male,antecubital fossa
+2240,SRS483199,SRR996091,2.0,female,nare
+2241,SRS483199,SRR996159,2.0,female,nare
+2242,SRS483200,SRR996094,2.0,male,popliteal fossa
+2243,SRS483200,SRR996162,2.0,male,popliteal fossa
+2244,SRS483201,SRR996093,2.0,male,volar forearm
+2245,SRS483201,SRR996161,2.0,male,volar forearm
+2246,SRS483202,SRR996096,2.0,male,nare
+2247,SRS483202,SRR996164,2.0,male,nare
+2248,SRS483203,SRR996095,2.0,male,retroauricular crease
+2249,SRS483203,SRR996163,2.0,male,retroauricular crease
+2250,SRS483204,SRR996097,2.0,male,antecubital fossa
+2251,SRS483204,SRR996165,2.0,male,antecubital fossa
+2252,SRS483205,SRR996098,2.0,male,volar forearm
+2253,SRS483205,SRR996166,2.0,male,volar forearm
+2254,SRS483206,SRR996099,2.0,male,popliteal fossa
+2255,SRS483206,SRR996167,2.0,male,popliteal fossa
+2256,SRS483207,SRR996100,2.0,male,retroauricular crease
+2257,SRS483207,SRR996168,2.0,male,retroauricular crease
+2258,SRS483208,SRR996101,2.0,male,nare
+2259,SRS483208,SRR996169,2.0,male,nare
+2260,SRS483209,SRR996102,2.0,female,antecubital fossa
+2261,SRS483209,SRR996170,2.0,female,antecubital fossa
+2262,SRS483210,SRR996103,2.0,female,volar forearm
+2263,SRS483210,SRR996171,2.0,female,volar forearm
+2264,SRS483211,SRR996104,2.0,female,popliteal fossa
+2265,SRS483211,SRR996172,2.0,female,popliteal fossa
+2266,SRS483212,SRR996105,2.0,female,retroauricular crease
+2267,SRS483212,SRR996173,2.0,female,retroauricular crease
+2268,SRS483213,SRR996106,2.0,female,nare
+2269,SRS483213,SRR996174,2.0,female,nare
+2270,SRS483214,SRR996107,2.0,male,antecubital fossa
+2271,SRS483214,SRR996175,2.0,male,antecubital fossa
+2272,SRS483215,SRR996108,2.0,male,volar forearm
+2273,SRS483215,SRR996176,2.0,male,volar forearm
+2274,SRS483216,SRR996109,2.0,male,popliteal fossa
+2275,SRS483216,SRR996177,2.0,male,popliteal fossa
+2276,SRS483217,SRR996110,2.0,male,retroauricular crease
+2277,SRS483217,SRR996178,2.0,male,retroauricular crease
+2278,SRS483218,SRR996111,2.0,male,nare
+2279,SRS483218,SRR996179,2.0,male,nare
+2280,SRS483219,SRR996180,2.0,male,volar forearm
+2281,SRS483219,SRR996232,2.0,male,volar forearm
+2282,SRS483220,SRR996181,2.0,male,volar forearm
+2283,SRS483220,SRR996233,2.0,male,volar forearm
+2284,SRS483221,SRR996182,2.0,male,volar forearm
+2285,SRS483221,SRR996234,2.0,male,volar forearm
+2286,SRS483222,SRR996183,2.0,male,volar forearm
+2287,SRS483222,SRR996235,2.0,male,volar forearm
+2288,SRS483223,SRR996184,2.0,male,volar forearm
+2289,SRS483223,SRR996236,2.0,male,volar forearm
+2290,SRS483224,SRR996185,2.0,male,volar forearm
+2291,SRS483224,SRR996237,2.0,male,volar forearm
+2292,SRS483225,SRR996186,2.0,male,nare
+2293,SRS483225,SRR996238,2.0,male,nare
+2294,SRS483226,SRR996187,2.0,male,nare
+2295,SRS483226,SRR996239,2.0,male,nare
+2296,SRS483227,SRR996188,2.0,male,nare
+2297,SRS483227,SRR996240,2.0,male,nare
+2298,SRS483228,SRR996189,2.0,male,nare
+2299,SRS483228,SRR996241,2.0,male,nare
+2300,SRS483229,SRR996190,2.0,male,nare
+2301,SRS483229,SRR996242,2.0,male,nare
+2302,SRS483230,SRR996191,2.0,male,nare
+2303,SRS483230,SRR996243,2.0,male,nare
+2304,SRS483231,SRR996192,2.0,male,volar forearm
+2305,SRS483231,SRR996244,2.0,male,volar forearm
+2306,SRS483232,SRR996193,2.0,male,volar forearm
+2307,SRS483232,SRR996245,2.0,male,volar forearm
+2308,SRS483233,SRR996194,2.0,male,volar forearm
+2309,SRS483233,SRR996246,2.0,male,volar forearm
+2310,SRS483234,SRR996195,2.0,male,volar forearm
+2311,SRS483234,SRR996247,2.0,male,volar forearm
+2312,SRS483235,SRR996196,2.0,male,volar forearm
+2313,SRS483235,SRR996248,2.0,male,volar forearm
+2314,SRS483236,SRR996197,2.0,male,volar forearm
+2315,SRS483236,SRR996249,2.0,male,volar forearm
+2316,SRS483237,SRR996198,2.0,male,nare
+2317,SRS483237,SRR996250,2.0,male,nare
+2318,SRS483238,SRR996199,2.0,male,nare
+2319,SRS483238,SRR996251,2.0,male,nare
+2320,SRS483239,SRR996200,2.0,male,nare
+2321,SRS483239,SRR996252,2.0,male,nare
+2322,SRS483240,SRR996201,2.0,male,nare
+2323,SRS483240,SRR996253,2.0,male,nare
+2324,SRS483241,SRR996202,2.0,male,nare
+2325,SRS483241,SRR996254,2.0,male,nare
+2326,SRS483242,SRR996203,2.0,male,nare
+2327,SRS483242,SRR996255,2.0,male,nare
+2328,SRS483243,SRR996204,2.0,female,antecubital fossa
+2329,SRS483243,SRR996256,2.0,female,antecubital fossa
+2330,SRS483244,SRR996205,2.0,female,antecubital fossa
+2331,SRS483244,SRR996257,2.0,female,antecubital fossa
+2332,SRS483245,SRR996206,2.0,female,antecubital fossa
+2333,SRS483245,SRR996258,2.0,female,antecubital fossa
+2334,SRS483246,SRR996207,2.0,male,antecubital fossa
+2335,SRS483246,SRR996259,2.0,male,antecubital fossa
+2336,SRS483247,SRR996208,2.0,male,antecubital fossa
+2337,SRS483247,SRR996260,2.0,male,antecubital fossa
+2338,SRS483248,SRR996209,2.0,female,antecubital fossa
+2339,SRS483248,SRR996261,2.0,female,antecubital fossa
+2340,SRS483249,SRR996210,2.0,female,antecubital fossa
+2341,SRS483249,SRR996262,2.0,female,antecubital fossa
+2342,SRS483250,SRR996211,2.0,female,volar forearm
+2343,SRS483250,SRR996263,2.0,female,volar forearm
+2344,SRS483251,SRR996212,2.0,male,antecubital fossa
+2345,SRS483251,SRR996264,2.0,male,antecubital fossa
+2346,SRS483252,SRR996213,2.0,female,antecubital fossa
+2347,SRS483252,SRR996265,2.0,female,antecubital fossa
+2348,SRS483253,SRR996214,2.0,female,antecubital fossa
+2349,SRS483253,SRR996266,2.0,female,antecubital fossa
+2350,SRS483254,SRR996215,2.0,female,antecubital fossa
+2351,SRS483254,SRR996267,2.0,female,antecubital fossa
+2352,SRS483255,SRR996216,2.0,male,antecubital fossa
+2353,SRS483255,SRR996268,2.0,male,antecubital fossa
+2354,SRS483256,SRR996217,2.0,male,antecubital fossa
+2355,SRS483256,SRR996269,2.0,male,antecubital fossa
+2356,SRS483257,SRR996218,2.0,female,antecubital fossa
+2357,SRS483257,SRR996270,2.0,female,antecubital fossa
+2358,SRS483258,SRR996219,2.0,female,antecubital fossa
+2359,SRS483258,SRR996271,2.0,female,antecubital fossa
+2360,SRS483259,SRR996220,2.0,female,volar forearm
+2361,SRS483259,SRR996272,2.0,female,volar forearm
+2362,SRS483260,SRR996221,2.0,male,antecubital fossa
+2363,SRS483260,SRR996273,2.0,male,antecubital fossa
+2364,SRS483261,SRR996222,2.0,male,antecubital fossa
+2365,SRS483261,SRR996274,2.0,male,antecubital fossa
+2366,SRS483262,SRR996223,2.0,male,volar forearm
+2367,SRS483262,SRR996275,2.0,male,volar forearm
+2368,SRS483263,SRR996224,2.0,male,popliteal fossa
+2369,SRS483263,SRR996276,2.0,male,popliteal fossa
+2370,SRS483264,SRR996225,2.0,male,retroauricular crease
+2371,SRS483264,SRR996277,2.0,male,retroauricular crease
+2372,SRS483265,SRR996226,2.0,male,nare
+2373,SRS483265,SRR996278,2.0,male,nare
+2374,SRS483266,SRR996227,2.0,female,retroauricular crease
+2375,SRS483266,SRR996279,2.0,female,retroauricular crease
+2376,SRS483267,SRR996228,2.0,female,antecubital fossa
+2377,SRS483267,SRR996280,2.0,female,antecubital fossa
+2378,SRS483268,SRR996229,2.0,female,volar forearm
+2379,SRS483268,SRR996281,2.0,female,volar forearm
+2380,SRS483269,SRR996230,2.0,female,antecubital fossa
+2381,SRS483269,SRR996282,2.0,female,antecubital fossa
+2382,SRS483270,SRR996231,2.0,female,nare
+2383,SRS483270,SRR996283,2.0,female,nare
+2384,SRS483271,SRR996284,2.0,male,antecubital fossa
+2385,SRS483271,SRR996293,2.0,male,antecubital fossa
+2386,SRS483272,SRR996285,2.0,male,nare
+2387,SRS483272,SRR996294,2.0,male,nare
+2388,SRS483273,SRR996286,2.0,male,retroauricular crease
+2389,SRS483273,SRR996295,2.0,male,retroauricular crease
+2390,SRS483274,SRR996288,2.0,female,volar forearm
+2391,SRS483274,SRR996297,2.0,female,volar forearm
+2392,SRS483275,SRR996287,2.0,male,volar forearm
+2393,SRS483275,SRR996296,2.0,male,volar forearm
+2394,SRS483276,SRR996289,2.0,female,antecubital fossa
+2395,SRS483276,SRR996298,2.0,female,antecubital fossa
+2396,SRS483277,SRR996290,2.0,female,nare
+2397,SRS483277,SRR996299,2.0,female,nare
+2398,SRS483278,SRR996291,2.0,female,retroauricular crease
+2399,SRS483278,SRR996300,2.0,female,retroauricular crease
+2400,SRS483279,SRR996292,2.0,female,volar forearm
+2401,SRS483279,SRR996301,2.0,female,volar forearm
+2402,SRS483280,SRR996303,2.0,female,volar forearm
+2403,SRS483280,SRR996375,2.0,female,volar forearm
+2404,SRS483281,SRR996302,2.0,female,volar forearm
+2405,SRS483281,SRR996374,2.0,female,volar forearm
+2406,SRS483282,SRR996304,2.0,female,volar forearm
+2407,SRS483282,SRR996376,2.0,female,volar forearm
+2408,SRS483283,SRR996305,2.0,female,volar forearm
+2409,SRS483283,SRR996377,2.0,female,volar forearm
+2410,SRS483284,SRR996306,2.0,male,volar forearm
+2411,SRS483284,SRR996378,2.0,male,volar forearm
+2412,SRS483285,SRR996307,2.0,male,volar forearm
+2413,SRS483285,SRR996379,2.0,male,volar forearm
+2414,SRS483286,SRR996308,2.0,female,antecubital fossa
+2415,SRS483286,SRR996380,2.0,female,antecubital fossa
+2416,SRS483287,SRR996309,2.0,female,popliteal fossa
+2417,SRS483287,SRR996381,2.0,female,popliteal fossa
+2418,SRS483288,SRR996310,2.0,female,retroauricular crease
+2419,SRS483288,SRR996382,2.0,female,retroauricular crease
+2420,SRS483289,SRR996311,2.0,male,antecubital fossa
+2421,SRS483289,SRR996383,2.0,male,antecubital fossa
+2422,SRS483290,SRR996312,2.0,male,popliteal fossa
+2423,SRS483290,SRR996384,2.0,male,popliteal fossa
+2424,SRS483291,SRR996313,2.0,male,retroauricular crease
+2425,SRS483291,SRR996385,2.0,male,retroauricular crease
+2426,SRS483292,SRR996314,2.0,female,volar forearm
+2427,SRS483292,SRR996386,2.0,female,volar forearm
+2428,SRS483293,SRR996315,2.0,male,popliteal fossa
+2429,SRS483293,SRR996387,2.0,male,popliteal fossa
+2430,SRS483294,SRR996316,2.0,male,antecubital fossa
+2431,SRS483294,SRR996388,2.0,male,antecubital fossa
+2432,SRS483295,SRR996317,2.0,male,volar forearm
+2433,SRS483295,SRR996389,2.0,male,volar forearm
+2434,SRS483296,SRR996318,2.0,male,retroauricular crease
+2435,SRS483296,SRR996390,2.0,male,retroauricular crease
+2436,SRS483297,SRR996319,2.0,male,volar forearm
+2437,SRS483297,SRR996391,2.0,male,volar forearm
+2438,SRS483298,SRR996321,2.0,male,antecubital fossa
+2439,SRS483298,SRR996393,2.0,male,antecubital fossa
+2440,SRS483299,SRR996320,2.0,male,retroauricular crease
+2441,SRS483299,SRR996392,2.0,male,retroauricular crease
+2442,SRS483300,SRR996322,2.0,male,antecubital fossa
+2443,SRS483300,SRR996394,2.0,male,antecubital fossa
+2444,SRS483301,SRR996323,2.0,male,volar forearm
+2445,SRS483301,SRR996395,2.0,male,volar forearm
+2446,SRS483302,SRR996325,2.0,male,nare
+2447,SRS483302,SRR996397,2.0,male,nare
+2448,SRS483303,SRR996324,2.0,male,retroauricular crease
+2449,SRS483303,SRR996396,2.0,male,retroauricular crease
+2450,SRS483304,SRR996327,2.0,female,antecubital fossa
+2451,SRS483304,SRR996399,2.0,female,antecubital fossa
+2452,SRS483305,SRR996326,2.0,female,antecubital fossa
+2453,SRS483305,SRR996398,2.0,female,antecubital fossa
+2454,SRS483306,SRR996328,2.0,female,antecubital fossa
+2455,SRS483306,SRR996400,2.0,female,antecubital fossa
+2456,SRS483307,SRR996329,2.0,male,nare
+2457,SRS483307,SRR996401,2.0,male,nare
+2458,SRS483308,SRR996330,2.0,male,retroauricular crease
+2459,SRS483308,SRR996402,2.0,male,retroauricular crease
+2460,SRS483309,SRR996331,2.0,male,volar forearm
+2461,SRS483309,SRR996403,2.0,male,volar forearm
+2462,SRS483310,SRR996332,2.0,male,antecubital fossa
+2463,SRS483310,SRR996404,2.0,male,antecubital fossa
+2464,SRS483311,SRR996333,2.0,male,antecubital fossa
+2465,SRS483311,SRR996405,2.0,male,antecubital fossa
+2466,SRS483312,SRR996334,2.0,male,antecubital fossa
+2467,SRS483312,SRR996406,2.0,male,antecubital fossa
+2468,SRS483313,SRR996335,2.0,male,antecubital fossa
+2469,SRS483313,SRR996407,2.0,male,antecubital fossa
+2470,SRS483314,SRR996336,2.0,male,volar forearm
+2471,SRS483314,SRR996408,2.0,male,volar forearm
+2472,SRS483315,SRR996337,2.0,male,retroauricular crease
+2473,SRS483315,SRR996409,2.0,male,retroauricular crease
+2474,SRS483316,SRR996338,2.0,male,nare
+2475,SRS483316,SRR996410,2.0,male,nare
+2476,SRS483317,SRR996339,2.0,male,antecubital fossa
+2477,SRS483317,SRR996411,2.0,male,antecubital fossa
+2478,SRS483318,SRR996340,2.0,male,antecubital fossa
+2479,SRS483318,SRR996412,2.0,male,antecubital fossa
+2480,SRS483319,SRR996341,2.0,male,volar forearm
+2481,SRS483319,SRR996413,2.0,male,volar forearm
+2482,SRS483320,SRR996342,2.0,male,retroauricular crease
+2483,SRS483320,SRR996414,2.0,male,retroauricular crease
+2484,SRS483321,SRR996343,2.0,male,nare
+2485,SRS483321,SRR996415,2.0,male,nare
+2486,SRS483322,SRR996344,2.0,male,antecubital fossa
+2487,SRS483322,SRR996416,2.0,male,antecubital fossa
+2488,SRS483323,SRR996345,2.0,male,antecubital fossa
+2489,SRS483323,SRR996417,2.0,male,antecubital fossa
+2490,SRS483324,SRR996346,2.0,male,volar forearm
+2491,SRS483324,SRR996418,2.0,male,volar forearm
+2492,SRS483325,SRR996347,2.0,male,retroauricular crease
+2493,SRS483325,SRR996419,2.0,male,retroauricular crease
+2494,SRS483326,SRR996348,2.0,male,nare
+2495,SRS483326,SRR996420,2.0,male,nare
+2496,SRS483327,SRR996349,2.0,female,antecubital fossa
+2497,SRS483327,SRR996421,2.0,female,antecubital fossa
+2498,SRS483328,SRR996350,2.0,female,antecubital fossa
+2499,SRS483328,SRR996422,2.0,female,antecubital fossa
+2500,SRS483329,SRR996351,2.0,female,volar forearm
+2501,SRS483329,SRR996423,2.0,female,volar forearm
+2502,SRS483330,SRR996352,2.0,female,retroauricular crease
+2503,SRS483330,SRR996424,2.0,female,retroauricular crease
+2504,SRS483331,SRR996353,2.0,female,nare
+2505,SRS483331,SRR996425,2.0,female,nare
+2506,SRS483332,SRR996355,2.0,female,antecubital fossa
+2507,SRS483332,SRR996427,2.0,female,antecubital fossa
+2508,SRS483333,SRR996354,2.0,female,antecubital fossa
+2509,SRS483333,SRR996426,2.0,female,antecubital fossa
+2510,SRS483334,SRR996356,2.0,female,volar forearm
+2511,SRS483334,SRR996428,2.0,female,volar forearm
+2512,SRS483335,SRR996357,2.0,female,retroauricular crease
+2513,SRS483335,SRR996429,2.0,female,retroauricular crease
+2514,SRS483336,SRR996358,2.0,female,nare
+2515,SRS483336,SRR996430,2.0,female,nare
+2516,SRS483337,SRR996359,2.0,female,antecubital fossa
+2517,SRS483337,SRR996431,2.0,female,antecubital fossa
+2518,SRS483338,SRR996360,2.0,female,volar forearm
+2519,SRS483338,SRR996432,2.0,female,volar forearm
+2520,SRS483339,SRR996361,2.0,female,nare
+2521,SRS483339,SRR996433,2.0,female,nare
+2522,SRS483340,SRR996362,2.0,female,antecubital fossa
+2523,SRS483340,SRR996434,2.0,female,antecubital fossa
+2524,SRS483341,SRR996363,2.0,female,volar forearm
+2525,SRS483341,SRR996435,2.0,female,volar forearm
+2526,SRS483342,SRR996364,2.0,female,nare
+2527,SRS483342,SRR996436,2.0,female,nare
+2528,SRS483343,SRR996365,2.0,male,antecubital fossa
+2529,SRS483343,SRR996437,2.0,male,antecubital fossa
+2530,SRS483344,SRR996366,2.0,male,volar forearm
+2531,SRS483344,SRR996438,2.0,male,volar forearm
+2532,SRS483345,SRR996367,2.0,male,nare
+2533,SRS483345,SRR996439,2.0,male,nare
+2534,SRS483346,SRR996368,2.0,male,antecubital fossa
+2535,SRS483346,SRR996440,2.0,male,antecubital fossa
+2536,SRS483347,SRR996369,2.0,male,volar forearm
+2537,SRS483347,SRR996441,2.0,male,volar forearm
+2538,SRS483348,SRR996370,2.0,male,nare
+2539,SRS483348,SRR996442,2.0,male,nare
+2540,SRS483349,SRR996371,2.0,male,antecubital fossa
+2541,SRS483349,SRR996443,2.0,male,antecubital fossa
+2542,SRS483350,SRR996372,2.0,male,volar forearm
+2543,SRS483350,SRR996444,2.0,male,volar forearm
+2544,SRS483351,SRR996373,2.0,male,nare
+2545,SRS483351,SRR996445,2.0,male,nare
+2546,SRS483368,SRR996478,2.0,male,antecubital fossa
+2547,SRS483368,SRR996513,2.0,male,antecubital fossa
+2548,SRS483368,SRR996548,2.0,male,antecubital fossa
+2549,SRS483368,SRR996583,2.0,male,antecubital fossa
+2550,SRS483369,SRR996479,2.0,male,antecubital fossa
+2551,SRS483369,SRR996514,2.0,male,antecubital fossa
+2552,SRS483369,SRR996549,2.0,male,antecubital fossa
+2553,SRS483369,SRR996584,2.0,male,antecubital fossa
+2554,SRS483370,SRR996480,2.0,male,volar forearm
+2555,SRS483370,SRR996515,2.0,male,volar forearm
+2556,SRS483370,SRR996550,2.0,male,volar forearm
+2557,SRS483370,SRR996585,2.0,male,volar forearm
+2558,SRS483371,SRR996482,2.0,male,nare
+2559,SRS483371,SRR996517,2.0,male,nare
+2560,SRS483371,SRR996552,2.0,male,nare
+2561,SRS483371,SRR996587,2.0,male,nare
+2562,SRS483372,SRR996481,2.0,male,retroauricular crease
+2563,SRS483372,SRR996516,2.0,male,retroauricular crease
+2564,SRS483372,SRR996551,2.0,male,retroauricular crease
+2565,SRS483372,SRR996586,2.0,male,retroauricular crease
+2566,SRS483373,SRR996483,2.0,male,antecubital fossa
+2567,SRS483373,SRR996518,2.0,male,antecubital fossa
+2568,SRS483373,SRR996553,2.0,male,antecubital fossa
+2569,SRS483373,SRR996588,2.0,male,antecubital fossa
+2570,SRS483374,SRR996484,2.0,male,antecubital fossa
+2571,SRS483374,SRR996519,2.0,male,antecubital fossa
+2572,SRS483374,SRR996554,2.0,male,antecubital fossa
+2573,SRS483374,SRR996589,2.0,male,antecubital fossa
+2574,SRS483375,SRR996485,2.0,male,volar forearm
+2575,SRS483375,SRR996520,2.0,male,volar forearm
+2576,SRS483375,SRR996555,2.0,male,volar forearm
+2577,SRS483375,SRR996590,2.0,male,volar forearm
+2578,SRS483376,SRR996486,2.0,male,nare
+2579,SRS483376,SRR996521,2.0,male,nare
+2580,SRS483376,SRR996556,2.0,male,nare
+2581,SRS483376,SRR996591,2.0,male,nare
+2582,SRS483377,SRR996487,2.0,male,retroauricular crease
+2583,SRS483377,SRR996522,2.0,male,retroauricular crease
+2584,SRS483377,SRR996557,2.0,male,retroauricular crease
+2585,SRS483377,SRR996592,2.0,male,retroauricular crease
+2586,SRS483378,SRR996488,2.0,male,antecubital fossa
+2587,SRS483378,SRR996523,2.0,male,antecubital fossa
+2588,SRS483378,SRR996558,2.0,male,antecubital fossa
+2589,SRS483378,SRR996593,2.0,male,antecubital fossa
+2590,SRS483379,SRR996489,2.0,male,antecubital fossa
+2591,SRS483379,SRR996524,2.0,male,antecubital fossa
+2592,SRS483379,SRR996559,2.0,male,antecubital fossa
+2593,SRS483379,SRR996594,2.0,male,antecubital fossa
+2594,SRS483380,SRR996490,2.0,male,volar forearm
+2595,SRS483380,SRR996525,2.0,male,volar forearm
+2596,SRS483380,SRR996560,2.0,male,volar forearm
+2597,SRS483380,SRR996595,2.0,male,volar forearm
+2598,SRS483381,SRR996491,2.0,male,retroauricular crease
+2599,SRS483381,SRR996526,2.0,male,retroauricular crease
+2600,SRS483381,SRR996561,2.0,male,retroauricular crease
+2601,SRS483381,SRR996596,2.0,male,retroauricular crease
+2602,SRS483382,SRR996492,2.0,male,nare
+2603,SRS483382,SRR996527,2.0,male,nare
+2604,SRS483382,SRR996562,2.0,male,nare
+2605,SRS483382,SRR996597,2.0,male,nare
+2606,SRS483383,SRR996493,2.0,male,antecubital fossa
+2607,SRS483383,SRR996528,2.0,male,antecubital fossa
+2608,SRS483383,SRR996563,2.0,male,antecubital fossa
+2609,SRS483383,SRR996598,2.0,male,antecubital fossa
+2610,SRS483384,SRR996494,2.0,male,antecubital fossa
+2611,SRS483384,SRR996529,2.0,male,antecubital fossa
+2612,SRS483384,SRR996564,2.0,male,antecubital fossa
+2613,SRS483384,SRR996599,2.0,male,antecubital fossa
+2614,SRS483385,SRR996496,2.0,male,retroauricular crease
+2615,SRS483385,SRR996531,2.0,male,retroauricular crease
+2616,SRS483385,SRR996566,2.0,male,retroauricular crease
+2617,SRS483385,SRR996601,2.0,male,retroauricular crease
+2618,SRS483386,SRR996495,2.0,male,volar forearm
+2619,SRS483386,SRR996530,2.0,male,volar forearm
+2620,SRS483386,SRR996565,2.0,male,volar forearm
+2621,SRS483386,SRR996600,2.0,male,volar forearm
+2622,SRS483387,SRR996497,2.0,male,nare
+2623,SRS483387,SRR996532,2.0,male,nare
+2624,SRS483387,SRR996567,2.0,male,nare
+2625,SRS483387,SRR996602,2.0,male,nare
+2626,SRS483388,SRR996498,2.0,male,antecubital fossa
+2627,SRS483388,SRR996533,2.0,male,antecubital fossa
+2628,SRS483388,SRR996568,2.0,male,antecubital fossa
+2629,SRS483388,SRR996603,2.0,male,antecubital fossa
+2630,SRS483389,SRR996499,2.0,male,antecubital fossa
+2631,SRS483389,SRR996534,2.0,male,antecubital fossa
+2632,SRS483389,SRR996569,2.0,male,antecubital fossa
+2633,SRS483389,SRR996604,2.0,male,antecubital fossa
+2634,SRS483390,SRR996500,2.0,male,volar forearm
+2635,SRS483390,SRR996535,2.0,male,volar forearm
+2636,SRS483390,SRR996570,2.0,male,volar forearm
+2637,SRS483390,SRR996605,2.0,male,volar forearm
+2638,SRS483391,SRR996501,2.0,male,retroauricular crease
+2639,SRS483391,SRR996536,2.0,male,retroauricular crease
+2640,SRS483391,SRR996571,2.0,male,retroauricular crease
+2641,SRS483391,SRR996606,2.0,male,retroauricular crease
+2642,SRS483392,SRR996503,2.0,male,antecubital fossa
+2643,SRS483392,SRR996538,2.0,male,antecubital fossa
+2644,SRS483392,SRR996573,2.0,male,antecubital fossa
+2645,SRS483392,SRR996608,2.0,male,antecubital fossa
+2646,SRS483393,SRR996502,2.0,male,nare
+2647,SRS483393,SRR996537,2.0,male,nare
+2648,SRS483393,SRR996572,2.0,male,nare
+2649,SRS483393,SRR996607,2.0,male,nare
+2650,SRS483394,SRR996504,2.0,male,antecubital fossa
+2651,SRS483394,SRR996539,2.0,male,antecubital fossa
+2652,SRS483394,SRR996574,2.0,male,antecubital fossa
+2653,SRS483394,SRR996609,2.0,male,antecubital fossa
+2654,SRS483395,SRR996506,2.0,male,retroauricular crease
+2655,SRS483395,SRR996541,2.0,male,retroauricular crease
+2656,SRS483395,SRR996576,2.0,male,retroauricular crease
+2657,SRS483395,SRR996611,2.0,male,retroauricular crease
+2658,SRS483396,SRR996505,2.0,male,volar forearm
+2659,SRS483396,SRR996540,2.0,male,volar forearm
+2660,SRS483396,SRR996575,2.0,male,volar forearm
+2661,SRS483396,SRR996610,2.0,male,volar forearm
+2662,SRS483397,SRR996507,2.0,male,nare
+2663,SRS483397,SRR996542,2.0,male,nare
+2664,SRS483397,SRR996577,2.0,male,nare
+2665,SRS483397,SRR996612,2.0,male,nare
+2666,SRS483398,SRR996509,2.0,male,antecubital fossa
+2667,SRS483398,SRR996544,2.0,male,antecubital fossa
+2668,SRS483398,SRR996579,2.0,male,antecubital fossa
+2669,SRS483398,SRR996614,2.0,male,antecubital fossa
+2670,SRS483399,SRR996508,2.0,male,antecubital fossa
+2671,SRS483399,SRR996543,2.0,male,antecubital fossa
+2672,SRS483399,SRR996578,2.0,male,antecubital fossa
+2673,SRS483399,SRR996613,2.0,male,antecubital fossa
+2674,SRS483400,SRR996510,2.0,male,volar forearm
+2675,SRS483400,SRR996545,2.0,male,volar forearm
+2676,SRS483400,SRR996580,2.0,male,volar forearm
+2677,SRS483400,SRR996615,2.0,male,volar forearm
+2678,SRS483401,SRR996511,2.0,male,retroauricular crease
+2679,SRS483401,SRR996546,2.0,male,retroauricular crease
+2680,SRS483401,SRR996581,2.0,male,retroauricular crease
+2681,SRS483401,SRR996616,2.0,male,retroauricular crease
+2682,SRS483402,SRR996512,2.0,male,nare
+2683,SRS483402,SRR996547,2.0,male,nare
+2684,SRS483402,SRR996582,2.0,male,nare
+2685,SRS483402,SRR996617,2.0,male,nare
+2686,SRS483416,SRR996657,2.0,male,antecubital fossa
+2687,SRS483416,SRR996745,2.0,male,antecubital fossa
+2688,SRS483417,SRR996658,2.0,male,antecubital fossa
+2689,SRS483417,SRR996746,2.0,male,antecubital fossa
+2690,SRS483418,SRR996659,2.0,male,volar forearm
+2691,SRS483418,SRR996747,2.0,male,volar forearm
+2692,SRS483419,SRR996660,2.0,male,volar forearm
+2693,SRS483419,SRR996748,2.0,male,volar forearm
+2694,SRS483420,SRR996662,2.0,male,nare
+2695,SRS483420,SRR996750,2.0,male,nare
+2696,SRS483421,SRR996661,2.0,male,antecubital fossa
+2697,SRS483421,SRR996749,2.0,male,antecubital fossa
+2700,SRS483423,SRR996663,2.0,male,nare
+2701,SRS483423,SRR996751,2.0,male,nare
+2702,SRS483424,SRR996665,2.0,male,antecubital fossa
+2703,SRS483424,SRR996753,2.0,male,antecubital fossa
+2704,SRS483425,SRR996666,2.0,male,antecubital fossa
+2705,SRS483425,SRR996754,2.0,male,antecubital fossa
+2706,SRS483426,SRR996667,2.0,male,nare
+2707,SRS483426,SRR996755,2.0,male,nare
+2708,SRS483427,SRR996668,2.0,male,antecubital fossa
+2709,SRS483427,SRR996756,2.0,male,antecubital fossa
+2710,SRS483428,SRR996669,2.0,male,antecubital fossa
+2711,SRS483428,SRR996757,2.0,male,antecubital fossa
+2712,SRS483429,SRR996670,2.0,male,volar forearm
+2713,SRS483429,SRR996758,2.0,male,volar forearm
+2714,SRS483430,SRR996671,2.0,male,volar forearm
+2715,SRS483430,SRR996759,2.0,male,volar forearm
+2716,SRS483431,SRR996672,2.0,male,volar forearm
+2717,SRS483431,SRR996760,2.0,male,volar forearm
+2718,SRS483432,SRR996673,2.0,male,glabella
+2719,SRS483432,SRR996761,2.0,male,glabella
+2720,SRS483433,SRR996674,2.0,male,nare
+2721,SRS483433,SRR996762,2.0,male,nare
+2722,SRS483434,SRR996675,2.0,male,nare
+2723,SRS483434,SRR996763,2.0,male,nare
+2726,SRS483436,SRR996677,2.0,male,antecubital fossa
+2727,SRS483436,SRR996765,2.0,male,antecubital fossa
+2728,SRS483437,SRR996678,2.0,male,antecubital fossa
+2729,SRS483437,SRR996766,2.0,male,antecubital fossa
+2730,SRS483438,SRR996679,2.0,male,nare
+2731,SRS483438,SRR996767,2.0,male,nare
+2732,SRS483439,SRR996680,2.0,male,antecubital fossa
+2733,SRS483439,SRR996768,2.0,male,antecubital fossa
+2734,SRS483440,SRR996681,2.0,male,volar forearm
+2735,SRS483440,SRR996769,2.0,male,volar forearm
+2736,SRS483441,SRR996682,2.0,male,volar forearm
+2737,SRS483441,SRR996770,2.0,male,volar forearm
+2738,SRS483442,SRR996683,2.0,male,volar forearm
+2739,SRS483442,SRR996771,2.0,male,volar forearm
+2740,SRS483443,SRR996684,2.0,male,antecubital fossa
+2741,SRS483443,SRR996772,2.0,male,antecubital fossa
+2742,SRS483444,SRR996685,2.0,male,nare
+2743,SRS483444,SRR996773,2.0,male,nare
+2744,SRS483445,SRR996686,2.0,male,nare
+2745,SRS483445,SRR996774,2.0,male,nare
+2748,SRS483447,SRR996688,2.0,male,antecubital fossa
+2749,SRS483447,SRR996776,2.0,male,antecubital fossa
+2750,SRS483448,SRR996690,2.0,male,nare
+2751,SRS483448,SRR996778,2.0,male,nare
+2752,SRS483449,SRR996689,2.0,male,nare
+2753,SRS483449,SRR996777,2.0,male,nare
+2754,SRS483450,SRR996691,2.0,male,glabella
+2755,SRS483450,SRR996779,2.0,male,glabella
+2756,SRS483451,SRR996692,2.0,male,glabella
+2757,SRS483451,SRR996780,2.0,male,glabella
+2758,SRS483452,SRR996693,2.0,male,glabella
+2759,SRS483452,SRR996781,2.0,male,glabella
+2760,SRS483453,SRR996694,2.0,male,volar forearm
+2761,SRS483453,SRR996782,2.0,male,volar forearm
+2762,SRS483454,SRR996695,2.0,male,glabella
+2763,SRS483454,SRR996783,2.0,male,glabella
+2764,SRS483455,SRR996696,2.0,male,glabella
+2765,SRS483455,SRR996784,2.0,male,glabella
+2766,SRS483456,SRR996697,2.0,male,nare
+2767,SRS483456,SRR996785,2.0,male,nare
+2770,SRS483458,SRR996699,2.0,male,antecubital fossa
+2771,SRS483458,SRR996787,2.0,male,antecubital fossa
+2772,SRS483459,SRR996700,2.0,male,nare
+2773,SRS483459,SRR996788,2.0,male,nare
+2774,SRS483460,SRR996701,2.0,male,nare
+2775,SRS483460,SRR996789,2.0,male,nare
+2776,SRS483461,SRR996702,2.0,male,antecubital fossa
+2777,SRS483461,SRR996790,2.0,male,antecubital fossa
+2778,SRS483462,SRR996703,2.0,male,volar forearm
+2779,SRS483462,SRR996791,2.0,male,volar forearm
+2780,SRS483463,SRR996704,2.0,male,volar forearm
+2781,SRS483463,SRR996792,2.0,male,volar forearm
+2782,SRS483464,SRR996705,2.0,male,volar forearm
+2783,SRS483464,SRR996793,2.0,male,volar forearm
+2784,SRS483465,SRR996706,2.0,male,glabella
+2785,SRS483465,SRR996794,2.0,male,glabella
+2786,SRS483466,SRR996707,2.0,male,nare
+2787,SRS483466,SRR996795,2.0,male,nare
+2792,SRS483469,SRR996710,2.0,male,antecubital fossa
+2793,SRS483469,SRR996798,2.0,male,antecubital fossa
+2794,SRS483470,SRR996711,2.0,male,nare
+2795,SRS483470,SRR996799,2.0,male,nare
+2796,SRS483471,SRR996712,2.0,male,nare
+2797,SRS483471,SRR996800,2.0,male,nare
+2798,SRS483472,SRR996713,2.0,male,antecubital fossa
+2799,SRS483472,SRR996801,2.0,male,antecubital fossa
+2800,SRS483473,SRR996714,2.0,male,volar forearm
+2801,SRS483473,SRR996802,2.0,male,volar forearm
+2802,SRS483474,SRR996715,2.0,male,volar forearm
+2803,SRS483474,SRR996803,2.0,male,volar forearm
+2804,SRS483475,SRR996716,2.0,male,volar forearm
+2805,SRS483475,SRR996804,2.0,male,volar forearm
+2806,SRS483476,SRR996717,2.0,male,antecubital fossa
+2807,SRS483476,SRR996805,2.0,male,antecubital fossa
+2808,SRS483477,SRR996718,2.0,male,volar forearm
+2809,SRS483477,SRR996806,2.0,male,volar forearm
+2810,SRS483478,SRR996719,2.0,male,nare
+2811,SRS483478,SRR996807,2.0,male,nare
+2814,SRS483480,SRR996721,2.0,male,glabella
+2815,SRS483480,SRR996809,2.0,male,glabella
+2816,SRS483481,SRR996722,2.0,male,antecubital fossa
+2817,SRS483481,SRR996810,2.0,male,antecubital fossa
+2818,SRS483482,SRR996724,2.0,male,nare
+2819,SRS483482,SRR996812,2.0,male,nare
+2820,SRS483483,SRR996723,2.0,male,nare
+2821,SRS483483,SRR996811,2.0,male,nare
+2822,SRS483484,SRR996725,2.0,male,antecubital fossa
+2823,SRS483484,SRR996813,2.0,male,antecubital fossa
+2824,SRS483485,SRR996726,2.0,male,volar forearm
+2825,SRS483485,SRR996814,2.0,male,volar forearm
+2826,SRS483486,SRR996727,2.0,male,volar forearm
+2827,SRS483486,SRR996815,2.0,male,volar forearm
+2828,SRS483487,SRR996728,2.0,male,volar forearm
+2829,SRS483487,SRR996816,2.0,male,volar forearm
+2830,SRS483488,SRR996729,2.0,male,antecubital fossa
+2831,SRS483488,SRR996817,2.0,male,antecubital fossa
+2832,SRS483489,SRR996730,2.0,male,glabella
+2833,SRS483489,SRR996818,2.0,male,glabella
+2834,SRS483490,SRR996731,2.0,male,nare
+2835,SRS483490,SRR996819,2.0,male,nare
+2838,SRS483492,SRR996733,2.0,male,glabella
+2839,SRS483492,SRR996821,2.0,male,glabella
+2840,SRS483493,SRR996734,2.0,male,antecubital fossa
+2841,SRS483493,SRR996822,2.0,male,antecubital fossa
+2842,SRS483494,SRR996736,2.0,male,nare
+2843,SRS483494,SRR996824,2.0,male,nare
+2844,SRS483495,SRR996735,2.0,male,nare
+2845,SRS483495,SRR996823,2.0,male,nare
+2846,SRS483496,SRR996737,2.0,male,antecubital fossa
+2847,SRS483496,SRR996825,2.0,male,antecubital fossa
+2848,SRS483497,SRR996738,2.0,male,volar forearm
+2849,SRS483497,SRR996826,2.0,male,volar forearm
+2850,SRS483498,SRR996739,2.0,male,volar forearm
+2851,SRS483498,SRR996827,2.0,male,volar forearm
+2852,SRS483499,SRR996740,2.0,male,volar forearm
+2853,SRS483499,SRR996828,2.0,male,volar forearm
+2854,SRS483500,SRR996741,2.0,male,glabella
+2855,SRS483500,SRR996829,2.0,male,glabella
+2856,SRS483501,SRR996742,2.0,male,nare
+2857,SRS483501,SRR996830,2.0,male,nare
+2858,SRS483502,SRR996744,2.0,male,antecubital fossa
+2859,SRS483502,SRR996832,2.0,male,antecubital fossa
+2862,SRS483504,SRR996833,2.0,male,antecubital fossa
+2863,SRS483504,SRR996893,2.0,male,antecubital fossa
+2864,SRS483505,SRR996834,2.0,male,antecubital fossa
+2865,SRS483505,SRR996894,2.0,male,antecubital fossa
+2866,SRS483506,SRR996835,2.0,male,volar forearm
+2867,SRS483506,SRR996895,2.0,male,volar forearm
+2868,SRS483507,SRR996836,2.0,male,antecubital fossa
+2869,SRS483507,SRR996896,2.0,male,antecubital fossa
+2870,SRS483508,SRR996837,2.0,male,antecubital fossa
+2871,SRS483508,SRR996897,2.0,male,antecubital fossa
+2872,SRS483509,SRR996838,2.0,male,volar forearm
+2873,SRS483509,SRR996898,2.0,male,volar forearm
+2874,SRS483510,SRR996840,2.0,female,antecubital fossa
+2875,SRS483510,SRR996900,2.0,female,antecubital fossa
+2876,SRS483511,SRR996839,2.0,female,antecubital fossa
+2877,SRS483511,SRR996899,2.0,female,antecubital fossa
+2878,SRS483512,SRR996841,2.0,female,volar forearm
+2879,SRS483512,SRR996901,2.0,female,volar forearm
+2880,SRS483513,SRR996842,2.0,male,antecubital fossa
+2881,SRS483513,SRR996902,2.0,male,antecubital fossa
+2882,SRS483514,SRR996844,2.0,male,volar forearm
+2883,SRS483514,SRR996904,2.0,male,volar forearm
+2884,SRS483515,SRR996843,2.0,male,antecubital fossa
+2885,SRS483515,SRR996903,2.0,male,antecubital fossa
+2886,SRS483516,SRR996845,2.0,male,antecubital fossa
+2887,SRS483516,SRR996905,2.0,male,antecubital fossa
+2888,SRS483517,SRR996846,2.0,male,antecubital fossa
+2889,SRS483517,SRR996906,2.0,male,antecubital fossa
+2890,SRS483518,SRR996848,2.0,male,retroauricular crease
+2891,SRS483518,SRR996908,2.0,male,retroauricular crease
+2892,SRS483519,SRR996847,2.0,male,volar forearm
+2893,SRS483519,SRR996907,2.0,male,volar forearm
+2894,SRS483520,SRR996849,2.0,male,antecubital fossa
+2895,SRS483520,SRR996909,2.0,male,antecubital fossa
+2896,SRS483521,SRR996850,2.0,male,antecubital fossa
+2897,SRS483521,SRR996910,2.0,male,antecubital fossa
+2898,SRS483522,SRR996851,2.0,male,volar forearm
+2899,SRS483522,SRR996911,2.0,male,volar forearm
+2900,SRS483523,SRR996852,2.0,male,antecubital fossa
+2901,SRS483523,SRR996912,2.0,male,antecubital fossa
+2902,SRS483524,SRR996853,2.0,male,antecubital fossa
+2903,SRS483524,SRR996913,2.0,male,antecubital fossa
+2904,SRS483525,SRR996854,2.0,male,volar forearm
+2905,SRS483525,SRR996914,2.0,male,volar forearm
+2906,SRS483526,SRR996855,2.0,male,retroauricular crease
+2907,SRS483526,SRR996915,2.0,male,retroauricular crease
+2908,SRS483527,SRR996856,2.0,female,antecubital fossa
+2909,SRS483527,SRR996916,2.0,female,antecubital fossa
+2910,SRS483528,SRR996857,2.0,female,antecubital fossa
+2911,SRS483528,SRR996917,2.0,female,antecubital fossa
+2912,SRS483529,SRR996858,2.0,female,volar forearm
+2913,SRS483529,SRR996918,2.0,female,volar forearm
+2914,SRS483530,SRR996859,2.0,female,antecubital fossa
+2915,SRS483530,SRR996919,2.0,female,antecubital fossa
+2916,SRS483531,SRR996860,2.0,female,antecubital fossa
+2917,SRS483531,SRR996920,2.0,female,antecubital fossa
+2918,SRS483532,SRR996861,2.0,female,volar forearm
+2919,SRS483532,SRR996921,2.0,female,volar forearm
+2920,SRS483533,SRR996862,2.0,male,antecubital fossa
+2921,SRS483533,SRR996922,2.0,male,antecubital fossa
+2922,SRS483534,SRR996863,2.0,male,volar forearm
+2923,SRS483534,SRR996923,2.0,male,volar forearm
+2924,SRS483535,SRR996864,2.0,male,retroauricular crease
+2925,SRS483535,SRR996924,2.0,male,retroauricular crease
+2926,SRS483536,SRR996865,2.0,female,antecubital fossa
+2927,SRS483536,SRR996925,2.0,female,antecubital fossa
+2928,SRS483537,SRR996866,2.0,female,volar forearm
+2929,SRS483537,SRR996926,2.0,female,volar forearm
+2930,SRS483538,SRR996867,2.0,female,popliteal fossa
+2931,SRS483538,SRR996927,2.0,female,popliteal fossa
+2932,SRS483539,SRR996868,2.0,female,retroauricular crease
+2933,SRS483539,SRR996928,2.0,female,retroauricular crease
+2934,SRS483540,SRR996869,2.0,female,antecubital fossa
+2935,SRS483540,SRR996929,2.0,female,antecubital fossa
+2936,SRS483541,SRR996870,2.0,female,volar forearm
+2937,SRS483541,SRR996930,2.0,female,volar forearm
+2938,SRS483542,SRR996872,2.0,female,nare
+2939,SRS483542,SRR996932,2.0,female,nare
+2940,SRS483543,SRR996871,2.0,female,popliteal fossa
+2941,SRS483543,SRR996931,2.0,female,popliteal fossa
+2942,SRS483544,SRR996873,2.0,female,antecubital fossa
+2943,SRS483544,SRR996933,2.0,female,antecubital fossa
+2944,SRS483545,SRR996874,2.0,female,volar forearm
+2945,SRS483545,SRR996934,2.0,female,volar forearm
+2946,SRS483546,SRR996875,2.0,female,popliteal fossa
+2947,SRS483546,SRR996935,2.0,female,popliteal fossa
+2948,SRS483547,SRR996876,2.0,female,nare
+2949,SRS483547,SRR996936,2.0,female,nare
+2950,SRS483548,SRR996877,2.0,male,antecubital fossa
+2951,SRS483548,SRR996937,2.0,male,antecubital fossa
+2952,SRS483549,SRR996878,2.0,male,volar forearm
+2953,SRS483549,SRR996938,2.0,male,volar forearm
+2954,SRS483550,SRR996879,2.0,male,popliteal fossa
+2955,SRS483550,SRR996939,2.0,male,popliteal fossa
+2956,SRS483551,SRR996880,2.0,male,nare
+2957,SRS483551,SRR996940,2.0,male,nare
+2958,SRS483552,SRR996881,2.0,male,antecubital fossa
+2959,SRS483552,SRR996941,2.0,male,antecubital fossa
+2960,SRS483553,SRR996882,2.0,male,volar forearm
+2961,SRS483553,SRR996942,2.0,male,volar forearm
+2962,SRS483554,SRR996883,2.0,male,popliteal fossa
+2963,SRS483554,SRR996943,2.0,male,popliteal fossa
+2964,SRS483555,SRR996884,2.0,male,nare
+2965,SRS483555,SRR996944,2.0,male,nare
+2966,SRS483556,SRR996885,2.0,male,antecubital fossa
+2967,SRS483556,SRR996945,2.0,male,antecubital fossa
+2968,SRS483557,SRR996886,2.0,male,volar forearm
+2969,SRS483557,SRR996946,2.0,male,volar forearm
+2970,SRS483558,SRR996887,2.0,male,popliteal fossa
+2971,SRS483558,SRR996947,2.0,male,popliteal fossa
+2972,SRS483559,SRR996888,2.0,male,nare
+2973,SRS483559,SRR996948,2.0,male,nare
+2974,SRS483560,SRR996889,2.0,female,antecubital fossa
+2975,SRS483560,SRR996949,2.0,female,antecubital fossa
+2976,SRS483561,SRR996890,2.0,female,volar forearm
+2977,SRS483561,SRR996950,2.0,female,volar forearm
+2978,SRS483562,SRR996892,2.0,female,nare
+2979,SRS483562,SRR996952,2.0,female,nare
+2980,SRS483563,SRR996891,2.0,female,popliteal fossa
+2981,SRS483563,SRR996951,2.0,female,popliteal fossa
+2982,SRS483564,SRR996953,2.0,female,antecubital fossa
+2983,SRS483564,SRR997038,2.0,female,antecubital fossa
+2984,SRS483565,SRR996954,2.0,female,volar forearm
+2985,SRS483565,SRR997039,2.0,female,volar forearm
+2986,SRS483566,SRR996955,2.0,female,popliteal fossa
+2987,SRS483566,SRR997040,2.0,female,popliteal fossa
+2988,SRS483567,SRR996956,2.0,female,nare
+2989,SRS483567,SRR997041,2.0,female,nare
+2990,SRS483568,SRR996957,2.0,female,antecubital fossa
+2991,SRS483568,SRR997042,2.0,female,antecubital fossa
+2992,SRS483569,SRR996958,2.0,female,volar forearm
+2993,SRS483569,SRR997043,2.0,female,volar forearm
+2994,SRS483570,SRR996959,2.0,female,popliteal fossa
+2995,SRS483570,SRR997044,2.0,female,popliteal fossa
+2996,SRS483571,SRR996960,2.0,female,nare
+2997,SRS483571,SRR997045,2.0,female,nare
+2998,SRS483572,SRR996961,2.0,female,antecubital fossa
+2999,SRS483572,SRR997046,2.0,female,antecubital fossa
+3000,SRS483573,SRR996962,2.0,female,volar forearm
+3001,SRS483573,SRR997047,2.0,female,volar forearm
+3002,SRS483574,SRR996963,2.0,female,popliteal fossa
+3003,SRS483574,SRR997048,2.0,female,popliteal fossa
+3004,SRS483575,SRR996964,2.0,female,nare
+3005,SRS483575,SRR997049,2.0,female,nare
+3006,SRS483576,SRR996965,2.0,male,antecubital fossa
+3007,SRS483576,SRR997050,2.0,male,antecubital fossa
+3008,SRS483577,SRR996966,2.0,male,volar forearm
+3009,SRS483577,SRR997051,2.0,male,volar forearm
+3010,SRS483578,SRR996967,2.0,male,popliteal fossa
+3011,SRS483578,SRR997052,2.0,male,popliteal fossa
+3012,SRS483579,SRR996968,2.0,male,nare
+3013,SRS483579,SRR997053,2.0,male,nare
+3014,SRS483580,SRR996969,2.0,male,antecubital fossa
+3015,SRS483580,SRR997054,2.0,male,antecubital fossa
+3016,SRS483581,SRR996970,2.0,male,volar forearm
+3017,SRS483581,SRR997055,2.0,male,volar forearm
+3018,SRS483582,SRR996972,2.0,male,nare
+3019,SRS483582,SRR997057,2.0,male,nare
+3020,SRS483583,SRR996971,2.0,male,popliteal fossa
+3021,SRS483583,SRR997056,2.0,male,popliteal fossa
+3022,SRS483584,SRR996973,2.0,male,antecubital fossa
+3023,SRS483584,SRR997058,2.0,male,antecubital fossa
+3024,SRS483585,SRR996974,2.0,male,volar forearm
+3025,SRS483585,SRR997059,2.0,male,volar forearm
+3026,SRS483586,SRR996975,2.0,male,popliteal fossa
+3027,SRS483586,SRR997060,2.0,male,popliteal fossa
+3028,SRS483587,SRR996977,2.0,female,antecubital fossa
+3029,SRS483587,SRR997062,2.0,female,antecubital fossa
+3030,SRS483588,SRR996976,2.0,male,nare
+3031,SRS483588,SRR997061,2.0,male,nare
+3032,SRS483589,SRR996978,2.0,female,volar forearm
+3033,SRS483589,SRR997063,2.0,female,volar forearm
+3034,SRS483590,SRR996979,2.0,female,popliteal fossa
+3035,SRS483590,SRR997064,2.0,female,popliteal fossa
+3036,SRS483591,SRR996980,2.0,female,nare
+3037,SRS483591,SRR997065,2.0,female,nare
+3038,SRS483592,SRR996981,2.0,female,antecubital fossa
+3039,SRS483592,SRR997066,2.0,female,antecubital fossa
+3040,SRS483593,SRR996982,2.0,female,volar forearm
+3041,SRS483593,SRR997067,2.0,female,volar forearm
+3042,SRS483594,SRR996983,2.0,female,popliteal fossa
+3043,SRS483594,SRR997068,2.0,female,popliteal fossa
+3044,SRS483595,SRR996984,2.0,female,nare
+3045,SRS483595,SRR997069,2.0,female,nare
+3046,SRS483596,SRR996985,2.0,female,antecubital fossa
+3047,SRS483596,SRR997070,2.0,female,antecubital fossa
+3048,SRS483597,SRR996986,2.0,female,volar forearm
+3049,SRS483597,SRR997071,2.0,female,volar forearm
+3050,SRS483598,SRR996987,2.0,female,popliteal fossa
+3051,SRS483598,SRR997072,2.0,female,popliteal fossa
+3052,SRS483599,SRR996988,2.0,female,nare
+3053,SRS483599,SRR997073,2.0,female,nare
+3054,SRS483600,SRR996989,2.0,male,antecubital fossa
+3055,SRS483600,SRR997074,2.0,male,antecubital fossa
+3056,SRS483601,SRR996990,2.0,male,volar forearm
+3057,SRS483601,SRR997075,2.0,male,volar forearm
+3058,SRS483602,SRR996991,2.0,male,popliteal fossa
+3059,SRS483602,SRR997076,2.0,male,popliteal fossa
+3060,SRS483603,SRR996992,2.0,male,nare
+3061,SRS483603,SRR997077,2.0,male,nare
+3062,SRS483604,SRR996993,2.0,male,antecubital fossa
+3063,SRS483604,SRR997078,2.0,male,antecubital fossa
+3064,SRS483605,SRR996995,2.0,male,popliteal fossa
+3065,SRS483605,SRR997080,2.0,male,popliteal fossa
+3066,SRS483606,SRR996994,2.0,male,volar forearm
+3067,SRS483606,SRR997079,2.0,male,volar forearm
+3068,SRS483607,SRR996996,2.0,male,nare
+3069,SRS483607,SRR997081,2.0,male,nare
+3070,SRS483608,SRR996997,2.0,male,antecubital fossa
+3071,SRS483608,SRR997082,2.0,male,antecubital fossa
+3072,SRS483609,SRR996998,2.0,male,volar forearm
+3073,SRS483609,SRR997083,2.0,male,volar forearm
+3074,SRS483610,SRR996999,2.0,male,popliteal fossa
+3075,SRS483610,SRR997084,2.0,male,popliteal fossa
+3076,SRS483611,SRR997000,2.0,male,nare
+3077,SRS483611,SRR997085,2.0,male,nare
+3078,SRS483612,SRR997001,2.0,female,antecubital fossa
+3079,SRS483612,SRR997086,2.0,female,antecubital fossa
+3080,SRS483613,SRR997002,2.0,female,volar forearm
+3081,SRS483613,SRR997087,2.0,female,volar forearm
+3082,SRS483614,SRR997003,2.0,female,popliteal fossa
+3083,SRS483614,SRR997088,2.0,female,popliteal fossa
+3084,SRS483615,SRR997005,2.0,female,antecubital fossa
+3085,SRS483615,SRR997090,2.0,female,antecubital fossa
+3086,SRS483616,SRR997004,2.0,female,nare
+3087,SRS483616,SRR997089,2.0,female,nare
+3088,SRS483617,SRR997006,2.0,female,volar forearm
+3089,SRS483617,SRR997091,2.0,female,volar forearm
+3090,SRS483618,SRR997007,2.0,female,popliteal fossa
+3091,SRS483618,SRR997092,2.0,female,popliteal fossa
+3092,SRS483619,SRR997008,2.0,female,nare
+3093,SRS483619,SRR997093,2.0,female,nare
+3094,SRS483620,SRR997009,2.0,female,antecubital fossa
+3095,SRS483620,SRR997094,2.0,female,antecubital fossa
+3096,SRS483621,SRR997011,2.0,female,popliteal fossa
+3097,SRS483621,SRR997096,2.0,female,popliteal fossa
+3098,SRS483622,SRR997010,2.0,female,volar forearm
+3099,SRS483622,SRR997095,2.0,female,volar forearm
+3100,SRS483623,SRR997012,2.0,female,nare
+3101,SRS483623,SRR997097,2.0,female,nare
+3102,SRS483624,SRR997013,2.0,male,antecubital fossa
+3103,SRS483624,SRR997098,2.0,male,antecubital fossa
+3104,SRS483625,SRR997014,2.0,male,volar forearm
+3105,SRS483625,SRR997099,2.0,male,volar forearm
+3106,SRS483626,SRR997015,2.0,male,popliteal fossa
+3107,SRS483626,SRR997100,2.0,male,popliteal fossa
+3108,SRS483627,SRR997016,2.0,male,nare
+3109,SRS483627,SRR997101,2.0,male,nare
+3110,SRS483628,SRR997017,2.0,male,antecubital fossa
+3111,SRS483628,SRR997102,2.0,male,antecubital fossa
+3112,SRS483629,SRR997018,2.0,male,volar forearm
+3113,SRS483629,SRR997103,2.0,male,volar forearm
+3114,SRS483630,SRR997019,2.0,male,popliteal fossa
+3115,SRS483630,SRR997104,2.0,male,popliteal fossa
+3116,SRS483631,SRR997020,2.0,male,nare
+3117,SRS483631,SRR997105,2.0,male,nare
+3118,SRS483632,SRR997021,2.0,male,antecubital fossa
+3119,SRS483632,SRR997106,2.0,male,antecubital fossa
+3120,SRS483633,SRR997022,2.0,male,volar forearm
+3121,SRS483633,SRR997107,2.0,male,volar forearm
+3122,SRS483634,SRR997023,2.0,male,popliteal fossa
+3123,SRS483634,SRR997108,2.0,male,popliteal fossa
+3124,SRS483635,SRR997025,2.0,male,antecubital fossa
+3125,SRS483635,SRR997110,2.0,male,antecubital fossa
+3126,SRS483636,SRR997024,2.0,male,nare
+3127,SRS483636,SRR997109,2.0,male,nare
+3128,SRS483637,SRR997026,2.0,male,volar forearm
+3129,SRS483637,SRR997111,2.0,male,volar forearm
+3130,SRS483638,SRR997027,2.0,male,popliteal fossa
+3131,SRS483638,SRR997112,2.0,male,popliteal fossa
+3132,SRS483639,SRR997028,2.0,male,nare
+3133,SRS483639,SRR997113,2.0,male,nare
+3134,SRS483640,SRR997029,2.0,male,antecubital fossa
+3135,SRS483640,SRR997114,2.0,male,antecubital fossa
+3136,SRS483641,SRR997030,2.0,male,volar forearm
+3137,SRS483641,SRR997115,2.0,male,volar forearm
+3138,SRS483642,SRR997031,2.0,male,popliteal fossa
+3139,SRS483642,SRR997116,2.0,male,popliteal fossa
+3140,SRS483643,SRR997033,2.0,male,antecubital fossa
+3141,SRS483643,SRR997118,2.0,male,antecubital fossa
+3142,SRS483644,SRR997032,2.0,male,nare
+3143,SRS483644,SRR997117,2.0,male,nare
+3144,SRS483645,SRR997035,2.0,male,popliteal fossa
+3145,SRS483645,SRR997120,2.0,male,popliteal fossa
+3146,SRS483646,SRR997034,2.0,male,volar forearm
+3147,SRS483646,SRR997119,2.0,male,volar forearm
+3148,SRS483647,SRR997037,2.0,female,vagina
+3149,SRS483647,SRR997122,2.0,female,vagina
+3150,SRS483648,SRR997036,2.0,male,nare
+3151,SRS483648,SRR997121,2.0,male,nare
