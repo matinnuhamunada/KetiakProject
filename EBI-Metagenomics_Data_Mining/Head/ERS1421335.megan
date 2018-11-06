@@ -1,0 +1,32 @@
+@Creator	MEGAN
+@CreationDate	Sat Jun 02 12:02:03 ICT 2018
+@ContentType	Summary4
+@Names	ERS1421335
+@BlastMode	Classifier
+@Sizes	240.0
+@TotalReads	240
+@Collapse	Taxonomy	-1
+@Parameters	minScore=50.0 maxExpected='0.01' minPercentIdentity='0.0' topPercent=10.0 minSupportPercent=0.05 minSupport=0 lcaAlgorithm=naive minPercentReadToCover=0.0 minPercentReferenceToCover=0.0 minComplexity=0.0 longReads=false pairedReads=false identityFilter=false readAssignmentMode=readCount fNames= { Taxonomy }
+@NodeStyle	Taxonomy	Circle
+@ColorTable	Blue-Red	White-Green
+@ColorEdits	
+TAX	1280	4.0
+TAX	1282	6.0
+TAX	482	1.0
+TAX	32067	1.0
+TAX	75682	1.0
+TAX	186802	3.0
+TAX	186801	2.0
+TAX	468	1.0
+TAX	2037	159.0
+TAX	22	1.0
+TAX	61015	1.0
+TAX	147802	1.0
+TAX	28090	1.0
+TAX	1117	2.0
+TAX	286	4.0
+TAX	1279	50.0
+TAX	543	1.0
+TAX	171549	1.0
+END_OF_DATA_TABLE
+#SampleID

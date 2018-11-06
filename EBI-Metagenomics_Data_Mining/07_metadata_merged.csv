@@ -1,0 +1,36 @@
+,#SampleID,BarcodeSequence,LinkerPrimerSequence,StudyID,RunID,Sex,BodySite,Description
+0,SRS451776,_,_,SRP002480,SRR920257,female,plantar heel,_
+1,SRS451759,_,_,SRP002480,SRR920208,female,plantar heel,_
+2,SRS451470,_,_,SRP002480,SRR919640,female,plantar heel,_
+3,SRS451469,_,_,SRP002480,SRR919639,female,plantar heel,_
+4,SRS451588,_,_,SRP002480,SRR919858,female,plantar heel,_
+5,SRS451593,_,_,SRP002480,SRR919914,female,occiput,_
+6,SRS451777,_,_,SRP002480,SRR920225,female,occiput,_
+7,SRS452030,_,_,SRP002480,SRR920903,female,occiput,_
+8,SRS452122,_,_,SRP002480,SRR921121,female,occiput,_
+9,SRS451904,_,_,SRP002480,SRR920702,female,occiput,_
+10,SRS451882,_,_,SRP002480,SRR920680,male,plantar heel,_
+11,SRS452119,_,_,SRP002480,SRR921055,male,plantar heel,_
+12,SRS452142,_,_,SRP002480,SRR921141,male,plantar heel,_
+13,SRS452102,_,_,SRP002480,SRR921038,male,plantar heel,_
+14,SRS452110,_,_,SRP002480,SRR921046,male,plantar heel,_
+15,SRS451617,_,_,SRP002480,SRR919938,male,occiput,_
+16,SRS451447,_,_,SRP002480,SRR919617,male,occiput,_
+17,SRS451880,_,_,SRP002480,SRR920678,male,occiput,_
+18,SRS452092,_,_,SRP002480,SRR921029,male,occiput,_
+19,SRS451431,_,_,SRP002480,SRR919601,male,occiput,_
+0,ERS1421377,_,_,ERP018577,ERR1701280,_,Scalp,Health
+1,ERS1421389,_,_,ERP018577,ERR1701292,_,Scalp,Health
+2,ERS1421383,_,_,ERP018577,ERR1701286,_,Scalp,Health
+3,ERS1421335,_,_,ERP018577,ERR1701238,_,Scalp,Health
+4,ERS1421381,_,_,ERP018577,ERR1701284,_,Scalp,Health
+0,ERS1474791,_,_,ERP019566,ERR1760038,_,foot plantar aspect,control_skin_right
+1,ERS1474780,_,_,ERP019566,ERR1760027,_,foot plantar aspect,control_skin_right
+2,ERS1474511,_,_,ERP019566,ERR1759893,_,foot plantar aspect,control_skin_right
+3,ERS1474797,_,_,ERP019566,ERR1760044,_,foot plantar aspect,control_skin_right
+4,ERS1474793,_,_,ERP019566,ERR1760040,_,foot plantar aspect,control_skin_right
+5,ERS1474566,_,_,ERP019566,ERR1759918,_,foot plantar aspect,control_skin_left
+6,ERS1474502,_,_,ERP019566,ERR1759884,_,foot plantar aspect,control_skin_left
+7,ERS1474571,_,_,ERP019566,ERR1759923,_,foot plantar aspect,control_skin_left
+8,ERS1474573,_,_,ERP019566,ERR1759925,_,foot plantar aspect,control_skin_left
+9,ERS1474796,_,_,ERP019566,ERR1760043,_,foot plantar aspect,control_skin_left

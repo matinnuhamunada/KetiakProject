@@ -1,11 +1,11 @@
-#SampleID	BarcodeSequence	LinkerPrimerSequence	RunID	Sex	BodySite	Description
-ERS1474791	_	_	ERR1760038		foot plantar aspect	control_skin_right
-ERS1474780	_	_	ERR1760027		foot plantar aspect	control_skin_right
-ERS1474511	_	_	ERR1759893		foot plantar aspect	control_skin_right
-ERS1474797	_	_	ERR1760044		foot plantar aspect	control_skin_right
-ERS1474793	_	_	ERR1760040		foot plantar aspect	control_skin_right
-ERS1474566	_	_	ERR1759918		foot plantar aspect	control_skin_left
-ERS1474502	_	_	ERR1759884		foot plantar aspect	control_skin_left
-ERS1474571	_	_	ERR1759923		foot plantar aspect	control_skin_left
-ERS1474573	_	_	ERR1759925		foot plantar aspect	control_skin_left
-ERS1474796	_	_	ERR1760043		foot plantar aspect	control_skin_left
+#SampleID	BarcodeSequence	LinkerPrimerSequence	StudyID	RunID	Sex	BodySite	Description
+ERS1474791	_	_	ERP019566	ERR1760038		foot plantar aspect	control_skin_right
+ERS1474780	_	_	ERP019566	ERR1760027		foot plantar aspect	control_skin_right
+ERS1474511	_	_	ERP019566	ERR1759893		foot plantar aspect	control_skin_right
+ERS1474797	_	_	ERP019566	ERR1760044		foot plantar aspect	control_skin_right
+ERS1474793	_	_	ERP019566	ERR1760040		foot plantar aspect	control_skin_right
+ERS1474566	_	_	ERP019566	ERR1759918		foot plantar aspect	control_skin_left
+ERS1474502	_	_	ERP019566	ERR1759884		foot plantar aspect	control_skin_left
+ERS1474571	_	_	ERP019566	ERR1759923		foot plantar aspect	control_skin_left
+ERS1474573	_	_	ERP019566	ERR1759925		foot plantar aspect	control_skin_left
+ERS1474796	_	_	ERP019566	ERR1760043		foot plantar aspect	control_skin_left

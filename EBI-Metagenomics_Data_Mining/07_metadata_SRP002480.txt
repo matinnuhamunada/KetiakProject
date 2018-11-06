@@ -1,21 +1,21 @@
-#SampleID	BarcodeSequence	LinkerPrimerSequence	RunID	Sex	BodySite
-SRS451776	_	_	SRR920257	female	plantar heel
-SRS451759	_	_	SRR920208	female	plantar heel
-SRS451470	_	_	SRR919640	female	plantar heel
-SRS451469	_	_	SRR919639	female	plantar heel
-SRS451588	_	_	SRR919858	female	plantar heel
-SRS451593	_	_	SRR919914	female	occiput
-SRS451777	_	_	SRR920225	female	occiput
-SRS452030	_	_	SRR920903	female	occiput
-SRS452122	_	_	SRR921121	female	occiput
-SRS451904	_	_	SRR920702	female	occiput
-SRS451882	_	_	SRR920680	male	plantar heel
-SRS452119	_	_	SRR921055	male	plantar heel
-SRS452142	_	_	SRR921141	male	plantar heel
-SRS452102	_	_	SRR921038	male	plantar heel
-SRS452110	_	_	SRR921046	male	plantar heel
-SRS451617	_	_	SRR919938	male	occiput
-SRS451447	_	_	SRR919617	male	occiput
-SRS451880	_	_	SRR920678	male	occiput
-SRS452092	_	_	SRR921029	male	occiput
-SRS451431	_	_	SRR919601	male	occiput
+#SampleID	BarcodeSequence	LinkerPrimerSequence	StudyID	RunID	Sex	BodySite	Description
+SRS451776	_	_	SRP002480	SRR920257	female	plantar heel	
+SRS451759	_	_	SRP002480	SRR920208	female	plantar heel	
+SRS451470	_	_	SRP002480	SRR919640	female	plantar heel	
+SRS451469	_	_	SRP002480	SRR919639	female	plantar heel	
+SRS451588	_	_	SRP002480	SRR919858	female	plantar heel	
+SRS451593	_	_	SRP002480	SRR919914	female	occiput	
+SRS451777	_	_	SRP002480	SRR920225	female	occiput	
+SRS452030	_	_	SRP002480	SRR920903	female	occiput	
+SRS452122	_	_	SRP002480	SRR921121	female	occiput	
+SRS451904	_	_	SRP002480	SRR920702	female	occiput	
+SRS451882	_	_	SRP002480	SRR920680	male	plantar heel	
+SRS452119	_	_	SRP002480	SRR921055	male	plantar heel	
+SRS452142	_	_	SRP002480	SRR921141	male	plantar heel	
+SRS452102	_	_	SRP002480	SRR921038	male	plantar heel	
+SRS452110	_	_	SRP002480	SRR921046	male	plantar heel	
+SRS451617	_	_	SRP002480	SRR919938	male	occiput	
+SRS451447	_	_	SRP002480	SRR919617	male	occiput	
+SRS451880	_	_	SRP002480	SRR920678	male	occiput	
+SRS452092	_	_	SRP002480	SRR921029	male	occiput	
+SRS451431	_	_	SRP002480	SRR919601	male	occiput	
