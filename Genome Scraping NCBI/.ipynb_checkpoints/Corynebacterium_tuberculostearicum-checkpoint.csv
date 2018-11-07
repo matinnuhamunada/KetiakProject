@@ -1,0 +1,2 @@
+#Organism/Name,Strain,CladeID,BioSample,BioProject,Group,SubGroup,Assembly,Size (Mb),GC%,Replicons,WGS,Scaffolds,Genes,Proteins,Release Date,Modify Date,Level,RefSeq FTP,GenBank FTP
+"Corynebacterium tuberculostearicum SK141","SK141",22781,SAMN00000719 ,PRJNA31009,"Terrabacteria group","Actinobacteria",GCA_000175635.1 ,2.37226,60,-,ACVP01,37,2271,2171,2009/08/05,2017/11/15,Contig,ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/175/635/GCF_000175635.1_ASM17563v1,ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/175/635/GCA_000175635.1_ASM17563v1
