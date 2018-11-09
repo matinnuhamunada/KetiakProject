@@ -1,0 +1,6 @@
+signature gene	pHMM hits	e-value	bit score	number of seeds
+WP_082239257	Condensation	7.2e-33	111.1	42
+WP_082239257	AMP-binding	1.7e-78	261.2	400
+WP_082239257	PP-binding	5.3e-06	24.0	164
+WP_032499599	AMP-binding	1.9e-51	172.1	400
+WP_032499599	PP-binding	4.3e-12	43.5	164

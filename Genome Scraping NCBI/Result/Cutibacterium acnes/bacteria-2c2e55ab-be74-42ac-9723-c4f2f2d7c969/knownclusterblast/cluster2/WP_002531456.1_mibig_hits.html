@@ -1,0 +1,144 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<!-- js section -->
+<!-- jQuery  -->
+<script type="text/javascript"
+        src="../../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tmpl-1.0.0pre.js"></script>
+
+  <!-- jQuery UI Support -->
+<script type="text/javascript"
+        src="../../js/jquery-ui-1.10.4.custom.min.js"></script>
+
+ <!-- Alpaca -->
+<script type="text/javascript" src="../../js/alpaca-full-mibig.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody> 
+            <tr>
+                <td>ADO67782.1</td>
+                <td>TpaL</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000615/index.html#cluster-1">BGC0000615</a></td>
+                <td>TP-1161_biosynthetic_gene_cluster</td>
+                <td>33</td>
+                <td>97.7198697068</td>
+                <td>148</td>
+                <td>1.3e-35</td>
+            </tr>
+            
+            <tr>
+                <td>ACS83768.1</td>
+                <td>dehydratase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000604/index.html#cluster-1">BGC0000604</a></td>
+                <td>GE2270_biosynthetic_gene_cluster</td>
+                <td>28</td>
+                <td>101.628664495</td>
+                <td>79</td>
+                <td>9.9e-15</td>
+            </tr>
+            
+            <tr>
+                <td>AGY49589.1</td>
+                <td>PbtC</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001155/index.html#cluster-1">BGC0001155</a></td>
+                <td>GE2270_biosynthetic_gene_cluster</td>
+                <td>28</td>
+                <td>98.0456026059</td>
+                <td>78</td>
+                <td>1.7e-14</td>
+            </tr>
+            
+            <tr>
+                <td>BAO57439.1</td>
+                <td>dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000606/index.html#cluster-1">BGC0000606</a></td>
+                <td>Lactazole_biosynthetic_gene_cluster</td>
+                <td>25</td>
+                <td>101.302931596</td>
+                <td>75</td>
+                <td>1.4e-13</td>
+            </tr>
+            
+            <tr>
+                <td>AEM00618.1</td>
+                <td>lantibiotic-type_dehydratase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000605/index.html#cluster-1">BGC0000605</a></td>
+                <td>GE37468_biosynthetic_gene_cluster</td>
+                <td>27</td>
+                <td>50.4885993485</td>
+                <td>57</td>
+                <td>3.1e-08</td>
+            </tr>
+            
+            <tr>
+                <td>ACS50128.1</td>
+                <td>putative_lantibiotic_biosynthesis_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000603/index.html#cluster-1">BGC0000603</a></td>
+                <td>Cyclothiazomycin_biosynthetic_gene_cluster</td>
+                <td>26</td>
+                <td>103.583061889</td>
+                <td>55</td>
+                <td>1.2e-07</td>
+            </tr>
+            
+            <tr>
+                <td>ACS83783.1</td>
+                <td>dehydratase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000613/index.html#cluster-1">BGC0000613</a></td>
+                <td>Thiomuracins_biosynthetic_gene_cluster</td>
+                <td>22</td>
+                <td>76.5472312704</td>
+                <td>50</td>
+                <td>2.9e-06</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    

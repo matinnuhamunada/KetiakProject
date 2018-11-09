@@ -1,0 +1,2 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+ABD65958.1	nonribosomal_peptide_synthetase	BGC0000341_c1	Enduracidin_biosynthetic_gene_cluster	26	88.6075949367	65	8.8e-11

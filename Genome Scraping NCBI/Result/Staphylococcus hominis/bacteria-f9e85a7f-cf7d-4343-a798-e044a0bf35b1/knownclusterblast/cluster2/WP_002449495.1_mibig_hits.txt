@@ -1,0 +1,45 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+CAD91239.1	hypothetical_protein	BGC0000289_c1	A40926_biosynthetic_gene_cluster	50	92.0415224913	254	1.6e-67
+AAS90056.1	Ver-1	BGC0000009_c1	Aflatoxin_biosynthetic_gene_cluster	36	89.2733564014	144	1.8e-34
+AAC49205.1	putative_ketoreductase	BGC0000152_c1	Sterigmatocystin_biosynthetic_gene_cluster	37	89.6193771626	142	6.9e-34
+AAS90008.1	Ver-1	BGC0000007_c1	Aflatoxin_biosynthetic_gene_cluster	37	89.6193771626	142	6.9e-34
+AAS90030.1	Ver-1	BGC0000008_c1	Aflatoxin_biosynthetic_gene_cluster	37	89.6193771626	142	6.9e-34
+AAS90076.1	Ver-1	BGC0000010_c1	Aflatoxin_biosynthetic_gene_cluster	37	89.6193771626	142	6.9e-34
+AAS90099.1	Ver-1	BGC0000006_c1	Aflatoxin_biosynthetic_gene_cluster	37	89.6193771626	142	6.9e-34
+BAE71323.1	reductase/dehydrogenase	BGC0000004_c1	Aflatoxin_biosynthetic_gene_cluster	37	89.6193771626	142	9e-34
+ACI31322.1	AflM	BGC0000011_c1	Aflatoxin/sterigmatocystin_biosynthetic_gene_cluster	37	89.6193771626	141	2e-33
+ABM21753.1	PdmG	BGC0000256_c1	Pradimicin_biosynthetic_gene_cluster	34	83.3910034602	130	2.7e-30
+AFN69430.1	ElxO	BGC0000509_c1	Epilancin_15X_biosynthetic_gene_cluster	32	85.1211072664	129	4.6e-30
+AAT12286.1	LtxD	BGC0000384_c1	Lyngbyatoxin_biosynthetic_gene_cluster	33	84.7750865052	129	7.9e-30
+ABB52548.1	3-oxoacyl-(acyl-carrier-protein)-reductase	BGC0000047_c1	Dihydrochalcomycin_biosynthetic_gene_cluster	32	85.1211072664	128	1e-29
+ANC94959.1	AlmK	BGC0001396_c1	Aldgamycin_biosynthetic_gene_cluster	32	85.1211072664	128	1.8e-29
+CAA34367.1		BGC0000228_c1	Granaticin_biosynthetic_gene_cluster	35	85.8131487889	123	4.3e-28
+CAA09651.1		BGC0000227_c1	Granaticin_biosynthetic_gene_cluster	35	85.8131487889	123	4.3e-28
+AAS79466.1	putative_post-PKS_ketoreductase	BGC0000035_c1	Chalcomycin_biosynthetic_gene_cluster	31	85.1211072664	120	2.8e-27
+AKA54637.1	3-oxoacyl-ACP_reductase	BGC0001216_c1	Splenocin_biosynthetic_gene_cluster	32	85.8131487889	120	3.7e-27
+AAM97360.1	RubJ	BGC0000266_c1	Rubromycin_biosynthetic_gene_cluster	32	87.5432525952	118	1.4e-26
+AHL46681.1	ketoreductase	BGC0001177_c1	Mensacaricin_biosynthetic_gene_cluster	33	85.8131487889	118	1.8e-26
+WP_010639249.1	short-chain_dehydrogenase	BGC0000958_c1	Antimycin_biosynthetic_gene_cluster	32	85.8131487889	117	3.1e-26
+ABB69757.1	PlaU	BGC0000654_c1	Phenalinolactone_biosynthetic_gene_cluster	34	85.1211072664	116	4e-26
+ALG65299.1	Cal37	BGC0001297_c1	WS9326_biosynthetic_gene_cluster	30	83.3910034602	115	9e-26
+AEG64681.1	2-deoxy-D-gluconate_3-dehydrogenase	BGC0000379_c1	Laspartomycin_biosynthetic_gene_cluster	31	88.2352941176	115	1.2e-25
+ABQ04140.1	short-chain_dehydrogenase/reductase_SDR	BGC0000838_c1	Flexirubin_biosynthetic_gene_cluster	32	88.9273356401	115	1.2e-25
+AMK51286.1	Hex29	BGC0001376_c1	Hexaricin_biosynthetic_gene_cluster	29	83.7370242215	111	1.7e-24
+CAM34373.1	putative_reductase	BGC0000242_c1	Lysolipin_biosynthetic_gene_cluster	32	87.8892733564	109	4.9e-24
+CAA07756.1	ketoreductase	BGC0000246_c1	Mithramycin_biosynthetic_gene_cluster	32	86.1591695502	102	1e-21
+CAK50776.1	ketoreductase	BGC0000247_c1	Mithramycin_biosynthetic_gene_cluster	32	86.1591695502	102	1e-21
+CAM59605.1	putative_reductase	BGC0000297_c1	Aeruginoside_biosynthetic_gene_cluster	30	88.9273356401	98	1.1e-20
+ADB02846.1	AzicD	BGC0000202_c1	Azicemicin_biosynthetic_gene_cluster	30	87.8892733564	98	1.1e-20
+EDY42534.1	monensin_polyketide_synthase_ketoacyl_reductase	BGC0000212_c1	Cinerubin_B_biosynthetic_gene_cluster	30	87.8892733564	98	1.1e-20
+EHM27508.1	short-chain_dehydrogenase/reductase_SDR	BGC0000235_c1	Kiamycin_biosynthetic_gene_cluster	30	87.8892733564	98	1.5e-20
+AAP69586.1	putative_ketoreductase	BGC0000226_c1	Gilvocarcin_biosynthetic_gene_cluster	30	87.1972318339	97	2.5e-20
+ABX71095.1	Lct12	BGC0000238_c1	Lactonamycin_biosynthetic_gene_cluster	28	84.4290657439	97	3.3e-20
+EDY47129.1	conserved_hypothetical_protein	BGC0000845_c1	Clavulanic_acid_biosynthetic_gene_cluster	35	66.7820069204	95	1.3e-19
+ACM68688.1	AerF	BGC0000298_c1	Aeruginosin_biosynthetic_gene_cluster	31	89.2733564014	94	1.6e-19
+AAL24452.1	RdmJ	BGC0000265_c1	Rhodomycin_biosynthetic_gene_cluster	30	87.8892733564	91	1.8e-18
+CBW45659.1	putative_ketoreductase	BGC0000952_c1	Pristinamycin_biosynthetic_gene_cluster	29	87.5432525952	88	1.2e-17
+AKD43505.1	Ketoreductase	BGC0001409_c1	Dutomycin_biosynthetic_gene_cluster	27	84.0830449827	88	1.5e-17
+ABI75108.1	short-chain_alcohol_dehydrogenase	BGC0000188_c1	Saxitoxin_biosynthetic_gene_cluster	33	66.7820069204	87	3.4e-17
+ACN64844.1	PokT1	BGC0001061_c1	Polyketomycin_biosynthetic_gene_cluster	26	85.1211072664	84	2.9e-16
+AAP11945.1	Short_chain_dehydrogenase	BGC0000612_c1	Thiocillin_I_/_thiocillin_II_biosynthetic_gene_cluster	28	69.2041522491	81	2.5e-15
+CDM31317.1	Short-chain_dehydrogenase/reductase_SDR	BGC0000667_c1	PR_toxin_biosynthetic_gene_cluster	30	69.5501730104	70	4.3e-12

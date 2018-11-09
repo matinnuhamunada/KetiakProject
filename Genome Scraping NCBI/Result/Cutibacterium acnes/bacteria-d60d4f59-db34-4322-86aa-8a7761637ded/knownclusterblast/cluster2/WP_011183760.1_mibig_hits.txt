@@ -1,0 +1,4 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+ADO67781.1	TpaK	BGC0000615_c1	TP-1161_biosynthetic_gene_cluster	34	103.448275862	477	2.7e-134
+ACR48334.1	NosE	BGC0000610_c1	Nosiheptide_biosynthetic_gene_cluster	28	104.712643678	295	1.9e-79
+ACN80647.1	SioJ	BGC0000655_c1	Siomycin_biosynthetic_gene_cluster	22	101.494252874	114	4.6e-25

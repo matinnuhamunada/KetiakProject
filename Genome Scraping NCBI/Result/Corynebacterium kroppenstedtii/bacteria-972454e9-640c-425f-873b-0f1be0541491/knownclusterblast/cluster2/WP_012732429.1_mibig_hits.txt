@@ -1,0 +1,2 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+BAD55607.1	putative_N6-hydroxylysine_acetyltransferase	BGC0001027_c1	Nocobactin_NA_biosynthetic_gene_cluster	35	83.9357429719	137	2.5e-32

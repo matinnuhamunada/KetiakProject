@@ -1,0 +1,111 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<!-- js section -->
+<!-- jQuery  -->
+<script type="text/javascript"
+        src="../../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tmpl-1.0.0pre.js"></script>
+
+  <!-- jQuery UI Support -->
+<script type="text/javascript"
+        src="../../js/jquery-ui-1.10.4.custom.min.js"></script>
+
+ <!-- Alpaca -->
+<script type="text/javascript" src="../../js/alpaca-full-mibig.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody> 
+            <tr>
+                <td>CAA74351.1</td>
+                <td>EciC_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000507/index.html#cluster-1">BGC0000507</a></td>
+                <td>Epicidin_biosynthetic_gene_cluster</td>
+                <td>93</td>
+                <td>100.0</td>
+                <td>733</td>
+                <td>1.6e-211</td>
+            </tr>
+            
+            <tr>
+                <td>CAA90026.1</td>
+                <td>PepC</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000543/index.html#cluster-1">BGC0000543</a></td>
+                <td>Pep5_biosynthetic_gene_cluster</td>
+                <td>58</td>
+                <td>99.7481108312</td>
+                <td>466</td>
+                <td>2.9e-131</td>
+            </tr>
+            
+            <tr>
+                <td>AFS60103.1</td>
+                <td>PaenC</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000540/index.html#cluster-1">BGC0000540</a></td>
+                <td>Paenibacillin_biosynthetic_gene_cluster</td>
+                <td>26</td>
+                <td>102.267002519</td>
+                <td>144</td>
+                <td>3.2e-34</td>
+            </tr>
+            
+            <tr>
+                <td>AGL93174.1</td>
+                <td>lanthionine_synthetase_C-like_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000560/index.html#cluster-1">BGC0000560</a></td>
+                <td>Subtilomycin_biosynthetic_gene_cluster</td>
+                <td>34</td>
+                <td>99.7481108312</td>
+                <td>139</td>
+                <td>1e-32</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    

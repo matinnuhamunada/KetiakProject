@@ -1,0 +1,4 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+AAK64298.1	phytoene_synthase	BGC0000637_c1	Carotenoid_biosynthetic_gene_cluster	44	84.0	228	1.2e-59
+AAF65581.1	phytoene_synthase	BGC0000636_c1	Carotenoid_biosynthetic_gene_cluster	40	82.2857142857	201	1.5e-51
+ABB88949.1	CrtB	BGC0000650_c1	Carotenoid_biosynthetic_gene_cluster	32	80.0	131	1.9e-30

@@ -1,0 +1,30 @@
+>> HMPREF0675_RS04180
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1011:transport_system_permease_protein	28	345	1.4e-85	281.4
+
+
+>> HMPREF0675_RS04185
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1033:iron_compound_ABC_transporter,_periplasmic	1	298	1.4e-40	133.3
+
+
+>> HMPREF0675_RS13140
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1000:ABC_transporter_ATP-binding_protein	2	118	7.4e-27	88.8
+
+
+>> HMPREF0675_RS04215
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1122:ATP-dependent_RNA_helicase	21	647	2.86e-18	62.0
+
+
+>> HMPREF0675_RS04225
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1170:metallo-beta-lactamase_family_protein	33	205	2.5e-30	99.8
+
+

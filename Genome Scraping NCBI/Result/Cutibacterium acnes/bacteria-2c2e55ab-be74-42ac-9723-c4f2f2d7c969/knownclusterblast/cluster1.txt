@@ -1,0 +1,25 @@
+ClusterBlast scores for NC_017535.1
+
+Table of genes, locations, strands and annotations of query cluster:
+WP_002518349.1	875385	876429	-	iron ABC transporter permease	
+WP_009640340.1	876425	877238	-	ABC transporter substrate-binding protein	
+WP_002522413.1	877357	877597	+	hypothetical protein	
+WP_002530993.1	877882	878080	+	hypothetical protein	
+TIB1ST10_RS13360	878066	878528	-	macrolide ABC transporter permease	
+WP_002530994.1	878531	878876	-	ATP-binding cassette domain-containing protein	
+WP_023487680.1	878853	879228	-	hypothetical protein	
+WP_002530996.1	879386	879866	-	hypothetical protein	
+WP_002530997.1	879903	880554	-	hypothetical protein	
+WP_002518268.1	880550	880883	-	hypothetical protein	
+WP_002518323.1	880967	881249	-	lactococcin 972 family bacteriocin	
+WP_002518347.1	881423	883529	+	excinuclease ABC subunit UvrB	
+WP_002533666.1	883561	883762	+	hypothetical protein	
+WP_002515659.1	883719	884709	+	TerC family protein	
+WP_014598820.1	884717	885374	-	MBL fold metallo-hydrolase	
+WP_002550711.1	885419	886163	-	maleylpyruvate isomerase family mycothiol-dependent enzyme	
+
+
+Significant hits: 
+
+
+Details:

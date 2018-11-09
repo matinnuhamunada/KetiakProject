@@ -1,0 +1,15 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+ABM30206.1	PvuC	BGC0000947_c1	Vibrioferrin_biosynthetic_gene_cluster	37	98.250728863	212	6.4e-55
+ABD29256.1	lipoprotein,_SirB,_putative	BGC0000943_c1	Staphylobactin_biosynthetic_gene_cluster	37	92.1282798834	190	4.5e-48
+EFL06872.1	predicted_protein	BGC0000300_c1	Amychelin_biosynthetic_gene_cluster	36	93.0029154519	180	3.5e-45
+CBG75493.1	putative_siderophore_transport_system_integral_membrane_component,_FecCD_family	BGC0000423_c1	Scabichelin_biosynthetic_gene_cluster	36	95.9183673469	175	1.5e-43
+AEZ64560.1	Fe3+-siderophore_ABC_transporter_permease	BGC0001065_c1	Herboxidiene_biosynthetic_gene_cluster	34	94.4606413994	171	2.1e-42
+WP_020635025.1	hypothetical_protein	BGC0001211_c1	Albachelin_biosynthetic_gene_cluster	32	92.1282798834	166	5.3e-41
+CBA63668.1	siderophore_uptake_membrane_transporter	BGC0000368_c1	Griseobactin_biosynthetic_gene_cluster	35	78.1341107872	161	1.3e-39
+ACU36657.1	transport_system_permease_protein	BGC0000392_c1	Mirubactin_biosynthetic_gene_cluster	34	88.6297376093	152	7.9e-37
+NP_230426.1	ferric_vibriobactin_ABC_transporter_permease	BGC0000945_c1	Vibriobactin_biosynthetic_gene_cluster	34	92.7113702624	142	8.2e-34
+CAB53326.1	putative_iron-siderophore_permease_transmembrane_protein	BGC0000325_c1	Coelichelin_biosynthetic_gene_cluster	31	96.7930029155	131	1.9e-30
+AMK48236.1	iron_ABC_transporter_permease	BGC0001351_c1	Cahuitamycins_biosynthetic_gene_cluster	32	99.7084548105	123	3.9e-28
+CAG38694.1	transport_protein	BGC0000708_c1	Lividomycin_biosynthetic_gene_cluster	28	91.2536443149	120	3.3e-27
+AGE11896.1	ABC_transporter	BGC0000366_c1	Gobichelin_biosynthetic_gene_cluster	30	94.7521865889	114	2.4e-25
+WP_039795885.1	membrane_protein	BGC0001211_c1	Albachelin_biosynthetic_gene_cluster	25	94.7521865889	104	1.9e-22

@@ -1,0 +1,2 @@
+genome accession	geneclusters
+NC_012704	NC_012704_c1;NC_012704_c2

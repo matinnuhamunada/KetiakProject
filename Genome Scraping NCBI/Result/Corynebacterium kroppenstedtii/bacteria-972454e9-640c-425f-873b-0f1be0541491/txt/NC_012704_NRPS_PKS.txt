@@ -1,0 +1,13 @@
+Cluster_ID	NRPSPKS_ID	annotation	aSDomain	score	evalue	domain_type	subtype	domain_start	domain_end	KR activity	KR stereochemistry	NRPSPredictor2	Stachelhaus	Minowa	pkssignature	consensus
+NC_012704.1_c1	WP_012731959	NRPS-like protein	nrpspksdomains_CKROP_RS06580_A1	283.6	5.20E-87	AMP-binding		1582606	1583971				no_call			
+NC_012704.1_c1	WP_081429421	PKS/NRPS-like protein	nrpspksdomains_CKROP_RS06600_Xdom01	105.6	7.80E-33	Aminotran_1_2		1588461	1589340							
+NC_012704.1_c2	WP_012732423	NRPS-like protein	nrpspksdomains_CKROP_RS08955_A1	279.5	9.10E-86	AMP-binding		2120256	2121528				no_call			
+NC_012704.1_c2	WP_012732424	NRPS	nrpspksdomains_CKROP_RS08960_Xdom05	73.7	7.40E-23	Thioesterase		2122069	2122549							
+NC_012704.1_c2	WP_012732424	NRPS	nrpspksdomains_CKROP_RS08960_Xdom04	34.6	4.30E-11	ACP		2122684	2122879							
+NC_012704.1_c2	WP_012732424	NRPS	nrpspksdomains_CKROP_RS08960_Xdom03	238.0	3.10E-73	Condensation	Condensation_DCL	2123521	2124511							
+NC_012704.1_c2	WP_012732424	NRPS	nrpspksdomains_CKROP_RS08960_Xdom02	25.5	2.70E-08	PCP		2125885	2126077							
+NC_012704.1_c2	WP_012732424	NRPS	nrpspksdomains_CKROP_RS08960_A1	260.6	4.80E-80	AMP-binding		2126527	2127754				gln|glu			
+NC_012704.1_c2	WP_012732424	NRPS	nrpspksdomains_CKROP_RS08960_Xdom01	207.4	7.70E-64	Condensation	Condensation_Starter	2128393	2129377							
+NC_012704.1_c2	WP_012732425	PKS/NRPS-like protein	nrpspksdomains_CKROP_RS08965_Xdom01	24.9	4.70E-08	ACP		2129553	2129658							
+NC_012704.1_c2	WP_012732426	PKS/NRPS-like protein	nrpspksdomains_CKROP_RS08970_KR1	37.3	6.30E-12	PKS_KR		2129795	2130317	inactive	C2					
+NC_012704.1_c2	WP_081429450	NRPS-like protein	nrpspksdomains_CKROP_RS10875_A1	334.9	1.40E-102	AMP-binding		2130905	2132396				no_call			

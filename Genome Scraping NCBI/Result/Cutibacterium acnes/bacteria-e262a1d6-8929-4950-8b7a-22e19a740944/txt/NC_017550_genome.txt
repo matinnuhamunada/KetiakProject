@@ -1,0 +1,2 @@
+genome accession	geneclusters
+NC_017550	NC_017550_c1

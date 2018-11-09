@@ -1,0 +1,144 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<!-- js section -->
+<!-- jQuery  -->
+<script type="text/javascript"
+        src="../../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tmpl-1.0.0pre.js"></script>
+
+  <!-- jQuery UI Support -->
+<script type="text/javascript"
+        src="../../js/jquery-ui-1.10.4.custom.min.js"></script>
+
+ <!-- Alpaca -->
+<script type="text/javascript" src="../../js/alpaca-full-mibig.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody> 
+            <tr>
+                <td>AET51869.1</td>
+                <td>inositol-phosphate_phosphatase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001138/index.html#cluster-1">BGC0001138</a></td>
+                <td>A201A_biosynthetic_gene_cluster</td>
+                <td>49</td>
+                <td>96.9465648855</td>
+                <td>230</td>
+                <td>2.3e-60</td>
+            </tr>
+            
+            <tr>
+                <td>CAD27649.1</td>
+                <td>AtaP3_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000873/index.html#cluster-1">BGC0000873</a></td>
+                <td>A201A_biosynthetic_gene_cluster</td>
+                <td>50</td>
+                <td>97.3282442748</td>
+                <td>225</td>
+                <td>7.3e-59</td>
+            </tr>
+            
+            <tr>
+                <td>CAA63164.1</td>
+                <td>Mono-phosphatase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000878/index.html#cluster-1">BGC0000878</a></td>
+                <td>Puromycin_biosynthetic_gene_cluster</td>
+                <td>48</td>
+                <td>95.8015267176</td>
+                <td>207</td>
+                <td>2.1e-53</td>
+            </tr>
+            
+            <tr>
+                <td>CAH94321.1</td>
+                <td>putative_N-amidino-scyllo-inosamine-4-phosphate_phosphatase_StrO</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000717/index.html#cluster-1">BGC0000717</a></td>
+                <td>Streptomycin_biosynthetic_gene_cluster</td>
+                <td>36</td>
+                <td>91.9847328244</td>
+                <td>112</td>
+                <td>9e-25</td>
+            </tr>
+            
+            <tr>
+                <td>CAA70009.1</td>
+                <td>N-amidino-scyllo-inosamine-4-phosphate_phosphatase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000718/index.html#cluster-1">BGC0000718</a></td>
+                <td>Streptomycin_biosynthetic_gene_cluster</td>
+                <td>36</td>
+                <td>91.9847328244</td>
+                <td>112</td>
+                <td>9e-25</td>
+            </tr>
+            
+            <tr>
+                <td>BAG22753.1</td>
+                <td>putative_glucose-1-phosphate_thymidylyltransferase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000724/index.html#cluster-1">BGC0000724</a></td>
+                <td>Streptomycin_biosynthetic_gene_cluster</td>
+                <td>36</td>
+                <td>91.9847328244</td>
+                <td>112</td>
+                <td>9e-25</td>
+            </tr>
+            
+            <tr>
+                <td>CAF31552.1</td>
+                <td>putative_myo-inositol-3-phosphate_phosphatase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000695/index.html#cluster-1">BGC0000695</a></td>
+                <td>Fortimicin_biosynthetic_gene_cluster</td>
+                <td>32</td>
+                <td>96.1832061069</td>
+                <td>74</td>
+                <td>2.1e-13</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    

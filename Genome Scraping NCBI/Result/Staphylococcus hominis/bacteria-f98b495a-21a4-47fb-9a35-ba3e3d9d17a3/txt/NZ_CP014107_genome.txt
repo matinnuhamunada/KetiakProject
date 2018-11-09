@@ -1,0 +1,2 @@
+genome accession	geneclusters
+NZ_CP014107	NZ_CP014107_c1

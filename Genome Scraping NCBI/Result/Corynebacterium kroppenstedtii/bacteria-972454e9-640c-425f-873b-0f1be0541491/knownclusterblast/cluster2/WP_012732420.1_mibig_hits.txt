@@ -1,0 +1,2 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+CAB53324.1	putative_iron-siderophore_binding_lipoprotein	BGC0000325_c1	Coelichelin_biosynthetic_gene_cluster	26	103.125	74	2.8e-13

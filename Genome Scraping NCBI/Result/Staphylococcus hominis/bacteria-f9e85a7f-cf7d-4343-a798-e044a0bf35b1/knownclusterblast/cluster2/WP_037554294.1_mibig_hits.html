@@ -1,0 +1,221 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<!-- js section -->
+<!-- jQuery  -->
+<script type="text/javascript"
+        src="../../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tmpl-1.0.0pre.js"></script>
+
+  <!-- jQuery UI Support -->
+<script type="text/javascript"
+        src="../../js/jquery-ui-1.10.4.custom.min.js"></script>
+
+ <!-- Alpaca -->
+<script type="text/javascript" src="../../js/alpaca-full-mibig.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody> 
+            <tr>
+                <td>AEK28753.1</td>
+                <td>acetyltransferase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001274_c3/index.html#cluster-1">BGC0001274_c3</a></td>
+                <td>Non-acetylated_open-chain_sophorolipid_/_diacetylated_lactonic</td>
+                <td>42</td>
+                <td>79.1878172589</td>
+                <td>134</td>
+                <td>1.7e-31</td>
+            </tr>
+            
+            <tr>
+                <td>AEE65503.1</td>
+                <td>galactoside_O-acetyltransferase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000223/index.html#cluster-1">BGC0000223</a></td>
+                <td>Fluostatin_biosynthetic_gene_cluster</td>
+                <td>39</td>
+                <td>92.385786802</td>
+                <td>121</td>
+                <td>1.1e-27</td>
+            </tr>
+            
+            <tr>
+                <td>AGC09471.1</td>
+                <td>chloramphenicol_acetyltransferase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001183/index.html#cluster-1">BGC0001183</a></td>
+                <td>Lobophorin_biosynthetic_gene_cluster</td>
+                <td>43</td>
+                <td>74.1116751269</td>
+                <td>113</td>
+                <td>2.3e-25</td>
+            </tr>
+            
+            <tr>
+                <td>AAD40715.1</td>
+                <td>putative_acetyl_transferase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001412/index.html#cluster-1">BGC0001412</a></td>
+                <td>Polysaccharide_C_biosynthetic_gene_cluster</td>
+                <td>35</td>
+                <td>62.9441624365</td>
+                <td>82</td>
+                <td>5.8e-16</td>
+            </tr>
+            
+            <tr>
+                <td>ACM68693.1</td>
+                <td>hypothetical_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000298/index.html#cluster-1">BGC0000298</a></td>
+                <td>Aeruginosin_biosynthetic_gene_cluster</td>
+                <td>34</td>
+                <td>67.0050761421</td>
+                <td>75</td>
+                <td>7e-14</td>
+            </tr>
+            
+            <tr>
+                <td>AAK53472.1</td>
+                <td>putative_bifunctional_enzyme_WxcM</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000774/index.html#cluster-1">BGC0000774</a></td>
+                <td>Lipopolysaccharide_biosynthetic_gene_cluster</td>
+                <td>32</td>
+                <td>62.4365482234</td>
+                <td>64</td>
+                <td>2.1e-10</td>
+            </tr>
+            
+            <tr>
+                <td>AAR90891.1</td>
+                <td>putative_O-acetyltransferase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000787/index.html#cluster-1">BGC0000787</a></td>
+                <td>O-antigen_biosynthetic_gene_cluster</td>
+                <td>39</td>
+                <td>43.1472081218</td>
+                <td>61</td>
+                <td>1.4e-09</td>
+            </tr>
+            
+            <tr>
+                <td>ANY57976.1</td>
+                <td>acetyltransferase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001369/index.html#cluster-1">BGC0001369</a></td>
+                <td>Metatricycloene_biosynthetic_gene_cluster</td>
+                <td>50</td>
+                <td>25.3807106599</td>
+                <td>58</td>
+                <td>1.2e-08</td>
+            </tr>
+            
+            <tr>
+                <td>AAA64646.1</td>
+                <td>type_1_capsule_synthesis_gene</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000758/index.html#cluster-1">BGC0000758</a></td>
+                <td>Capsular_polysaccharide_biosynthetic_gene_cluster</td>
+                <td>47</td>
+                <td>29.4416243655</td>
+                <td>56</td>
+                <td>4.4e-08</td>
+            </tr>
+            
+            <tr>
+                <td>AAK77314.1</td>
+                <td>putative_acetyltransferase_PssR</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000762/index.html#cluster-1">BGC0000762</a></td>
+                <td>Exopolysaccharide_biosynthetic_gene_cluster</td>
+                <td>55</td>
+                <td>25.8883248731</td>
+                <td>56</td>
+                <td>4.4e-08</td>
+            </tr>
+            
+            <tr>
+                <td>AAS55721.1</td>
+                <td>dTDP-D-Fucp3N_acetylase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000795/index.html#cluster-1">BGC0000795</a></td>
+                <td>S-layer_glycan_biosynthetic_gene_cluster</td>
+                <td>35</td>
+                <td>54.8223350254</td>
+                <td>54</td>
+                <td>1.3e-07</td>
+            </tr>
+            
+            <tr>
+                <td>CAB65210.1</td>
+                <td>putative_acetyl_transferase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000775/index.html#cluster-1">BGC0000775</a></td>
+                <td>Lipopolysaccharide_biosynthetic_gene_cluster</td>
+                <td>45</td>
+                <td>31.4720812183</td>
+                <td>53</td>
+                <td>2.9e-07</td>
+            </tr>
+            
+            <tr>
+                <td>AHL24469.1</td>
+                <td>acetyltransferase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000806/index.html#cluster-1">BGC0000806</a></td>
+                <td>Phosphonoglycans_biosynthetic_gene_cluster</td>
+                <td>32</td>
+                <td>57.3604060914</td>
+                <td>52</td>
+                <td>4.9e-07</td>
+            </tr>
+            
+            <tr>
+                <td>ctg1_orf12</td>
+                <td></td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000770/index.html#cluster-1">BGC0000770</a></td>
+                <td>Lipo-oligosaccharide_biosynthetic_gene_cluster</td>
+                <td>42</td>
+                <td>25.3807106599</td>
+                <td>50</td>
+                <td>2.4e-06</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    

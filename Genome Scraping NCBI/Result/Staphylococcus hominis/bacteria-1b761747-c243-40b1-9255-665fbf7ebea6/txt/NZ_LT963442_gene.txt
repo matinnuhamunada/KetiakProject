@@ -1,0 +1,58 @@
+gene ID	gene start	gene end	gene strand	smCOG	locus_tag	annotation
+WP_002448378	1314850	1316221	-		DG019_RS06645	YjiH family protein
+WP_002448568	1316455	1317421	-		DG019_RS06650	iron-dicitrate ABC transporter permease
+WP_002448608	1317417	1318449	-		DG019_RS06655	iron ABC transporter permease
+WP_049417823	1318461	1319460	-		DG019_RS06660	iron citrate ABC transporter substrate-binding protein
+WP_077700064	1319652	1320714	-		DG019_RS06665	alanine racemase
+WP_077700065	1320714	1322472	-		DG019_RS06670	siderophore synthetase
+WP_077700066	1322685	1324629	+		DG019_RS06675	sialic acid synthase
+WP_002448598	1324739	1325288	-		DG019_RS06680	Asp23/Gls24 family envelope stress response protein
+WP_002448488	1325366	1325603	-		DG019_RS06685	DUF2273 domain-containing protein
+WP_002448415	1325615	1326152	-		DG019_RS06690	alkaline shock response membrane anchor protein AmaP
+WP_049417817	1326320	1327895	-		DG019_RS06695	BCCT family transporter
+WP_077700067	1328058	1329072	-		DG019_RS06700	zinc-binding alcohol dehydrogenase family protein
+WP_002448412	1329104	1330112	-		DG019_RS06705	NADP-dependent oxidoreductase
+WP_002454821	1646696	1649204	-		DG019_RS08320	glycosyltransferase
+WP_037554294	1649429	1650023	-		DG019_RS08325	sugar O-acetyltransferase
+WP_002449495	1650117	1650987	-		DG019_RS08330	SDR family oxidoreductase
+WP_002454819	1651183	1651390	+		DG019_RS08335	hypothetical protein
+WP_002454818	1651524	1653912	+		DG019_RS08340	copper-translocating P-type ATPase
+WP_002449345	1654000	1654210	+		DG019_RS08345	copper chaperone
+WP_002454817	1654247	1655246	-		DG019_RS08350	D-lactate dehydrogenase
+WP_002454816	1655273	1656443	-		DG019_RS08355	aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme
+WP_002454815	1656689	1658195	-		DG019_RS08360	phytoene desaturase
+WP_002454814	1658206	1659073	-		DG019_RS08365	phytoene/squalene synthase family protein
+WP_002454813	1659102	1660227	-		DG019_RS08370	glycosyltransferase family 2 protein
+WP_002454812	1660238	1661747	-		DG019_RS08375	NAD(P)/FAD-dependent oxidoreductase
+WP_077700029	1661736	1662234	-		DG019_RS08380	glycosyl-4,4'-diaponeurosporenoate acyltransferase
+WP_077700030	1662423	1663152	-		DG019_RS08385	transglycosylase
+WP_077700031	1663577	1665002	-		DG019_RS08390	phosphate--AMP phosphotransferase
+WP_077700032	1665113	1666172	-		DG019_RS08395	PTS transporter subunit IIC
+WP_077700033	1666461	1667028	+		DG019_RS08400	TetR/AcrR family transcriptional regulator
+WP_077700034	1667185	1668130	+		DG019_RS08405	LLM class oxidoreductase
+WP_002449423	1668142	1668379	+		DG019_RS08410	DUF896 domain-containing protein
+WP_077700035	1668770	1669538	+		DG019_RS08415	class I SAM-dependent methyltransferase
+WP_077699943	2201512	2202208	+		DG019_RS11060	ATP-binding cassette domain-containing protein
+DG019_RS11065	2202209	2202846	+		DG019_RS11065	hypothetical protein
+WP_077699980	2203689	2204427	-		DG019_RS11070	hypothetical protein
+WP_070653592	2204423	2205176	-		DG019_RS11075	hypothetical protein
+WP_077699979	2205176	2206085	-		DG019_RS11080	ABC transporter ATP-binding protein
+DG019_RS11085	<2206395	2207289	+		DG019_RS11085	ATP-binding protein
+WP_077699978	2207296	2207488	-		DG019_RS11090	hypothetical protein
+WP_077699977	2208018	2208363	+		DG019_RS11095	hypothetical protein
+WP_077699976	2209345	2210314	-		DG019_RS11100	replication protein
+WP_077699975	2210783	2211476	+		DG019_RS11105	DUF536 domain-containing protein
+WP_077699974	2211880	2213074	-		DG019_RS11110	hypothetical protein
+WP_077699973	2213058	2215983	-		DG019_RS11115	hypothetical protein
+WP_077699972	2215969	2216872	-		DG019_RS11120	hypothetical protein
+WP_077699971	2216939	2217110	-		DG019_RS11125	hypothetical protein
+WP_077699970	2217167	2217356	-		DG019_RS11130	hypothetical protein
+WP_077699969	2217430	2218174	-		DG019_RS11135	SDR family oxidoreductase
+WP_077699968	2219265	2219961	+		DG019_RS11140	ATP-binding cassette domain-containing protein
+WP_077699967	2219962	2220736	+		DG019_RS11145	hypothetical protein
+WP_077699966	2221308	2221947	-		DG019_RS11150	recombinase family protein
+WP_002449922	2222587	2225227	+		DG019_RS11155	transporter
+WP_053036055	2225250	2226195	+		DG019_RS11160	ABC transporter substrate-binding protein
+WP_038812901	2226543	2227113	+		DG019_RS11165	TetR/AcrR family transcriptional regulator
+WP_002497230	2227390	2227492	-		DG019_RS11170	type I toxin-antitoxin system Fst family toxin
+WP_077699965	2228063	2228480	-		DG019_RS11175	glyoxalase

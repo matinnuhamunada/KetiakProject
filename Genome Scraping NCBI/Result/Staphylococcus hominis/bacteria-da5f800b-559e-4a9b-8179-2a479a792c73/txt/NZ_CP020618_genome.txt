@@ -1,0 +1,2 @@
+genome accession	geneclusters
+NZ_CP020618	NZ_CP020618_c1;NZ_CP020618_c2

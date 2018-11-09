@@ -1,0 +1,8 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+AET51869.1	inositol-phosphate_phosphatase	BGC0001138_c1	A201A_biosynthetic_gene_cluster	49	96.9465648855	229	3.9e-60
+CAD27649.1	AtaP3_protein	BGC0000873_c1	A201A_biosynthetic_gene_cluster	50	97.3282442748	224	1.6e-58
+CAA63164.1	Mono-phosphatase	BGC0000878_c1	Puromycin_biosynthetic_gene_cluster	48	95.8015267176	206	4.6e-53
+CAH94321.1	putative_N-amidino-scyllo-inosamine-4-phosphate_phosphatase_StrO	BGC0000717_c1	Streptomycin_biosynthetic_gene_cluster	36	91.9847328244	111	1.5e-24
+CAA70009.1	N-amidino-scyllo-inosamine-4-phosphate_phosphatase	BGC0000718_c1	Streptomycin_biosynthetic_gene_cluster	36	91.9847328244	111	1.5e-24
+BAG22753.1	putative_glucose-1-phosphate_thymidylyltransferase	BGC0000724_c1	Streptomycin_biosynthetic_gene_cluster	36	91.9847328244	111	1.5e-24
+CAF31552.1	putative_myo-inositol-3-phosphate_phosphatase	BGC0000695_c1	Fortimicin_biosynthetic_gene_cluster	30	94.6564885496	74	2.7e-13

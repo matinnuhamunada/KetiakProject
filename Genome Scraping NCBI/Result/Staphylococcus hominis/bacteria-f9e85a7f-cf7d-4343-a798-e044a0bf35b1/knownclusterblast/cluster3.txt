@@ -1,0 +1,141 @@
+ClusterBlast scores for NZ_LT963438.1
+
+Table of genes, locations, strands and annotations of query cluster:
+WP_077699943.1	2201898	2202594	+	ATP-binding cassette domain-containing protein	
+DG016_RS11085	2202595	2202851	+	hypothetical protein	
+WP_077700230.1	2203089	2203281	+	hypothetical protein	
+WP_077699980.1	2203713	2204451	-	hypothetical protein	
+WP_070653592.1	2204447	2205200	-	hypothetical protein	
+WP_077699979.1	2205200	2206109	-	ABC transporter ATP-binding protein	
+DG016_RS11110	2206417	2207299	+	ATP-binding protein	
+WP_077699977.1	2208032	2208377	+	hypothetical protein	
+WP_077699976.1	2209359	2210328	-	replication protein	
+WP_077699975.1	2210797	2211490	+	DUF536 domain-containing protein	
+WP_077699974.1	2211894	2213088	-	hypothetical protein	
+WP_077699973.1	2213072	2215997	-	hypothetical protein	
+WP_077699972.1	2215983	2216886	-	hypothetical protein	
+WP_077699971.1	2216953	2217124	-	hypothetical protein	
+WP_077699970.1	2217181	2217370	-	hypothetical protein	
+WP_077699969.1	2217444	2218188	-	SDR family oxidoreductase	
+WP_077699968.1	2219279	2219975	+	ATP-binding cassette domain-containing protein	
+WP_077699967.1	2219976	2220750	+	hypothetical protein	
+WP_077756151.1	2221322	2221736	-	recombinase family protein	
+WP_002449922.1	2222376	2225016	+	transporter	
+WP_053036055.1	2225039	2225984	+	ABC transporter substrate-binding protein	
+WP_038812901.1	2226332	2226902	+	TetR/AcrR family transcriptional regulator	
+WP_002497230.1	2227179	2227281	-	type I toxin-antitoxin system Fst family toxin	
+WP_077699965.1	2227852	2228269	-	glyoxalase	
+
+
+Significant hits: 
+1. BGC0000507_c1	Epicidin_biosynthetic_gene_cluster
+2. BGC0000543_c1	Pep5_biosynthetic_gene_cluster
+3. BGC0000539_c1	Nukacin_ISK-1_biosynthetic_gene_cluster
+4. BGC0000509_c1	Epilancin_15X_biosynthetic_gene_cluster
+
+
+Details:
+
+>>
+1. BGC0000507_c1
+Source: Epicidin_biosynthetic_gene_cluster
+Type: RiPP
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 3466
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAA74345.1	CAA74345.1	1	30	-	transposase
+CAA74346.1	CAA74346.1	874	1617	+	oxidoreductase
+CAA74347.1	CAA74347.1	1690	1878	+	EciI_protein
+CAA74348.1	CAA74348.1	1940	2110	+	epicidin_280
+CAA74349.1	CAA74349.1	2194	3096	+	protease
+CAA74350.1	CAA74350.1	3083	6013	+	EciB_protein
+CAA74351.1	CAA74351.1	5998	7191	+	EciC_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+WP_077699974.1	CAA74351.1	93	733	100.0	1.6e-211	
+WP_077699973.1	CAA74350.1	83	1618	100.205338809	0.0	
+WP_077699972.1	CAA74349.1	81	491	100.0	6.3e-139	
+WP_077699971.1	CAA74348.1	82	92	100.0	1.2e-19	
+WP_077699970.1	CAA74347.1	81	96	100.0	1.6e-20	
+WP_077699969.1	CAA74346.1	90	436	100.0	2.6e-122	
+
+
+
+>>
+2. BGC0000543_c1
+Source: Pep5_biosynthetic_gene_cluster
+Type: RiPP
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 1921
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAA90021.1	CAA90021.1	88	1803	-	PepT
+CAA90022.1	CAA90022.1	2028	2237	+	PepI
+CAA90023.1	CAA90023.1	2322	2504	+	PepA
+CAA90024.1	CAA90024.1	2566	3423	+	PepP
+CAA90025.1	CAA90025.1	3410	6313	+	PepB
+CAA90026.1	CAA90026.1	6310	7506	+	PepC
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+WP_077699974.1	CAA90026.1	58	466	99.7481108312	2.9e-131	
+WP_077699973.1	CAA90025.1	56	1028	100.102669405	6e-300	
+WP_077699972.1	CAA90024.1	56	312	97.6666666667	6.8e-85	
+WP_077699971.1	CAA90023.1	55	56	107.142857143	9.6e-09	
+WP_077699970.1	CAA90022.1	54	59	95.1612903226	2.1e-09	
+
+
+
+>>
+3. BGC0000539_c1
+Source: Nukacin_ISK-1_biosynthetic_gene_cluster
+Type: RiPP
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 1425
+
+Table of genes, locations, strands and annotations of subject cluster:
+BAC98758.1	BAC98758.1	156	899	-	putative_response_regulator
+BAC98759.1	BAC98759.1	1326	1499	-	NukA
+BAC98760.2	BAC98760.2	1901	4654	+	NukM
+BAC98761.2	BAC98761.2	4676	6760	+	NukT
+BAC98762.1	BAC98762.1	6773	7648	+	NukF
+BAC98763.1	BAC98763.1	7681	8433	+	NukE
+BAC98764.1	BAC98764.1	8430	9167	+	NukG
+BAC98765.2	BAC98765.2	9174	9452	+	NukH
+BAC98766.1	BAC98766.1	9561	9761	-	putative_plasmid_replication-associated_protein
+BAC98767.1	BAC98767.1	9767	10417	-	putative_plasmid_replication-associated_protein
+BAC98768.1	BAC98768.1	11192	11740	+	replication_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+WP_077699980.1	BAC98764.1	96	434	99.5918367347	7.4e-122	
+WP_070653592.1	BAC98763.1	98	448	100.0	6.6e-126	
+WP_077699979.1	BAC98762.1	98	543	95.6953642384	1.8e-154	
+
+
+
+>>
+4. BGC0000509_c1
+Source: Epilancin_15X_biosynthetic_gene_cluster
+Type: RiPP
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 928
+
+Table of genes, locations, strands and annotations of subject cluster:
+AFN69429.1	AFN69429.1	4196	4729	+	recombinase
+AFN69430.1	AFN69430.1	4943	5689	-	ElxO
+AFN69431.1	AFN69431.1	5708	7429	-	ElxT
+AFN69432.1	AFN69432.1	7589	7756	+	ElxA
+AFN69433.1	AFN69433.1	7793	8728	+	ElxP
+AFN69434.1	AFN69434.1	8715	11675	+	ElxB
+AFN69435.1	AFN69435.1	11693	12901	+	ElxC
+AFN69436.1	AFN69436.1	12940	13158	+	Elx1
+AFN69437.1	AFN69437.1	13183	13908	+	Elx2
+AFN69438.1	AFN69438.1	13937	14152	+	Elx3
+AFN69439.1	AFN69439.1	14476	15261	-	OrdA
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+DG016_RS11085	AFN69439.1	93	86	81.8181818182	8.5e-18	
+WP_077699969.1	AFN69430.1	52	247	101.214574899	2.2e-65	
+WP_077699967.1	AFN69439.1	97	457	100.0	8.6e-129	
+WP_077756151.1	AFN69429.1	49	138	129.927007299	4.7e-33	
+

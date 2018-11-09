@@ -1,0 +1,22 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+ACY01394.1	oxidoreductase	BGC0000177_c1	Dorrigocin_/_migrastatin_biosynthetic_gene_cluster	39	98.5074626866	237	2.4e-62
+AAM88292.1	reductase_RED1	BGC0000155_c4	T-toxin_biosynthetic_gene_cluster	34	102.985074627	216	4.3e-56
+EWG54272.1	hypothetical_protein	BGC0001190_c1	Fusaric_acid_biosynthetic_gene_cluster	32	105.373134328	196	3.6e-50
+ACP19697.1	Ox4	BGC0000999_c1	Heat-stable_antifungal_factor_biosynthetic_gene_cluster	31	108.358208955	151	1.7e-36
+XP_002384041.1	alcohol_dehydrogenase,_putative	BGC0001234_c1	4,4'-piperazine-2,5-diyldimethyl-bis-phenol_biosynthetic_gene	30	97.6119402985	149	5e-36
+AFK78066.1	putative_alcohol_dehydrogenase_zinc-binding_domain_protein	BGC0000666_c1	Xiamycin_biosynthetic_gene_cluster	29	107.462686567	142	8e-34
+BAG17640.1	putative_oxidoreductase	BGC0001043_c1	SGR_PTMs_biosynthetic_gene_cluster	30	105.970149254	138	1.2e-32
+EFL02197.1	leukotriene_B4_12-hydroxydehydrogenase/15-oxo-prostaglandin_13-reductase	BGC0000996_c1	Frontalamides_biosynthetic_gene_cluster	29	106.268656716	125	1e-28
+AKC91606.1	alcohol_dehydrogenase	BGC0001302_c1	Lomofungin_biosynthetic_gene_cluster	26	93.7313432836	104	1.8e-22
+CAN93352.1	polyketide_synthase	BGC0000179_c1	Etnangien_biosynthetic_gene_cluster	28	63.2835820896	69	6.6e-12
+ADH01487.1	polyketide_synthase	BGC0001096_c1	FR901464_biosynthetic_gene_cluster	26	57.6119402985	67	3.3e-11
+AIC32693.1	FR9DEF	BGC0001113_c1	Spliceostatin_/_FR901464_biosynthetic_gene_cluster	26	57.6119402985	67	3.3e-11
+AHL46731.1	oxidoreductase	BGC0001179_c1	Rishirilide_B_biosynthetic_gene_cluster	35	36.7164179104	67	4.3e-11
+EWG54266.1	hypothetical_protein	BGC0001190_c1	Fusaric_acid_biosynthetic_gene_cluster	22	62.9850746269	57	4.4e-08
+BAC79021.1	enoyl_reductase	BGC0000245_c1	Medermycin_biosynthetic_gene_cluster	34	35.8208955224	54	3.7e-07
+ctg1_orf521		BGC0001199_c1	Akaeolide_biosynthetic_gene_cluster	25	62.9850746269	52	8.3e-07
+AAB08104.3	polyketide_synthase	BGC0000155_c3	T-toxin_biosynthetic_gene_cluster	21	65.671641791	52	1.4e-06
+AFK83820.1	PtzD	BGC0001107_c2	Patellazole_biosynthetic_gene_cluster	26	59.1044776119	50	3.2e-06
+EPE34340.1	Thiolase-like_protein	BGC0001035_c1	Pneumocandin_biosynthetic_gene_cluster	24	66.5671641791	49	7e-06
+ABB88521.1	polyketide_synthase_type_I	BGC0000050_c1	E-837_biosynthetic_gene_cluster	32	34.6268656716	49	7e-06
+BAE93731.1	type_I_polyketide_synthase	BGC0000164_c1	Tetronomycin_biosynthetic_gene_cluster	25	60.0	49	9.2e-06

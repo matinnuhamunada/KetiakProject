@@ -1,0 +1,7 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+CAA74349.1	protease	BGC0000507_c1	Epicidin_biosynthetic_gene_cluster	81	100.0	491	6.3e-139
+CAA90024.1	PepP	BGC0000543_c1	Pep5_biosynthetic_gene_cluster	56	97.6666666667	312	6.8e-85
+AFN69433.1	ElxP	BGC0000509_c1	Epilancin_15X_biosynthetic_gene_cluster	41	100.0	208	1.1e-53
+AFS60101.1	PaenP	BGC0000540_c1	Paenibacillin_biosynthetic_gene_cluster	35	79.6666666667	129	6.3e-30
+AAA79237.1	leader_peptidase	BGC0000510_c1	Epilancin_K7_biosynthetic_gene_cluster	49	41.0	116	7.2e-26
+ABS44970.1	P293B	BGC0000622_c1	Megacin_biosynthetic_gene_cluster	26	99.3333333333	77	3.7e-14

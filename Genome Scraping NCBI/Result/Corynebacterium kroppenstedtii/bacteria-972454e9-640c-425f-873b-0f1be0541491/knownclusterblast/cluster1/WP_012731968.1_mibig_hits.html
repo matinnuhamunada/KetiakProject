@@ -1,0 +1,375 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<!-- js section -->
+<!-- jQuery  -->
+<script type="text/javascript"
+        src="../../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tmpl-1.0.0pre.js"></script>
+
+  <!-- jQuery UI Support -->
+<script type="text/javascript"
+        src="../../js/jquery-ui-1.10.4.custom.min.js"></script>
+
+ <!-- Alpaca -->
+<script type="text/javascript" src="../../js/alpaca-full-mibig.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody> 
+            <tr>
+                <td>CAH94353.1</td>
+                <td>putative_3-hydroxyacyl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000717/index.html#cluster-1">BGC0000717</a></td>
+                <td>Streptomycin_biosynthetic_gene_cluster</td>
+                <td>56</td>
+                <td>96.0912052117</td>
+                <td>319</td>
+                <td>5.7e-87</td>
+            </tr>
+            
+            <tr>
+                <td>AAZ94410.1</td>
+                <td>hydroxybutyryl_CoA_reductase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000040/index.html#cluster-1">BGC0000040</a></td>
+                <td>Concanamycin_A_biosynthetic_gene_cluster</td>
+                <td>51</td>
+                <td>91.2052117264</td>
+                <td>285</td>
+                <td>7e-77</td>
+            </tr>
+            
+            <tr>
+                <td>ctg1_orf535</td>
+                <td></td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001199/index.html#cluster-1">BGC0001199</a></td>
+                <td>Akaeolide_biosynthetic_gene_cluster</td>
+                <td>51</td>
+                <td>91.2052117264</td>
+                <td>285</td>
+                <td>9.1e-77</td>
+            </tr>
+            
+            <tr>
+                <td>CCP20058.1</td>
+                <td>divT_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001119/index.html#cluster-1">BGC0001119</a></td>
+                <td>Divergolide_biosynthetic_gene_cluster</td>
+                <td>49</td>
+                <td>91.2052117264</td>
+                <td>278</td>
+                <td>8.5e-75</td>
+            </tr>
+            
+            <tr>
+                <td>BAB69202.1</td>
+                <td>3-hydroxyacyl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000117/index.html#cluster-1">BGC0000117</a></td>
+                <td>Oligomycin_biosynthetic_gene_cluster</td>
+                <td>51</td>
+                <td>88.2736156352</td>
+                <td>272</td>
+                <td>6.1e-73</td>
+            </tr>
+            
+            <tr>
+                <td>CAF31601.1</td>
+                <td>putative_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000705/index.html#cluster-1">BGC0000705</a></td>
+                <td>Kanamycin_biosynthetic_gene_cluster</td>
+                <td>47</td>
+                <td>93.8110749186</td>
+                <td>221</td>
+                <td>1.2e-57</td>
+            </tr>
+            
+            <tr>
+                <td>CAE46951.1</td>
+                <td>putative_oxidoreductase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000704/index.html#cluster-1">BGC0000704</a></td>
+                <td>Kanamycin_biosynthetic_gene_cluster</td>
+                <td>47</td>
+                <td>93.8110749186</td>
+                <td>221</td>
+                <td>1.2e-57</td>
+            </tr>
+            
+            <tr>
+                <td>BAE95604.1</td>
+                <td>putative_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000706/index.html#cluster-1">BGC0000706</a></td>
+                <td>Kanamycin_biosynthetic_gene_cluster</td>
+                <td>47</td>
+                <td>93.8110749186</td>
+                <td>221</td>
+                <td>1.2e-57</td>
+            </tr>
+            
+            <tr>
+                <td>BAD20772.1</td>
+                <td>dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000702/index.html#cluster-1">BGC0000702</a></td>
+                <td>Kanamycin_biosynthetic_gene_cluster</td>
+                <td>47</td>
+                <td>93.8110749186</td>
+                <td>221</td>
+                <td>1.2e-57</td>
+            </tr>
+            
+            <tr>
+                <td>ctg1_orf3</td>
+                <td></td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000053/index.html#cluster-1">BGC0000053</a></td>
+                <td>Elaiophylin_biosynthetic_gene_cluster</td>
+                <td>43</td>
+                <td>91.5309446254</td>
+                <td>209</td>
+                <td>6.4e-54</td>
+            </tr>
+            
+            <tr>
+                <td>CAQ64685.1</td>
+                <td>3-hydroxyacyl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000087/index.html#cluster-1">BGC0000087</a></td>
+                <td>Lasalocid_biosynthetic_gene_cluster</td>
+                <td>43</td>
+                <td>91.5309446254</td>
+                <td>201</td>
+                <td>1.7e-51</td>
+            </tr>
+            
+            <tr>
+                <td>BAG85025.1</td>
+                <td>putative_3-hydroxybutyryl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000086/index.html#cluster-1">BGC0000086</a></td>
+                <td>Lasalocid_biosynthetic_gene_cluster</td>
+                <td>43</td>
+                <td>91.5309446254</td>
+                <td>201</td>
+                <td>1.7e-51</td>
+            </tr>
+            
+            <tr>
+                <td>ADU85993.1</td>
+                <td>putative_3-hydroxybutyryl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000165/index.html#cluster-1">BGC0000165</a></td>
+                <td>Tiacumicin_B_biosynthetic_gene_cluster</td>
+                <td>39</td>
+                <td>90.2280130293</td>
+                <td>187</td>
+                <td>2.6e-47</td>
+            </tr>
+            
+            <tr>
+                <td>AAQ84148.1</td>
+                <td>PlmT8</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000123/index.html#cluster-1">BGC0000123</a></td>
+                <td>Phoslactomycin_B_biosynthetic_gene_cluster</td>
+                <td>39</td>
+                <td>92.1824104235</td>
+                <td>181</td>
+                <td>1.9e-45</td>
+            </tr>
+            
+            <tr>
+                <td>AFV52201.1</td>
+                <td>enoyl_reductase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000081/index.html#cluster-1">BGC0000081</a></td>
+                <td>Kedarcidin_biosynthetic_gene_cluster</td>
+                <td>38</td>
+                <td>91.2052117264</td>
+                <td>173</td>
+                <td>3.9e-43</td>
+            </tr>
+            
+            <tr>
+                <td>CCE88386.1</td>
+                <td>hydroxyacyl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001034/index.html#cluster-1">BGC0001034</a></td>
+                <td>Pellasoren_biosynthetic_gene_cluster</td>
+                <td>33</td>
+                <td>92.8338762215</td>
+                <td>172</td>
+                <td>6.6e-43</td>
+            </tr>
+            
+            <tr>
+                <td>AAK19885.1</td>
+                <td>beta-hydroxybutyryl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000147/index.html#cluster-1">BGC0000147</a></td>
+                <td>Soraphen_biosynthetic_gene_cluster</td>
+                <td>34</td>
+                <td>92.5081433225</td>
+                <td>171</td>
+                <td>1.5e-42</td>
+            </tr>
+            
+            <tr>
+                <td>AAR87756.1</td>
+                <td>ZmaG</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001059/index.html#cluster-1">BGC0001059</a></td>
+                <td>Zwittermycin_A_biosynthetic_gene_cluster</td>
+                <td>33</td>
+                <td>91.5309446254</td>
+                <td>169</td>
+                <td>5.6e-42</td>
+            </tr>
+            
+            <tr>
+                <td>CAQ43080.1</td>
+                <td>hypothetical_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000970/index.html#cluster-1">BGC0000970</a></td>
+                <td>Chondrochloren_biosynthetic_gene_cluster</td>
+                <td>35</td>
+                <td>90.2280130293</td>
+                <td>167</td>
+                <td>2.8e-41</td>
+            </tr>
+            
+            <tr>
+                <td>AAZ94392.1</td>
+                <td>methoxymalonate_biosynthesis_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000040/index.html#cluster-1">BGC0000040</a></td>
+                <td>Concanamycin_A_biosynthetic_gene_cluster</td>
+                <td>34</td>
+                <td>92.5081433225</td>
+                <td>157</td>
+                <td>2.9e-38</td>
+            </tr>
+            
+            <tr>
+                <td>ADE22335.1</td>
+                <td>GalK</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000065/index.html#cluster-1">BGC0000065</a></td>
+                <td>Galbonolides_biosynthetic_gene_cluster</td>
+                <td>34</td>
+                <td>91.8566775244</td>
+                <td>154</td>
+                <td>1.9e-37</td>
+            </tr>
+            
+            <tr>
+                <td>BAP34764.1</td>
+                <td>glyceryl-ACP_oxidoreductase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000078/index.html#cluster-1">BGC0000078</a></td>
+                <td>Incednine_biosynthetic_gene_cluster</td>
+                <td>33</td>
+                <td>92.1824104235</td>
+                <td>151</td>
+                <td>2.1e-36</td>
+            </tr>
+            
+            <tr>
+                <td>AHD05624.1</td>
+                <td>3-hydroxybutyryl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001033/index.html#cluster-1">BGC0001033</a></td>
+                <td>Paenilamicin_biosynthetic_gene_cluster</td>
+                <td>33</td>
+                <td>91.5309446254</td>
+                <td>149</td>
+                <td>4.6e-36</td>
+            </tr>
+            
+            <tr>
+                <td>WP_048832937.1</td>
+                <td>3-hydroxyacyl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001348/index.html#cluster-1">BGC0001348</a></td>
+                <td>JBIR-100_biosynthetic_gene_cluster</td>
+                <td>33</td>
+                <td>90.2280130293</td>
+                <td>145</td>
+                <td>1.1e-34</td>
+            </tr>
+            
+            <tr>
+                <td>CAJ76296.1</td>
+                <td>putative_3-hydroxyacyl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000972/index.html#cluster-1">BGC0000972</a></td>
+                <td>Colibactin_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>92.8338762215</td>
+                <td>143</td>
+                <td>3.3e-34</td>
+            </tr>
+            
+            <tr>
+                <td>CBJ89770.1</td>
+                <td>3-hydroxyacyl-CoA_dehydrogenase_involved_in_xenocoumacin_synthesis</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001054/index.html#cluster-1">BGC0001054</a></td>
+                <td>Xenocoumacin_biosynthetic_gene_cluster</td>
+                <td>28</td>
+                <td>93.1596091205</td>
+                <td>143</td>
+                <td>5.6e-34</td>
+            </tr>
+            
+            <tr>
+                <td>AAM54091.1</td>
+                <td>3-hydroxyacyl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000020/index.html#cluster-1">BGC0000020</a></td>
+                <td>Ansamitocin_biosynthetic_gene_cluster</td>
+                <td>33</td>
+                <td>93.8110749186</td>
+                <td>131</td>
+                <td>2.2e-30</td>
+            </tr>
+            
+            <tr>
+                <td>ACN69981.1</td>
+                <td>hydroxybutyryl-CoA_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000079/index.html#cluster-1">BGC0000079</a></td>
+                <td>Indanomycin_biosynthetic_gene_cluster</td>
+                <td>29</td>
+                <td>93.1596091205</td>
+                <td>124</td>
+                <td>2.1e-28</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    

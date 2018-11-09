@@ -1,0 +1,5 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+ACM07427.1	CrtNb	BGC0000645_c1	Carotenoid_biosynthetic_gene_cluster	32	97.609561753	275	1.2e-73
+AAZ73142.1	phytoene_desaturase	BGC0000641_c1	Carotenoid_biosynthetic_gene_cluster	26	96.812749004	212	9.4e-55
+AAZ73130.1	phytoene_desaturase	BGC0000639_c1	Carotenoid_biosynthetic_gene_cluster	25	96.812749004	207	4e-53
+CAA79958.1	hydroxyneurosporene_dehydrogenase	BGC0000648_c1	Carotenoid_biosynthetic_gene_cluster	28	99.203187251	177	3.4e-44

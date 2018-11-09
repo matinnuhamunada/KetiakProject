@@ -1,0 +1,3 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+CAA74347.1	EciI_protein	BGC0000507_c1	Epicidin_biosynthetic_gene_cluster	81	100.0	96	1.6e-20
+CAA90022.1	PepI	BGC0000543_c1	Pep5_biosynthetic_gene_cluster	54	95.1612903226	59	2.1e-09

@@ -1,0 +1,8 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+ADO67782.1	TpaL	BGC0000615_c1	TP-1161_biosynthetic_gene_cluster	33	97.7198697068	148	1.3e-35
+ACS83768.1	dehydratase	BGC0000604_c1	GE2270_biosynthetic_gene_cluster	28	101.628664495	79	9.9e-15
+AGY49589.1	PbtC	BGC0001155_c1	GE2270_biosynthetic_gene_cluster	28	98.0456026059	78	1.7e-14
+BAO57439.1	dehydrogenase	BGC0000606_c1	Lactazole_biosynthetic_gene_cluster	25	101.302931596	75	1.4e-13
+AEM00618.1	lantibiotic-type_dehydratase	BGC0000605_c1	GE37468_biosynthetic_gene_cluster	27	50.4885993485	57	3.1e-08
+ACS50128.1	putative_lantibiotic_biosynthesis_protein	BGC0000603_c1	Cyclothiazomycin_biosynthetic_gene_cluster	26	103.583061889	55	1.2e-07
+ACS83783.1	dehydratase	BGC0000613_c1	Thiomuracins_biosynthetic_gene_cluster	22	76.5472312704	50	2.9e-06

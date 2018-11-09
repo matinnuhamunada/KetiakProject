@@ -1,0 +1,133 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<!-- js section -->
+<!-- jQuery  -->
+<script type="text/javascript"
+        src="../../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tmpl-1.0.0pre.js"></script>
+
+  <!-- jQuery UI Support -->
+<script type="text/javascript"
+        src="../../js/jquery-ui-1.10.4.custom.min.js"></script>
+
+ <!-- Alpaca -->
+<script type="text/javascript" src="../../js/alpaca-full-mibig.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody> 
+            <tr>
+                <td>ABM30205.1</td>
+                <td>PvuB</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000947/index.html#cluster-1">BGC0000947</a></td>
+                <td>Vibrioferrin_biosynthetic_gene_cluster</td>
+                <td>35</td>
+                <td>96.686746988</td>
+                <td>176</td>
+                <td>6.5e-44</td>
+            </tr>
+            
+            <tr>
+                <td>ABD29257.1</td>
+                <td>periplasmic_binding_protein,_putative</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000943/index.html#cluster-1">BGC0000943</a></td>
+                <td>Staphylobactin_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>98.4939759036</td>
+                <td>131</td>
+                <td>1.8e-30</td>
+            </tr>
+            
+            <tr>
+                <td>CBA63685.1</td>
+                <td>griseobactin-binding_lipoprotein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000368/index.html#cluster-1">BGC0000368</a></td>
+                <td>Griseobactin_biosynthetic_gene_cluster</td>
+                <td>25</td>
+                <td>94.578313253</td>
+                <td>91</td>
+                <td>2.1e-18</td>
+            </tr>
+            
+            <tr>
+                <td>BAE16000.1</td>
+                <td>periplasmic_binding_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000939/index.html#cluster-1">BGC0000939</a></td>
+                <td>Aerobactin_biosynthetic_gene_cluster</td>
+                <td>41</td>
+                <td>34.0361445783</td>
+                <td>84</td>
+                <td>3.3e-16</td>
+            </tr>
+            
+            <tr>
+                <td>CAM02312.1</td>
+                <td>possible_ABC_Fe(3+)_transporter_binding_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000349/index.html#cluster-1">BGC0000349</a></td>
+                <td>Erythrochelin_biosynthetic_gene_cluster</td>
+                <td>24</td>
+                <td>87.6506024096</td>
+                <td>70</td>
+                <td>3.8e-12</td>
+            </tr>
+            
+            <tr>
+                <td>CBG75490.1</td>
+                <td>putative_secreted_siderophore-binding_lipoprotein_(transport_system_associated)</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000423/index.html#cluster-1">BGC0000423</a></td>
+                <td>Scabichelin_biosynthetic_gene_cluster</td>
+                <td>27</td>
+                <td>76.5060240964</td>
+                <td>57</td>
+                <td>4.4e-08</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    

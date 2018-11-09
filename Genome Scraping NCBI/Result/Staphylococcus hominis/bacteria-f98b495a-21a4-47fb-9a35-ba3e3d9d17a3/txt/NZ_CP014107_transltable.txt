@@ -1,0 +1,2 @@
+old genome accession	new genome accession
+NZ_CP014107	NZ_CP014107

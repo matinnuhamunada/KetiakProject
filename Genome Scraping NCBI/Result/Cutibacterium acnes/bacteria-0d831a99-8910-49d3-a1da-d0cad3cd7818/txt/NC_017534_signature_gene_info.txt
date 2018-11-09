@@ -1,0 +1,7 @@
+signature gene	pHMM hits	e-value	bit score	number of seeds
+WP_002515540	Lactococcin_972	2.5e-12	44.4	6
+WP_002518888	AMP-binding	2.5e-52	175.0	400
+WP_002518888	PP-binding	4.4e-12	43.5	164
+WP_014598549	Condensation	5.5e-33	111.5	42
+WP_014598549	AMP-binding	4.7e-80	266.3	400
+WP_014598549	PP-binding	1.2e-05	22.9	164

@@ -1,0 +1,23 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+ABG94124.1	isochorismatase	BGC0000417_c1	Rhodochelin_biosynthetic_gene_cluster	52	100.0	226	3.4e-59
+ACR10711.1	isochorismatase	BGC0000451_c1	Turnerbactin_biosynthetic_gene_cluster	47	100.0	198	7.6e-51
+BAC87907.1	probable_acinetobactin_biosynthesis_protein	BGC0000294_c1	Acinetobactin_biosynthetic_gene_cluster	48	99.5215311005	194	1.1e-49
+AAG31129.1	MxcF	BGC0001345_c1	Myxochelin_biosynthetic_gene_cluster	46	100.4784689	193	3.2e-49
+CAJ45637.1	2,3-dihydro-2,3-dihydroxybenzoate_synthetase	BGC0000454_c1	Vanchrobactin_biosynthetic_gene_cluster	49	97.1291866029	192	4.2e-49
+BAH33407.1	isochorismatase	BGC0000371_c1	Heterobactin_biosynthetic_gene_cluster	44	100.4784689	192	4.2e-49
+ABS75233.1	DhbB	BGC0001185_c1	Bacillibactin_biosynthetic_gene_cluster	45	100.956937799	191	7.2e-49
+CAB15187.1	isochorismatase	BGC0000309_c1	Bacillibactin_biosynthetic_gene_cluster	47	100.4784689	189	4.6e-48
+AEI70244.1	isochorismatase	BGC0000401_c1	Paenibactin_biosynthetic_gene_cluster	44	100.4784689	188	7.9e-48
+ACY02014.1	isochorismatase	BGC0000343_c1	Enterobactin_biosynthetic_gene_cluster	45	99.043062201	185	8.7e-47
+AAO07761.1	Isochorismatase	BGC0000460_c1	Vulnibactin_biosynthetic_gene_cluster	44	100.956937799	183	3.3e-46
+CAG69519.1	2,3-dihydro-2,3-dihydroxybenzoate_synthetase,_isochorismatase	BGC0000352_c1	Fimsbactin_biosynthetic_gene_cluster	45	99.043062201	180	2.8e-45
+NP_230420.1	vibriobactin-specific_isochorismatase	BGC0000945_c1	Vibriobactin_biosynthetic_gene_cluster	44	96.6507177033	178	8.2e-45
+AFY23028.1	phenazine_biosynthesis_protein_PhzD	BGC0000274_c1	Tetarimycin_biosynthetic_gene_cluster	45	99.043062201	177	1.4e-44
+AAZ55903.1	isochorismatase	BGC0000359_c1	Fuscachelin_biosynthetic_gene_cluster	42	101.435406699	173	2e-43
+CDG76954.1	Isochorismatase_of_siderophore_biosynthesis	BGC0000446_c1	Tilivalline_biosynthetic_gene_cluster	41	98.0861244019	171	7.7e-43
+AAC64487.1	PhzD	BGC0000936_c1	Pyocyanine_biosynthetic_gene_cluster	45	98.0861244019	171	7.7e-43
+AGE11887.1	isochorismatase	BGC0000366_c1	Gobichelin_biosynthetic_gene_cluster	44	99.043062201	171	1e-42
+AHW81473.1	EpaN	BGC0000934_c1	Endophenazines_biosynthetic_gene_cluster	43	98.5645933014	170	2.2e-42
+CAX48670.1	putative_2,3-dihydro-3-hydroxy-anthranilate_synthase	BGC0001080_c1	Phenazine_biosynthetic_gene_cluster	43	94.7368421053	165	9.4e-41
+EWM63057.1	isochorismatase	BGC0000679_c1	Diazepinomicin_biosynthetic_gene_cluster	43	97.6076555024	158	8.8e-39
+AKC91614.1	phenazine_biosynthesis_protein	BGC0001302_c1	Lomofungin_biosynthetic_gene_cluster	46	51.6746411483	108	1.4e-23

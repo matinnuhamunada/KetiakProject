@@ -1,0 +1,4 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+AEZ64539.1	glycine_betaine/L-proline_ABC_transporter,_ATPase_subunit	BGC0001065_c1	Herboxidiene_biosynthetic_gene_cluster	33	76.3157894737	52	4.8e-07
+BAK64654.1	putative_transporter	BGC0000135_c1	Reveromycin_biosynthetic_gene_cluster	29	100.877192982	50	1.4e-06
+CAD91242.1	hypothetical_protein	BGC0000289_c1	A40926_biosynthetic_gene_cluster	42	57.8947368421	50	1.8e-06

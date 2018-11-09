@@ -1,0 +1,11 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+KFH48730.1	D-lactate_dehydrogenase-like_protein	BGC0000317_c1	Cephalosporin_biosynthetic_gene_cluster	36	88.5542168675	190	2.5e-48
+AIE77051.1	VanH	BGC0000418_c1	Ristocetin_biosynthetic_gene_cluster	33	94.578313253	186	4.8e-47
+AEI58859.1	D-lactate_dehydrogenase	BGC0000455_c1	Vancomycin_biosynthetic_gene_cluster	31	93.9759036145	174	2.5e-43
+AGS77306.1	D-lactate_dehydrogenase	BGC0001178_c1	UK-68,597_biosynthetic_gene_cluster	33	94.578313253	173	3.2e-43
+AIG79249.1	D-specific_alpha-keto_acid_dehydrogenase	BGC0000419_c1	Ristomycin_A_biosynthetic_gene_cluster	33	86.1445783133	173	4.2e-43
+AAC23583.1	D-lactate_dehydrogenase	BGC0000290_c1	A47934_biosynthetic_gene_cluster	31	94.578313253	171	1.6e-42
+CAE53343.1	VanH_protein	BGC0000440_c1	Teicoplanin_biosynthetic_gene_cluster	32	94.578313253	170	3.5e-42
+CAG15002.1	D-lactate_dehydrogenase	BGC0000441_c1	Teicoplanin_biosynthetic_gene_cluster	32	94.578313253	170	3.5e-42
+AAF00955.1	McyI	BGC0001017_c1	Microcystin_biosynthetic_gene_cluster	27	80.1204819277	102	1.2e-21
+ERG36764.1	erythronate-4-phosphate_dehydrogenase	BGC0000299_c1	Alterochromides_biosynthetic_gene_cluster	26	69.2771084337	81	2.8e-15

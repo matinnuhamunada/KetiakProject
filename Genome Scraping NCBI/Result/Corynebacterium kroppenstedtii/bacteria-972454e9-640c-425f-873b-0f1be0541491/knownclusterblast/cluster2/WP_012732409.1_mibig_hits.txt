@@ -1,0 +1,10 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+CDG76950.1	permease_of_the_major_facilitator_superfamily_protein	BGC0000446_c1	Tilivalline_biosynthetic_gene_cluster	37	86.7881548975	207	4.5e-53
+AAM54113.1	bicyclomycin_resistant_protein	BGC0000020_c1	Ansamitocin_biosynthetic_gene_cluster	30	63.3257403189	111	3.4e-24
+ANF07284.1	MFS	BGC0001385_c1	Byssochlamic_acid_/_agnestadrides_biosynthetic_gene_cluster	31	41.4578587699	82	1.3e-15
+AHD25933.1	ChdR	BGC0000208_c1	Chelocardin_biosynthetic_gene_cluster	34	39.1799544419	72	1.7e-12
+CAJ34383.1	putative_permease_for_glucides	BGC0000445_c1	Thiocoraline_biosynthetic_gene_cluster	31	39.1799544419	59	8.9e-09
+ACU36653.1	drug_resistance_transporter,_EmrB/QacA_subfamily	BGC0000392_c1	Mirubactin_biosynthetic_gene_cluster	28	36.4464692483	57	4.4e-08
+ALS30797.1	itaconate_transport_protein_1	BGC0001286_c1	Itaconic_acid_biosynthetic_gene_cluster	21	78.5876993166	55	1.7e-07
+AJI44168.1	hypothetical_protein	BGC0001193_c1	Thiolutin_biosynthetic_gene_cluster	26	37.1298405467	54	3.7e-07
+BAQ25491.1	multidrug_MFS_(major_facilitator_superfamily)_transporter	BGC0001288_c1	Maklamicin_biosynthetic_gene_cluster	30	30.0683371298	50	4.1e-06

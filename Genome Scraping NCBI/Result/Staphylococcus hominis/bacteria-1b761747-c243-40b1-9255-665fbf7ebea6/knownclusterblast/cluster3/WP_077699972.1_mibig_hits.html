@@ -1,0 +1,133 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<!-- js section -->
+<!-- jQuery  -->
+<script type="text/javascript"
+        src="../../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tmpl-1.0.0pre.js"></script>
+
+  <!-- jQuery UI Support -->
+<script type="text/javascript"
+        src="../../js/jquery-ui-1.10.4.custom.min.js"></script>
+
+ <!-- Alpaca -->
+<script type="text/javascript" src="../../js/alpaca-full-mibig.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody> 
+            <tr>
+                <td>CAA74349.1</td>
+                <td>protease</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000507/index.html#cluster-1">BGC0000507</a></td>
+                <td>Epicidin_biosynthetic_gene_cluster</td>
+                <td>81</td>
+                <td>100.0</td>
+                <td>491</td>
+                <td>6.3e-139</td>
+            </tr>
+            
+            <tr>
+                <td>CAA90024.1</td>
+                <td>PepP</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000543/index.html#cluster-1">BGC0000543</a></td>
+                <td>Pep5_biosynthetic_gene_cluster</td>
+                <td>56</td>
+                <td>97.6666666667</td>
+                <td>312</td>
+                <td>6.8e-85</td>
+            </tr>
+            
+            <tr>
+                <td>AFN69433.1</td>
+                <td>ElxP</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000509/index.html#cluster-1">BGC0000509</a></td>
+                <td>Epilancin_15X_biosynthetic_gene_cluster</td>
+                <td>41</td>
+                <td>100.0</td>
+                <td>208</td>
+                <td>1.1e-53</td>
+            </tr>
+            
+            <tr>
+                <td>AFS60101.1</td>
+                <td>PaenP</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000540/index.html#cluster-1">BGC0000540</a></td>
+                <td>Paenibacillin_biosynthetic_gene_cluster</td>
+                <td>35</td>
+                <td>79.6666666667</td>
+                <td>129</td>
+                <td>6.3e-30</td>
+            </tr>
+            
+            <tr>
+                <td>AAA79237.1</td>
+                <td>leader_peptidase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000510/index.html#cluster-1">BGC0000510</a></td>
+                <td>Epilancin_K7_biosynthetic_gene_cluster</td>
+                <td>49</td>
+                <td>41.0</td>
+                <td>116</td>
+                <td>7.2e-26</td>
+            </tr>
+            
+            <tr>
+                <td>ABS44970.1</td>
+                <td>P293B</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000622/index.html#cluster-1">BGC0000622</a></td>
+                <td>Megacin_biosynthetic_gene_cluster</td>
+                <td>26</td>
+                <td>99.3333333333</td>
+                <td>77</td>
+                <td>3.7e-14</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    

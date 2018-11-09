@@ -1,0 +1,29 @@
+ClusterBlast scores for NZ_LT963438.1
+
+Table of genes, locations, strands and annotations of query cluster:
+WP_002454821.1	1646353	1648861	-	glycosyltransferase	
+WP_037554294.1	1649086	1649680	-	sugar O-acetyltransferase	
+WP_002449495.1	1649774	1650644	-	SDR family oxidoreductase	
+WP_002454819.1	1650840	1651047	+	hypothetical protein	
+WP_002454818.1	1651181	1653569	+	copper-translocating P-type ATPase	
+WP_002449345.1	1653657	1653867	+	copper chaperone	
+WP_002454817.1	1653904	1654903	-	D-lactate dehydrogenase	
+WP_002454816.1	1654930	1656100	-	aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme	
+WP_002454815.1	1656346	1657852	-	phytoene desaturase	
+WP_002454814.1	1657863	1658730	-	phytoene/squalene synthase family protein	
+WP_002454813.1	1658759	1659884	-	glycosyltransferase family 2 protein	
+WP_002454812.1	1659895	1661404	-	NAD(P)/FAD-dependent oxidoreductase	
+WP_077700029.1	1661393	1661891	-	glycosyl-4,4'-diaponeurosporenoate acyltransferase	
+WP_077700030.1	1662080	1662809	-	transglycosylase	
+WP_077700031.1	1663234	1664659	-	phosphate--AMP phosphotransferase	
+WP_077700032.1	1664770	1665829	-	PTS transporter subunit IIC	
+WP_077700033.1	1666118	1666685	+	TetR/AcrR family transcriptional regulator	
+WP_077700034.1	1666842	1667787	+	LLM class oxidoreductase	
+WP_002449423.1	1667799	1668036	+	DUF896 domain-containing protein	
+WP_077700035.1	1668427	1669195	+	class I SAM-dependent methyltransferase	
+
+
+Significant hits: 
+
+
+Details:

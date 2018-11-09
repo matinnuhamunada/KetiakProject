@@ -1,0 +1,3 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+AFV52107.1	putative_monooxygenase	BGC0000081_c1	Kedarcidin_biosynthetic_gene_cluster	37	98.7261146497	196	3.3e-50
+CAM34366.1	putative_F420-dependend_reductase	BGC0000242_c1	Lysolipin_biosynthetic_gene_cluster	33	40.127388535	67	2.3e-11

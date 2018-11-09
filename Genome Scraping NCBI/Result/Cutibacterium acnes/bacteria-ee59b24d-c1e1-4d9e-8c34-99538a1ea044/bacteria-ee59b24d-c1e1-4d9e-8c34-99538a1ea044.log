@@ -1,0 +1,254 @@
+DEBUG   09/11 00:56:56   ['git', 'rev-parse', '--short', 'HEAD'] None returned OSError(2, 'No such file or directory')
+DEBUG   09/11 00:56:56   starting antiSMASH 4.2.0, called with /usr/local/bin/run_antismash.py --cpus 8 --taxon bacteria --outputfolder /data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044 --logfile /data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044.log --input-type nucl --debug --smcogs --asf --knownclusterblast --subclusterblast --genefinding prodigal /input/NC_014039.1.gbk
+DEBUG   09/11 00:56:56   antismash analysis started at 2018-11-09 00:56:56.174778
+DEBUG   09/11 00:56:56   OPTIONS: Namespace(all_orfs=False, borderpredict=False, borderpredict_only=False, cassis=False, cdsnr=5, cf_npfams=5, cf_prob_thres=0.6, check_prereqs_only=False, clusterblast=False, cpus=8, dbgclusterblast='', dbgsandpuma='', debug=True, enabled_cluster_types=['t1pks', 'transatpks', 't2pks', 't3pks', 'otherks', 'ppysks', 'arylpolyene', 'resorcinol', 'ladderane', 'PUFA', 'nrps', 'terpene', 'lantipeptide', 'bacteriocin', 'thiopeptide', 'linaridin', 'cyanobactin', 'glycocin', 'LAP', 'lassopeptide', 'sactipeptide', 'bottromycin', 'head_to_tail', 'microcin', 'microviridin', 'proteusin', 'blactam', 'amglyccycl', 'aminocoumarin', 'siderophore', 'ectoine', 'butyrolactone', 'indole', 'nucleoside', 'phosphoglycolipid', 'melanin', 'oligosaccharide', 'furan', 'hserlactone', 'phenazine', 'phosphonate', 'fused', 'pbde', 'other', 'acyl_amino_acids'], enabled_specific_plugins=None, end=-1, fix_id_line=False, full_hmmer=False, genefinding='prodigal', gff3=False, help=False, help_showall=False, homologyscalelimit=0.0, inclusive=False, input_type='nucl', knownclusterblast=True, limit=-1, list_plugins=False, logfile='/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044.log', minimal=False, minlength=1000, nclusters=10, outputfoldername='/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044', profile=False, run_asf=True, seed=0, sequences=['/input/NC_014039.1.gbk'], skip_cleanup=False, smcogs=True, start=-1, subclusterblast=True, taxon='bacteria', transatpks_da=False, transatpks_da_cutoff=10, tta=False, verbose=False, version=False, without_fimo=False)
+DEBUG   09/11 00:56:56   MINLENGTH: 1000
+DEBUG   09/11 00:56:56   Number of clusters = 10
+INFO    09/11 00:56:56   Loading detection plugins
+DEBUG   09/11 00:56:56   BiosynML
+DEBUG   09/11 00:56:56   Not activating disabled plugin 'BiosynML'
+DEBUG   09/11 00:56:56   embl
+DEBUG   09/11 00:56:56   genbank
+DEBUG   09/11 00:56:56   svg
+DEBUG   09/11 00:56:56   xls
+DEBUG   09/11 00:56:56   html
+DEBUG   09/11 00:56:56   txt
+DEBUG   09/11 00:56:56   Found executable '/usr/lib/tigr-glimmer/long-orfs'
+DEBUG   09/11 00:56:56   Found executable '/usr/lib/tigr-glimmer/extract'
+DEBUG   09/11 00:56:56   Found executable '/usr/lib/tigr-glimmer/build-icm'
+DEBUG   09/11 00:56:56   Found executable '/usr/lib/tigr-glimmer/glimmer3'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/glimmerhmm'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/prodigal'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmsearch'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmpress'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/hmm_detection/bgc_seeds.hmm'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/hmm_detection/bgc_seeds.hmm.h3f'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/hmm_detection/bgc_seeds.hmm.h3i'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/hmm_detection/bgc_seeds.hmm.h3m'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/hmm_detection/bgc_seeds.hmm.h3p'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/blastp'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmpfam2'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmscan'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmpress'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/PKSI-KR.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/PKSI-KS_N.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/PKSI-KS_C.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/PKSI-AT.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/PKSI-ACP.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/PKSI-ACP.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/PKSI-DH.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/PKSI-KR.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/Thioesterase.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/PKSI-ER.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/PKSI-AT.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/aa-activating.aroundLys.hmm2'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/p450.hmm3'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/p450.hmm3.h3f'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/p450.hmm3.h3i'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/p450.hmm3.h3m'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/active_site_finder/hmm/p450.hmm3.h3p'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/muscle'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmscan'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmpress'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/fasttree'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/java'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/smcogs/smcogs.hmm'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/smcogs/smcogs.hmm.h3f'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/smcogs/smcogs.hmm.h3i'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/smcogs/smcogs.hmm.h3m'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/smcogs/smcogs.hmm.h3p'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/blastp'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/makeblastdb'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/subclusterblast/subclusterprots.fasta'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/subclusterblast/subclusterprots.fasta.phr'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/subclusterblast/subclusterprots.fasta.pin'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/subclusterblast/subclusterprots.fasta.psq'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/subclusterblast/subclusters.txt'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/blastp'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/makeblastdb'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/diamond'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/knownclusterblast/knownclusterprots.fasta'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/knownclusterblast/knownclusterprots.dmnd'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/generic_modules/knownclusterblast/knownclusters.txt'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmpfam2'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/fimo'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmpfam2'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/fimo'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmsearch'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmpress'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/muscle'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/java'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/abmotifs.hmm'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/abmotifs.hmm.h3f'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/abmotifs.hmm.h3i'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/abmotifs.hmm.h3m'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/abmotifs.hmm.h3p'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/dockingdomains.hmm'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/dockingdomains.hmm.h3f'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/dockingdomains.hmm.h3i'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/dockingdomains.hmm.h3m'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/dockingdomains.hmm.h3p'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/ksdomains.hmm'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/ksdomains.hmm.h3f'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/ksdomains.hmm.h3i'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/ksdomains.hmm.h3m'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/ksdomains.hmm.h3p'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/nrpspksdomains.hmm'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/nrpspksdomains.hmm.h3f'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/nrpspksdomains.hmm.h3i'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/nrpspksdomains.hmm.h3m'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/nrpspksdomains.hmm.h3p'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/sandpuma/flat/fullset0_smiles/fullset0_smiles_nrpsA.hmmdb'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/sandpuma/flat/fullset0_smiles/fullset0_smiles_nrpsA.hmmdb.h3f'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/sandpuma/flat/fullset0_smiles/fullset0_smiles_nrpsA.hmmdb.h3i'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/sandpuma/flat/fullset0_smiles/fullset0_smiles_nrpsA.hmmdb.h3m'
+DEBUG   09/11 00:56:56   Found file '/antismash-4.2.0/antismash/specific_modules/nrpspks/sandpuma/flat/fullset0_smiles/fullset0_smiles_nrpsA.hmmdb.h3p'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmpfam2'
+DEBUG   09/11 00:56:56   Found executable '/usr/bin/hmmpfam2'
+INFO    09/11 00:56:56   Parsing the input sequence(s)
+INFO    09/11 00:56:57   Analyzing record 1 (NC_014039.1)
+INFO    09/11 00:56:57   Detecting secondary metabolite signature genes for contig #1
+DEBUG   09/11 00:57:07   type: cluster
+location: [892298:902580]
+qualifiers:
+    Key: contig_edge, Value: False
+    Key: cutoff, Value: [20000]
+    Key: extension, Value: [5000]
+    Key: note, Value: ['Cluster number: 1', 'Detection rule(s) for this cluster type: bacteriocin: (strepbact or Antimicrobial14 or Bacteriocin_IId or BacteriocIIc_cy or Bacteriocin_II or Bacteriocin_IIi or Lactococcin or Antimicrobial17 or Lactococcin_972 or Bacteriocin_IIc or LcnG-beta or Cloacin or Linocin_M18 or TIGR03603 or TIGR03604 or TIGR03605 or TIGR03651 or TIGR03678 or TIGR03693 or TIGR03798 or TIGR03882 or TIGR03601 or TIGR03602 or TIGR03795 or TIGR03793 or TIGR03975 or DUF692 or TIGR01193);']
+    Key: product, Value: ['bacteriocin']
+
+INFO    09/11 00:57:07   Running cluster-specific analyses
+DEBUG   09/11 00:57:07   Running analyses specific to Lantipeptides clusters
+INFO    09/11 00:57:07   Calculating detailed predictions for Lanthipeptide clusters
+DEBUG   09/11 00:57:07   Running analyses specific to Lassopeptides clusters
+INFO    09/11 00:57:07   Calculating detailed predictions for lasso peptide clusters
+DEBUG   09/11 00:57:07   Running analyses specific to Nrpspks clusters
+DEBUG   09/11 00:57:08   Running analyses specific to Thiopeptides clusters
+INFO    09/11 00:57:08   Calculating detailed predictions for thiopeptide clusters
+DEBUG   09/11 00:57:08   Running analyses specific to Terpenes clusters
+INFO    09/11 00:57:08   Calulating detailed predictions for Terpene clusters.
+DEBUG   09/11 00:57:08   Running analyses specific to Sactipeptides clusters
+INFO    09/11 00:57:08   Calculating detailed predictions for sactipeptide clusters
+INFO    09/11 00:57:08   Running analyses independent of specific cluster types
+INFO    09/11 00:57:08   Detecting TTA codons
+INFO    09/11 00:57:08   Detecting smCOGs for contig #1
+INFO    09/11 00:57:08   Running smCOG analysis
+DEBUG   09/11 00:57:09   Calculating and drawing phylogenetic trees of cluster genes with smCOG members
+INFO    09/11 00:57:24   SubclusterBlast analysis for contig #1
+INFO    09/11 00:57:24   Running subcluster search
+DEBUG   09/11 00:57:24   SubClusterBlast: Loading gene clusters database into memory...
+DEBUG   09/11 00:57:24   SubClusterBlast: Loading gene cluster database proteins into memory...
+DEBUG   09/11 00:57:24   Finding internal homologs in each gene cluster..
+DEBUG   09/11 00:57:24   Running NCBI BLAST+ subcluster searches..
+DEBUG   09/11 00:57:24      Gene cluster 1
+DEBUG   09/11 00:57:24      Blast search finished. Parsing results...
+DEBUG   09/11 00:57:24   seq_record.sc_qgeneclusterdata does not exist.
+DEBUG   09/11 00:57:24   Storing data for SubClusterBlastData in storage object
+INFO    09/11 00:57:24   KnownclusterBlast analysis for contig #1
+INFO    09/11 00:57:24   Running known cluster search
+DEBUG   09/11 00:57:24   KnownClusterBlast: Loading gene clusters database into memory...
+DEBUG   09/11 00:57:25   KnownClusterBlast: Loading gene cluster database proteins into memory...
+DEBUG   09/11 00:57:25   Finding internal homologs in each gene cluster..
+DEBUG   09/11 00:57:25   Running DIAMOND knowncluster searches..
+DEBUG   09/11 00:57:30   seq_record.kc_qgeneclusterdata does not exist.
+DEBUG   09/11 00:57:30   Storing data for KnownClusterBlastData in storage object
+DEBUG   09/11 00:57:30   **********************************************
+resource name PKSI_KR_Stereo
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / PKS_KR
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name ASP_KS
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / PKS_KS
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name ASP_KS_C
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / PKS_KS
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name ASP_AT
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / PKS_AT
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name ACP-type
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / ACP
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name ASP_ACP
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / ACP
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name ASP_PKSI-DH
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / PKS_DH
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name ASP_PKSI-KR
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / PKS_KR
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name ASP_Thioesterase
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / Thioesterase
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name PKSI_ER_Stereo
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / PKS_ER
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name PKSI_AT_Spec
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / PKS_AT
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name StachelhausExtract
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value aSDomain / domain / AMP-binding
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   **********************************************
+resource name ASP_P450Oxy
+*********************************
+WARNING 09/11 00:57:30   ASP: No features found containing feature/tag/value PFAM_domain / domain / p450
+DEBUG   09/11 00:57:30   found 0 hsps in hmmer results
+DEBUG   09/11 00:57:30   Active site finder execution successful
+INFO    09/11 00:57:30   Writing the output files
+DEBUG   09/11 00:57:30   Writing output for 1 sequence records
+DEBUG   09/11 00:57:30   Writing seq_records to '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/NC_014039.1.final.embl'
+DEBUG   09/11 00:57:31   Writing seq_records to '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/NC_014039.1.final.gbk'
+DEBUG   09/11 00:57:32   Writing seq_records SVGs to '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg'
+DEBUG   09/11 00:57:32   prepare_visualization: Found KnownClusterBlastData storage object
+DEBUG   09/11 00:57:32   prepare_visualization: Found SubClusterBlastData storage object
+DEBUG   09/11 00:57:32   Writing visualization SVGs
+DEBUG   09/11 00:57:32   Generating SVG for SubClusterBlast
+DEBUG   09/11 00:57:32   Generating SVG for KnownClusterBlast
+DEBUG   09/11 00:57:32   Writing seq_records to '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044'
+DEBUG   09/11 00:57:32   ['git', 'rev-parse', '--short', 'HEAD'] None returned OSError(2, 'No such file or directory')
+WARNING 09/11 00:57:32   Error parsing best knowncluster hit; knownclusters array = []. Possibly no significant hits to known biosynthetic gene clusters.
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/subclusterblast1_1.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/subclusterblast1_2.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/subclusterblast1_3.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/subclusterblast1_4.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/subclusterblast1_5.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/subclusterblast1_6.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/subclusterblast1_7.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/subclusterblast1_8.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/subclusterblast1_9.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/subclusterblast1_10.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/knownclusterblast1_1.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/knownclusterblast1_2.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/knownclusterblast1_3.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/knownclusterblast1_4.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/knownclusterblast1_5.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/knownclusterblast1_6.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/knownclusterblast1_7.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/knownclusterblast1_8.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/knownclusterblast1_9.svg'
+DEBUG   09/11 00:57:32   failed to find '/data/antismash/upload/bacteria-ee59b24d-c1e1-4d9e-8c34-99538a1ea044/svg/knownclusterblast1_10.svg'
+DEBUG   09/11 00:57:32   Exporting antiSMASH information as txt tables

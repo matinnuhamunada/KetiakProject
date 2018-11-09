@@ -1,0 +1,100 @@
+gene ID	gene start	gene end	gene strand	smCOG	locus_tag	annotation
+WP_002518349	875383	876427	-		PPA_RS04055	iron ABC transporter permease
+WP_074023029	876423	877236	-		PPA_RS04060	ABC transporter substrate-binding protein
+WP_002522413	877355	877595	+		PPA_RS12355	hypothetical protein
+WP_002530993	877880	878078	+		PPA_RS13380	hypothetical protein
+PPA_RS13385	878064	878526	-		PPA_RS13385	macrolide ABC transporter permease
+WP_002530994	878529	878874	-		PPA_RS13390	ATP-binding cassette domain-containing protein
+WP_023487680	878851	879226	-		PPA_RS04075	hypothetical protein
+WP_002530996	879384	879864	-		PPA_RS13395	hypothetical protein
+WP_002530997	879901	880552	-		PPA_RS13400	hypothetical protein
+WP_002518268	880548	880881	-		PPA_RS12370	hypothetical protein
+WP_002518323	880965	881247	-		PPA_RS04095	lactococcin 972 family bacteriocin
+WP_002518347	881421	883527	+		PPA_RS04100	excinuclease ABC subunit UvrB
+WP_002533666	883559	883760	+		PPA_RS12375	hypothetical protein
+WP_002515659	883717	884707	+		PPA_RS04105	TerC family protein
+WP_002518341	884715	885372	-		PPA_RS04110	MBL fold metallo-hydrolase
+WP_002550711	885417	886161	-		PPA_RS04115	maleylpyruvate isomerase family mycothiol-dependent enzyme
+WP_009640160	925540	927295	+		PPA_RS13405	ATPase AAA
+WP_002518275	927479	927977	-		PPA_RS04330	DNA processing protein DprA
+WP_002531018	928265	929873	+		PPA_RS04335	DUF2813 domain-containing protein
+WP_002531019	929873	931562	+		PPA_RS04340	ATP-dependent helicase
+WP_002531022	932988	933183	-		PPA_RS12405	hypothetical protein
+WP_002531024	933339	933630	-		PPA_RS12410	hypothetical protein
+WP_002531025	933711	933912	+		PPA_RS12415	hypothetical protein
+WP_002518318	934055	934355	-		PPA_RS04350	hypothetical protein
+PPA_RS13410	934897	>935911	+		PPA_RS13410	hypothetical protein
+WP_011183760	936197	938810	+		PPA_RS04365	lanthionine biosynthesis protein
+WP_002531456	938820	939744	+		PPA_RS04370	lanthionine biosynthesis protein
+WP_002518053	939740	940823	+		PPA_RS04375	hypothetical protein
+WP_011183761	940822	942142	+		PPA_RS04380	hypothetical protein
+WP_002531459	942172	942763	+		PPA_RS04385	hypothetical protein
+WP_002531460	942759	944355	+		PPA_RS04390	hypothetical protein
+WP_002518047	944372	945068	+		PPA_RS04395	hypothetical protein
+WP_002518054	945548	945692	+		PPA_RS12420	thiocillin/thiostrepton family thiazolyl peptide
+WP_002531461	946093	946366	-		PPA_RS12425	hypothetical protein
+WP_002531462	946427	946619	-		PPA_RS12430	hypothetical protein
+WP_002531463	946726	946942	+		PPA_RS04400	hypothetical protein
+WP_002531453	947042	947336	-		PPA_RS11900	hypothetical protein
+PPA_RS04410	947632	948480	-		PPA_RS04410	hypothetical protein
+WP_002517844	948498	948768	-		PPA_RS04415	hypothetical protein
+WP_073885305	948737	949034	-		PPA_RS12435	hypothetical protein
+WP_002517902	949030	949723	-		PPA_RS04420	hypothetical protein
+WP_002531449	949883	951236	+		PPA_RS12440	PLP-dependent aminotransferase family protein
+WP_073885306	951352	951541	-		PPA_RS12445	DNA-binding protein
+WP_002517736	951485	951725	+		PPA_RS04430	ISL3 family transposase
+WP_002531448	951845	952040	-		PPA_RS13415	hypothetical protein
+WP_011183827	1374807	1376097	+		PPA_RS06400	3-phosphoshikimate 1-carboxyvinyltransferase
+WP_002513438	1376098	1377100	+		PPA_RS06405	ribosome small subunit-dependent GTPase A
+WP_002517797	1377518	1378331	-		PPA_RS06410	hypothetical protein
+WP_002518899	1378537	1379326	+		PPA_RS06415	histidinol-phosphatase
+WP_002532057	1379369	1380560	-		PPA_RS06420	phosphoglycerate dehydrogenase
+WP_002516865	1380606	1381392	-		PPA_RS06425	ABC transporter ATP-binding protein
+WP_002516854	1381391	1382201	-		PPA_RS06430	ABC transporter ATP-binding protein
+WP_002516777	1382200	1383013	-		PPA_RS06435	ABC transporter permease
+WP_002513431	1383009	1383987	-		PPA_RS06440	ABC transporter permease
+WP_002531349	1383983	1385471	-		PPA_RS06445	ABC transporter substrate-binding protein
+PPA_RS12590	1385809	1386026	-		PPA_RS12590	hypothetical protein
+WP_002516837	1386011	1386167	+		PPA_RS12595	helix-turn-helix domain-containing protein
+WP_002518897	1386163	1386718	+		PPA_RS12600	hypothetical protein
+WP_002518896	1387356	1387752	+		PPA_RS12605	hypothetical protein
+WP_002531347	1388097	1388511	-		PPA_RS06455	hypothetical protein
+WP_002513427	1388711	1388969	-		PPA_RS06460	hypothetical protein
+WP_002531346	1388965	1389550	-		PPA_RS06465	ParA family protein
+WP_002531345	1389905	1390727	-		PPA_RS06470	DUF929 domain-containing protein
+WP_075260274	1390886	1391099	-		PPA_RS12610	hypothetical protein
+WP_002513423	1391139	1391379	-		PPA_RS06475	hypothetical protein
+WP_002513422	1391437	1391563	-		PPA_RS06480	hypothetical protein
+WP_023031531	1392026	1393178	-		PPA_RS12615	MFS transporter
+WP_002517793	1393835	1395143	-		PPA_RS12620	ATP-grasp domain-containing protein
+WP_002531344	1395129	1395843	-		PPA_RS12625	thioesterase
+WP_002524911	1395839	1397291	-		PPA_RS06495	peptide synthetase
+WP_011183830	1397601	1400898	-		PPA_RS12630	surfactin synthetase subunit 1
+WP_002529432	1400905	1401895	-		PPA_RS12635	2,3-diaminopropionate biosynthesis protein SbnB
+WP_002531340	1401895	1402897	-		PPA_RS12640	2,3-diaminopropionate biosynthesis protein SbnA
+WP_002526556	1403087	1403912	+		PPA_RS06510	4'-phosphopantetheinyl transferase superfamily protein
+WP_011183831	1404007	1404700	-		PPA_RS12645	transcriptional regulator
+PPA_RS12650	1404935	1405155	+		PPA_RS12650	hypothetical protein
+WP_002516565	1405624	1406422	-		PPA_RS06520	helix-turn-helix domain containing protein
+WP_002530603	1406414	1408121	-		PPA_RS06525	hypothetical protein
+WP_002513409	1408117	1408639	-		PPA_RS06530	hypothetical protein
+WP_002517970	1408708	1409269	-		PPA_RS06535	N-acetyltransferase
+WP_002526526	1409265	1409670	-		PPA_RS06540	hypothetical protein
+WP_002513405	1409908	1410157	+		PPA_RS06545	hypothetical protein
+WP_002513404	1410173	1410755	+		PPA_RS06550	hypothetical protein
+WP_002530604	1410751	1411315	+		PPA_RS06555	hypothetical protein
+WP_002516396	1411422	1411728	-		PPA_RS06560	hypothetical protein
+WP_009640212	1411724	1412030	-		PPA_RS06565	IolC protein
+WP_002519446	1412131	1412335	-		PPA_RS12655	hypothetical protein
+WP_002516391	1412438	1412648	-		PPA_RS12660	hypothetical protein
+WP_002513399	1413004	1413163	+		PPA_RS06570	hypothetical protein
+WP_002513398	1413303	1413666	+		PPA_RS06575	CopG family transcriptional regulator
+WP_002521509	1413773	1413989	-		PPA_RS06580	hypothetical protein
+WP_011183835	1413970	1414564	+		PPA_RS12665	hypothetical protein
+WP_008599855	1414845	1415436	-		PPA_RS06585	universal stress protein
+WP_032496359	1415506	1416073	-		PPA_RS06590	hypothetical protein
+WP_002519441	1416066	1417215	-		PPA_RS06595	PDZ domain-containing protein
+WP_002513394	1417301	1418663	+		PPA_RS06600	hydrolase
+WP_002519440	1418650	1419277	-		PPA_RS06605	M48 family peptidase
+WP_002519439	1419405	1420362	+		PPA_RS06610	hypothetical protein
+WP_002531334	1420307	1422428	-		PPA_RS06615	ATP-dependent DNA helicase UvrD2

@@ -1,0 +1,25 @@
+ClusterBlast scores for NC_012704.1
+
+Table of genes, locations, strands and annotations of query cluster:
+WP_012731954.1	1576885	1577785	-	16S rRNA (uracil(1498)-N(3))-methyltransferase	
+WP_012731955.1	1577793	1578939	-	molecular chaperone DnaJ	
+WP_041628858.1	1579144	1580170	-	heat-inducible transcriptional repressor HrcA	
+WP_012731957.1	1580235	1581408	-	coproporphyrinogen III oxidase	
+WP_012731958.1	1581397	1582111	-	hypothetical protein	
+WP_012731959.1	1582282	1584115	-	long-chain fatty acid--CoA ligase	
+WP_012731960.1	1584350	1586573	+	4-alpha-glucanotransferase	
+WP_012731961.1	1586656	1586986	-	hypothetical protein	
+WP_012731962.1	1587130	1588183	+	putative phytoene synthase	
+WP_081429421.1	1588320	1589724	+	aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme	
+WP_012731964.1	1589754	1591356	+	ABC transporter substrate-binding protein	
+WP_012731965.1	1591352	1592315	+	ABC transporter permease	
+WP_052292379.1	1592358	1595010	+	dipeptide ABC transporter ATP-binding protein	
+WP_012731967.1	1595064	1596171	+	hypothetical protein	
+WP_012731968.1	1596160	1597084	-	3-hydroxybutyryl-CoA dehydrogenase	
+WP_041628859.1	1597272	1598049	-	hypothetical protein	
+
+
+Significant hits: 
+
+
+Details:

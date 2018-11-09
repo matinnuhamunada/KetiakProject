@@ -1,0 +1,22 @@
+ClusterBlast scores for NZ_CP020618.1
+
+Table of genes, locations, strands and annotations of query cluster:
+B7P03_RS08660	1751658	1751967	+	arginine:agmatine antiporter	
+WP_087437217.1	1753006	1753336	+	hypothetical protein	
+WP_087437216.1	1753412	1753772	-	hypothetical protein	
+WP_087437214.1	1754292	1756155	+	hypothetical protein	
+B7P03_RS08680	1756169	1756634	-	alanine racemase	
+WP_087436906.1	1756634	1758392	-	siderophore synthetase	
+WP_087436905.1	1758605	1760549	+	sialic acid synthase	
+WP_087436904.1	1760661	1761210	-	Asp23/Gls24 family envelope stress response protein	
+WP_002448488.1	1761289	1761526	-	DUF2273 domain-containing protein	
+WP_087436903.1	1761538	1762075	-	alkaline shock response membrane anchor protein AmaP	
+WP_087436902.1	1762243	1763818	-	BCCT family transporter	
+WP_087436901.1	1763981	1764995	-	zinc-binding alcohol dehydrogenase family protein	
+WP_087436900.1	1765027	1766035	-	NADP-dependent oxidoreductase	
+
+
+Significant hits: 
+
+
+Details:

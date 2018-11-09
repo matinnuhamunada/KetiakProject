@@ -1,0 +1,298 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<!-- js section -->
+<!-- jQuery  -->
+<script type="text/javascript"
+        src="../../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tmpl-1.0.0pre.js"></script>
+
+  <!-- jQuery UI Support -->
+<script type="text/javascript"
+        src="../../js/jquery-ui-1.10.4.custom.min.js"></script>
+
+ <!-- Alpaca -->
+<script type="text/javascript" src="../../js/alpaca-full-mibig.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody> 
+            <tr>
+                <td>ABM30207.1</td>
+                <td>PvuD</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000947/index.html#cluster-1">BGC0000947</a></td>
+                <td>Vibrioferrin_biosynthetic_gene_cluster</td>
+                <td>39</td>
+                <td>96.5732087227</td>
+                <td>226</td>
+                <td>5.3e-59</td>
+            </tr>
+            
+            <tr>
+                <td>ABD29255.1</td>
+                <td>lipoprotein,_SirC,_putative</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000943/index.html#cluster-1">BGC0000943</a></td>
+                <td>Staphylobactin_biosynthetic_gene_cluster</td>
+                <td>39</td>
+                <td>85.6697819315</td>
+                <td>180</td>
+                <td>2.5e-45</td>
+            </tr>
+            
+            <tr>
+                <td>CAG38694.1</td>
+                <td>transport_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000708/index.html#cluster-1">BGC0000708</a></td>
+                <td>Lividomycin_biosynthetic_gene_cluster</td>
+                <td>35</td>
+                <td>85.6697819315</td>
+                <td>168</td>
+                <td>1e-41</td>
+            </tr>
+            
+            <tr>
+                <td>ABD29256.1</td>
+                <td>lipoprotein,_SirB,_putative</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000943/index.html#cluster-1">BGC0000943</a></td>
+                <td>Staphylobactin_biosynthetic_gene_cluster</td>
+                <td>32</td>
+                <td>100.0</td>
+                <td>150</td>
+                <td>2.8e-36</td>
+            </tr>
+            
+            <tr>
+                <td>ABM30206.1</td>
+                <td>PvuC</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000947/index.html#cluster-1">BGC0000947</a></td>
+                <td>Vibrioferrin_biosynthetic_gene_cluster</td>
+                <td>35</td>
+                <td>85.6697819315</td>
+                <td>149</td>
+                <td>8.2e-36</td>
+            </tr>
+            
+            <tr>
+                <td>EFL06872.1</td>
+                <td>predicted_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000300/index.html#cluster-1">BGC0000300</a></td>
+                <td>Amychelin_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>98.1308411215</td>
+                <td>141</td>
+                <td>1.7e-33</td>
+            </tr>
+            
+            <tr>
+                <td>AGE11897.1</td>
+                <td>iron_siderophore_transporter</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000366/index.html#cluster-1">BGC0000366</a></td>
+                <td>Gobichelin_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>101.557632399</td>
+                <td>140</td>
+                <td>3.8e-33</td>
+            </tr>
+            
+            <tr>
+                <td>AEZ64560.1</td>
+                <td>Fe3+-siderophore_ABC_transporter_permease</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001065/index.html#cluster-1">BGC0001065</a></td>
+                <td>Herboxidiene_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>85.6697819315</td>
+                <td>138</td>
+                <td>1.1e-32</td>
+            </tr>
+            
+            <tr>
+                <td>CCC55906.1</td>
+                <td>putative_ABC_transporter,_permease_component</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000973/index.html#cluster-1">BGC0000973</a></td>
+                <td>Collismycin_A_biosynthetic_gene_cluster</td>
+                <td>33</td>
+                <td>100.0</td>
+                <td>135</td>
+                <td>1.2e-31</td>
+            </tr>
+            
+            <tr>
+                <td>AMK48236.1</td>
+                <td>iron_ABC_transporter_permease</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001351/index.html#cluster-1">BGC0001351</a></td>
+                <td>Cahuitamycins_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>99.3769470405</td>
+                <td>134</td>
+                <td>1.6e-31</td>
+            </tr>
+            
+            <tr>
+                <td>AEZ64559.1</td>
+                <td>Fe3+_siderophore_ABC_transporter_permease</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001065/index.html#cluster-1">BGC0001065</a></td>
+                <td>Herboxidiene_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>99.0654205607</td>
+                <td>131</td>
+                <td>1.8e-30</td>
+            </tr>
+            
+            <tr>
+                <td>WP_020635025.1</td>
+                <td>hypothetical_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001211/index.html#cluster-1">BGC0001211</a></td>
+                <td>Albachelin_biosynthetic_gene_cluster</td>
+                <td>32</td>
+                <td>98.4423676012</td>
+                <td>131</td>
+                <td>1.8e-30</td>
+            </tr>
+            
+            <tr>
+                <td>AMK48235.1</td>
+                <td>iron_ABC_transporter_permease</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001351/index.html#cluster-1">BGC0001351</a></td>
+                <td>Cahuitamycins_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>100.31152648</td>
+                <td>129</td>
+                <td>5.1e-30</td>
+            </tr>
+            
+            <tr>
+                <td>BAE16001.1</td>
+                <td>membrane_permease</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000939/index.html#cluster-1">BGC0000939</a></td>
+                <td>Aerobactin_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>99.3769470405</td>
+                <td>126</td>
+                <td>5.7e-29</td>
+            </tr>
+            
+            <tr>
+                <td>CAF31833.1</td>
+                <td>putative_iron_ABC_transporter</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000699/index.html#cluster-1">BGC0000699</a></td>
+                <td>Hygromycin_B_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>93.769470405</td>
+                <td>123</td>
+                <td>3.7e-28</td>
+            </tr>
+            
+            <tr>
+                <td>CBA63668.1</td>
+                <td>siderophore_uptake_membrane_transporter</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000368/index.html#cluster-1">BGC0000368</a></td>
+                <td>Griseobactin_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>95.9501557632</td>
+                <td>122</td>
+                <td>8.2e-28</td>
+            </tr>
+            
+            <tr>
+                <td>CAB53327.1</td>
+                <td>putative_iron-siderophore_permease_transmembrane_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000325/index.html#cluster-1">BGC0000325</a></td>
+                <td>Coelichelin_biosynthetic_gene_cluster</td>
+                <td>28</td>
+                <td>100.0</td>
+                <td>119</td>
+                <td>9.1e-27</td>
+            </tr>
+            
+            <tr>
+                <td>AAY28216.1</td>
+                <td>FtrD</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000074/index.html#cluster-1">BGC0000074</a></td>
+                <td>Herbimycin_biosynthetic_gene_cluster</td>
+                <td>32</td>
+                <td>89.0965732087</td>
+                <td>118</td>
+                <td>1.5e-26</td>
+            </tr>
+            
+            <tr>
+                <td>ACU36657.1</td>
+                <td>transport_system_permease_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000392/index.html#cluster-1">BGC0000392</a></td>
+                <td>Mirubactin_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>99.3769470405</td>
+                <td>118</td>
+                <td>2e-26</td>
+            </tr>
+            
+            <tr>
+                <td>WP_039795885.1</td>
+                <td>membrane_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001211/index.html#cluster-1">BGC0001211</a></td>
+                <td>Albachelin_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>99.3769470405</td>
+                <td>117</td>
+                <td>3.4e-26</td>
+            </tr>
+            
+            <tr>
+                <td>NP_230426.1</td>
+                <td>ferric_vibriobactin_ABC_transporter_permease</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000945/index.html#cluster-1">BGC0000945</a></td>
+                <td>Vibriobactin_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>85.9813084112</td>
+                <td>106</td>
+                <td>6.1e-23</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    

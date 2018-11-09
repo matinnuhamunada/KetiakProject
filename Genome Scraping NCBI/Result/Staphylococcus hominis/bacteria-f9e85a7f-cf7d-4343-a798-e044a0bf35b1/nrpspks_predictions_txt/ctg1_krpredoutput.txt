@@ -1,0 +1,2 @@
+DG016_RS08345_KR1	inactive	C2
+DG016_RS11155_KR1	inactive	C1

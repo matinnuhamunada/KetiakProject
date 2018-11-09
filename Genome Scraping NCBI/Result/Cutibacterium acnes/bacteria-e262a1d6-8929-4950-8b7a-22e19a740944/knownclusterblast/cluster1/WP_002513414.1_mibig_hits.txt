@@ -1,0 +1,5 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+ACM79820.1	ZmaU	BGC0001059_c1	Zwittermycin_A_biosynthetic_gene_cluster	33	91.5915915916	176	3.8e-44
+ADY76670.1	DABA_synthase	BGC0000950_c1	Napsamycin_biosynthetic_gene_cluster	32	93.6936936937	135	9.7e-32
+AGC09511.1	cysteine_synthase	BGC0001183_c1	Lobophorin_biosynthetic_gene_cluster	29	88.8888888889	128	1.2e-29
+ADN26255.1	fusion_protein_containing_a_PLP-dependent_cysteine_synthase_and_an_argininosuccinate_lyase	BGC0000951_c1	Pacidamycin_biosynthetic_gene_cluster	29	94.2942942943	128	1.5e-29

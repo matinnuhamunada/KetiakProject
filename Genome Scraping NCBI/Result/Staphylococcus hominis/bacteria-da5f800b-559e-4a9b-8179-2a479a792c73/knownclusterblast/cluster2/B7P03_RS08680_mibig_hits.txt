@@ -1,0 +1,2 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+ABD31455.1	conserved_hypothetical_protein	BGC0000944_c1	Staphyloferrin_biosynthetic_gene_cluster	48	100.0	150	1.4e-36

@@ -1,0 +1,2 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+BAC98768.1	replication_protein	BGC0000539_c1	Nukacin_ISK-1_biosynthetic_gene_cluster	41	34.1614906832	84	3.2e-16

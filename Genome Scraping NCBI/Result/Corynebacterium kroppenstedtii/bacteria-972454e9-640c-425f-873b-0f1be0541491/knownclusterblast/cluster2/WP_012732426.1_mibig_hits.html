@@ -1,0 +1,309 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<!-- js section -->
+<!-- jQuery  -->
+<script type="text/javascript"
+        src="../../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tmpl-1.0.0pre.js"></script>
+
+  <!-- jQuery UI Support -->
+<script type="text/javascript"
+        src="../../js/jquery-ui-1.10.4.custom.min.js"></script>
+
+ <!-- Alpaca -->
+<script type="text/javascript" src="../../js/alpaca-full-mibig.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody> 
+            <tr>
+                <td>EWM63056.1</td>
+                <td>2,3-dihydro-2,3-dihydroxybenzoate_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000679/index.html#cluster-1">BGC0000679</a></td>
+                <td>Diazepinomicin_biosynthetic_gene_cluster</td>
+                <td>47</td>
+                <td>97.0909090909</td>
+                <td>210</td>
+                <td>2.6e-54</td>
+            </tr>
+            
+            <tr>
+                <td>AAZ55906.1</td>
+                <td>2,3-dihydro-2,3-dihydroxybenzoate_dehydrogenase;_RBL00455</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000359/index.html#cluster-1">BGC0000359</a></td>
+                <td>Fuscachelin_biosynthetic_gene_cluster</td>
+                <td>48</td>
+                <td>96.0</td>
+                <td>210</td>
+                <td>2.6e-54</td>
+            </tr>
+            
+            <tr>
+                <td>ACU36662.1</td>
+                <td>short-chain_dehydrogenase/reductase_SDR</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000392/index.html#cluster-1">BGC0000392</a></td>
+                <td>Mirubactin_biosynthetic_gene_cluster</td>
+                <td>48</td>
+                <td>96.0</td>
+                <td>206</td>
+                <td>3.7e-53</td>
+            </tr>
+            
+            <tr>
+                <td>AAG31126.1</td>
+                <td>MxcC</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001345/index.html#cluster-1">BGC0001345</a></td>
+                <td>Myxochelin_biosynthetic_gene_cluster</td>
+                <td>45</td>
+                <td>98.9090909091</td>
+                <td>195</td>
+                <td>6.5e-50</td>
+            </tr>
+            
+            <tr>
+                <td>ABS75236.1</td>
+                <td>DhbA</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001185/index.html#cluster-1">BGC0001185</a></td>
+                <td>Bacillibactin_biosynthetic_gene_cluster</td>
+                <td>43</td>
+                <td>96.0</td>
+                <td>187</td>
+                <td>1.8e-47</td>
+            </tr>
+            
+            <tr>
+                <td>BAH33405.1</td>
+                <td>2,3-dihydro-2,3-dihydroxybenzoate_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000371/index.html#cluster-1">BGC0000371</a></td>
+                <td>Heterobactin_biosynthetic_gene_cluster</td>
+                <td>44</td>
+                <td>97.8181818182</td>
+                <td>186</td>
+                <td>4e-47</td>
+            </tr>
+            
+            <tr>
+                <td>AEH42481.1</td>
+                <td>2,3-dihydroxybenzoate-2,3-dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000032/index.html#cluster-1">BGC0000032</a></td>
+                <td>Calcimycin_biosynthetic_gene_cluster</td>
+                <td>44</td>
+                <td>96.3636363636</td>
+                <td>185</td>
+                <td>6.7e-47</td>
+            </tr>
+            
+            <tr>
+                <td>AAO07757.1</td>
+                <td>2,3-dihydro-2,3-dihydroxybenzoate_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000460/index.html#cluster-1">BGC0000460</a></td>
+                <td>Vulnibactin_biosynthetic_gene_cluster</td>
+                <td>42</td>
+                <td>96.7272727273</td>
+                <td>175</td>
+                <td>1.2e-43</td>
+            </tr>
+            
+            <tr>
+                <td>NP_230423.1</td>
+                <td>2,3-dihydroxybenzoate-2,3-dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000945/index.html#cluster-1">BGC0000945</a></td>
+                <td>Vibriobactin_biosynthetic_gene_cluster</td>
+                <td>46</td>
+                <td>72.0</td>
+                <td>168</td>
+                <td>1.5e-41</td>
+            </tr>
+            
+            <tr>
+                <td>EYT83442.1</td>
+                <td>2,3-dihydroxybenzoate-2,3-dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001213/index.html#cluster-1">BGC0001213</a></td>
+                <td>Nataxazole_biosynthetic_gene_cluster</td>
+                <td>40</td>
+                <td>96.0</td>
+                <td>167</td>
+                <td>2.5e-41</td>
+            </tr>
+            
+            <tr>
+                <td>CAG69518.1</td>
+                <td>2,3-dihydro-2,3-dihydroxybenzoate_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000352/index.html#cluster-1">BGC0000352</a></td>
+                <td>Fimsbactin_biosynthetic_gene_cluster</td>
+                <td>49</td>
+                <td>64.7272727273</td>
+                <td>163</td>
+                <td>2.7e-40</td>
+            </tr>
+            
+            <tr>
+                <td>CAJ45634.1</td>
+                <td>2,3-dihydroxybenzoate-2,3-dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000454/index.html#cluster-1">BGC0000454</a></td>
+                <td>Vanchrobactin_biosynthetic_gene_cluster</td>
+                <td>38</td>
+                <td>96.7272727273</td>
+                <td>161</td>
+                <td>1.8e-39</td>
+            </tr>
+            
+            <tr>
+                <td>ACR12253.1</td>
+                <td>2,3-dihydro-2,3-dihydroxybenzoate_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000451/index.html#cluster-1">BGC0000451</a></td>
+                <td>Turnerbactin_biosynthetic_gene_cluster</td>
+                <td>38</td>
+                <td>97.0909090909</td>
+                <td>153</td>
+                <td>3.7e-37</td>
+            </tr>
+            
+            <tr>
+                <td>CDG76955.1</td>
+                <td>2,3-dihydro-2,3-dihydroxybenzoate_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000446/index.html#cluster-1">BGC0000446</a></td>
+                <td>Tilivalline_biosynthetic_gene_cluster</td>
+                <td>35</td>
+                <td>98.5454545455</td>
+                <td>151</td>
+                <td>1.1e-36</td>
+            </tr>
+            
+            <tr>
+                <td>ALG65299.1</td>
+                <td>Cal37</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001297/index.html#cluster-1">BGC0001297</a></td>
+                <td>WS9326_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>99.2727272727</td>
+                <td>113</td>
+                <td>3.3e-25</td>
+            </tr>
+            
+            <tr>
+                <td>AAL15605.1</td>
+                <td>SimJ2</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000270/index.html#cluster-1">BGC0000270</a></td>
+                <td>Simocyclinone_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>96.0</td>
+                <td>102</td>
+                <td>7.5e-22</td>
+            </tr>
+            
+            <tr>
+                <td>AAG34189.1</td>
+                <td>SimJ2</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000835/index.html#cluster-1">BGC0000835</a></td>
+                <td>Simocyclinone_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>96.0</td>
+                <td>102</td>
+                <td>7.5e-22</td>
+            </tr>
+            
+            <tr>
+                <td>AAK06809.1</td>
+                <td>putative_3-keto-acyl-reductase_SimD4</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001072/index.html#cluster-1">BGC0001072</a></td>
+                <td>Simocyclinone_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>96.0</td>
+                <td>102</td>
+                <td>7.5e-22</td>
+            </tr>
+            
+            <tr>
+                <td>ADC45536.1</td>
+                <td>reductase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000093/index.html#cluster-1">BGC0000093</a></td>
+                <td>Meilingmycin_biosynthetic_gene_cluster</td>
+                <td>32</td>
+                <td>90.1818181818</td>
+                <td>93</td>
+                <td>4.6e-19</td>
+            </tr>
+            
+            <tr>
+                <td>CAE45661.1</td>
+                <td>putative_ketoreductase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000031/index.html#cluster-1">BGC0000031</a></td>
+                <td>Borrelidin_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>101.090909091</td>
+                <td>88</td>
+                <td>1.1e-17</td>
+            </tr>
+            
+            <tr>
+                <td>BAF85845.1</td>
+                <td>putative_oxidoreductase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000109/index.html#cluster-1">BGC0000109</a></td>
+                <td>Nemadectin_biosynthetic_gene_cluster</td>
+                <td>33</td>
+                <td>76.7272727273</td>
+                <td>82</td>
+                <td>8e-16</td>
+            </tr>
+            
+            <tr>
+                <td>ABC42563.1</td>
+                <td>putative_short_chain_dehydrogenase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000698/index.html#cluster-1">BGC0000698</a></td>
+                <td>Hygromycin_A_biosynthetic_gene_cluster</td>
+                <td>28</td>
+                <td>96.3636363636</td>
+                <td>78</td>
+                <td>1.5e-14</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    

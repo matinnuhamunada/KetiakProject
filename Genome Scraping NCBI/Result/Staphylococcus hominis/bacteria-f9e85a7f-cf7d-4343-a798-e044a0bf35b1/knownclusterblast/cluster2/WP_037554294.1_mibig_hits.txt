@@ -1,0 +1,15 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+AEK28753.1	acetyltransferase	BGC0001274_c3	Non-acetylated_open-chain_sophorolipid_/_diacetylated_lactonic	42	79.1878172589	134	1.7e-31
+AEE65503.1	galactoside_O-acetyltransferase	BGC0000223_c1	Fluostatin_biosynthetic_gene_cluster	39	92.385786802	121	1.1e-27
+AGC09471.1	chloramphenicol_acetyltransferase	BGC0001183_c1	Lobophorin_biosynthetic_gene_cluster	43	74.1116751269	113	2.3e-25
+AAD40715.1	putative_acetyl_transferase	BGC0001412_c1	Polysaccharide_C_biosynthetic_gene_cluster	35	62.9441624365	82	5.8e-16
+ACM68693.1	hypothetical_protein	BGC0000298_c1	Aeruginosin_biosynthetic_gene_cluster	34	67.0050761421	75	7e-14
+AAK53472.1	putative_bifunctional_enzyme_WxcM	BGC0000774_c1	Lipopolysaccharide_biosynthetic_gene_cluster	32	62.4365482234	64	2.1e-10
+AAR90891.1	putative_O-acetyltransferase	BGC0000787_c1	O-antigen_biosynthetic_gene_cluster	39	43.1472081218	61	1.4e-09
+ANY57976.1	acetyltransferase	BGC0001369_c1	Metatricycloene_biosynthetic_gene_cluster	50	25.3807106599	58	1.2e-08
+AAA64646.1	type_1_capsule_synthesis_gene	BGC0000758_c1	Capsular_polysaccharide_biosynthetic_gene_cluster	47	29.4416243655	56	4.4e-08
+AAK77314.1	putative_acetyltransferase_PssR	BGC0000762_c1	Exopolysaccharide_biosynthetic_gene_cluster	55	25.8883248731	56	4.4e-08
+AAS55721.1	dTDP-D-Fucp3N_acetylase	BGC0000795_c1	S-layer_glycan_biosynthetic_gene_cluster	35	54.8223350254	54	1.3e-07
+CAB65210.1	putative_acetyl_transferase	BGC0000775_c1	Lipopolysaccharide_biosynthetic_gene_cluster	45	31.4720812183	53	2.9e-07
+AHL24469.1	acetyltransferase	BGC0000806_c1	Phosphonoglycans_biosynthetic_gene_cluster	32	57.3604060914	52	4.9e-07
+ctg1_orf12		BGC0000770_c1	Lipo-oligosaccharide_biosynthetic_gene_cluster	42	25.3807106599	50	2.4e-06

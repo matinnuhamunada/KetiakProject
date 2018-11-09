@@ -1,0 +1,166 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<!-- js section -->
+<!-- jQuery  -->
+<script type="text/javascript"
+        src="../../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tmpl-1.0.0pre.js"></script>
+
+  <!-- jQuery UI Support -->
+<script type="text/javascript"
+        src="../../js/jquery-ui-1.10.4.custom.min.js"></script>
+
+ <!-- Alpaca -->
+<script type="text/javascript" src="../../js/alpaca-full-mibig.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody> 
+            <tr>
+                <td>CDG76950.1</td>
+                <td>permease_of_the_major_facilitator_superfamily_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000446/index.html#cluster-1">BGC0000446</a></td>
+                <td>Tilivalline_biosynthetic_gene_cluster</td>
+                <td>37</td>
+                <td>86.7881548975</td>
+                <td>207</td>
+                <td>4.5e-53</td>
+            </tr>
+            
+            <tr>
+                <td>AAM54113.1</td>
+                <td>bicyclomycin_resistant_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000020/index.html#cluster-1">BGC0000020</a></td>
+                <td>Ansamitocin_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>63.3257403189</td>
+                <td>111</td>
+                <td>3.4e-24</td>
+            </tr>
+            
+            <tr>
+                <td>ANF07284.1</td>
+                <td>MFS</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001385/index.html#cluster-1">BGC0001385</a></td>
+                <td>Byssochlamic_acid_/_agnestadrides_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>41.4578587699</td>
+                <td>82</td>
+                <td>1.3e-15</td>
+            </tr>
+            
+            <tr>
+                <td>AHD25933.1</td>
+                <td>ChdR</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000208/index.html#cluster-1">BGC0000208</a></td>
+                <td>Chelocardin_biosynthetic_gene_cluster</td>
+                <td>34</td>
+                <td>39.1799544419</td>
+                <td>72</td>
+                <td>1.7e-12</td>
+            </tr>
+            
+            <tr>
+                <td>CAJ34383.1</td>
+                <td>putative_permease_for_glucides</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000445/index.html#cluster-1">BGC0000445</a></td>
+                <td>Thiocoraline_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>39.1799544419</td>
+                <td>59</td>
+                <td>8.9e-09</td>
+            </tr>
+            
+            <tr>
+                <td>ACU36653.1</td>
+                <td>drug_resistance_transporter,_EmrB/QacA_subfamily</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000392/index.html#cluster-1">BGC0000392</a></td>
+                <td>Mirubactin_biosynthetic_gene_cluster</td>
+                <td>28</td>
+                <td>36.4464692483</td>
+                <td>57</td>
+                <td>4.4e-08</td>
+            </tr>
+            
+            <tr>
+                <td>ALS30797.1</td>
+                <td>itaconate_transport_protein_1</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001286/index.html#cluster-1">BGC0001286</a></td>
+                <td>Itaconic_acid_biosynthetic_gene_cluster</td>
+                <td>21</td>
+                <td>78.5876993166</td>
+                <td>55</td>
+                <td>1.7e-07</td>
+            </tr>
+            
+            <tr>
+                <td>AJI44168.1</td>
+                <td>hypothetical_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001193/index.html#cluster-1">BGC0001193</a></td>
+                <td>Thiolutin_biosynthetic_gene_cluster</td>
+                <td>26</td>
+                <td>37.1298405467</td>
+                <td>54</td>
+                <td>3.7e-07</td>
+            </tr>
+            
+            <tr>
+                <td>BAQ25491.1</td>
+                <td>multidrug_MFS_(major_facilitator_superfamily)_transporter</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001288/index.html#cluster-1">BGC0001288</a></td>
+                <td>Maklamicin_biosynthetic_gene_cluster</td>
+                <td>30</td>
+                <td>30.0683371298</td>
+                <td>50</td>
+                <td>4.1e-06</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    

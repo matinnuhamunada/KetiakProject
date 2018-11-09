@@ -1,0 +1,2 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+BAK64657.1	putative_dehydrogenase	BGC0000135_c1	Reveromycin_biosynthetic_gene_cluster	30	62.8787878788	111	1.8e-24

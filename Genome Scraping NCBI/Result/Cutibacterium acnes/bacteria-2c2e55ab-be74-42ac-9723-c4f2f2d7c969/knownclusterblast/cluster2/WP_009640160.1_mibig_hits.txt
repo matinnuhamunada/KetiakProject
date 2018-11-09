@@ -1,0 +1,2 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+BAE95496.1	putative_conjugal_transfer_protein	BGC0000703_c1	Kanamycin_biosynthetic_gene_cluster	28	76.3698630137	111	3.4e-24

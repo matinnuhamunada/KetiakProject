@@ -1,0 +1,4 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+BAE95568.1	putative_oligopeptide_ABC_transporter_integral_membrane_protein	BGC0000703_c1	Kanamycin_biosynthetic_gene_cluster	36	98.1481481481	147	2.6e-35
+AMK48241.1	putative_ABC_transporter_permease	BGC0001351_c1	Cahuitamycins_biosynthetic_gene_cluster	33	97.4074074074	143	2.9e-34
+ACN29731.1	putative_peptide_transport_permease	BGC0000814_c1	K-252a_biosynthetic_gene_cluster	32	100.37037037	127	2.8e-29

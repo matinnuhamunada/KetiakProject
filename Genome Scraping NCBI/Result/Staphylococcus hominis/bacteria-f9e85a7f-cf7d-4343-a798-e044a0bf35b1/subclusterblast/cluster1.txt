@@ -1,0 +1,22 @@
+ClusterBlast scores for NZ_LT963438.1
+
+Table of genes, locations, strands and annotations of query cluster:
+WP_002448378.1	1314646	1316017	-	YjiH family protein	
+WP_002448568.1	1316251	1317217	-	iron-dicitrate ABC transporter permease	
+WP_002448608.1	1317213	1318245	-	iron ABC transporter permease	
+WP_049417823.1	1318257	1319256	-	iron citrate ABC transporter substrate-binding protein	
+WP_077700064.1	1319448	1320510	-	alanine racemase	
+WP_077700065.1	1320510	1322268	-	siderophore synthetase	
+WP_077700066.1	1322481	1324425	+	sialic acid synthase	
+WP_002448598.1	1324535	1325084	-	Asp23/Gls24 family envelope stress response protein	
+WP_002448488.1	1325162	1325399	-	DUF2273 domain-containing protein	
+WP_002448415.1	1325411	1325948	-	alkaline shock response membrane anchor protein AmaP	
+WP_049417817.1	1326116	1327691	-	BCCT family transporter	
+WP_077700067.1	1327854	1328868	-	zinc-binding alcohol dehydrogenase family protein	
+WP_002448412.1	1328900	1329908	-	NADP-dependent oxidoreductase	
+
+
+Significant hits: 
+
+
+Details:

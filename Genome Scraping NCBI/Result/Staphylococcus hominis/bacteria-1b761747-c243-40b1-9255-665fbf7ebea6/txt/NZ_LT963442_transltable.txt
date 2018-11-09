@@ -1,0 +1,2 @@
+old genome accession	new genome accession
+NZ_LT963442	NZ_LT963442

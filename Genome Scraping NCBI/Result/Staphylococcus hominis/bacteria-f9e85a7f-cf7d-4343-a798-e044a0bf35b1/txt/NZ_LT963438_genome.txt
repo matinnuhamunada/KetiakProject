@@ -1,0 +1,2 @@
+genome accession	geneclusters
+NZ_LT963438	NZ_LT963438_c1;NZ_LT963438_c2;NZ_LT963438_c3

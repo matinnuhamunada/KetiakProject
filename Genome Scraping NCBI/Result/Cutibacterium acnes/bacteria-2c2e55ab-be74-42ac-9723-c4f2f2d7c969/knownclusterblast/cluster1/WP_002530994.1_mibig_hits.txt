@@ -1,0 +1,4 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+CAB53325.1	putative_iron-siderophore_ABC-transporter_ATP-binding_protein	BGC0000325_c1	Coelichelin_biosynthetic_gene_cluster	37	73.6842105263	62	2.7e-10
+CAF31834.1	hypotheticl_protein	BGC0000699_c1	Hygromycin_B_biosynthetic_gene_cluster	40	72.8070175439	57	1.1e-08
+NP_230428.1	ferric_vibriobactin_ABC_transporter_ATP-binding_protein	BGC0000945_c1	Vibriobactin_biosynthetic_gene_cluster	33	61.4035087719	52	4.8e-07

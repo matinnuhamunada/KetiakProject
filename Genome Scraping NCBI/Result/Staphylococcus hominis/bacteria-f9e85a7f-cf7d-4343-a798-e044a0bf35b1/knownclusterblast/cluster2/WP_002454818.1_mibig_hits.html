@@ -1,0 +1,155 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<!-- js section -->
+<!-- jQuery  -->
+<script type="text/javascript"
+        src="../../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" src="../../js/jquery.tmpl-1.0.0pre.js"></script>
+
+  <!-- jQuery UI Support -->
+<script type="text/javascript"
+        src="../../js/jquery-ui-1.10.4.custom.min.js"></script>
+
+ <!-- Alpaca -->
+<script type="text/javascript" src="../../js/alpaca-full-mibig.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody> 
+            <tr>
+                <td>CAH55660.1</td>
+                <td>putative_copper_transporting_P-type_ATPase_efflux_pump</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000259/index.html#cluster-1">BGC0000259</a></td>
+                <td>Prodigiosin_biosynthetic_gene_cluster</td>
+                <td>41</td>
+                <td>93.5849056604</td>
+                <td>480</td>
+                <td>2.9e-135</td>
+            </tr>
+            
+            <tr>
+                <td>AAY28209.1</td>
+                <td>unknown</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000074/index.html#cluster-1">BGC0000074</a></td>
+                <td>Herbimycin_biosynthetic_gene_cluster</td>
+                <td>37</td>
+                <td>93.4591194969</td>
+                <td>448</td>
+                <td>2.1e-125</td>
+            </tr>
+            
+            <tr>
+                <td>CAH10184.1</td>
+                <td>ChaT5_protein</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000207/index.html#cluster-1">BGC0000207</a></td>
+                <td>Chartreusin_biosynthetic_gene_cluster</td>
+                <td>32</td>
+                <td>70.1886792453</td>
+                <td>266</td>
+                <td>1.1e-70</td>
+            </tr>
+            
+            <tr>
+                <td>CAJ46699.1</td>
+                <td>putative_heavy_metal_translocating_P-type_ATPase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000969/index.html#cluster-1">BGC0000969</a></td>
+                <td>Chondramide_biosynthetic_gene_cluster</td>
+                <td>29</td>
+                <td>76.9811320755</td>
+                <td>219</td>
+                <td>1.2e-56</td>
+            </tr>
+            
+            <tr>
+                <td>ALD82534.1</td>
+                <td>heavy_metal_translocating_P-type_ATPase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0001212/index.html#cluster-1">BGC0001212</a></td>
+                <td>Nannocystin_biosynthetic_gene_cluster</td>
+                <td>29</td>
+                <td>66.0377358491</td>
+                <td>199</td>
+                <td>1.3e-50</td>
+            </tr>
+            
+            <tr>
+                <td>ACH85563.1</td>
+                <td>putative_ATPase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000283/index.html#cluster-1">BGC0000283</a></td>
+                <td>Cetoniacytone_A_biosynthetic_gene_cluster</td>
+                <td>24</td>
+                <td>77.7358490566</td>
+                <td>106</td>
+                <td>2e-22</td>
+            </tr>
+            
+            <tr>
+                <td>ABX24506.1</td>
+                <td>ATPase_E1-E2_type</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000877/index.html#cluster-1">BGC0000877</a></td>
+                <td>Polyoxin_biosynthetic_gene_cluster</td>
+                <td>33</td>
+                <td>27.1698113208</td>
+                <td>91</td>
+                <td>3.8e-18</td>
+            </tr>
+            
+            <tr>
+                <td>ABX24509.1</td>
+                <td>cation-transporting_ATPase</td>
+                <td><a href="http://mibig.secondarymetabolites.org/repository/BGC0000877/index.html#cluster-1">BGC0000877</a></td>
+                <td>Polyoxin_biosynthetic_gene_cluster</td>
+                <td>31</td>
+                <td>26.7924528302</td>
+                <td>81</td>
+                <td>4e-15</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    

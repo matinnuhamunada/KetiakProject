@@ -1,0 +1,8 @@
+Cluster_ID	NRPSPKS_ID	annotation	aSDomain	score	evalue	domain_type	subtype	domain_start	domain_end	KR activity	KR stereochemistry	NRPSPredictor2	Stachelhaus	Minowa	pkssignature	consensus
+NC_006085.1_c2	WP_002531449	PKS/NRPS-like protein	nrpspksdomains_PPA_RS12440_Xdom01	78.0	1.90E-24	Aminotran_1_2		950237	951206							
+NC_006085.1_c3	WP_002531344	PKS/NRPS-like protein	nrpspksdomains_PPA_RS12625_Xdom01	48.1	4.80E-15	Thioesterase		1395180	1395789							
+NC_006085.1_c3	WP_002524911	NRPS-like protein	nrpspksdomains_PPA_RS06495_Xdom01	42.8	1.10E-13	PCP		1395869	1396055							
+NC_006085.1_c3	WP_002524911	NRPS-like protein	nrpspksdomains_PPA_RS06495_A1	171.2	6.80E-53	AMP-binding		1396343	1397171				no_call			
+NC_006085.1_c3	WP_011183830	NRPS	nrpspksdomains_PPA_RS12630_Xdom02	120.2	2.40E-37	Condensation	Condensation_LCL	1398054	1398930							
+NC_006085.1_c3	WP_011183830	NRPS	nrpspksdomains_PPA_RS12630_Xdom01	29.6	1.50E-09	PCP		1399026	1399191							
+NC_006085.1_c3	WP_011183830	NRPS	nrpspksdomains_PPA_RS12630_A1	256.1	1.20E-78	AMP-binding		1399542	1400718				dab			

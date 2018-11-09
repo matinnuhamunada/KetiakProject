@@ -1,0 +1,144 @@
+>> PPA_RS04055
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1011:transport_system_permease_protein	28	345	1.4e-85	281.4
+
+
+>> PPA_RS04060
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1033:iron_compound_ABC_transporter,_periplasmic	6	245	2.9e-28	92.9
+
+
+>> PPA_RS13385
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1000:ABC_transporter_ATP-binding_protein	2	118	2.5e-27	90.4
+
+
+>> PPA_RS04100
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1122:ATP-dependent_RNA_helicase	21	647	5.72e-18	60.9
+
+
+>> PPA_RS04110
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1170:metallo-beta-lactamase_family_protein	33	205	2.5e-29	96.5
+
+
+>> PPA_RS04335
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1000:ABC_transporter_ATP-binding_protein	14	324	3.5712e-05	24.7
+
+
+>> PPA_RS04365
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1155:Lantibiotic_dehydratase_domain_protein	125	776	1.35e-19	64.7
+
+
+>> PPA_RS04370
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1155:Lantibiotic_dehydratase_domain_protein	5	293	3.61e-21	69.9
+
+
+>> PPA_RS04430
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1206:transposase	0	47	4.3e-12	39.9
+
+
+>> PPA_RS06405
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1227:ribosome_biogenesis_GTP-binding_protein_YsxC	204	265	6.3e-07	23.2
+
+
+>> PPA_RS06415
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1207:inositol_monophosphatase	2	257	5.1e-88	289.4
+
+
+>> PPA_RS06420
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1072:dehydrogenase	0	315	1.1e-95	314.3
+
+
+>> PPA_RS06425
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1000:ABC_transporter_ATP-binding_protein	4	234	1.2e-68	225.5
+
+
+>> PPA_RS06430
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1000:ABC_transporter_ATP-binding_protein	3	237	6e-60	197.1
+
+
+>> PPA_RS06435
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1085:binding-protein-dependent_transport_systems	3	264	8.9e-69	225.8
+
+
+>> PPA_RS06440
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1118:binding-protein-dependent_transport_systems	7	314	2.6e-97	319.8
+
+
+>> PPA_RS06445
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1068:extracellular_solute-binding_protein_family_5	24	480	9.1e-96	315.9
+
+
+>> PPA_RS06455
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1032:RNA_polymerase,_sigma-24_subunit,_ECF_subfamily	62	134	4.3e-07	24.1
+
+
+>> PPA_RS06465
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1157:hypothetical_protein	0	175	4.29e-34	115.6
+
+
+>> PPA_RS12615
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1202:major_facilitator_transporter	4	380	4.8e-22	72.2
+
+
+>> PPA_RS12620
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1063:argininosuccinate_lyase/adenylosuccinate_lyase	89	416	4.7e-23	76.1
+
+
+>> PPA_RS12635
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1158:ornithine_cyclodeaminase	9	323	1.4e-109	360.0
+
+
+>> PPA_RS12640
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1081:cysteine_synthase	11	317	6.8e-99	324.9
+
+
+>> PPA_RS06510
+name	start	end	e-value	score
+** smCOG hits **
+SMCOG1012:4'-phosphopantetheinyl_transferase	46	241	2.9e-39	128.9
+
+

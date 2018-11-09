@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="90" width="768.0" version="1.1" y="0" x="0" preserveAspectRatio="none" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 -30 819.2 60"  >
+<g  >
+<line y1="60" x2="778.0" style="stroke:grey; stroke-width:2; " x1="10" y2="60"  />
+</g>
+<g id="a3_000"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="10,65 24,65 29,60 24,55 10,55 10,65 "  />
+</g>
+<g id="a3_001"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="29,65 42,65 47,60 42,55 29,55 29,65 "  />
+</g>
+<g id="a3_002"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="71,60 76,55 93,55 93,65 76,65 71,60 "  />
+</g>
+<g id="a3_003"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="92,60 97,55 114,55 114,65 97,65 92,60 "  />
+</g>
+<g id="a3_004"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="114,60 119,55 140,55 140,65 119,65 114,60 "  />
+</g>
+<g id="a3_005"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="149,65 169,65 174,60 169,55 149,55 149,65 "  />
+</g>
+<g id="a3_006"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="174,60 179,55 180,55 180,65 179,65 174,60 "  />
+</g>
+<g id="a3_007"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="195,65 200,65 205,60 200,55 195,55 195,65 "  />
+</g>
+<g id="a3_008"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="233,60 238,55 260,55 260,65 238,65 233,60 "  />
+</g>
+<g id="a3_009"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="274,65 288,65 293,60 288,55 274,55 274,65 "  />
+</g>
+<g id="a3_0010"  >
+<polygon style="stroke:black; stroke-width:1; fill:#810E15; " points="305,60 310,55 339,55 339,65 310,65 305,60 "  />
+</g>
+<g id="a3_0011"  >
+<polygon style="stroke:black; stroke-width:1; fill:#810E15; " points="338,60 343,55 422,55 422,65 343,65 338,60 "  />
+</g>
+<g id="a3_0012"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="421,60 426,55 447,55 447,65 426,65 421,60 "  />
+</g>
+<g id="a3_0013"  >
+<polygon style="stroke:black; stroke-width:1; fill:#810E15; " points="449,60 454,55 454,55 454,65 454,65 449,60 "  />
+</g>
+<g id="a3_0014"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="455,60 460,55 461,55 461,65 460,65 455,60 "  />
+</g>
+<g id="a3_0015"  >
+<polygon style="stroke:black; stroke-width:1; fill:#810E15; " points="463,60 468,55 484,55 484,65 468,65 463,60 "  />
+</g>
+<g id="a3_0016"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="515,65 530,65 535,60 530,55 515,55 515,65 "  />
+</g>
+<g id="a3_0017"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="535,65 552,65 557,60 552,55 535,55 535,65 "  />
+</g>
+<g id="a3_0018"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="573,60 578,55 591,55 591,65 578,65 573,60 "  />
+</g>
+<g id="a3_0019"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="610,65 680,65 685,60 680,55 610,55 610,65 "  />
+</g>
+<g id="a3_0020"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="686,65 707,65 712,60 707,55 686,55 686,65 "  />
+</g>
+<g id="a3_0021"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="722,65 734,65 739,60 734,55 722,55 722,65 "  />
+</g>
+<g id="a3_0022"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="746,60 749,55 749,65 746,60 "  />
+</g>
+<g id="a3_0023"  >
+<polygon style="stroke:black; stroke-width:1; fill:grey; " points="766,60 771,55 778,55 778,65 771,65 766,60 "  />
+</g>
+<g  >
+<line y1="0" x2="778.0" style="stroke:grey; stroke-width:1; " x1="10" y2="0"  />
+</g>
+<g id="b3_000"  >
+<defs  >
+<linearGradient id="KR_domain3_1"  >
+<stop stop-color="#089E4B" stop-opacity="1" offset="0%"  />
+<stop stop-color="#81F781" stop-opacity="1" offset="100%"  />
+</linearGradient>
+</defs>
+<defs  >
+<linearGradient id="KR_line3_1"  >
+<stop stop-color="#81F781" stop-opacity="1" offset="0%"  />
+<stop stop-color="#089E4B" stop-opacity="1" offset="100%"  />
+</linearGradient>
+</defs>
+<rect style="stroke:url(#KR_line3_1); stroke-width:1; fill:url(#KR_domain3_1); " rx="8" height="15" width="343.741935484" y="-8" x="19.2903225806"  />
+<text style="font-size:12px; font-family:MS Reference Sans Serif; font-weight:bold; " y="4" x="177.161290323" fill="#0A2A1B"  >
+KR</text>
+</g>
+<g id="b3_000"  >
+<defs  >
+<linearGradient id="KR_domain3_1"  >
+<stop stop-color="#089E4B" stop-opacity="1" offset="0%"  />
+<stop stop-color="#81F781" stop-opacity="1" offset="100%"  />
+</linearGradient>
+</defs>
+<defs  >
+<linearGradient id="KR_line3_1"  >
+<stop stop-color="#81F781" stop-opacity="1" offset="0%"  />
+<stop stop-color="#089E4B" stop-opacity="1" offset="100%"  />
+</linearGradient>
+</defs>
+<rect style="stroke:url(#KR_line3_1); stroke-width:1; fill:url(#KR_domain3_1); " rx="8" height="15" width="343.741935484" y="-8" x="19.2903225806"  />
+<text style="font-size:12px; font-family:MS Reference Sans Serif; font-weight:bold; " y="4" x="177.161290323" fill="#0A2A1B"  >
+KR</text>
+</g>
+</svg>

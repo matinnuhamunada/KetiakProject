@@ -1,0 +1,2 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+CAH10097.1	putative_4-hydroxyphenyl_pyruvate_dioxygenase	BGC0000268_c1	Sch47554_/_Sch47555_biosynthetic_gene_cluster	46	96.6292134831	234	1.6e-61

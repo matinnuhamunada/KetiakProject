@@ -1,0 +1,2 @@
+#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
+AGO50634.1	putative_integral_membrane_export_protein	BGC0000229_c1	Grincamycin_biosynthetic_gene_cluster	37	95.4407294833	190	3.3e-48
