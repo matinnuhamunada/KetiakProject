@@ -1,2 +1,0 @@
-genome accession	geneclusters
-NC_006085	NC_006085_c1;NC_006085_c2;NC_006085_c3

@@ -1,2 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-AFN69429.1	recombinase	BGC0000509_c1	Epilancin_15X_biosynthetic_gene_cluster	49	129.927007299	138	4.7e-33

@@ -1,2 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-AFN69439.1	OrdA	BGC0000509_c1	Epilancin_15X_biosynthetic_gene_cluster	78	92.0	71	2.6e-13

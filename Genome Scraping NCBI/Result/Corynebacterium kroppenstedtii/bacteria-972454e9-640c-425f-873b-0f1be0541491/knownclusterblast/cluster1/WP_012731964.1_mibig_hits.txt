@@ -1,3 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-AAN85534.1	ABC_transporter_component,_periplasmic_oligopeptide_binding_protein	BGC0001101_c1	Leinamycin_biosynthetic_gene_cluster	28	77.1106941839	92	1.2e-18
-AFO93369.1	ABC_transporter,_extracellular_solute-binding_protein	BGC0001362_c1	Tropodithietic_acid_biosynthetic_gene_cluster	23	69.7936210131	73	7.2e-13

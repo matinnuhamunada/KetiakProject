@@ -1,3 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-BAC98763.1	NukE	BGC0000539_c1	Nukacin_ISK-1_biosynthetic_gene_cluster	98	100.0	448	6.6e-126
-AAC72254.1	LctE	BGC0000521_c1	Lacticin_481_biosynthetic_gene_cluster	37	99.6	158	8e-39

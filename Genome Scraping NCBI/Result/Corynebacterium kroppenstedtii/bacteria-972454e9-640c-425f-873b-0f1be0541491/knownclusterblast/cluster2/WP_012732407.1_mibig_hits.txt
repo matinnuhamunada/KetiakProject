@@ -1,2 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-ADZ45344.1	alkaline_phosphatase	BGC0001020_c1	Muraymycin_biosynthetic_gene_cluster	38	88.1685575365	326	5.5e-89

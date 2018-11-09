@@ -1,2 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-ABS75817.1	YwfG	BGC0001184_c1	Bacilysin_biosynthetic_gene_cluster	40	93.5732647815	269	6.6e-72

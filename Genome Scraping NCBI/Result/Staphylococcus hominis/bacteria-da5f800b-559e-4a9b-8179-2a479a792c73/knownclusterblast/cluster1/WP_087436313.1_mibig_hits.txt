@@ -1,2 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-ACM07428.1	putative_glycosyl_transferase_family_2_protein	BGC0000645_c1	Carotenoid_biosynthetic_gene_cluster	24	91.7112299465	71	1.9e-12

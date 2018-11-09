@@ -1,3 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-BAH33404.1	hypothetical_protein	BGC0000371_c1	Heterobactin_biosynthetic_gene_cluster	46	82.3529411765	62	2e-10
-AFP87523.1	type_I_polyketide_synthase	BGC0001159_c1	Marinopyrrole_biosynthetic_gene_cluster	40	74.1176470588	47	8.9e-06

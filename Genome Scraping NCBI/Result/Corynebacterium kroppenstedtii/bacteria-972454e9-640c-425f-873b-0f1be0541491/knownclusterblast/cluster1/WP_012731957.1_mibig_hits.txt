@@ -1,2 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-AAG02372.1	coproporphyrinogen_III_oxidase-like_protein	BGC0000963_c1	Bleomycin_biosynthetic_gene_cluster	30	75.3846153846	118	1.4e-26

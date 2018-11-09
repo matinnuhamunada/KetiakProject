@@ -1,2 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-ADI58632.1	AsuB1	BGC0000187_c1	Asukamycin_biosynthetic_gene_cluster	31	92.7738927739	142	1e-33

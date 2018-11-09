@@ -1,2 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-ADC45595.1	extracellular_solute-binding_protein	BGC0000093_c1	Meilingmycin_biosynthetic_gene_cluster	27	102.222222222	133	5.5e-31

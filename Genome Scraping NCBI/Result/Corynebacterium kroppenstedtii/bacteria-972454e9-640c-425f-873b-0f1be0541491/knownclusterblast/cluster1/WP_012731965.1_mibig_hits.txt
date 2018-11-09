@@ -1,3 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-AMK48240.1	putative_ABC_transporter_permease	BGC0001351_c1	Cahuitamycins_biosynthetic_gene_cluster	33	98.125	153	5.6e-37
-AAN85533.1	ABC_transporter_component,_membrane_spanning_protein	BGC0001101_c1	Leinamycin_biosynthetic_gene_cluster	29	99.0625	119	5.3e-27

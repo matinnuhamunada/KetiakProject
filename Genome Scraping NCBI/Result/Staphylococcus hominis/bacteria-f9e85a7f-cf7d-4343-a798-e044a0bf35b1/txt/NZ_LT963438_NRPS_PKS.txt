@@ -1,6 +1,0 @@
-Cluster_ID	NRPSPKS_ID	annotation	aSDomain	score	evalue	domain_type	subtype	domain_start	domain_end	KR activity	KR stereochemistry	NRPSPredictor2	Stachelhaus	Minowa	pkssignature	consensus
-NZ_LT963438.1_c1	WP_077700067	PKS/NRPS-like protein	nrpspksdomains_DG016_RS06720_Xdom01	121.9	7.70E-38	PKS_ER		1327869	1328799							
-NZ_LT963438.1_c1	WP_002448412	PKS/NRPS-like protein	nrpspksdomains_DG016_RS06725_Xdom01	70.9	2.60E-22	PKS_ER		1328921	1329668							
-NZ_LT963438.1_c2	WP_002449495	PKS/NRPS-like protein	nrpspksdomains_DG016_RS08345_KR1	39.9	1.00E-12	PKS_KR		1650026	1650509	inactive	C2					
-NZ_LT963438.1_c2	WP_002454816	PKS/NRPS-like protein	nrpspksdomains_DG016_RS08370_Xdom01	201.2	6.60E-62	Aminotran_1_2		1654969	1656013							
-NZ_LT963438.1_c3	WP_077699969	PKS/NRPS-like protein	nrpspksdomains_DG016_RS11155_KR1	34.5	4.50E-11	PKS_KR		2217846	2218179	inactive	C1					

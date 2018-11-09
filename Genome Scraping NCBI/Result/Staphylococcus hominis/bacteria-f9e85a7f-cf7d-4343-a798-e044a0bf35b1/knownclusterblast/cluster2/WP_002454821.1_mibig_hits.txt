@@ -1,4 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-AAQ62556.1	Cps2D	BGC0000750_c1	Capsular_polysaccharide_biosynthetic_gene_cluster	34	97.3652694611	433	5.6e-121
-AAT06402.1	Cps7D	BGC0000753_c1	Capsular_polysaccharide_biosynthetic_gene_cluster	34	91.497005988	421	1.7e-117
-ABD65926.1	glycosyltransferase	BGC0000341_c1	Enduracidin_biosynthetic_gene_cluster	31	42.754491018	174	6.2e-43

@@ -1,2 +1,0 @@
-old genome accession	new genome accession
-NC_014039	NC_014039

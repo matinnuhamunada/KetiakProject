@@ -1,2 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-AAT01803.2	TnpA	BGC0000365_c1	Glycopeptidolipid_biosynthetic_gene_cluster	71	55.6962025316	68	4.5e-12

@@ -1,3 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-AGY49600.1	EF_Tu	BGC0001155_c1	GE2270_biosynthetic_gene_cluster	77	100.252525253	634	6.1e-182
-ADO67786.1	Tpa11	BGC0000615_c1	TP-1161_biosynthetic_gene_cluster	75	100.252525253	620	1.5e-177

@@ -1,9 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-CAH55660.1	putative_copper_transporting_P-type_ATPase_efflux_pump	BGC0000259_c1	Prodigiosin_biosynthetic_gene_cluster	41	93.5849056604	480	2.9e-135
-AAY28209.1	unknown	BGC0000074_c1	Herbimycin_biosynthetic_gene_cluster	37	93.4591194969	448	2.1e-125
-CAH10184.1	ChaT5_protein	BGC0000207_c1	Chartreusin_biosynthetic_gene_cluster	32	70.1886792453	262	2.1e-69
-CAJ46699.1	putative_heavy_metal_translocating_P-type_ATPase	BGC0000969_c1	Chondramide_biosynthetic_gene_cluster	29	76.9811320755	223	6.5e-58
-ALD82534.1	heavy_metal_translocating_P-type_ATPase	BGC0001212_c1	Nannocystin_biosynthetic_gene_cluster	29	66.0377358491	203	9e-52
-ABX24506.1	ATPase_E1-E2_type	BGC0000877_c1	Polyoxin_biosynthetic_gene_cluster	33	27.1698113208	91	5e-18
-ABX24509.1	cation-transporting_ATPase	BGC0000877_c1	Polyoxin_biosynthetic_gene_cluster	31	24.7798742138	80	8.8e-15
-ACH85563.1	putative_ATPase	BGC0000283_c1	Cetoniacytone_A_biosynthetic_gene_cluster	33	26.2893081761	76	1.3e-13

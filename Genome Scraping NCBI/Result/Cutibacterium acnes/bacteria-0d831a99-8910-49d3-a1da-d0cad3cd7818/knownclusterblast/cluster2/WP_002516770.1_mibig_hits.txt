@@ -1,5 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-CAF31598.1	putative_kanamycin_biosynthetic_protein	BGC0000705_c1	Kanamycin_biosynthetic_gene_cluster	51	98.7987987988	315	6.8e-86
-BAD20769.1	hypothetical_protein	BGC0000702_c1	Kanamycin_biosynthetic_gene_cluster	51	98.7987987988	312	5.8e-85
-BAE95601.1	conserved_hypothetical_protein	BGC0000706_c1	Kanamycin_biosynthetic_gene_cluster	51	98.7987987988	312	5.8e-85
-CAE46948.1	putative_GTPase	BGC0000704_c1	Kanamycin_biosynthetic_gene_cluster	53	87.6876876877	300	3e-81

@@ -1,2 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-AGG35690.1	hypothetical_protein	BGC0000883_c1	Arginomycin_biosynthetic_gene_cluster	46	57.1428571429	83	3.1e-16

@@ -1,2 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-ADO67775.1	TpaF	BGC0000615_c1	TP-1161_biosynthetic_gene_cluster	38	75.3246753247	124	1.2e-28

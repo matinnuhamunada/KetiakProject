@@ -1,2 +1,0 @@
-genome accession	geneclusters
-NC_014039	NC_014039_c1

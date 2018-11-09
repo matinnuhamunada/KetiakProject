@@ -1,7 +1,0 @@
-signature gene	pHMM hits	e-value	bit score	number of seeds
-WP_087436313	Glycos_transf_2	3.8e-23	79.2	256
-WP_087436314	phytoene_synt	4.6e-55	183.8	8
-WP_002488266	adh_short	3.6e-33	112.1	230
-WP_002488266	adh_short_C2	3.2e-31	106.2	47
-WP_087436906	IucA_IucC	9.1e-56	186.1	168
-WP_087436905	IucA_IucC	3.9e-63	210.3	168

@@ -1,3 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-ADI58625.1	AsuR2	BGC0000187_c1	Asukamycin_biosynthetic_gene_cluster	27	93.6170212766	68	1.1e-11
-AIL50187.1	putative_TetR_family_transcriptional_regulator	BGC0000213_c1	Colabomycin_biosynthetic_gene_cluster	47	30.8510638298	59	3.8e-09

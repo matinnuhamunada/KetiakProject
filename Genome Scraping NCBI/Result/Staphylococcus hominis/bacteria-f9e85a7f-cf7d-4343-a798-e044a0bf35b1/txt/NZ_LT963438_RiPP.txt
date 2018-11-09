@@ -1,2 +1,0 @@
-RiPP ID	annotation	core peptide	molecular weight	monoisotopic_mass	alternative molecular weights	number of bridges
-WP_077699971	Class-I	SLGTAIKATKNACPKVTRLVTVSCQKSDCQ	3027.5	3025.6		

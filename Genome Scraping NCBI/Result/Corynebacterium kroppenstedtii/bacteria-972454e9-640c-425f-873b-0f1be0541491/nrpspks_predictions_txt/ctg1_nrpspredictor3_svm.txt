@@ -1,8 +1,0 @@
-#sequence-id<tab>8A-signature<tab>stachelhaus-code<tab>3class-pred<tab>large-class-pred<tab>small-class-pred<tab>single-class-pred<tab>nearest stachelhaus code<tab>NRPS1pred-large-class-pred<tab>NRPS2pred-large-class-pred<tab>outside applicability domain?<tab>coords<tab>pfam-score
-CKROP_RS06580_A1_UNK	ESTLF---ARALLFISGGSYEGYGLTESTAAFCV	--RLIGGAAK	hydrophilic	N/A	N/A	N/A	val	orn,lys,arg	gly,ala	0	0:0	0.000000e+00
-#sequence-id<tab>8A-signature<tab>stachelhaus-code<tab>3class-pred<tab>large-class-pred<tab>small-class-pred<tab>single-class-pred<tab>nearest stachelhaus code<tab>NRPS1pred-large-class-pred<tab>NRPS2pred-large-class-pred<tab>outside applicability domain?<tab>coords<tab>pfam-score
-CKROP_RS08955_A1_UNK	S-RMFTMSSPGGALWVGGAQQVFGMAEGLVNYTE	TMPAWGVVNK	hydrophobic-aromatic	dhb,sal	dhb,sal	dhb	dhb	orn,lys,arg	asp,asn	0	0:0	0.000000e+00
-#sequence-id<tab>8A-signature<tab>stachelhaus-code<tab>3class-pred<tab>large-class-pred<tab>small-class-pred<tab>single-class-pred<tab>nearest stachelhaus code<tab>NRPS1pred-large-class-pred<tab>NRPS2pred-large-class-pred<tab>outside applicability domain?<tab>coords<tab>pfam-score
-CKROP_RS08960_A1_UNK	LGHAFDAA-IDSDALLGGEWNMYGPSEATVDALC	DAIDLGMVDK	N/A	N/A	N/A	N/A	gln	orn,lys,arg	val,leu,ile,abu,iva	0	0:0	0.000000e+00
-#sequence-id<tab>8A-signature<tab>stachelhaus-code<tab>3class-pred<tab>large-class-pred<tab>small-class-pred<tab>single-class-pred<tab>nearest stachelhaus code<tab>NRPS1pred-large-class-pred<tab>NRPS2pred-large-class-pred<tab>outside applicability domain?<tab>coords<tab>pfam-score
-CKROP_RS10875_A1_UNK	HWVAFDVGVAECSMLLGGELGLYGPSETAMDVAW	DVASLGLMDK	N/A	N/A	N/A	N/A	ser	orn,lys,arg	N/A	0	0:0	0.000000e+00

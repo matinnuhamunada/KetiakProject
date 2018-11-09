@@ -1,4 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-ADO85580.1	ornithine_cyclodeaminase	BGC0000653_c1	Pentalenolactone_biosynthetic_gene_cluster	46	103.039513678	259	5.7e-69
-EFE73307.1	ornithine_cyclodeaminase	BGC0000431_c1	Stenothricin_biosynthetic_gene_cluster	46	96.0486322188	257	2.2e-68
-ACM79821.1	ZmaV	BGC0001059_c1	Zwittermycin_A_biosynthetic_gene_cluster	28	93.6170212766	124	1.7e-28

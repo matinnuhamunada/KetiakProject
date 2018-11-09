@@ -1,3 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-ABG94126.1	ABC_Fe(3+)_transporter,_substrate_binding_component	BGC0000417_c1	Rhodochelin_biosynthetic_gene_cluster	27	100.292397661	108	2.2e-23
-AEZ64561.1	ABC-type_Fe3+-siderophore_transporter_substrate-binding_protein	BGC0001065_c1	Herboxidiene_biosynthetic_gene_cluster	29	64.0350877193	96	8.7e-20

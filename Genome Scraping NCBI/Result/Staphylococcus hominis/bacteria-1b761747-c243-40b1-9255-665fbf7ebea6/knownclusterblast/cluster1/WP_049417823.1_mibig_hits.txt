@@ -1,6 +1,0 @@
-#Protein	Description	MiBIG Cluster	MiBIG Product	Percent ID	Percent Coverage	BLAST Score	 Evalue
-ABM30205.1	PvuB	BGC0000947_c1	Vibrioferrin_biosynthetic_gene_cluster	37	83.734939759	179	5.8e-45
-ABD29257.1	periplasmic_binding_protein,_putative	BGC0000943_c1	Staphylobactin_biosynthetic_gene_cluster	31	97.5903614458	133	6.3e-31
-CBA63685.1	griseobactin-binding_lipoprotein	BGC0000368_c1	Griseobactin_biosynthetic_gene_cluster	25	94.578313253	87	3.9e-17
-BAE16000.1	periplasmic_binding_protein	BGC0000939_c1	Aerobactin_biosynthetic_gene_cluster	39	34.0361445783	79	1.1e-14
-CBG75490.1	putative_secreted_siderophore-binding_lipoprotein_(transport_system_associated)	BGC0000423_c1	Scabichelin_biosynthetic_gene_cluster	25	99.3975903614	57	2.6e-08

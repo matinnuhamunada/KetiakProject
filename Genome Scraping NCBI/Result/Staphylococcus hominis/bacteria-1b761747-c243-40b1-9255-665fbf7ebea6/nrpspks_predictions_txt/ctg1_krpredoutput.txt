@@ -1,2 +1,0 @@
-DG019_RS08330_KR1	inactive	C2
-DG019_RS11135_KR1	inactive	C1

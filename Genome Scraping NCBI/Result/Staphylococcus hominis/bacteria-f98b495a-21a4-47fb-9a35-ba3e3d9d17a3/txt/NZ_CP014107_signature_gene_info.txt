@@ -1,3 +1,0 @@
-signature gene	pHMM hits	e-value	bit score	number of seeds
-WP_017175375	IucA_IucC	4e-56	187.3	168
-WP_017175376	IucA_IucC	1.1e-63	212.1	168
