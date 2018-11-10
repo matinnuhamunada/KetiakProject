@@ -4,17 +4,16 @@
 2,NC_017534.1,Cutibacterium acnes,266,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
 3,NC_017535.1,Cutibacterium acnes,6609,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0
 4,NC_017550.1,Cutibacterium acnes,ATCC 11828,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-5,CP018841.1,Staphylococcus epidermidis,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-6,NC_002976.3,Staphylococcus epidermidis,RP62A,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
-7,NC_004461.1,Staphylococcus epidermidis,ATCC 12228,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
-8,NZ_CP009046.1,Staphylococcus epidermidis,SEI,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
-9,NZ_CP020463.1,Staphylococcus epidermidis,1457,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
-10,NZ_HG813242.1,Staphylococcus epidermidis,PM221,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
-11,NC_013853.1,Streptococcus mitis,B6,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-12,NZ_CP012646.1,Streptococcus mitis,KCOM 1350 (= ChDC B183),2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-13,NZ_CP014326.1,Streptococcus mitis,SVGS_061,3.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0
-14,NZ_CP014107.1,Staphylococcus hominis,0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-15,NZ_CP020618.1,Staphylococcus hominis,K1,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0
-16,NZ_LT963438.1,Staphylococcus hominis,0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0
-17,NZ_LT963442.1,Staphylococcus hominis,0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0
-18,NC_012704.1,Corynebacterium kroppenstedtii,DSM 44385,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0
+5,NC_002976.3,Staphylococcus epidermidis,RP62A,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+6,NC_004461.1,Staphylococcus epidermidis,ATCC 12228,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+7,NZ_CP009046.1,Staphylococcus epidermidis,SEI,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+8,NZ_CP020463.1,Staphylococcus epidermidis,1457,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+9,NZ_HG813242.1,Staphylococcus epidermidis,PM221,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+10,NC_013853.1,Streptococcus mitis,B6,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+11,NZ_CP012646.1,Streptococcus mitis,KCOM 1350 (= ChDC B183),2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+12,NZ_CP014326.1,Streptococcus mitis,SVGS_061,3.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0
+13,NZ_CP014107.1,Staphylococcus hominis,0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+14,NZ_CP020618.1,Staphylococcus hominis,K1,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0
+15,NZ_LT963438.1,Staphylococcus hominis,0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0
+16,NZ_LT963442.1,Staphylococcus hominis,0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0
+17,NC_012704.1,Corynebacterium kroppenstedtii,DSM 44385,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0
