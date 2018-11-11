@@ -1,31 +1,39 @@
-,index,Species,Strain,bacteriocin,nrps,thiopeptide,siderophore,lantipeptide,terpene,other,t1pks,bacteriocin-lantipeptide,lassopeptide
-0,NC_006085.1,Cutibacterium acnes,KPA171202,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-1,NC_014039.1,Cutibacterium acnes,SK137,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2,NC_017534.1,Cutibacterium acnes,266,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-3,NC_017535.1,Cutibacterium acnes,6609,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-4,NC_017550.1,Cutibacterium acnes,ATCC 11828,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-5,NC_002976.3,Staphylococcus epidermidis,RP62A,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-6,NC_004461.1,Staphylococcus epidermidis,ATCC 12228,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-7,NZ_CP009046.1,Staphylococcus epidermidis,SEI,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-8,NZ_CP013943.1,Staphylococcus epidermidis,DAR1907,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-9,NZ_CP014119.1,Staphylococcus epidermidis,FDAARGOS_153,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-10,NZ_CP014132.1,Staphylococcus epidermidis,FDAARGOS_161,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-11,NZ_CP020463.1,Staphylococcus epidermidis,1457,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-12,NZ_CP022247.1,Staphylococcus epidermidis,ATCC 12228,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-13,NZ_CP030246.1,Staphylococcus epidermidis,CSF41498,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-14,NZ_HG813242.1,Staphylococcus epidermidis,PM221,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-15,NZ_LT571449.1,Staphylococcus epidermidis,BPH0662,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-16,NZ_AP014956.1,Staphylococcus capitis,TW2795,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
-17,NZ_CP007601.1,Staphylococcus capitis,AYP1020,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
-18,NZ_CP023966.1,Staphylococcus capitis,FDAARGOS_378,0.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
-19,NZ_CP014634.1,Corynebacterium simulans,PES1,1.0,2.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0
-20,NZ_CP014635.1,Corynebacterium simulans,Wattiau,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0
-21,NC_013853.1,Streptococcus mitis,B6,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-22,NZ_CP012646.1,Streptococcus mitis,KCOM 1350 (= ChDC B183),2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-23,NZ_CP014326.1,Streptococcus mitis,SVGS_061,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
-24,NZ_CP014107.1,Staphylococcus hominis,0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-25,NZ_CP020618.1,Staphylococcus hominis,K1,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
-26,NZ_LT963438.1,Staphylococcus hominis,0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
-27,NZ_LT963442.1,Staphylococcus hominis,0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
-28,NC_012590.1,Corynebacterium aurimucosum,DSM 44827; ATCC 700975,0.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,0.0,0.0
-29,NC_012704.1,Corynebacterium kroppenstedtii,DSM 44385,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+,index,Species,Strain,bacteriocin,nrps,thiopeptide,ladderane,siderophore,lantipeptide,terpene,other,t1pks,bacteriocin-lantipeptide,lassopeptide
+0,NC_006085.1,Cutibacterium acnes,KPA171202,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1,NC_014039.1,Cutibacterium acnes,SK137,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+2,NC_016511.1,Cutibacterium acnes,P.acn31,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+3,NC_016512.1,Cutibacterium acnes,P.acn17,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+4,NC_016516.1,Cutibacterium acnes,P.acn33,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+5,NC_017534.1,Cutibacterium acnes,266,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+6,NC_017535.1,Cutibacterium acnes,6609,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+7,NC_017550.1,Cutibacterium acnes,ATCC 11828,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+8,NC_018707.1,Cutibacterium acnes,C1,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+9,NC_021085.1,Cutibacterium acnes,HL096PA1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+10,NZ_CP006032.1,Cutibacterium acnes,hdn-1,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+11,NZ_CP012355.1,Cutibacterium acnes,PA_15_1_R1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+12,NZ_CP012647.1,Cutibacterium acnes,KCOM 1861 (= ChDC B594),0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+13,NC_002976.3,Staphylococcus epidermidis,RP62A,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+14,NC_004461.1,Staphylococcus epidermidis,ATCC 12228,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+15,NZ_CP009046.1,Staphylococcus epidermidis,SEI,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+16,NZ_CP013943.1,Staphylococcus epidermidis,DAR1907,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+17,NZ_CP014119.1,Staphylococcus epidermidis,FDAARGOS_153,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+18,NZ_CP014132.1,Staphylococcus epidermidis,FDAARGOS_161,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+19,NZ_CP020463.1,Staphylococcus epidermidis,1457,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+20,NZ_CP022247.1,Staphylococcus epidermidis,ATCC 12228,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+21,NZ_CP030246.1,Staphylococcus epidermidis,CSF41498,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+22,NZ_HG813242.1,Staphylococcus epidermidis,PM221,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+23,NZ_LT571449.1,Staphylococcus epidermidis,BPH0662,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+24,NZ_AP014956.1,Staphylococcus capitis,TW2795,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
+25,NZ_CP007601.1,Staphylococcus capitis,AYP1020,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
+26,NZ_CP023966.1,Staphylococcus capitis,FDAARGOS_378,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
+27,NZ_CP014634.1,Corynebacterium simulans,PES1,1.0,2.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0
+28,NZ_CP014635.1,Corynebacterium simulans,Wattiau,0.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0
+29,NC_013853.1,Streptococcus mitis,B6,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+30,NZ_CP012646.1,Streptococcus mitis,KCOM 1350 (= ChDC B183),2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+31,NZ_CP014326.1,Streptococcus mitis,SVGS_061,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+32,NZ_CP014107.1,Staphylococcus hominis,0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+33,NZ_CP020618.1,Staphylococcus hominis,K1,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+34,NZ_LT963438.1,Staphylococcus hominis,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
+35,NZ_LT963442.1,Staphylococcus hominis,0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0
+36,NC_012590.1,Corynebacterium aurimucosum,DSM 44827; ATCC 700975,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,1.0,0.0,0.0
+37,NC_012704.1,Corynebacterium kroppenstedtii,DSM 44385,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
